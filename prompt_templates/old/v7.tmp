@@ -1,0 +1,33 @@
+Your task is to produce a generalized template based on given Table values.
+For generalization, use:
+\t<subject> ... placeholder for subject entity (mandatory)
+\t<object> ... placeholder for object entity (exclusive with <CONSTANT_PLACEHOLDER>)
+\t<CONSTANT_PLACEHOLDER> ... placeholder for literal value (exclusive with <object>)
+
+Do NOT use any other placeholders!
+
+example of correct output from <<YOUR TASK>>:
+<subject> was in conflict with <object>.
+<subject> was published by <object>.
+
+example of wrong output from <<YOUR TASK>>:
+<subject> participated in the <conflict>.
+<subject> was published by <CONSTANT_PLACEHOLDER>.
+
+EXAMPLES:
+Table: StarCraft | publisher | Blizzard Entertainment
+Text: StarCraft was published by Blizzard Entertainment.
+Table: The New York Times | publisher | A. G. Sulzberger.
+Text: A. G. Sulzberger is the publisher of The New York Times.
+Template: <subject> was published by <object>.
+---
+Table: World Trade Center | architect | Minoru Yamasaki
+Template: <object> is the architect of <subject>.
+---
+Table: London Eye | diameter | <CONSTANT_PLACEHOLDER>
+Table: association football ball | diameter | <CONSTANT_PLACEHOLDER>
+Template: The <subject> has a diameter of <CONSTANT_PLACEHOLDER>.
+---
+<<YOUR TASK>>:
+{example_table_str}
+Template:

@@ -1,0 +1,18 @@
+Your task is to evaluate a [string] based on the following [rules] and output a `valid` flag which is either 1 ([string] complies with [rules]) or 0 ([string] breaks some [rules]) and an `advice` which explains in one short sentence how to fix [string] to comply with all [rules] (if valid==1, advice=""). You will also output a `valid_string`, which will follow the advice and comply to the rules (if valid==1, valid_string=[string])
+[rules]:
+- [string] must contain exactly one `<subject>` substring.
+- [string] must contain exactly one `<object>` substring.
+- [string] must **not contain any named entities or specific references other than `<subject>` and `<object>`**.
+- [string] should align with the semantic meaning of the [relation] provided, without adding or implying any information beyond it.
+- [string] must concisely and factually represent the information in [relation], without embellishment or unnecessary details.
+
+[string]: {template}
+[relation]: {data}
+
+``` json
+{{
+    "valid":
+    "advice":
+    "valid_string":
+}}
+```

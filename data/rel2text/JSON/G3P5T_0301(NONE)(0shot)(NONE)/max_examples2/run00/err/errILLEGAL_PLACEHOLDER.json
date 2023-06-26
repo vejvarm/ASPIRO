@@ -1,0 +1,10 @@
+{
+  "line length": "{\"subject_entities\": [\"Goonyella railway line\", \"Chikuhi Line\"],\n\"relation\": \"line length\",\n\"object_entities\": [\"477000.0\", \"42600.0\"],\n\"agnostic_template\": \"The <subject> has a <relation> of <object>.\" .\"}",
+  "number of vehicles": "{\"subject_entities\": [\"METRORail\", \"Light Rail Transit\"],\n\"relation\": \"number of vehicles\",\n\"object_entities\": [\"39\", \"89\"],\n\"agnostic_template\": \"The <subject> has <object> <relation>.\" .\"}",
+  "project keyword": "{\"subject_entities\": [\"Diffused lighting camouflage\", \"Prob onto\"],\n\"relation\": \"project keyword\",\n\"object_entities\": [\"Active camouflage\", \"Statistics,Probability distribution\"],\n\"agnostic_template\": \"<subject> is related to <object> through the <relation>.\" .\"}",
+  "gdp per capita": "{\"subject_entities\": [\"Song dynasty\"],\n\"relation\": \"gdp per capita\",\n\"object_entities\": [\"26.5\"],\n\"agnostic_template\": \"The <relation> of <subject> was <object>.\" .\"}",
+  "open access content": "{\"subject_entities\": [\"Journal of Transport and Land Use\", \"Materials Today\"],\n\"relation\": \"open access content\",\n\"object_entities\": [\"Yes\", \"No\"],\n\"agnostic_template\": \"<subject> has <object> <relation>.\" .\"}",
+  "assets": "{\"subject_entities\": [\"Bankia\", \"Unocal Corporation\"],\n\"relation\": \"assets\",\n\"object_entities\": [\"1.79098E11\", \"1.3101E10\"],\n\"agnostic_template\": \"<subject> has <relation> worth <object>.\" .\"}",
+  "number of lines": "{\"subject_entities\": [\"Kazan Metro\", \"Santa Clara Valley Transportation Authority\"],\n\"relation\": \"number of lines\",\n\"object_entities\": [\"1\", \"70\"],\n\"agnostic_template\": \"<subject> has <object> <relation>.\" .\"}",
+  "station structure": "{\"subject_entities\": [\"Yenikap\\u0131 Transfer Center Yenikap\\u0131 1\", \"Beixinjing station\"],\n\"relation\": \"station structure\",\n\"object_entities\": [\"Underground\", \"Underground\"],\n\"agnostic_template\": \"The <subject> is a <relation> that is located <object>.\" .\"}"
+}

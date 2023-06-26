@@ -1,0 +1,2 @@
+Generate a single sentence with exactly one `<subject>` and one `<object>`, ending with a period (.).
+Avoid the following errors: missing or multiple `<subject>` or `<object>` placeholders, using both `<object>` and `{CONSTANT_PLACEHOLDER}` simultaneously, misplaced `{CONSTANT_PLACEHOLDER}` instead of `<object>`, illegal placeholders other than `<subject>` and `<object>`, and specific information leaks from the subject or object.

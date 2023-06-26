@@ -1,0 +1,21 @@
+Create a generalized template using given table values with placeholders:
+- <subject> for subject entity (required)
+- <object> for object entity (not used with <CONSTANT_PLACEHOLDER>)
+- <CONSTANT_PLACEHOLDER> for literal value (not used with <object>)
+
+Templates must accommodate multiple table entries.
+
+Correct output: <subject> was in conflict with <object>.
+Incorrect output: <subject> participated in the <conflict>.
+
+Examples:
+1. Table: StarCraft | publisher | Blizzard Entertainment
+   Template: <subject> was published by <object>.
+2. Table: World Trade Center | architect | Minoru Yamasaki
+   Template: <object> is the architect of <subject>.
+3. Table: London Eye | diameter | <CONSTANT_PLACEHOLDER>
+   Table: association football ball | diameter | <CONSTANT_PLACEHOLDER>
+   Template: The <subject> has a diameter of <CONSTANT_PLACEHOLDER>.
+---
+{example_table_str}
+Template:

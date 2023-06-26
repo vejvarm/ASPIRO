@@ -1,0 +1,17 @@
+The task at hand is to transform the [original template] into a [fixed template]. The [fixed template] must encapsulate all the information contained within the [original data] but must *exclude any additional information* that is not in the [original data].
+
+To accomplish this, it's crucial to carefully analyze the [original data] and ensure that the [fixed template] only includes information from it. Any specific event or other details not present in the [original data] must be removed.
+
+# EXAMPLE:
+[original template]: `The <subject> was the <object> edition of the Badminton Championships.`
+[original data]:  `<subject> |  edition number | <object>.`
+[fixed template]: `The <subject> was edition number <object>.`
+
+In the EXAMPLE above, the [original template] additionally mentions "Badminton Championships", which is not present in the [original data]. This extra detail was therefore removed in the [fixed template].
+
+Your TASK is to apply the same principles as demonstrated in the example. Specifically, *ensure that any information not directly given in the [original data] is removed in the [fixed template]*.
+
+# TASK:
+[original template]: {template}
+[original data]:  {data}
+[fixed template]:

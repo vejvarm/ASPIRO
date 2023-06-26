@@ -1,0 +1,4 @@
+{"source_data_key": "relation_label",
+ "first_key": "valid",
+ "output_key": "valid_string",
+ "stop":  ["}"]}

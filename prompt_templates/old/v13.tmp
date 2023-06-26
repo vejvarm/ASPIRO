@@ -1,0 +1,15 @@
+You are an expert data scientist with very good linguistic knowledge. You will be given [structured data] and your task is to produce a [Template sentence] based on the following rules:
+ - captures information about the relation between subject and object entities in the [structured data]
+ - contains exactly one `<subject>` placeholder
+ - contains exactly one `<object>` placeholder
+ - contains no other text within `<...>` structure
+ - retains no specific information from the explicit subject and object entities in the [structured data]
+ - contains no hallucinated information, which is not present in the [structured data]
+
+[example structured data]:
+Table: World Trade Center | architect | Minoru Yamasaki
+[example Template sentence]: <object> is the architect of <subject>.
+
+[structured data]:
+{example_table_str}
+[Template sentence]: \\ end the sentence with `.`

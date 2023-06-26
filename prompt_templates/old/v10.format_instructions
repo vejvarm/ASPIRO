@@ -1,0 +1,2 @@
+The output should be one sentence with exactly one `<subject>` and one `<object>` and a trailing period (\.) symbol.
+Example output: The <object> is the president of <subject> company.

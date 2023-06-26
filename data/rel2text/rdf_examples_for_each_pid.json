@@ -1,0 +1,4766 @@
+{
+  "serves cuisine": [
+    {
+      "s": "Chiltern Firehouse",
+      "r": "serves cuisine",
+      "o": "American cuisine",
+      "desc": "The cuisine of the restaurant.",
+      "lab": "The Chiltern Firehouse serves American cuisine."
+    },
+    {
+      "s": "Hof van Cleve",
+      "r": "serves cuisine",
+      "o": "French cuisine",
+      "desc": "The cuisine of the restaurant.",
+      "lab": "Hof van Cleve serves French cuisine."
+    },
+    {
+      "s": "Lucy's Cafe",
+      "r": "serves cuisine",
+      "o": "Italian cuisine",
+      "desc": "The cuisine of the restaurant.",
+      "lab": "Lucy's Cafe sells Italian cuisine."
+    },
+    {
+      "s": "Sushi of Gari",
+      "r": "serves cuisine",
+      "o": "Japanese cuisine",
+      "desc": "The cuisine of the restaurant.",
+      "lab": "Sushi of Gari cooks Japanese cuisine."
+    }
+  ],
+  "call sign": [
+    {
+      "s": "MV American Integrity",
+      "r": "call sign",
+      "o": "WDD2875",
+      "desc": "A callsign, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+      "lab": "MV American Integrity has a call sign of WDD2875."
+    },
+    {
+      "s": "MS Nordlys",
+      "r": "call sign",
+      "o": "LHCW",
+      "desc": "A callsign, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+      "lab": "MS Nordlys's call sign is LHCW."
+    },
+    {
+      "s": "Pallada",
+      "r": "call sign",
+      "o": "UDUI",
+      "desc": "A callsign, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+      "lab": "UDUI is the call sign of Pallada."
+    },
+    {
+      "s": "Aquarius",
+      "r": "call sign",
+      "o": "ZGGD3",
+      "desc": "A callsign, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+      "lab": "ZGGD3 is the call sign for the Aquarius."
+    },
+    {
+      "s": "MV Hansa Brandenburg",
+      "r": "call sign",
+      "o": "A8ES9",
+      "desc": "A callsign, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+      "lab": "The call sign of MV Hansa Brandenburg is A8ES9."
+    }
+  ],
+  "logo": [
+    {
+      "s": "Irish Car Rentals",
+      "r": "logo",
+      "o": "ICR-logo.jpg",
+      "desc": "An associated logo.",
+      "lab": "Irish Car Rentals logo is ICR-logo.jpg."
+    },
+    {
+      "s": "Bank of Mexico",
+      "r": "logo",
+      "o": "Logobm.svg",
+      "desc": "An associated logo.",
+      "lab": "The Bank of Mexico logo is Logobm.svg."
+    }
+  ],
+  "alumni of": [
+    {
+      "s": "Numa F. Montet",
+      "r": "alumni of",
+      "o": "Northwestern State University",
+      "desc": "An organization that the person is an alumni of.",
+      "lab": "Numa F. Montet graduated from Northwestern State University."
+    },
+    {
+      "s": "Francis Scarpaleggia",
+      "r": "alumni of",
+      "o": "Concordia University",
+      "desc": "An organization that the person is an alumni of.",
+      "lab": "Francis Scarpaleggia is an alumni of Concordia University."
+    },
+    {
+      "s": "Alan Bible",
+      "r": "alumni of",
+      "o": "Georgetown University Law Center",
+      "desc": "An organization that the person is an alumni of.",
+      "lab": "Alan Bible is an alumni of Georgetown University Law Center."
+    }
+  ],
+  "works for": [
+    {
+      "s": "Esther Armah",
+      "r": "works for",
+      "o": "Kwesi Armah",
+      "desc": "Organizations that the person works for.",
+      "lab": "Esther Armah works for Kwesi Armah."
+    },
+    {
+      "s": "Adam de Wodeham",
+      "r": "works for",
+      "o": "William of Ockham",
+      "desc": "Organizations that the person works for.",
+      "lab": "Adam de Wodeham is employed by William of Ockham."
+    },
+    {
+      "s": "Charles Canivet",
+      "r": "works for",
+      "o": "Am\u00e9d\u00e9e Thierry",
+      "desc": "Organizations that the person works for.",
+      "lab": "Charles Canivet works for Am\u00e9d\u00e9e Thierry."
+    }
+  ],
+  "music by": [
+    {
+      "s": "Packed in a Trunk: The Lost Art of Edith Lake Wilkinson",
+      "r": "music by",
+      "o": "Danielle Ate the Sandwich",
+      "desc": "The composer of the soundtrack.",
+      "lab": "Danielle Ate the Sandwich wrote the music for Packed in a Trunk: The Lost Art of Edith Lake Wilkinson."
+    },
+    {
+      "s": "Tales of Symphonia",
+      "r": "music by",
+      "o": "Motoi Sakuraba",
+      "desc": "The composer of the soundtrack.",
+      "lab": "The music for the game Tales of Symphonia was composed by Motoi Sakuraba."
+    },
+    {
+      "s": "My Scientology Movie",
+      "r": "music by",
+      "o": "Dan Jones",
+      "desc": "The composer of the soundtrack.",
+      "lab": "Dan Jones composed the soundtrack for My Scientology Movie."
+    }
+  ],
+  "actor": [
+    {
+      "s": "Commando",
+      "r": "actor",
+      "o": "Leo Anch\u00f3riz",
+      "desc": "An actor, e.g. in tv, radio, movie, video games etc., or in an event.",
+      "lab": "Leo Anch\u00f3riz acted in the film 'Commando'."
+    },
+    {
+      "s": "Sleeping Acres",
+      "r": "actor",
+      "o": "Snowy Baker",
+      "desc": "An actor, e.g. in tv, radio, movie, video games etc., or in an event.",
+      "lab": "Snowy Baker starred in Sleeping Acres."
+    },
+    {
+      "s": "Professor Dowell's Testament",
+      "r": "actor",
+      "o": "Natalya Sayko",
+      "desc": "An actor, e.g. in tv, radio, movie, video games etc., or in an event.",
+      "lab": "Professor Dowell's Testament starred Natalya Sayko."
+    },
+    {
+      "s": "The Stool Pigeon",
+      "r": "actor",
+      "o": "Nicholas Tse",
+      "desc": "An actor, e.g. in tv, radio, movie, video games etc., or in an event.",
+      "lab": "The Stool Pigeon was an actor in Nicholas Tse."
+    }
+  ],
+  "duns": [
+    {
+      "s": "Spot Blue International Property",
+      "r": "duns",
+      "o": "736032835",
+      "desc": "The Dun  Bradstreet DUNS number for identifying an organization or business person.",
+      "lab": "Spot Blue International Property's duns number is 736032835."
+    },
+    {
+      "s": "Co bank",
+      "r": "duns",
+      "o": "075770271",
+      "desc": "The Dun  Bradstreet DUNS number for identifying an organization or business person.",
+      "lab": "CoBank's DUNS number is 075770271."
+    },
+    {
+      "s": "Deutsche Presse-Agentur",
+      "r": "duns",
+      "o": "316842400",
+      "desc": "The Dun  Bradstreet DUNS number for identifying an organization or business person.",
+      "lab": "Deutsche Presse-Agentur has DUNS number 316842400."
+    }
+  ],
+  "image": [
+    {
+      "s": "Robert Karabinchak",
+      "r": "image",
+      "o": "Rob karabinchak.jpg",
+      "desc": "An image of the item.",
+      "lab": "Robert Karabinchak is pictured in the image RobKarabinchak.jpg."
+    }
+  ],
+  "legal status": [
+    {
+      "s": "Salbutamol",
+      "r": "legal status",
+      "o": "Prescription drug",
+      "desc": "The drug or supplements legal status, including any controlled substance schedules that apply.",
+      "lab": "The legal status of Salbutamol is a prescription drug."
+    },
+    {
+      "s": "Bendroflumethiazide",
+      "r": "legal status",
+      "o": "Prescription drug",
+      "desc": "The drug or supplements legal status, including any controlled substance schedules that apply.",
+      "lab": "Bendroflumethiazide is a Prescription drug."
+    },
+    {
+      "s": "Insulin aspart",
+      "r": "legal status",
+      "o": "Prescription drug",
+      "desc": "The drug or supplements legal status, including any controlled substance schedules that apply.",
+      "lab": "Insulin aspart has been approved as a prescription drug."
+    }
+  ],
+  "in language": [
+    {
+      "s": "Minuscule 850",
+      "r": "in language",
+      "o": "Ancient Greek",
+      "desc": "The language of the content or performance or used in an action.",
+      "lab": "Minuscule 850 is a language concept in Ancient Greek."
+    },
+    {
+      "s": "Millicent Min, Girl Genius",
+      "r": "in language",
+      "o": "English language",
+      "desc": "The language of the content or performance or used in an action.",
+      "lab": "Millicent Min, Girl Genius is written in the English language."
+    },
+    {
+      "s": "The Way of the Sufi",
+      "r": "in language",
+      "o": "English language",
+      "desc": "The language of the content or performance or used in an action.",
+      "lab": "The Way of the Sufi is written in the English language."
+    },
+    {
+      "s": "Another Fine Myth",
+      "r": "in language",
+      "o": "English language",
+      "desc": "The language of the content or performance or used in an action.",
+      "lab": "Another Fine Myth was written in the English language."
+    }
+  ],
+  "is involved in biological process": [
+    {
+      "s": "Angiotensin-converting enzyme",
+      "r": "is involved in biological process",
+      "o": "Kidney development",
+      "desc": "Biological process this Bio chem entity is involved in; please use Property value if you want to include any evidence.",
+      "lab": "Angiotensin-converting enzyme is involved in biological process for Kidney development."
+    },
+    {
+      "s": "MX1",
+      "r": "is involved in biological process",
+      "o": "Innate immune system",
+      "desc": "Biological process this Bio chem entity is involved in; please use Property value if you want to include any evidence.",
+      "lab": "MX1 is involved in the innate immune system."
+    },
+    {
+      "s": "LYN",
+      "r": "is involved in biological process",
+      "o": "Haematopoiesis",
+      "desc": "Biological process this Bio chem entity is involved in; please use Property value if you want to include any evidence.",
+      "lab": "LYN is involved in Haematopoiesis."
+    },
+    {
+      "s": "LRRK2",
+      "r": "is involved in biological process",
+      "o": "Autophagy",
+      "desc": "Biological process this Bio chem entity is involved in; please use Property value if you want to include any evidence.",
+      "lab": "LRRK2 is a part of the process called Autophagy."
+    }
+  ],
+  "super event": [
+    {
+      "s": "2011 Challenge Bell",
+      "r": "super event",
+      "o": "2011 WTA Tour",
+      "desc": "An event that this event is a part of.",
+      "lab": "2011 WTA Tour is a super event of 2011 Challenge Bell."
+    }
+  ],
+  "issn": [
+    {
+      "s": "Billings Gazette",
+      "r": "issn",
+      "o": "2372-868X",
+      "desc": "The International Standard Serial Number (ISSN) that identifies this serial publication.",
+      "lab": "Billings Gazette is identified under 2372-868X."
+    },
+    {
+      "s": "Nelson Daily News",
+      "r": "issn",
+      "o": "0832-431X",
+      "desc": "The International Standard Serial Number (ISSN) that identifies this serial publication.",
+      "lab": "Nelson Daily News has a ISSN of 0832-431X."
+    },
+    {
+      "s": "Zuerst!",
+      "r": "issn",
+      "o": "1869-5493",
+      "desc": "The International Standard Serial Number (ISSN) that identifies this serial publication.",
+      "lab": "The ISSN of Zuerst! is 1869-5493."
+    },
+    {
+      "s": "La Croix",
+      "r": "issn",
+      "o": "0242-6056",
+      "desc": "The International Standard Serial Number (ISSN) that identifies this serial publication.",
+      "lab": "The issn of La Croix is 0242-6056."
+    }
+  ],
+  "example of work": [
+    {
+      "s": "Vetus Latina",
+      "r": "example of work",
+      "o": "Bible",
+      "desc": "A creative work that this work is an example/instance/realization/derivation of.",
+      "lab": "Vetus Latina is an example of work from the Bible."
+    }
+  ],
+  "about": [
+    {
+      "s": "Tales from Shakespeare",
+      "r": "about",
+      "o": "The Taming of the Shrew",
+      "desc": "The subject matter of the content.",
+      "lab": "Tales from Shakespeare is about The Taming of the Shrew."
+    },
+    {
+      "s": "Two Dogmas of Empiricism",
+      "r": "about",
+      "o": "Logical positivism",
+      "desc": "The subject matter of the content.",
+      "lab": "Two Dogmas of Empiricism was an article about Logical positivism."
+    },
+    {
+      "s": "Best Shot in the West",
+      "r": "about",
+      "o": "Children's literature",
+      "desc": "The subject matter of the content.",
+      "lab": "Best Shot in the West is about Children's literature."
+    }
+  ],
+  "connected to": [
+    {
+      "s": "Aditus to mastoid antrum",
+      "r": "connected to",
+      "o": "Tympanic cavity",
+      "desc": "Other anatomical structures to which this structure is connected.",
+      "lab": "Aditus to mastoid antrum is connected to the Tympanic cavity."
+    },
+    {
+      "s": "Ureter",
+      "r": "connected to",
+      "o": "Renal pelvis",
+      "desc": "Other anatomical structures to which this structure is connected.",
+      "lab": "Ureter is connected to the Renal pelvis."
+    },
+    {
+      "s": "Outer ear",
+      "r": "connected to",
+      "o": "Middle ear",
+      "desc": "Other anatomical structures to which this structure is connected.",
+      "lab": "The Outer ear is connected to the Middle ear."
+    },
+    {
+      "s": "Right atrium",
+      "r": "connected to",
+      "o": "Right ventricle",
+      "desc": "Other anatomical structures to which this structure is connected.",
+      "lab": "The right atrium is connected to the right ventricle."
+    }
+  ],
+  "work example": [
+    {
+      "s": "A Christmas Carol",
+      "r": "work example",
+      "o": "A Klingon Christmas Carol",
+      "desc": "Example/instance/realization/derivation of the concept of this creative work.",
+      "lab": "One version of A Christmas Carol is A Klingon Christmas Carol."
+    }
+  ],
+  "contains place": [
+    {
+      "s": "Province of Catanzaro",
+      "r": "contains place",
+      "o": "Martirano",
+      "desc": "The basic containment relation between a place and another that it contains.",
+      "lab": "Martirano is in the Province of Catanzaro."
+    },
+    {
+      "s": "Kranenburg, North Rhine-Westphalia",
+      "r": "contains place",
+      "o": "Frasselt",
+      "desc": "The basic containment relation between a place and another that it contains.",
+      "lab": "Kranenburg, North Rhine-Westphalia contains Frasselt."
+    },
+    {
+      "s": "Alto Mijares",
+      "r": "contains place",
+      "o": "Fuentes de Ay\u00f3dar",
+      "desc": "The basic containment relation between a place and another that it contains.",
+      "lab": "Alto Mijares has a place called Fuentes de Ay\u00f3dar."
+    },
+    {
+      "s": "Department of Huancavelica",
+      "r": "contains place",
+      "o": "Angaraes Province",
+      "desc": "The basic containment relation between a place and another that it contains.",
+      "lab": "The Angaraes Province is located in the Department of Huancavelica."
+    }
+  ],
+  "by artist": [
+    {
+      "s": "The Age of Entitlement",
+      "r": "by artist",
+      "o": "The Basics",
+      "desc": "The artist that performed this album or recording.",
+      "lab": "The Age of Entitlement is by The Basics."
+    },
+    {
+      "s": "Sugarless",
+      "r": "by artist",
+      "o": "Swami",
+      "desc": "The artist that performed this album or recording.",
+      "lab": "Sugarless is an album by Swami."
+    },
+    {
+      "s": "Angle of Entry",
+      "r": "by artist",
+      "o": "The Mutton Birds",
+      "desc": "The artist that performed this album or recording.",
+      "lab": "The Mutton Birds was the artist of Angle of Entry."
+    }
+  ],
+  "contributor": [
+    {
+      "s": "Simba",
+      "r": "contributor",
+      "o": "James Baxter",
+      "desc": "A secondary contributor to the Creative work or Event.",
+      "lab": "James Baxter contributed to the design of Simba."
+    },
+    {
+      "s": "Ogura Hyakunin Isshu",
+      "r": "contributor",
+      "o": "Ry\u014dzen",
+      "desc": "A secondary contributor to the Creative work or Event.",
+      "lab": "Ogura Hyakunin Isshu was written by Ry\u014dzen."
+    },
+    {
+      "s": "King Louie",
+      "r": "contributor",
+      "o": "Milt Kahl",
+      "desc": "A secondary contributor to the Creative work or Event.",
+      "lab": "King Louie was drawn by Milt Kahl."
+    },
+    {
+      "s": "Ginkai",
+      "r": "contributor",
+      "o": "Hiroshi Murakami",
+      "desc": "A secondary contributor to the Creative work or Event.",
+      "lab": "Hiroshi Murakami was a contributor to Ginkai."
+    },
+    {
+      "s": "Ogura Hyakunin Isshu",
+      "r": "contributor",
+      "o": "Inpumon'in no Tay\u016b",
+      "desc": "A secondary contributor to the Creative work or Event.",
+      "lab": "Inpumon'in no Tay\u016b was a contributor to the Ogura Hyakunin Isshu."
+    }
+  ],
+  "content location": [
+    {
+      "s": "Last Wedding",
+      "r": "content location",
+      "o": "Vancouver",
+      "desc": "The location depicted or described in the content.",
+      "lab": "Last Wedding is set in Vancouver."
+    },
+    {
+      "s": "Canci\u00f3n de Juventud",
+      "r": "content location",
+      "o": "Catalonia",
+      "desc": "The location depicted or described in the content.",
+      "lab": "Canci\u00f3n de Juventud is depicted in Catalonia."
+    },
+    {
+      "s": "Count Arthur Strong",
+      "r": "content location",
+      "o": "London",
+      "desc": "The location depicted or described in the content.",
+      "lab": "Count Arthur Strong was filmed in London."
+    }
+  ],
+  "parent": [
+    {
+      "s": "Claudia Octavia",
+      "r": "parent",
+      "o": "Claudius",
+      "desc": "A parent of this person.",
+      "lab": "Claudius is the parent of Claudia Octavia."
+    }
+  ],
+  "smiles": [
+    {
+      "s": "Testosterone sulfate",
+      "r": "smiles",
+      "o": "CC12CCC3CCCC34C",
+      "desc": "A specification in form of a line notation for describing the structure of chemical species using short ASCII strings.",
+      "lab": "CC12CCC3CCCC34C is a line notation that describes Testosterone sulfate."
+    }
+  ],
+  "encodes bio chem entity": [
+    {
+      "s": "GNLY",
+      "r": "encodes bio chem entity",
+      "o": "Granulysin",
+      "desc": "Another Bio chem entity encoded by this one.",
+      "lab": "GNLY encodes Granulysin."
+    },
+    {
+      "s": "Phosphatidylethanolamine binding protein 1",
+      "r": "encodes bio chem entity",
+      "o": "Raf kinase inhibitor protein",
+      "desc": "Another Bio chem entity encoded by this one.",
+      "lab": "Phosphatidylethanolamine binding protein 1 encodes Raf kinase inhibitor protein."
+    },
+    {
+      "s": "CDKN2A",
+      "r": "encodes bio chem entity",
+      "o": "P16",
+      "desc": "Another Bio chem entity encoded by this one.",
+      "lab": "The gene CDKN2A encodes the protein P16."
+    }
+  ],
+  "sign or symptom": [
+    {
+      "s": "Crohn's disease",
+      "r": "sign or symptom",
+      "o": "Abdominal pain",
+      "desc": "A sign or symptom of this condition.",
+      "lab": "Crohn's disease has symptoms of Abdominal pain."
+    },
+    {
+      "s": "Stereotypic movement disorder",
+      "r": "sign or symptom",
+      "o": "Stereotypy",
+      "desc": "A sign or symptom of this condition.",
+      "lab": "Stereotypic movement disorder is a symptom of stereotypy."
+    },
+    {
+      "s": "Plague",
+      "r": "sign or symptom",
+      "o": "Shock",
+      "desc": "A sign or symptom of this condition.",
+      "lab": "Plague leads to shock."
+    },
+    {
+      "s": "Intracranial aneurysm",
+      "r": "sign or symptom",
+      "o": "Confusion",
+      "desc": "A sign or symptom of this condition.",
+      "lab": "Intracranial aneurysm can cause Confusion."
+    }
+  ],
+  "home location": [
+    {
+      "s": "Joseph E. Meyer",
+      "r": "home location",
+      "o": "Meyer's Castle",
+      "desc": "A contact location for a persons residence.",
+      "lab": "Joseph E. Meyer lives at Meyer's Castle."
+    },
+    {
+      "s": "Michael Paul Britto",
+      "r": "home location",
+      "o": "New York City",
+      "desc": "A contact location for a persons residence.",
+      "lab": "Michael Paul Britto lives in New York City."
+    },
+    {
+      "s": "Kent Smetters",
+      "r": "home location",
+      "o": "Philadelphia",
+      "desc": "A contact location for a persons residence.",
+      "lab": "Kent Smetters resides in Philadelphia."
+    },
+    {
+      "s": "Lucius E. Burch Jr.",
+      "r": "home location",
+      "o": "Collierville, Tennessee",
+      "desc": "A contact location for a persons residence.",
+      "lab": "Lucius E. Burch Jr. lives in Collierville, Tennessee."
+    },
+    {
+      "s": "Dorit Schmiel",
+      "r": "home location",
+      "o": "Pankow",
+      "desc": "A contact location for a persons residence.",
+      "lab": "Dorit Schmiel lived in Pankow."
+    }
+  ],
+  "telephone": [
+    {
+      "s": "Torpoint Community College",
+      "r": "telephone",
+      "o": "=+44-1752-812511",
+      "desc": "The telephone number.",
+      "lab": "The telephone number for Torpoint Community College is +44-1752-812511."
+    },
+    {
+      "s": "Knowl Hill School",
+      "r": "telephone",
+      "o": "=+44-1483-797032",
+      "desc": "The telephone number.",
+      "lab": "Thee telephone number for Knowl Hill School is +44-1483-797032."
+    },
+    {
+      "s": "Quarrydale Academy",
+      "r": "telephone",
+      "o": "=+44-1623-554178",
+      "desc": "The telephone number.",
+      "lab": "Quarrydale Academy\u2019s phone number is +44-1623-554178."
+    }
+  ],
+  "sub organization": [
+    {
+      "s": "Resolute Forest Products",
+      "r": "sub organization",
+      "o": "Abitibi-Consolidated",
+      "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary.",
+      "lab": "Resolute Forest Products is a subsidiary of Abitibi-Consolidated."
+    },
+    {
+      "s": "Commonwealth of Nations",
+      "r": "sub organization",
+      "o": "Commonwealth War Graves Commission",
+      "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary.",
+      "lab": "Commonwealth of Nations is a sub-organisation of The Commonwealth War Graves Commission."
+    },
+    {
+      "s": "Department of Canadian Heritage",
+      "r": "sub organization",
+      "o": "Library and Archives Canada",
+      "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary.",
+      "lab": "Department of Canadian Heritage is a sub organisation of the Library and Archives Canada."
+    },
+    {
+      "s": "Bell Canada",
+      "r": "sub organization",
+      "o": "T\u00e9l\u00e9bec",
+      "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary.",
+      "lab": "Bell Canada is a sub organization of T\u00e9l\u00e9bec."
+    },
+    {
+      "s": "East Central Railway zone",
+      "r": "sub organization",
+      "o": "Dhanbad railway division",
+      "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary.",
+      "lab": "East Central Railway zone owns the Dhanbad railway division."
+    }
+  ],
+  "is encoded by bio chem entity": [
+    {
+      "s": "Aromatase",
+      "r": "is encoded by bio chem entity",
+      "o": "Cytochrome p450 family 19 subfamily a member 1",
+      "desc": "Another Bio chem entity encoding by this one.",
+      "lab": "Aromatase is encoded by Cytochrome p450 family 19 subfamily a member 1."
+    },
+    {
+      "s": "Alpha-amylase",
+      "r": "is encoded by bio chem entity",
+      "o": "AMY1C",
+      "desc": "Another Bio chem entity encoding by this one.",
+      "lab": "Alpha-amylase is biochemically encoded by AMY1C."
+    },
+    {
+      "s": "ST2 cardiac biomarker",
+      "r": "is encoded by bio chem entity",
+      "o": "IL1RL1",
+      "desc": "Another Bio chem entity encoding by this one.",
+      "lab": "ST2 cardiac biomarker is coded as IL1RL1."
+    }
+  ],
+  "competitor": [
+    {
+      "s": "2018 Tour of Norway",
+      "r": "competitor",
+      "o": "Sergey Lagutin",
+      "desc": "A competitor in a sports event.",
+      "lab": "Sergey Lagutin competed in the 2018 Tour of Norway."
+    }
+  ],
+  "knows language": [
+    {
+      "s": "Joseph Charles Walsh",
+      "r": "knows language",
+      "o": "English language",
+      "desc": "Of a [[Person]], and less typically of an [[Organization]], to indicate a known language.",
+      "lab": "Joseph Charles Walsh speaks the English language."
+    },
+    {
+      "s": "Marisa Ferretti Barth",
+      "r": "knows language",
+      "o": "English language",
+      "desc": "Of a [[Person]], and less typically of an [[Organization]], to indicate a known language.",
+      "lab": "Marisa Ferretti Barth understands the English language."
+    },
+    {
+      "s": "Empedocles",
+      "r": "knows language",
+      "o": "Ancient Greek",
+      "desc": "Of a [[Person]], and less typically of an [[Organization]], to indicate a known language.",
+      "lab": "Empedocles knows the Ancient Greek language."
+    },
+    {
+      "s": "Maria Iovleva",
+      "r": "knows language",
+      "o": "Russian language",
+      "desc": "Of a [[Person]], and less typically of an [[Organization]], to indicate a known language.",
+      "lab": "Maria Iovleva speaks fluently a Russian language."
+    },
+    {
+      "s": "Isaac Halstead Williamson",
+      "r": "knows language",
+      "o": "English language",
+      "desc": "Of a [[Person]], and less typically of an [[Organization]], to indicate a known language.",
+      "lab": "Isaac Halstead Williamson speaks the English language."
+    }
+  ],
+  "is located in subcellular location": [
+    {
+      "s": "Acetylcholinesterase",
+      "r": "is located in subcellular location",
+      "o": "Basal lamina",
+      "desc": "Subcellular location where this Bio chem entity is located; please use Property value if you want to include any evidence.",
+      "lab": "Acetylcholinesterase is located in the Basal lamina."
+    },
+    {
+      "s": "Basigin",
+      "r": "is located in subcellular location",
+      "o": "Cell membrane",
+      "desc": "Subcellular location where this Bio chem entity is located; please use Property value if you want to include any evidence.",
+      "lab": "Basigin is located in the Cell membrane."
+    },
+    {
+      "s": "Galactose-1-phosphate uridylyltransferase",
+      "r": "is located in subcellular location",
+      "o": "Cytoplasm",
+      "desc": "Subcellular location where this Bio chem entity is located; please use Property value if you want to include any evidence.",
+      "lab": "Galactose-1-phosphate uridylyltransferase is located in the Cytoplasm of a cell."
+    },
+    {
+      "s": "SOX1",
+      "r": "is located in subcellular location",
+      "o": "Cell nucleus",
+      "desc": "Subcellular location where this Bio chem entity is located; please use Property value if you want to include any evidence.",
+      "lab": "SOX1 can be found in the Cell nucleus."
+    }
+  ],
+  "part of series": [
+    {
+      "s": "Pilot",
+      "r": "part of series",
+      "o": "Faking It",
+      "desc": "The series to which this episode or season belongs.",
+      "lab": "Pilot is part of the series Faking It."
+    },
+    {
+      "s": "The Fight Before Christmas",
+      "r": "part of series",
+      "o": "The Simpsons",
+      "desc": "The series to which this episode or season belongs.",
+      "lab": "The Fight Before Christmas was an episode of The Simpsons."
+    },
+    {
+      "s": "The Ascent",
+      "r": "part of series",
+      "o": "Star Trek: Deep Space Nine",
+      "desc": "The series to which this episode or season belongs.",
+      "lab": "The Ascent is part of the series of Star Trek: Deep Space Nine."
+    }
+  ],
+  "encoding format": [
+    {
+      "s": "M3U",
+      "r": "encoding format",
+      "o": "x-mpegurl",
+      "desc": "Media type typically expressed using a MIME format (see [IANA site](http://www.iana.org/assignments/media-types/media-types.xhtml) and [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics of HTTP/MIME types)) e.g. application/zip for a",
+      "lab": "M3U is a type x-mpegurl encoding."
+    }
+  ],
+  "location created": [
+    {
+      "s": "View of Bentheim Castle",
+      "r": "location created",
+      "o": "Haarlem",
+      "desc": "The location where the Creative work was created, which may not be the same as the location depicted in the Creative work.",
+      "lab": "View of Bentheim Castle was from Haarlem."
+    },
+    {
+      "s": "Teodelapio",
+      "r": "location created",
+      "o": "Spoleto",
+      "desc": "The location where the Creative work was created, which may not be the same as the location depicted in the Creative work.",
+      "lab": "Teodelapio originates from Spoleto."
+    },
+    {
+      "s": "Landscape at Auvers in the Rain",
+      "r": "location created",
+      "o": "Auvers-sur-Oise",
+      "desc": "The location where the Creative work was created, which may not be the same as the location depicted in the Creative work.",
+      "lab": "The Landscape at Auvers in the Rain was created in Auvers-sur-Oise."
+    },
+    {
+      "s": "Still Life with Profile of Laval",
+      "r": "location created",
+      "o": "Pont-Aven",
+      "desc": "The location where the Creative work was created, which may not be the same as the location depicted in the Creative work.",
+      "lab": "Still Life with Profile of Laval was created at Pont-Aven."
+    }
+  ],
+  "contained in place": [
+    {
+      "s": "Moerkerke",
+      "r": "contained in place",
+      "o": "Damme",
+      "desc": "The basic containment relation between a place and one that contains it.",
+      "lab": "Moerkerke is in Damme."
+    },
+    {
+      "s": "Borden, Western Australia",
+      "r": "contained in place",
+      "o": "Division of O'Connor",
+      "desc": "The basic containment relation between a place and one that contains it.",
+      "lab": "Borden, Western Australia is a town in the Division of O'Connor."
+    },
+    {
+      "s": "Lang Ch\u00e1nh District",
+      "r": "contained in place",
+      "o": "Thanh H\u00f3a Province",
+      "desc": "The basic containment relation between a place and one that contains it.",
+      "lab": "Lang Ch\u00e1nh District is in Thanh H\u00f3a Province."
+    },
+    {
+      "s": "Punta Prieta Airstrip",
+      "r": "contained in place",
+      "o": "Baja California",
+      "desc": "The basic containment relation between a place and one that contains it.",
+      "lab": "Punta Prieta Airstrip can be found in Baja California."
+    }
+  ],
+  "has occupation": [
+    {
+      "s": "Tony Maylam",
+      "r": "has occupation",
+      "o": "Screenwriter",
+      "desc": "The Persons occupation.",
+      "lab": "Tony Maylam is a Screenwriter."
+    },
+    {
+      "s": "Roy Wang",
+      "r": "has occupation",
+      "o": "Singer-songwriter",
+      "desc": "The Persons occupation.",
+      "lab": "Roy Wang is a Singer-songwriter."
+    },
+    {
+      "s": "Franco Perinciolo",
+      "r": "has occupation",
+      "o": "Football player",
+      "desc": "The Persons occupation.",
+      "lab": "Franco Perinciolo is a famous Argentinian Football player."
+    }
+  ],
+  "isbn": [
+    {
+      "s": "All Things at Once",
+      "r": "isbn",
+      "o": "978-1-60286-111-4",
+      "desc": "The ISBN of the book.",
+      "lab": "The ISBN of the book All Things at Once is 978-1-60286-111-4."
+    },
+    {
+      "s": "Asterix and the Chieftain's Shield",
+      "r": "isbn",
+      "o": "2-01210-143-7",
+      "desc": "The ISBN of the book.",
+      "lab": "The ISBN number of Asterix and the Chieftain's Shield is 2-01210-143-7."
+    },
+    {
+      "s": "Team Batista no Eik\u014d",
+      "r": "isbn",
+      "o": "978-4-7966-5079-3",
+      "desc": "The ISBN of the book.",
+      "lab": "Team Batista no Eik\u014d has the ISBN of 978-4-7966-5079-3."
+    },
+    {
+      "s": "Some Prefer Nettles",
+      "r": "isbn",
+      "o": "978-4-12-203556-0",
+      "desc": "The ISBN of the book.",
+      "lab": "The isbn of the novel Some Prefer Nettles is 978-4-12-203556-0."
+    },
+    {
+      "s": "Asterix and the Goths",
+      "r": "isbn",
+      "o": "978-2-01210-135-7",
+      "desc": "The ISBN of the book.",
+      "lab": "The isbn of Asterix and the Goths is 978-2-01210-135-7."
+    }
+  ],
+  "gender": [
+    {
+      "s": "Hinaleimoana Wong-Kalu",
+      "r": "gender",
+      "o": "M\u0101h\u016b",
+      "desc": "Gender of something, typically a [[Person]], but possibly also fictional characters, animals, etc.",
+      "lab": "Hinaleimoana Wong-Kalu's gender was M\u0101h\u016b."
+    },
+    {
+      "s": "John the Orphanotrophos",
+      "r": "gender",
+      "o": "Eunuch",
+      "desc": "Gender of something, typically a [[Person]], but possibly also fictional characters, animals, etc.",
+      "lab": "John the Orphanotrophos was a Eunuch."
+    },
+    {
+      "s": "Invincible",
+      "r": "gender",
+      "o": "Non-binary gender",
+      "desc": "Gender of something, typically a [[Person]], but possibly also fictional characters, animals, etc.",
+      "lab": "Invincible has adopted a Non-binary gender."
+    }
+  ],
+  "children": [
+    {
+      "s": "John Sartorius",
+      "r": "children",
+      "o": "Francis Sartorius",
+      "desc": "A child of the person.",
+      "lab": "Francis Sartorius is the child of John Sartorius."
+    },
+    {
+      "s": "George Hearst",
+      "r": "children",
+      "o": "William Randolph Hearst",
+      "desc": "A child of the person.",
+      "lab": "William Randolph Hearst is the child of George Hearst."
+    }
+  ],
+  "owns": [
+    {
+      "s": "Jean-Baptiste Vuillaume",
+      "r": "owns",
+      "o": "Lauterbach Stradivarius",
+      "desc": "Products owned by the organization or person.",
+      "lab": "Jean-Baptiste Vuillaume is the owner of a Lauterbach Stradivarius."
+    },
+    {
+      "s": "Jacqueline Kennedy Onassis",
+      "r": "owns",
+      "o": "Wedding dress of Jacqueline Bouvier",
+      "desc": "Products owned by the organization or person.",
+      "lab": "Jacqueline Kennedy Onassis owns the Wedding dress of Jacqueline Bouvier."
+    },
+    {
+      "s": "Qaboos bin Said",
+      "r": "owns",
+      "o": "Al Said",
+      "desc": "Products owned by the organization or person.",
+      "lab": "Qaboos bin Said is the owner of Al Said."
+    }
+  ],
+  "is based on": [
+    {
+      "s": "Cobra Verde",
+      "r": "is based on",
+      "o": "The Viceroy of Ouidah",
+      "desc": "A resource from which this work is derived or from which it is a modification or adaption.",
+      "lab": "Cobra Verde is based on The Viceroy of Ouidah."
+    }
+  ],
+  "character": [
+    {
+      "s": "Book of Exodus",
+      "r": "character",
+      "o": "Amalek",
+      "desc": "Fictional person connected with a creative work.",
+      "lab": "Amalek was a character in Book of Exodus."
+    },
+    {
+      "s": "Nights of Farewell",
+      "r": "character",
+      "o": "Marius Petipa",
+      "desc": "Fictional person connected with a creative work.",
+      "lab": "Marius Petipa appears in Nights of Farewell."
+    }
+  ],
+  "founding location": [
+    {
+      "s": "Black Hippy",
+      "r": "founding location",
+      "o": "South Los Angeles",
+      "desc": "The place where the Organization was founded.",
+      "lab": "Black Hippy were founded in South Los Angeles."
+    },
+    {
+      "s": "Bo\u00f8wy",
+      "r": "founding location",
+      "o": "Takasaki",
+      "desc": "The place where the Organization was founded.",
+      "lab": "Bo\u00f8wy was founded in Takasaki."
+    },
+    {
+      "s": "Camellia Factory",
+      "r": "founding location",
+      "o": "Tokyo",
+      "desc": "The place where the Organization was founded.",
+      "lab": "Camellia Factory was founded in Tokyo."
+    },
+    {
+      "s": "Lone Signal",
+      "r": "founding location",
+      "o": "New York City",
+      "desc": "The place where the Organization was founded.",
+      "lab": "Lone Signal was founded in New York City."
+    },
+    {
+      "s": "Crazy Lixx",
+      "r": "founding location",
+      "o": "Malm\u00f6",
+      "desc": "The place where the Organization was founded.",
+      "lab": "Crazy Lixx was formed in Malm\u00f6."
+    }
+  ],
+  "pagination": [
+    {
+      "s": "The Imperialism of Free Trade",
+      "r": "pagination",
+      "o": "1-15",
+      "desc": "Any description of pages that is not separated into page start and page end; for example, 1-6, 9, 55 or 10-12, 46-49.",
+      "lab": "The Imperialism of Free Trade can be found on pages 1-15."
+    }
+  ],
+  "expressed in": [
+    {
+      "s": "BRAF",
+      "r": "expressed in",
+      "o": "Stomach",
+      "desc": "Tissue, organ, biological sample, etc in which activity of this gene has been observed experimentally.",
+      "lab": "BRAF is expressed in the Stomach."
+    }
+  ],
+  "has molecular function": [
+    {
+      "s": "ISCU",
+      "r": "has molecular function",
+      "o": "Plasma protein binding",
+      "desc": "Molecular function performed by this Bio chem entity; please use Property value if you want to include any evidence.",
+      "lab": "The molecular function of ISCU is Plasma protein binding."
+    },
+    {
+      "s": "HLA-G",
+      "r": "has molecular function",
+      "o": "Plasma protein binding",
+      "desc": "Molecular function performed by this Bio chem entity; please use Property value if you want to include any evidence.",
+      "lab": "The molecular function of HLA-G is Plasma protein binding."
+    },
+    {
+      "s": "GRIA1",
+      "r": "has molecular function",
+      "o": "Plasma protein binding",
+      "desc": "Molecular function performed by this Bio chem entity; please use Property value if you want to include any evidence.",
+      "lab": "Plasma protein binding has molecular function GRIA1."
+    }
+  ],
+  "lyricist": [
+    {
+      "s": "Welcome to the Jungle",
+      "r": "lyricist",
+      "o": "Slash",
+      "desc": "The person who wrote the words.",
+      "lab": "Welcome to the Jungle was written by Slash."
+    },
+    {
+      "s": "Day by Day",
+      "r": "lyricist",
+      "o": "Lina Sandell",
+      "desc": "The person who wrote the words.",
+      "lab": "Day by Day was written by Lina Sandell."
+    },
+    {
+      "s": "Norwegian Wood",
+      "r": "lyricist",
+      "o": "Paul Mc cartney",
+      "desc": "The person who wrote the words.",
+      "lab": "Norwegian Wood was written by Paul McCartney."
+    }
+  ],
+  "provider": [
+    {
+      "s": "Hen with Sapphire Pendant",
+      "r": "provider",
+      "o": "House of Faberg\u00e9",
+      "desc": "The service provider, service operator, or service performer; the goods producer.",
+      "lab": "House of Faberg\u00e9 provided the Hen with Sapphire Pendant."
+    },
+    {
+      "s": "Mastermind",
+      "r": "provider",
+      "o": "Parker Brothers",
+      "desc": "The service provider, service operator, or service performer; the goods producer.",
+      "lab": "Parker Brothers is the service provider of Mastermind."
+    }
+  ],
+  "citation": [
+    {
+      "s": "1Q84",
+      "r": "citation",
+      "o": "The Metamorphosis",
+      "desc": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
+      "lab": "1Q84 referenced The Metamorphosis."
+    }
+  ],
+  "part of season": [
+    {
+      "s": "Send in Stewie, Please",
+      "r": "part of season",
+      "o": "Family Guy",
+      "desc": "The season to which this episode belongs.",
+      "lab": "Send in Stewie, Please was part of a season of Family Guy."
+    },
+    {
+      "s": "Albatross",
+      "r": "part of season",
+      "o": "Star Trek: The Animated Series",
+      "desc": "The season to which this episode belongs.",
+      "lab": "Albatross is featured in Star Trek: The Animated Series."
+    },
+    {
+      "s": "Elegy for a Pig",
+      "r": "part of season",
+      "o": "Adam-12",
+      "desc": "The season to which this episode belongs.",
+      "lab": "Elegy for a Pig is an episode from Adam-12."
+    }
+  ],
+  "bio chem interaction": [
+    {
+      "s": "Irinotecan",
+      "r": "bio chem interaction",
+      "o": "Nelfinavir",
+      "desc": "A Bio chem entity that is known to interact with this item.",
+      "lab": "Irinotecan interacts with Nelfinavir."
+    },
+    {
+      "s": "Domperidone",
+      "r": "bio chem interaction",
+      "o": "Clarithromycin",
+      "desc": "A Bio chem entity that is known to interact with this item.",
+      "lab": "Domperidone interacts with Clarithromycin."
+    }
+  ],
+  "e medicine topic": [
+    {
+      "s": "Transposition of the great vessels",
+      "r": "e medicine topic",
+      "o": "2548",
+      "desc": "Different from e medicine subject, which see",
+      "lab": "Transposition of the great vessels is mentioned in e medicine under topic 2548."
+    }
+  ],
+  "active cases": [
+    {
+      "s": "COVID-19 in Australia",
+      "r": "active cases",
+      "o": "25318",
+      "desc": "Number of active cases in a pandemic",
+      "lab": "There are 25318 active cases of COVID-19 in Australia."
+    },
+    {
+      "s": "COVID-19 pandemic in the Australian Capital Territory",
+      "r": "active cases",
+      "o": "495",
+      "desc": "Number of active cases in a pandemic",
+      "lab": "COVID-19 pandemic in the Australian Capital Territory has 495 infections."
+    },
+    {
+      "s": "Eluru outbreak",
+      "r": "active cases",
+      "o": "0",
+      "desc": "Number of active cases in a pandemic",
+      "lab": "Eluru outbreak has 0 active cases."
+    },
+    {
+      "s": "COVID-19 pandemic in Newfoundland and Labrador",
+      "r": "active cases",
+      "o": "22",
+      "desc": "Number of active cases in a pandemic",
+      "lab": "There are 22 active cases of COVID-19 pandemic in Newfoundland and Labrador."
+    }
+  ],
+  "project budget total": [
+    {
+      "s": "Swiss Personalized Health Network",
+      "r": "project budget total",
+      "o": "6.8E7",
+      "desc": "The total budget of the research project.",
+      "lab": "Swiss Personalized Health Network has a projected budget total of 6.8E7."
+    },
+    {
+      "s": "WACOM",
+      "r": "project budget total",
+      "o": "380000.0",
+      "desc": "The total budget of the research project.",
+      "lab": "WACOM\u2019s total project budget is 380000.0."
+    },
+    {
+      "s": "Innovative Medicines Initiative",
+      "r": "project budget total",
+      "o": "2.0E9",
+      "desc": "The total budget of the research project.",
+      "lab": "Innovative Medicines Initiative has a total project budget of 2.0E9."
+    }
+  ],
+  "bioavailability": [
+    {
+      "s": "Candesartan",
+      "r": "bioavailability",
+      "o": "15.0",
+      "desc": "The rate and extent to which the active ingredient or active moiety is absorbed from a drug product and becomes available at the site of action.",
+      "lab": "The bioavailability of Candesartan is 15.0."
+    },
+    {
+      "s": "Promethazine",
+      "r": "bioavailability",
+      "o": "88.0",
+      "desc": "The rate and extent to which the active ingredient or active moiety is absorbed from a drug product and becomes available at the site of action.",
+      "lab": "Promethazine's bioavailability is 88.0."
+    }
+  ],
+  "faculty size": [
+    {
+      "s": "Saint Mary's University of Minnesota",
+      "r": "faculty size",
+      "o": "96",
+      "desc": "number of faculty members",
+      "lab": "Saint Mary's University of Minnesota has 96 faculty members."
+    }
+  ],
+  "final publication year": [
+    {
+      "s": "British Quarterly Review",
+      "r": "final publication year",
+      "o": "1886",
+      "desc": "Year of the final publication.",
+      "lab": "British Quarterly Review was last published in 1886."
+    },
+    {
+      "s": "Child Language Teaching and Therapy",
+      "r": "final publication year",
+      "o": "-1985",
+      "desc": "Year of the final publication.",
+      "lab": "Child Language Teaching and Therapy ceased publication in -1985."
+    }
+  ],
+  "line length": [
+    {
+      "s": "Goonyella railway line",
+      "r": "line length",
+      "o": "477000.0",
+      "desc": "Length of the line.",
+      "lab": "Goonyella railway line has a total line length spanning 477000.0."
+    },
+    {
+      "s": "Chikuhi Line",
+      "r": "line length",
+      "o": "42600.0",
+      "desc": "Length of the line.",
+      "lab": "Chikuhi Line has line length of 42600.0."
+    },
+    {
+      "s": "Blue line",
+      "r": "line length",
+      "o": "24800.0",
+      "desc": "Length of the line.",
+      "lab": "Blue line has a line length of 24800.0."
+    },
+    {
+      "s": "Tokyo Metro Marunouchi Line",
+      "r": "line length",
+      "o": "27400.0",
+      "desc": "Length of the line.",
+      "lab": "Tokyo Metro Marunouchi Line is 27400.0 in length."
+    }
+  ],
+  "maximum depth": [
+    {
+      "s": "Husemersee",
+      "r": "maximum depth",
+      "o": "14.3",
+      "desc": "Source of the value can be declare by .",
+      "lab": "14.3 is the maximum depth of Husemersee."
+    },
+    {
+      "s": "Limassol Salt Lake",
+      "r": "maximum depth",
+      "o": "1.0",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Limassol Salt Lake has a maximum depth of 1.0m."
+    },
+    {
+      "s": "Kenas Lake",
+      "r": "maximum depth",
+      "o": "188.5",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Kenas Lake has a maximum depth of 188.5."
+    },
+    {
+      "s": "Dieksee",
+      "r": "maximum depth",
+      "o": "38.0",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Dieksee is 38.0 in depth."
+    },
+    {
+      "s": "Halbendorfer See",
+      "r": "maximum depth",
+      "o": "26.0",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Halbendorfer See has a depth of 26.0."
+    }
+  ],
+  "number of lawyers": [
+    {
+      "s": "Littler Mendelson",
+      "r": "number of lawyers",
+      "o": "1500",
+      "desc": "Number of lawyers or attorneys in the company.",
+      "lab": "The firm Littler Mendelson has 1500 lawyers."
+    },
+    {
+      "s": "Taft Stettinius & Hollister",
+      "r": "number of lawyers",
+      "o": "625",
+      "desc": "Number of lawyers or attorneys in the company.",
+      "lab": "The number of lawyers at Taft Stettinius & Hollister is 625."
+    },
+    {
+      "s": "Rose Law Firm",
+      "r": "number of lawyers",
+      "o": "34",
+      "desc": "Number of lawyers or attorneys in the company.",
+      "lab": "Rose Law Firm has 34 lawyers."
+    }
+  ],
+  "number of stations": [
+    {
+      "s": "Line 2",
+      "r": "number of stations",
+      "o": "23",
+      "desc": "Number of stations or stops.",
+      "lab": "Line 2 has 23 stations along its route."
+    },
+    {
+      "s": "Newark Light Rail",
+      "r": "number of stations",
+      "o": "17",
+      "desc": "Number of stations or stops.",
+      "lab": "Newark Light Rail has 17 stations."
+    },
+    {
+      "s": "Shelbourne railway line",
+      "r": "number of stations",
+      "o": "2",
+      "desc": "Number of stations or stops.",
+      "lab": "Shelbourne railway line includes 2 railway stations."
+    }
+  ],
+  "unknown outcomes": [
+    {
+      "s": "Falcon 9",
+      "r": "unknown outcomes",
+      "o": "1",
+      "desc": "number of launches with unknown outcomes (or in progress)",
+      "lab": "Falcon 9 has been launched 1 time with unknown outcome."
+    },
+    {
+      "s": "New Shepard",
+      "r": "unknown outcomes",
+      "o": "0",
+      "desc": "number of launches with unknown outcomes (or in progress)",
+      "lab": "New Shepard has 0 unknown outcomes."
+    }
+  ],
+  "average depth": [
+    {
+      "s": "Carnero Lake",
+      "r": "average depth",
+      "o": "1.8288",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Carnero Lake has an average depth of 1.8288."
+    },
+    {
+      "s": "Lake Musconetcong",
+      "r": "average depth",
+      "o": "1.524",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Lake Musconetcong is 1.524 deep."
+    },
+    {
+      "s": "Chaparral Lake",
+      "r": "average depth",
+      "o": "3.048",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Chaparral Lake has an average depth of 3.048."
+    },
+    {
+      "s": "Shawano Lake",
+      "r": "average depth",
+      "o": "2.7432",
+      "desc": "Source of the value can be declare by .",
+      "lab": "Shawano Lake has an average depth of 2.7432."
+    }
+  ],
+  "complexity": [
+    {
+      "s": "Confederate cush",
+      "r": "complexity",
+      "o": "2",
+      "desc": "Complexity of preparing a Food (recipe)",
+      "lab": "Confederate cush has a complexity of 2."
+    },
+    {
+      "s": "M\u0103m\u0103lig\u0103",
+      "r": "complexity",
+      "o": "1",
+      "desc": "Complexity of preparing a Food (recipe)",
+      "lab": "M\u0103m\u0103lig\u0103 is rated in complexity as 1."
+    }
+  ],
+  "election majority": [
+    {
+      "s": "Abdollah Nouri",
+      "r": "election majority",
+      "o": "448874",
+      "desc": "number of votes the office holder attained",
+      "lab": "Abdollah Nouri received the election majority with 448874 votes."
+    },
+    {
+      "s": "Abolghasem Khazali",
+      "r": "election majority",
+      "o": "107311",
+      "desc": "number of votes the office holder attained",
+      "lab": "The election majority was 107311 for Abolghasem Khazali."
+    },
+    {
+      "s": "Mohammad Khoshchehreh",
+      "r": "election majority",
+      "o": "578674",
+      "desc": "number of votes the office holder attained",
+      "lab": "Mohammad Khoshchehreh won with a majority of 578674."
+    },
+    {
+      "s": "Ali Fallahian",
+      "r": "election majority",
+      "o": "386767",
+      "desc": "number of votes the office holder attained",
+      "lab": "Ali Fallahian had a election majority of 386767."
+    }
+  ],
+  "individualised gnd": [
+    {
+      "s": "Greg Bowen",
+      "r": "individualised gnd",
+      "o": "320322793",
+      "desc": "GND (Gemeinsame Normdatei) is an international authority file for the organisation of personal names, subject headings and corporate bodies from catalogues.",
+      "lab": "Greg Bowen has an individualized gnd of 320322793."
+    },
+    {
+      "s": "PNP transistor",
+      "r": "individualised gnd",
+      "o": "4174948-0",
+      "desc": "GND (Gemeinsame Normdatei) is an international authority file for the organisation of personal names, subject headings and corporate bodies from catalogues.",
+      "lab": "A PNP transistor has an individualised gnd of 4174948-0."
+    },
+    {
+      "s": "Karl Pommerhanz",
+      "r": "individualised gnd",
+      "o": "126961069",
+      "desc": "GND (Gemeinsame Normdatei) is an international authority file for the organisation of personal names, subject headings and corporate bodies from catalogues.",
+      "lab": "The file number for Karl Pommerhanz's GND is 126961069."
+    }
+  ],
+  "number of piers in water": [
+    {
+      "s": "CPR Bridge",
+      "r": "number of piers in water",
+      "o": "7",
+      "desc": "Number of piers standing in a river or other water in normal conditions.",
+      "lab": "The CPR Bridge has 7 piers in the water."
+    },
+    {
+      "s": "Tees Newport Bridge",
+      "r": "number of piers in water",
+      "o": "2",
+      "desc": "Number of piers standing in a river or other water in normal conditions.",
+      "lab": "Tees Newport Bridge's number of piers in the water is 2."
+    },
+    {
+      "s": "Flehe Bridge",
+      "r": "number of piers in water",
+      "o": "1",
+      "desc": "Number of piers standing in a river or other water in normal conditions.",
+      "lab": "Flehe Bridge has 1 pier in the water."
+    }
+  ],
+  "number of vehicles": [
+    {
+      "s": "METRORail",
+      "r": "number of vehicles",
+      "o": "39",
+      "desc": "Number of vehicles used in the transit system.",
+      "lab": "METRORail has 39 vehicles."
+    },
+    {
+      "s": "Light Rail Transit",
+      "r": "number of vehicles",
+      "o": "89",
+      "desc": "Number of vehicles used in the transit system.",
+      "lab": "Light Rail Transit uses 89 vehicles."
+    },
+    {
+      "s": "Pamplona City Transport",
+      "r": "number of vehicles",
+      "o": "34",
+      "desc": "Number of vehicles used in the transit system.",
+      "lab": "Pamplona City Transport has 34 vehicles."
+    },
+    {
+      "s": "Iskandar Malaysia Bus Rapid Transit",
+      "r": "number of vehicles",
+      "o": "18",
+      "desc": "Number of vehicles used in the transit system.",
+      "lab": "Iskandar Malaysia Bus Rapid Transit uses 18 vehicles."
+    }
+  ],
+  "number of visitors as of": [
+    {
+      "s": "Booker T. Washington National Monument",
+      "r": "number of visitors as of",
+      "o": "2012",
+      "desc": "The year in which number of visitors occurred.",
+      "lab": "Booker T. Washington National Monument has had so many visitors as of 2012."
+    },
+    {
+      "s": "Arlington House, The Robert E. Lee Memorial",
+      "r": "number of visitors as of",
+      "o": "2011",
+      "desc": "The year in which number of visitors occurred.",
+      "lab": "Arlington House, The Robert E. Lee Memorial drew visitors since 2011."
+    }
+  ],
+  "voltage of electrification": [
+    {
+      "s": "Kolkata Metro",
+      "r": "voltage of electrification",
+      "o": "750.0",
+      "desc": "Voltage of the electrification system.",
+      "lab": "The electrification voltage of Kolkata Metro is 750.0."
+    },
+    {
+      "s": "Prague Metro",
+      "r": "voltage of electrification",
+      "o": "750.0",
+      "desc": "Voltage of the electrification system.",
+      "lab": "Prague Metro has a voltage equal to 750.0."
+    },
+    {
+      "s": "Berlin U-Bahn",
+      "r": "voltage of electrification",
+      "o": "750.0",
+      "desc": "Voltage of the electrification system.",
+      "lab": "Berlin U-Bahn runs on a voltage of 750.0."
+    }
+  ],
+  "approximate calories": [
+    {
+      "s": "Strained yogurt",
+      "r": "approximate calories",
+      "o": "557000.0",
+      "desc": "Approximate calories per serving.",
+      "lab": "Strained yogurt contains approximately 557000.0 calories per serving."
+    },
+    {
+      "s": "Poga\u010da",
+      "r": "approximate calories",
+      "o": "820613.0",
+      "desc": "Approximate calories per serving.",
+      "lab": "Poga\u010da has approximately 820613.0 calories."
+    }
+  ],
+  "project keyword": [
+    {
+      "s": "Diffused lighting camouflage",
+      "r": "project keyword",
+      "o": "Active camouflage",
+      "desc": "A key word of the project.",
+      "lab": "Active camouflage is the project keyword for Diffused lighting camouflage."
+    },
+    {
+      "s": "Prob onto",
+      "r": "project keyword",
+      "o": "Statistics,Probability distribution",
+      "desc": "A key word of the project.",
+      "lab": "ProbOnto is a project keyword for Statistics,Probability distribution."
+    }
+  ],
+  "project start date": [
+    {
+      "s": "Earth Bio genome Project",
+      "r": "project start date",
+      "o": "2018-11-01",
+      "desc": "The start date of the project.",
+      "lab": "The Earth BioGenome Project began on 2018-11-01."
+    },
+    {
+      "s": "Project Vista",
+      "r": "project start date",
+      "o": "1951-04-01",
+      "desc": "The start date of the project.",
+      "lab": "Project Vista began on 1951-04-01."
+    },
+    {
+      "s": "Research Domain Criteria",
+      "r": "project start date",
+      "o": "2010-01-28",
+      "desc": "The start date of the project.",
+      "lab": "The start date of the Research Domain Criteria is 2010-01-28."
+    },
+    {
+      "s": "Chevert expedition",
+      "r": "project start date",
+      "o": "1875-05-18",
+      "desc": "The start date of the project.",
+      "lab": "The Chevert expedition began on 1875-05-18."
+    }
+  ],
+  "world champion title year": [
+    {
+      "s": "Ray Reardon",
+      "r": "world champion title year",
+      "o": "1978",
+      "desc": "can be one or several years",
+      "lab": "Ray Reardon was the world champion in 1978."
+    }
+  ],
+  "act score": [
+    {
+      "s": "St. Thomas Aquinas High School",
+      "r": "act score",
+      "o": "ACT",
+      "desc": "most recent average ACT scores",
+      "lab": "St. Thomas Aquinas High School has an ACT score."
+    }
+  ],
+  "connotation": [
+    {
+      "s": "Persian blue",
+      "r": "connotation",
+      "o": "Heaven",
+      "desc": "A meaning of a word or phrase that is suggested or implied, as opposed to a denotation, or literal meaning.",
+      "lab": "Persian blue connotes Heaven."
+    }
+  ],
+  "cultivated variety": [
+    {
+      "s": "Nepenthes 'Vittata'",
+      "r": "cultivated variety",
+      "o": "Bruce Lee Bednar",
+      "desc": "Name of the cultivar (cultivated variety)",
+      "lab": "Bruce Lee Bednar is a cultivated variety of Nepenthes 'Vittata'."
+    }
+  ],
+  "focus": [
+    {
+      "s": "Emergency medicine",
+      "r": "focus",
+      "o": "Acute",
+      "desc": "Points out the subject or thing someone or something is focused on.",
+      "lab": "Emergency medicine is largely focused on Acute illness."
+    },
+    {
+      "s": "Anesthesiology",
+      "r": "focus",
+      "o": "Anesthesia",
+      "desc": "Points out the subject or thing someone or something is focused on.",
+      "lab": "Anesthesiology is the study and use of Anesthesia."
+    }
+  ],
+  "funded by": [
+    {
+      "s": "TREAT-NMD",
+      "r": "funded by",
+      "o": "European Commission",
+      "desc": "A organisation financing the research project.",
+      "lab": "TREAT-NMD is funded by the European Commission."
+    }
+  ],
+  "gdp per capita": [
+    {
+      "s": "Song dynasty",
+      "r": "gdp per capita",
+      "o": "26.5",
+      "desc": "The nominal gross domestic product of a country per capita.",
+      "lab": "During the Song dynasty the nation's per capita GDP was 26.5."
+    }
+  ],
+  "glycemic index": [
+    {
+      "s": "Oat milk",
+      "r": "glycemic index",
+      "o": "60",
+      "desc": "Indicates a Foods effect on a persons blood glucose (blood sugar) level.",
+      "lab": "Oat milk has a glycemic index of 60."
+    }
+  ],
+  "map": [
+    {
+      "s": "Outer Ring Road System",
+      "r": "map",
+      "o": "Singapores Expressways",
+      "desc": "A map of the place.",
+      "lab": "The Outer Ring Road System is shown on the map of Singapores Expressways."
+    }
+  ],
+  "organ system": [
+    {
+      "s": "Primary interatrial foramen",
+      "r": "organ system",
+      "o": "Circulatory system",
+      "desc": "the organ system that a anatomical structure belongs to",
+      "lab": "Primary interatrial foramen is part of the Circulatory system."
+    },
+    {
+      "s": "Sex cords",
+      "r": "organ system",
+      "o": "Reproductive system",
+      "desc": "the organ system that a anatomical structure belongs to",
+      "lab": "Sex cords is part of the Reproductive system."
+    }
+  ],
+  "project end date": [
+    {
+      "s": "Project Vista",
+      "r": "project end date",
+      "o": "1951-12-01",
+      "desc": "The end date of the project.",
+      "lab": "On 1951-12-01 Project Vista ended."
+    },
+    {
+      "s": "INDECT",
+      "r": "project end date",
+      "o": "2014-06-30",
+      "desc": "The end date of the project.",
+      "lab": "INDECT ended 2014-06-30."
+    }
+  ],
+  "release location": [
+    {
+      "s": "Whiteout",
+      "r": "release location",
+      "o": "Japan",
+      "desc": "Usually used with release date, particularly for Films.",
+      "lab": "Whiteout was released in Japan."
+    }
+  ],
+  "vehicle": [
+    {
+      "s": "General Motors W platform",
+      "r": "vehicle",
+      "o": "Oldsmobile Intrigue",
+      "desc": "vehicle that uses a specific automobile platform",
+      "lab": "General Motors W platform is used for the Oldsmobile Intrigue."
+    },
+    {
+      "s": "General Motors Epsilon platform",
+      "r": "vehicle",
+      "o": "Cadillac XTS",
+      "desc": "vehicle that uses a specific automobile platform",
+      "lab": "Cadillac XTS is one of the cars under the General Motors Epsilon platform."
+    }
+  ],
+  "victim": [
+    {
+      "s": "Drancy internment camp",
+      "r": "victim",
+      "o": "Eduard Bloch",
+      "desc": "Specific (eg notable) person, or specific class of people (eg Romani) that are victim of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Drancy internment camp had victims which included Eduard Bloch."
+    },
+    {
+      "s": "Westerbork transit camp",
+      "r": "victim",
+      "o": "Selma Engel-Wijnberg",
+      "desc": "Specific (eg notable) person, or specific class of people (eg Romani) that are victim of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Selma Engel-Wijnberg was a victim of Westerbork transit camp."
+    },
+    {
+      "s": "Drancy internment camp",
+      "r": "victim",
+      "o": "Tristan Bernard",
+      "desc": "Specific (eg notable) person, or specific class of people (eg Romani) that are victim of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Tristan Bernard was a victim at Drancy internment camp."
+    }
+  ],
+  "waterway through tunnel": [
+    {
+      "s": "Foulridge Tunnel",
+      "r": "waterway through tunnel",
+      "o": "Leeds and Liverpool Canal",
+      "desc": "Waterway that goes through the tunnel.",
+      "lab": "The Foulridge Tunnel is part of the Leeds and Liverpool Canal."
+    },
+    {
+      "s": "Riqueval Tunnel",
+      "r": "waterway through tunnel",
+      "o": "Canal de Saint-Quentin",
+      "desc": "Waterway that goes through the tunnel.",
+      "lab": "The Canal de Saint-Quentin flows through the Riqueval Tunnel."
+    }
+  ],
+  "address in road": [
+    {
+      "s": "Queen's Square, Sydney",
+      "r": "address in road",
+      "o": "Phillip Street, Sydney",
+      "desc": "A building, organisation or other thing that is located in the road.",
+      "lab": "Queen's Square, Sydney can be reached by traveling down Phillip Street, Sydney."
+    },
+    {
+      "s": "Aberdeen Street",
+      "r": "address in road",
+      "o": "Central, Hong Kong",
+      "desc": "A building, organisation or other thing that is located in the road.",
+      "lab": "Aberdeen Street is in Central, Hong Kong."
+    },
+    {
+      "s": "Gallivan Center",
+      "r": "address in road",
+      "o": "Salt Lake City",
+      "desc": "A building, organisation or other thing that is located in the road.",
+      "lab": "Gallivan Center is in Salt Lake City."
+    },
+    {
+      "s": "Khatik Mohalla Street",
+      "r": "address in road",
+      "o": "Shahpura, Bhilwara",
+      "desc": "A building, organisation or other thing that is located in the road.",
+      "lab": "Khatik Mohalla Street resides at Shahpura, Bhilwara."
+    },
+    {
+      "s": "Souq Qabil",
+      "r": "address in road",
+      "o": "Saudi Arabia",
+      "desc": "A building, organisation or other thing that is located in the road.",
+      "lab": "Souq Qabil is found in Saudi Arabia."
+    }
+  ],
+  "denomination": [
+    {
+      "s": "Bethlehem High School",
+      "r": "denomination",
+      "o": "Catholic Church",
+      "desc": "Religious denomination of a church, religious school, etc.",
+      "lab": "Bethlehem High School is run by the Catholic Church."
+    },
+    {
+      "s": "Legacy Christian Academy",
+      "r": "denomination",
+      "o": "Non-denominational",
+      "desc": "Religious denomination of a church, religious school, etc.",
+      "lab": "Legacy Christian Academy is Non-denominational."
+    }
+  ],
+  "highest": [
+    {
+      "s": "Jicarilla Mountains",
+      "r": "highest",
+      "o": "Ancho Peak",
+      "desc": "The highest mountain of a mountain range.",
+      "lab": "Ancho Peak is the highest of the Jicarilla Mountains."
+    },
+    {
+      "s": "Croda da Lago",
+      "r": "highest",
+      "o": "Cima d'Ambrizzola",
+      "desc": "The highest mountain of a mountain range.",
+      "lab": "Croda da Lago is the highest mountain in the region of Cima d'Ambrizzola."
+    },
+    {
+      "s": "Cang Mountain",
+      "r": "highest",
+      "o": "Malong",
+      "desc": "The highest mountain of a mountain range.",
+      "lab": "The highest mountain in Cang Mountain is Malong."
+    },
+    {
+      "s": "Kalatungan Mountain Range",
+      "r": "highest",
+      "o": "Mount Kalatungan",
+      "desc": "The highest mountain of a mountain range.",
+      "lab": "Mount Kalatungan is the highest mountain in the Kalatungan Mountain Range."
+    }
+  ],
+  "selection": [
+    {
+      "s": "Christina Koch",
+      "r": "selection",
+      "o": "NASA Astronaut Group 21",
+      "desc": "when (or in which project) the person was selected to train as an astronaut",
+      "lab": "Christina Koch was chosen to train in the NASA Astronaut Group 21."
+    }
+  ],
+  "sport country": [
+    {
+      "s": "Yousra Matine",
+      "r": "sport country",
+      "o": "Morocco",
+      "desc": "The country, for which the athlete is participating in championships",
+      "lab": "Yousra Matine represents Morocco in sport."
+    },
+    {
+      "s": "Zhou Yuelong",
+      "r": "sport country",
+      "o": "China",
+      "desc": "The country, for which the athlete is participating in championships",
+      "lab": "Zhou Yuelong plays sport for China."
+    }
+  ],
+  "battery": [
+    {
+      "s": "Hiriko",
+      "r": "battery",
+      "o": "Lithium-ion battery",
+      "desc": "Points out the battery used with/in a thing.",
+      "lab": "Hiriko uses a Lithium-ion battery."
+    },
+    {
+      "s": "Nissan Kicks P15 1",
+      "r": "battery",
+      "o": "Panasonic",
+      "desc": "Points out the battery used with/in a thing.",
+      "lab": "Nissan Kicks P15 1 requires a Panasonic battery."
+    },
+    {
+      "s": "Audi Q5 Second generation 80A 1",
+      "r": "battery",
+      "o": "Lithium-ion battery",
+      "desc": "Points out the battery used with/in a thing.",
+      "lab": "Audi Q5 Second generation 80A 1 is powered by Lithium-ion battery."
+    }
+  ],
+  "current production": [
+    {
+      "s": "Mercury Theatre, Colchester",
+      "r": "current production",
+      "o": "Educating Rita",
+      "desc": "The current production running in the theatre.",
+      "lab": "Educating Rita is currently showing at the Mercury Theatre, Colchester."
+    },
+    {
+      "s": "Apollo Theatre",
+      "r": "current production",
+      "o": "Magic Goes Wrong",
+      "desc": "The current production running in the theatre.",
+      "lab": "Magic Goes Wrong is currently running at the Apollo Theatre."
+    },
+    {
+      "s": "Palace Theatre, London",
+      "r": "current production",
+      "o": "Harry Potter and the Cursed Child",
+      "desc": "The current production running in the theatre.",
+      "lab": "Harry Potter and the Cursed Child is currently being performed at the Palace Theatre, London."
+    }
+  ],
+  "taoiseach": [
+    {
+      "s": "Fergus O'Brien Tenure 1",
+      "r": "taoiseach",
+      "o": "Garret Fitz gerald",
+      "desc": "head of government of Ireland",
+      "lab": "Garret FitzGerald was taoiseach during Fergus O'Brien Tenure 1."
+    }
+  ],
+  "age range": [
+    {
+      "s": "Sir John Kothalawala College",
+      "r": "age range",
+      "o": "6",
+      "desc": "Age range of students admitted in a School, Military unit, etc",
+      "lab": "Sir John Kothalawala College students typically starts at the age of 6 years old."
+    },
+    {
+      "s": "Lao People's Armed Forces",
+      "r": "age range",
+      "o": "18",
+      "desc": "Age range of students admitted in a School, Military unit, etc",
+      "lab": "The age of the Lao People's Armed Forces begins at 18."
+    }
+  ],
+  "bbr": [
+    {
+      "s": "Andy Johnson",
+      "r": "bbr",
+      "o": "johnsan01",
+      "desc": "For NBA players, the text between the last slash and .html in the URL of the players basketball-reference.com profile (linked at http://www.basketball-reference.com/players/).",
+      "lab": "Andy Johnson is known as johnsan01."
+    },
+    {
+      "s": "Bob Hopkins Bob Hopkins 1",
+      "r": "bbr",
+      "o": "hopkibo01",
+      "desc": "For NBA players, the text between the last slash and .html in the URL of the players basketball-reference.com profile (linked at http://www.basketball-reference.com/players/).",
+      "lab": "Bob Hopkins Bob Hopkins 1 web reference is hopkibo01."
+    },
+    {
+      "s": "Tom Workman",
+      "r": "bbr",
+      "o": "workmto01",
+      "desc": "For NBA players, the text between the last slash and .html in the URL of the players basketball-reference.com profile (linked at http://www.basketball-reference.com/players/).",
+      "lab": "Tom Workman's bbr is workmto01."
+    },
+    {
+      "s": "Stanley Brundy",
+      "r": "bbr",
+      "o": "brundst01",
+      "desc": "For NBA players, the text between the last slash and .html in the URL of the players basketball-reference.com profile (linked at http://www.basketball-reference.com/players/).",
+      "lab": "Stanley Brundy is shortened to brundst01 on the NBA website link."
+    }
+  ],
+  "coden": [
+    {
+      "s": "Journal of Nanoparticle Research",
+      "r": "coden",
+      "o": "JNARFA",
+      "desc": "CODEN is a six character, alphanumeric bibliographic code, that provides concise, unique and unambiguous identification of the titles of serials and non-serial publications from all subject areas.",
+      "lab": "JNARFA is the coden for Journal of Nanoparticle Research."
+    },
+    {
+      "s": "Comprehensive Reviews in Food Science and Food Safety",
+      "r": "coden",
+      "o": "CRFSBJ",
+      "desc": "CODEN is a six character, alphanumeric bibliographic code, that provides concise, unique and unambiguous identification of the titles of serials and non-serial publications from all subject areas.",
+      "lab": "Code CRFSBJ denotes the publication Comprehensive Reviews in Food Science and Food Safety."
+    },
+    {
+      "s": "Physical Review Focus",
+      "r": "coden",
+      "o": "PRFHAQ",
+      "desc": "CODEN is a six character, alphanumeric bibliographic code, that provides concise, unique and unambiguous identification of the titles of serials and non-serial publications from all subject areas.",
+      "lab": "The coden of Physical Review Focus is PRFHAQ."
+    }
+  ],
+  "currently used for": [
+    {
+      "s": "Byham Theater",
+      "r": "currently used for",
+      "o": "Performing arts center",
+      "desc": "Current use of the architectural structure, if it is currently being used as anything other than its original purpose.",
+      "lab": "Byham Theater is currently used for Performing arts center."
+    },
+    {
+      "s": "San Diego Civic Theatre",
+      "r": "currently used for",
+      "o": "performing arts venue",
+      "desc": "Current use of the architectural structure, if it is currently being used as anything other than its original purpose.",
+      "lab": "San Diego Civic Theatre is a performing arts venue."
+    },
+    {
+      "s": "Union Theatre",
+      "r": "currently used for",
+      "o": "Professional and amateur theatre",
+      "desc": "Current use of the architectural structure, if it is currently being used as anything other than its original purpose.",
+      "lab": "The Union Theatre is currently used for Professional and amateur theatre."
+    },
+    {
+      "s": "Ed Sullivan Theater",
+      "r": "currently used for",
+      "o": "Television studio",
+      "desc": "Current use of the architectural structure, if it is currently being used as anything other than its original purpose.",
+      "lab": "Ed Sullivan Theater is currently used for hosting a Television studio."
+    }
+  ],
+  "demolition date": [
+    {
+      "s": "Hotel Manger",
+      "r": "demolition date",
+      "o": "1983-05-15",
+      "desc": "The date the building was demolished.",
+      "lab": "Hotel Manger was demolished in 1983-05-15."
+    },
+    {
+      "s": "Tiffany Theater",
+      "r": "demolition date",
+      "o": "2013-08-08",
+      "desc": "The date the building was demolished.",
+      "lab": "The Tiffany Theater was demolished on 2013-08-08."
+    },
+    {
+      "s": "San Mam\u00e9s Stadium",
+      "r": "demolition date",
+      "o": "2013-06-06",
+      "desc": "The date the building was demolished.",
+      "lab": "San Mam\u00e9s Stadium's demolition date was 2013-06-06."
+    },
+    {
+      "s": "Milwaukee County Stadium",
+      "r": "demolition date",
+      "o": "2001-02-21",
+      "desc": "The date the building was demolished.",
+      "lab": "Milwaukee County Stadium was demolished on 2001-02-21."
+    },
+    {
+      "s": "Yankee Stadium",
+      "r": "demolition date",
+      "o": "2010-05-13",
+      "desc": "The date the building was demolished.",
+      "lab": "Yankee Stadium was set to be demolished on 2010-05-13."
+    }
+  ],
+  "impact factor as of": [
+    {
+      "s": "Environment and Behavior",
+      "r": "impact factor as of",
+      "o": "2019",
+      "desc": "Census year of the imapct factor.",
+      "lab": "Environment and Behavior began receiving an impact factor in 2019."
+    }
+  ],
+  "last air date": [
+    {
+      "s": "Ideal TV",
+      "r": "last air date",
+      "o": "2009-07-20",
+      "desc": "The date on which the broadcaster made its last broadcast.",
+      "lab": "The last air date of the Ideal TV television show was 2009-07-20."
+    },
+    {
+      "s": "Radio Luxembourg",
+      "r": "last air date",
+      "o": "1992-12-30",
+      "desc": "The date on which the broadcaster made its last broadcast.",
+      "lab": "The final air date of Radio Luxembourg was 1992-12-30."
+    },
+    {
+      "s": "Deutscher Fernsehfunk",
+      "r": "last air date",
+      "o": "1991-12-31",
+      "desc": "The date on which the broadcaster made its last broadcast.",
+      "lab": "Deutscher Fernsehfunk was last on air on 1991-12-31."
+    }
+  ],
+  "maximum elevation": [
+    {
+      "s": "Lurcy-L\u00e9vis",
+      "r": "maximum elevation",
+      "o": "283.0",
+      "desc": "maximum elevation above the sea level",
+      "lab": "Lurcy-L\u00e9vis is 283.0 above sea level."
+    },
+    {
+      "s": "Macau, Gironde",
+      "r": "maximum elevation",
+      "o": "26.0",
+      "desc": "maximum elevation above the sea level",
+      "lab": "The maximum elevation of Macau, Gironde is 26.0."
+    },
+    {
+      "s": "Thil-sur-Arroux",
+      "r": "maximum elevation",
+      "o": "472.0",
+      "desc": "maximum elevation above the sea level",
+      "lab": "Thil-sur-Arroux is 472.0 high."
+    }
+  ],
+  "military command": [
+    {
+      "s": "John Odaate \u2013 Barnor",
+      "r": "military command",
+      "o": "Commandant of the Armed Forces Staff College",
+      "desc": "For persons who are notable as commanding officers, the units they commanded.",
+      "lab": "John Odaate \u2013 Barnor was the Commandant of the Armed Forces Staff College."
+    },
+    {
+      "s": "Konstantin Avksentevsky",
+      "r": "military command",
+      "o": "6th Army",
+      "desc": "For persons who are notable as commanding officers, the units they commanded.",
+      "lab": "Konstantin Avksentevsky commanded the 6th Army."
+    },
+    {
+      "s": "Thomas Langford-Sainsbury",
+      "r": "military command",
+      "o": "No. 48 Squadron",
+      "desc": "For persons who are notable as commanding officers, the units they commanded.",
+      "lab": "Thomas Langford-Sainsbury was in command of No. 48 Squadron."
+    }
+  ],
+  "number of offices": [
+    {
+      "s": "Wilson Elser Moskowitz Edelman & Dicker",
+      "r": "number of offices",
+      "o": "38",
+      "desc": "Number of the companys offices.",
+      "lab": "Wilson Elser Moskowitz Edelman & Dicker has 38 offices."
+    },
+    {
+      "s": "Fountain Court Chambers",
+      "r": "number of offices",
+      "o": "2",
+      "desc": "Number of the companys offices.",
+      "lab": "Fountain Court Chambers has 2 offices."
+    },
+    {
+      "s": "Wragge & Co",
+      "r": "number of offices",
+      "o": "8",
+      "desc": "Number of the companys offices.",
+      "lab": "Wragge & Co has 8 offices."
+    },
+    {
+      "s": "Harris Beach",
+      "r": "number of offices",
+      "o": "12",
+      "desc": "Number of the companys offices.",
+      "lab": "Harris Beach has 12 offices."
+    }
+  ],
+  "open access content": [
+    {
+      "s": "Journal of Transport and Land Use",
+      "r": "open access content",
+      "o": "Yes",
+      "desc": "Availability of open access content.",
+      "lab": "The Journal of Transport and Land Use is open access, Yes."
+    },
+    {
+      "s": "Materials Today",
+      "r": "open access content",
+      "o": "No",
+      "desc": "Availability of open access content.",
+      "lab": "Materials Today has no open access content."
+    },
+    {
+      "s": "Bio med Research International",
+      "r": "open access content",
+      "o": "Yes",
+      "desc": "Availability of open access content.",
+      "lab": "Yes, the BioMed Research International has open access content."
+    }
+  ],
+  "passengers per day": [
+    {
+      "s": "Wuxi Metro",
+      "r": "passengers per day",
+      "o": "223200",
+      "desc": "Number of passengers per day.",
+      "lab": "Wuxi Metro provides transport to 223200 passengers each day."
+    },
+    {
+      "s": "Codiac Transpo",
+      "r": "passengers per day",
+      "o": "5192",
+      "desc": "Number of passengers per day.",
+      "lab": "The Codiac Transpo carries 5192 passengers per day."
+    }
+  ],
+  "passengers used system": [
+    {
+      "s": "Chester Hill railway station",
+      "r": "passengers used system",
+      "o": "Sydney Trains, NSW Train link",
+      "desc": "System the passengers are using (from which the passenger statistics are).",
+      "lab": "Chester Hill railway station uses the system Sydney Trains, NSW TrainLink."
+    },
+    {
+      "s": "Bois-Franc station",
+      "r": "passengers used system",
+      "o": "Exo",
+      "desc": "System the passengers are using (from which the passenger statistics are).",
+      "lab": "Bois-Franc station is on the Exo transit system."
+    }
+  ],
+  "project budget funding": [
+    {
+      "s": "INDECT",
+      "r": "project budget funding",
+      "o": "1.0906984E7",
+      "desc": "The part of the project budget that is funded by the Organistaions given in the Funded by property.",
+      "lab": "The INDECT project has a budget funding of 1.0906984E7."
+    },
+    {
+      "s": "ETOX",
+      "r": "project budget funding",
+      "o": "1.87E7",
+      "desc": "The part of the project budget that is funded by the Organistaions given in the Funded by property.",
+      "lab": "ETOX had a project budget of 1.87E7."
+    },
+    {
+      "s": "PREDICT",
+      "r": "project budget funding",
+      "o": "2.0E8",
+      "desc": "The part of the project budget that is funded by the Organistaions given in the Funded by property.",
+      "lab": "The PREDICT project funding is 2.0E8."
+    }
+  ],
+  "reporting mark": [
+    {
+      "s": "Idaho and Washington Northern Railroad",
+      "r": "reporting mark",
+      "o": "I&WN",
+      "desc": "A reporting mark is a two-, three-, or four-letter alphabetic code used to identify owners or lessees of rolling stock and other equipment used on the North American railroad network.",
+      "lab": "Idaho and Washington Northern Railroad has the reporting mark I&WN."
+    }
+  ],
+  "track length": [
+    {
+      "s": "Metropolitan Street Railway",
+      "r": "track length",
+      "o": "77000.0",
+      "desc": "Length of the track.",
+      "lab": "The length of Metropolitan Street Railway's track is 77000.0."
+    },
+    {
+      "s": "Viramgam\u2013Maliya Miyana section",
+      "r": "track length",
+      "o": "142000.0",
+      "desc": "Length of the track.",
+      "lab": "Viramgam\u2013Maliya Miyana section is 142000.0 long."
+    },
+    {
+      "s": "Samarang\u2013Joana Stoomtram Maatschappij",
+      "r": "track length",
+      "o": "417000.0",
+      "desc": "Length of the track.",
+      "lab": "Samarang\u2013Joana Stoomtram Maatschappij is 417000.0 long."
+    },
+    {
+      "s": "Bartlett and Albany Railroad",
+      "r": "track length",
+      "o": "16093.4",
+      "desc": "Length of the track.",
+      "lab": "Bartlett and Albany Railroad's length is 16093.4."
+    },
+    {
+      "s": "State Railways and Seaports Administration",
+      "r": "track length",
+      "o": "1.73e+06",
+      "desc": "Length of the track.",
+      "lab": "State Railways and Seaports Administration has a track length of 1.73e+06."
+    }
+  ],
+  "gini coefficient": [
+    {
+      "s": "Ghana",
+      "r": "gini coefficient",
+      "o": "43.5",
+      "desc": "is a measure of the inequality of a distribution.",
+      "lab": "The gini coefficient of Ghana is 43.5."
+    },
+    {
+      "s": "Myanmar",
+      "r": "gini coefficient",
+      "o": "30.7",
+      "desc": "is a measure of the inequality of a distribution.",
+      "lab": "Myanmar's gini coefficient is 30.7."
+    },
+    {
+      "s": "Eswatini",
+      "r": "gini coefficient",
+      "o": "54.6",
+      "desc": "is a measure of the inequality of a distribution.",
+      "lab": "Eswatini has a gini coefficient of 54.6."
+    }
+  ],
+  "reopening date": [
+    {
+      "s": "Shea's Performing Arts Center",
+      "r": "reopening date",
+      "o": "1976-02-25",
+      "desc": "Date of reopening the architectural structure.",
+      "lab": "Shea's Performing Arts Center was reopened on 1976-02-25."
+    },
+    {
+      "s": "Estadio Municipal Germ\u00e1n Becker",
+      "r": "reopening date",
+      "o": "2008-11-05",
+      "desc": "Date of reopening the architectural structure.",
+      "lab": "Estadio Municipal Germ\u00e1n Becker's is set to reopen in 2008-11-05."
+    },
+    {
+      "s": "Regal Cinema, Dublin",
+      "r": "reopening date",
+      "o": "1955-08-19",
+      "desc": "Date of reopening the architectural structure.",
+      "lab": "Regal Cinema, Dublin reopened on 1955-08-19."
+    },
+    {
+      "s": "Indiana Farmers Coliseum",
+      "r": "reopening date",
+      "o": "2014-04-24",
+      "desc": "Date of reopening the architectural structure.",
+      "lab": "The Indiana Farmers Coliseum was reopened on 2014-04-24."
+    },
+    {
+      "s": "Burton Cummings Theatre",
+      "r": "reopening date",
+      "o": "1945-11-03",
+      "desc": "Date of reopening the architectural structure.",
+      "lab": "The Burton Cummings Theatre reopened on 1945-11-03."
+    }
+  ],
+  "broadcast network": [
+    {
+      "s": "WFNY",
+      "r": "broadcast network",
+      "o": "Fox News Radio",
+      "desc": "The parent broadcast network to which the broadcaster belongs.",
+      "lab": "WFNY belongs to Fox News Radio."
+    },
+    {
+      "s": "WLTP",
+      "r": "broadcast network",
+      "o": "Cleveland Cavaliers Radio Network",
+      "desc": "The parent broadcast network to which the broadcaster belongs.",
+      "lab": "WLTP broadcasts via the Cleveland Cavaliers Radio Network."
+    },
+    {
+      "s": "KMSU",
+      "r": "broadcast network",
+      "o": "AMPERS",
+      "desc": "The parent broadcast network to which the broadcaster belongs.",
+      "lab": "AMPERS is the parent broadcast network of KMSU."
+    }
+  ],
+  "chain": [
+    {
+      "s": "Corinthia Hotel Budapest",
+      "r": "chain",
+      "o": "Corinthia Hotels International",
+      "desc": "The (business) chain this instance is associated with.",
+      "lab": "Corinthia Hotel Budapest is part of the Corinthia Hotels International chain."
+    },
+    {
+      "s": "The George Hotel, Reading",
+      "r": "chain",
+      "o": "Mercure",
+      "desc": "The (business) chain this instance is associated with.",
+      "lab": "The George Hotel, Reading is part of the Mercure chain of hotels."
+    },
+    {
+      "s": "Westin Seattle",
+      "r": "chain",
+      "o": "Westin Hotels & Resorts",
+      "desc": "The (business) chain this instance is associated with.",
+      "lab": "Westin Seattle is connected to Westin Hotels & Resorts."
+    }
+  ],
+  "champion": [
+    {
+      "s": "1905 Open Championship",
+      "r": "champion",
+      "o": "James Braid",
+      "desc": "winner of a competition",
+      "lab": "James Braid won the 1905 Open Championship."
+    },
+    {
+      "s": "1978 LPGA Championship",
+      "r": "champion",
+      "o": "Nancy Lopez",
+      "desc": "winner of a competition",
+      "lab": "1978 LPGA Championship winner was Nancy Lopez."
+    },
+    {
+      "s": "1959 European Amateur Team Championship",
+      "r": "champion",
+      "o": "Nils Odqvist",
+      "desc": "winner of a competition",
+      "lab": "The 1959 European Amateur Team Championship was won by Nils Odqvist."
+    },
+    {
+      "s": "French International Lady Juniors Amateur Championship",
+      "r": "champion",
+      "o": "Francesca Fiorellini",
+      "desc": "winner of a competition",
+      "lab": "French International Lady Juniors Amateur Championship's champion is Francesca Fiorellini."
+    }
+  ],
+  "champion in double female": [
+    {
+      "s": "2021 Mutua Madrid Open",
+      "r": "champion in double female",
+      "o": "Kate\u0159ina Siniakov\u00e1",
+      "desc": "winner of a competition in the female double session (as in tennis)",
+      "lab": "Kate\u0159ina Siniakov\u00e1 won the 2021 Mutua Madrid Open."
+    },
+    {
+      "s": "1984 Wimbledon Championships",
+      "r": "champion in double female",
+      "o": "Pam Shriver",
+      "desc": "winner of a competition in the female double session (as in tennis)",
+      "lab": "Pam Shriver was the champion in the women's doubles at the 1984 Wimbledon Championships."
+    },
+    {
+      "s": "1911 U.S. National Championships",
+      "r": "champion in double female",
+      "o": "Hazel Hotchkiss Wightman",
+      "desc": "winner of a competition in the female double session (as in tennis)",
+      "lab": "Hazel Hotchkiss Wightman was a female double session winner in the 1911 U.S. National Championships."
+    }
+  ],
+  "champion in double male": [
+    {
+      "s": "1997 Grand Prix Hassan II",
+      "r": "champion in double male",
+      "o": "Jo\u00e3o Cunha e Silva",
+      "desc": "winner of a competition in the male double session (as in tennis)",
+      "lab": "1997 Grand Prix Hassan II was won by Jo\u00e3o Cunha e Silva."
+    },
+    {
+      "s": "1987 US Open",
+      "r": "champion in double male",
+      "o": "Stefan Edberg",
+      "desc": "winner of a competition in the male double session (as in tennis)",
+      "lab": "Stefan Edberg was the winner of the male double session at the 1987 US Open."
+    },
+    {
+      "s": "2017 German Open",
+      "r": "champion in double male",
+      "o": "Mate Pavi\u0107",
+      "desc": "winner of a competition in the male double session (as in tennis)",
+      "lab": "In the 2017 German Open the champion in double male was Mate Pavi\u0107."
+    },
+    {
+      "s": "2018 Nielsen Pro Tennis Championship",
+      "r": "champion in double male",
+      "o": "Jeevan Nedunchezhiyan",
+      "desc": "winner of a competition in the male double session (as in tennis)",
+      "lab": "2018 Nielsen Pro Tennis Championship was won by Jeevan Nedunchezhiyan."
+    }
+  ],
+  "champion in mixed double": [
+    {
+      "s": "1971 French Open",
+      "r": "champion in mixed double",
+      "o": "Fran\u00e7oise D\u00fcrr",
+      "desc": "winner of a competition in the mixed double session (as in tennis)",
+      "lab": "1971 French Open was won by Fran\u00e7oise D\u00fcrr."
+    },
+    {
+      "s": "1991 French Open",
+      "r": "champion in mixed double",
+      "o": "Cyril Suk",
+      "desc": "winner of a competition in the mixed double session (as in tennis)",
+      "lab": "The 1991 French Open\u2019s champion in the mixed doubles was Cyril Suk."
+    },
+    {
+      "s": "1986 US Open",
+      "r": "champion in mixed double",
+      "o": "Sergio Casal",
+      "desc": "winner of a competition in the mixed double session (as in tennis)",
+      "lab": "The 1986 US Open winner in mixed doubles was Sergio Casal."
+    }
+  ],
+  "champion in single female": [
+    {
+      "s": "1997 Japan Open Tennis Championships",
+      "r": "champion in single female",
+      "o": "Ai Sugiyama",
+      "desc": "winner of a competition in the single female session, to distinguish from the double session (as in tennis)",
+      "lab": "At the 1997 Japan Open Tennis Championships the champion in single female was Ai Sugiyama."
+    },
+    {
+      "s": "1999 NCAA Division I Women's Tennis Championships",
+      "r": "champion in single female",
+      "o": "Zuzana Le\u0161enarov\u00e1",
+      "desc": "winner of a competition in the single female session, to distinguish from the double session (as in tennis)",
+      "lab": "1999 NCAA Division I Women's Tennis Championships was won by Zuzana Le\u0161enarov\u00e1."
+    }
+  ],
+  "champion in single male": [
+    {
+      "s": "1969 Cincinnati Open",
+      "r": "champion in single male",
+      "o": "Cliff Richey",
+      "desc": "winner of a competition in the single male session, to distinguish from the double session (as in tennis)",
+      "lab": "Cliff Richey won the 1969 Cincinnati Open."
+    },
+    {
+      "s": "2012 President's Cup",
+      "r": "champion in single male",
+      "o": "Evgeny Donskoy",
+      "desc": "winner of a competition in the single male session, to distinguish from the double session (as in tennis)",
+      "lab": "The single male champion of the 2012 President's Cup was Evgeny Donskoy."
+    },
+    {
+      "s": "2005 NASDAQ-100 Open",
+      "r": "champion in single male",
+      "o": "Roger Federer",
+      "desc": "winner of a competition in the single male session, to distinguish from the double session (as in tennis)",
+      "lab": "2005 NASDAQ-100 Open was won by Roger Federer."
+    },
+    {
+      "s": "1988 Suntory Japan Open Tennis Championships",
+      "r": "champion in single male",
+      "o": "John Mc enroe",
+      "desc": "winner of a competition in the single male session, to distinguish from the double session (as in tennis)",
+      "lab": "John McEnroe was the champion in the single males 1988 Suntory Japan Open Tennis Championships."
+    },
+    {
+      "s": "2010 Swiss Indoors",
+      "r": "champion in single male",
+      "o": "Roger Federer",
+      "desc": "winner of a competition in the single male session, to distinguish from the double session (as in tennis)",
+      "lab": "Roger Federer was the male singles champion at 2010 Swiss Indoors."
+    }
+  ],
+  "computing platform": [
+    {
+      "s": "Loco-Motion",
+      "r": "computing platform",
+      "o": "Tomy Tutor",
+      "desc": "some sort of hardware architecture or software framework, that allows this software to run",
+      "lab": "Loco-Motion is a puzzle game played on the Tomy Tutor."
+    },
+    {
+      "s": "A Duel Hand Disaster: Trackher",
+      "r": "computing platform",
+      "o": "Microsoft Windows",
+      "desc": "some sort of hardware architecture or software framework, that allows this software to run",
+      "lab": "A Duel Hand Disaster: Trackher uses Microsoft Windows."
+    },
+    {
+      "s": "Pirate Adventure",
+      "r": "computing platform",
+      "o": "ZX Spectrum",
+      "desc": "some sort of hardware architecture or software framework, that allows this software to run",
+      "lab": "ZX Spectrum runs Pirate Adventure."
+    }
+  ],
+  "cover artist": [
+    {
+      "s": "Q-Squared",
+      "r": "cover artist",
+      "o": "Keith Birdsong",
+      "desc": "Cover artist",
+      "lab": "Q-Squared is a song sung by the cover artist Keith Birdsong."
+    },
+    {
+      "s": "Universe 11",
+      "r": "cover artist",
+      "o": "Roger Zimmerman",
+      "desc": "Cover artist",
+      "lab": "The cover artist for Universe 11 was Roger Zimmerman."
+    },
+    {
+      "s": "Universe 3",
+      "r": "cover artist",
+      "o": "Bob Silverman",
+      "desc": "Cover artist",
+      "lab": "The cover artist for Universe 3 was Bob Silverman."
+    },
+    {
+      "s": "The Treasury of Science Fiction Classics",
+      "r": "cover artist",
+      "o": "Richard Powers",
+      "desc": "Cover artist",
+      "lab": "The Treasury of Science Fiction Classics's cover artist was Richard Powers."
+    }
+  ],
+  "has variant": [
+    {
+      "s": "Carrot cake",
+      "r": "has variant",
+      "o": "Kirsch",
+      "desc": "variant or variation, for example all variations of a color",
+      "lab": "Kirsch is a type of Carrot cake."
+    }
+  ],
+  "hybrid": [
+    {
+      "s": "Rhino Horn bananas",
+      "r": "hybrid",
+      "o": "Musa acuminata",
+      "desc": "Plants from which another plant (or cultivar) has been developed from",
+      "lab": "Rhino Horn bananas are a hybrid of Musa acuminata."
+    },
+    {
+      "s": "Rosa 'Chicago Peace'",
+      "r": "hybrid",
+      "o": "Sport",
+      "desc": "Plants from which another plant (or cultivar) has been developed from",
+      "lab": "Rosa 'Chicago Peace' is a Sport hybrid."
+    }
+  ],
+  "kingdom": [
+    {
+      "s": "Eunidia kristenseni",
+      "r": "kingdom",
+      "o": "Animal",
+      "desc": "In biology, kingdom (Latin: regnum, pl. regna) is a taxonomic rank, which is either the highest rank or in the more recent three-domain system, the rank below domain.",
+      "lab": "The kingdom taxonomic rank of Eunidia kristenseni is Animal."
+    },
+    {
+      "s": "Athleta boswellae",
+      "r": "kingdom",
+      "o": "Animal",
+      "desc": "In biology, kingdom (Latin: regnum, pl. regna) is a taxonomic rank, which is either the highest rank or in the more recent three-domain system, the rank below domain.",
+      "lab": "Athleta boswellae is part of the Animal kingdom."
+    },
+    {
+      "s": "Sarcophaga carnaria",
+      "r": "kingdom",
+      "o": "Animal",
+      "desc": "In biology, kingdom (Latin: regnum, pl. regna) is a taxonomic rank, which is either the highest rank or in the more recent three-domain system, the rank below domain.",
+      "lab": "Sarcophaga carnaria is an Animal."
+    },
+    {
+      "s": "Macellocerus",
+      "r": "kingdom",
+      "o": "Animal",
+      "desc": "In biology, kingdom (Latin: regnum, pl. regna) is a taxonomic rank, which is either the highest rank or in the more recent three-domain system, the rank below domain.",
+      "lab": "Macellocerus beetle is classified as a member of the Animal kingdom."
+    }
+  ],
+  "location city": [
+    {
+      "s": "Electric Ireland",
+      "r": "location city",
+      "o": "Dublin",
+      "desc": "City the thing is located.",
+      "lab": "Electric Ireland is located in Dublin."
+    },
+    {
+      "s": "Henri Lloyd",
+      "r": "location city",
+      "o": "Gothenburg",
+      "desc": "City the thing is located.",
+      "lab": "Henri Lloyd are based in Gothenburg."
+    },
+    {
+      "s": "Brandwatch Qriously",
+      "r": "location city",
+      "o": "Brighton",
+      "desc": "City the thing is located.",
+      "lab": "Brandwatch Qriously is situated in Brighton."
+    },
+    {
+      "s": "Limbic Software , Inc. 1",
+      "r": "location city",
+      "o": "California",
+      "desc": "City the thing is located.",
+      "lab": "Limbic Software , Inc. 1 is based in California."
+    }
+  ],
+  "location country": [
+    {
+      "s": "Southeast Television",
+      "r": "location country",
+      "o": "China",
+      "desc": "Country the thing is located.",
+      "lab": "Southeast Television broadcasts in China."
+    },
+    {
+      "s": "Himalaya TV",
+      "r": "location country",
+      "o": "Nepal",
+      "desc": "Country the thing is located.",
+      "lab": "Himalaya TV is broadcasted in Nepal."
+    }
+  ],
+  "lyrics": [
+    {
+      "s": "Something Rotten!",
+      "r": "lyrics",
+      "o": "Karey Kirkpatrick",
+      "desc": "Creator of the text of a Musical work, eg Musical, Opera or Song",
+      "lab": "Something Rotten! was written by Karey Kirkpatrick."
+    },
+    {
+      "s": "The Sea Cabinet",
+      "r": "lyrics",
+      "o": "Gwyneth Herbert",
+      "desc": "Creator of the text of a Musical work, eg Musical, Opera or Song",
+      "lab": "Gwyneth Herbert write the lyrics to The Sea Cabinet."
+    },
+    {
+      "s": "The Tik-Tok Man of Oz",
+      "r": "lyrics",
+      "o": "L. Frank Baum",
+      "desc": "Creator of the text of a Musical work, eg Musical, Opera or Song",
+      "lab": "The Tik-Tok Man of Oz included lyrics from L. Frank Baum works."
+    }
+  ],
+  "meeting road": [
+    {
+      "s": "Harbanspura Interchange",
+      "r": "meeting road",
+      "o": "Lahore Ring Road",
+      "desc": "A road that crosses another road at the junction.",
+      "lab": "Harbanspura Interchange crosses Lahore Ring Road."
+    },
+    {
+      "s": "Springs Junction",
+      "r": "meeting road",
+      "o": "State Highway 65",
+      "desc": "A road that crosses another road at the junction.",
+      "lab": "Springs Junction joins State Highway 65."
+    },
+    {
+      "s": "Si Kak Phraya Si",
+      "r": "meeting road",
+      "o": "Fueang Nakhon Road",
+      "desc": "A road that crosses another road at the junction.",
+      "lab": "The Si Kak Phraya Si road meets the Fueang Nakhon Road."
+    },
+    {
+      "s": "Saphan Khwai",
+      "r": "meeting road",
+      "o": "Pradiphat Road",
+      "desc": "A road that crosses another road at the junction.",
+      "lab": "Saphan Khwai road meets Pradiphat Road."
+    }
+  ],
+  "music type": [
+    {
+      "s": "All I Have",
+      "r": "music type",
+      "o": "Single",
+      "desc": "Type is too general.",
+      "lab": "The song 'All I Have' was released as a music single."
+    },
+    {
+      "s": "Red Velvet",
+      "r": "music type",
+      "o": "Single",
+      "desc": "Type is too general.",
+      "lab": "Red Velvet is a music single."
+    },
+    {
+      "s": "Pilots",
+      "r": "music type",
+      "o": "Single",
+      "desc": "Type is too general.",
+      "lab": "Pilots was issued as a Single."
+    },
+    {
+      "s": "Mi destino fue quererte",
+      "r": "music type",
+      "o": "Song",
+      "desc": "Type is too general.",
+      "lab": "Mi destino fue quererte is a Song."
+    },
+    {
+      "s": "Don't Ask Me",
+      "r": "music type",
+      "o": "Single",
+      "desc": "Type is too general.",
+      "lab": "Don't Ask Me is a pop single."
+    }
+  ],
+  "non fiction subject": [
+    {
+      "s": "Shell Shock",
+      "r": "non fiction subject",
+      "o": "Peri Brown",
+      "desc": "The subject of a non-fiction book (e.g.: History, Biography, Cookbook, Climate change, ...).",
+      "lab": "Peri Brown was the subject of Shell Shock."
+    }
+  ],
+  "original language": [
+    {
+      "s": "Elves' Hill",
+      "r": "original language",
+      "o": "Danish language",
+      "desc": "The original language of the work.",
+      "lab": "Elves' Hill is written in Danish language."
+    },
+    {
+      "s": "Phaedra's Love",
+      "r": "original language",
+      "o": "English language",
+      "desc": "The original language of the work.",
+      "lab": "Phaedra's Love was written in the English language."
+    }
+  ],
+  "phylum": [
+    {
+      "s": "Euriphene conjungens",
+      "r": "phylum",
+      "o": "Arthropod",
+      "desc": "A rank in the classification of organisms, below kingdom and above class; also called a division, especially in describing plants; a taxon at that rank.",
+      "lab": "Euriphene conjungens is from the phylum Arthropod."
+    },
+    {
+      "s": "Apicalia",
+      "r": "phylum",
+      "o": "Mollusca",
+      "desc": "A rank in the classification of organisms, below kingdom and above class; also called a division, especially in describing plants; a taxon at that rank.",
+      "lab": "Apicalia's phylum is Mollusca."
+    },
+    {
+      "s": "Lasiopates",
+      "r": "phylum",
+      "o": "Arthropod",
+      "desc": "A rank in the classification of organisms, below kingdom and above class; also called a division, especially in describing plants; a taxon at that rank.",
+      "lab": "Lasiopates is a type of Arthropod."
+    }
+  ],
+  "political party in legislature": [
+    {
+      "s": "Trafford Council",
+      "r": "political party in legislature",
+      "o": "Labour Party",
+      "desc": "Political party in the legislature (eg.: European Peoples Party in the European Parliament).",
+      "lab": "The Labour Party hold office for Trafford Council."
+    }
+  ],
+  "political party of leader": [
+    {
+      "s": "Oakland City Council",
+      "r": "political party of leader",
+      "o": "Democratic Party",
+      "desc": "The Political party of leader.",
+      "lab": "Oakland City Council is led by the Democratic Party."
+    }
+  ],
+  "politician": [
+    {
+      "s": "Kira Town",
+      "r": "politician",
+      "o": "Ibrahim Ssemujju Nganda",
+      "desc": "The politician exercising this function.",
+      "lab": "Ibrahim Ssemujju Nganda is a politician in Kira Town."
+    },
+    {
+      "s": "Hedmark Political function 2",
+      "r": "politician",
+      "o": "Centre Party",
+      "desc": "The politician exercising this function.",
+      "lab": "Hedmark PoliticalFunction 2 is exercised by the Centre Party."
+    }
+  ],
+  "population place": [
+    {
+      "s": "Pattusali",
+      "r": "population place",
+      "o": "Tamil Nadu",
+      "desc": "a place were members of an ethnic group are living",
+      "lab": "The Pattusali live predominantly in Tamil Nadu."
+    },
+    {
+      "s": "French Canadians",
+      "r": "population place",
+      "o": "Quebec",
+      "desc": "a place were members of an ethnic group are living",
+      "lab": "French Canadians populate Quebec."
+    },
+    {
+      "s": "Catalans",
+      "r": "population place",
+      "o": "Italy",
+      "desc": "a place were members of an ethnic group are living",
+      "lab": "Catalans live in Italy."
+    },
+    {
+      "s": "Cypriot Russians",
+      "r": "population place",
+      "o": "Limassol",
+      "desc": "a place were members of an ethnic group are living",
+      "lab": "Cypriot Russians live in Limassol."
+    },
+    {
+      "s": "Ho-Chunk",
+      "r": "population place",
+      "o": "Iowa",
+      "desc": "a place were members of an ethnic group are living",
+      "lab": "Ho-Chunk live in Iowa."
+    }
+  ],
+  "premiere place": [
+    {
+      "s": "Hurlyburly",
+      "r": "premiere place",
+      "o": "Goodman Theatre",
+      "desc": "The theatre and/or city the play was first performed in.",
+      "lab": "Hurlyburly premiered at Goodman Theatre."
+    },
+    {
+      "s": "Wits Led by the Nose",
+      "r": "premiere place",
+      "o": "London",
+      "desc": "The theatre and/or city the play was first performed in.",
+      "lab": "Wits Led by the Nose premiered in London."
+    },
+    {
+      "s": "The Homecoming",
+      "r": "premiere place",
+      "o": "Aldwych Theatre",
+      "desc": "The theatre and/or city the play was first performed in.",
+      "lab": "The Homecoming was first performed at the Aldwych Theatre."
+    }
+  ],
+  "programme format": [
+    {
+      "s": "WEGS",
+      "r": "programme format",
+      "o": "Christian radio",
+      "desc": "The programming format describes the overall content broadcast on a radio or television station.",
+      "lab": "WEGS is a station broadcasting Christian radio."
+    },
+    {
+      "s": "KEUN-FM",
+      "r": "programme format",
+      "o": "Swamp pop",
+      "desc": "The programming format describes the overall content broadcast on a radio or television station.",
+      "lab": "Swamp pop is played on KEUN-FM."
+    }
+  ],
+  "project coordinator": [
+    {
+      "s": "Project Vista",
+      "r": "project coordinator",
+      "o": "William Alfred Fowler",
+      "desc": "The coordinating organisation of the project.",
+      "lab": "Project Vista coordinator is William Alfred Fowler."
+    }
+  ],
+  "project participant": [
+    {
+      "s": "ETOX",
+      "r": "project participant",
+      "o": "Esteve",
+      "desc": "A participating organisation of the project.",
+      "lab": "Esteve is a project participmant of the ETOX."
+    }
+  ],
+  "route end": [
+    {
+      "s": "Virginia State Route 20",
+      "r": "route end",
+      "o": "Wilderness, Virginia",
+      "desc": "End of the route.",
+      "lab": "Virginia State Route 20 ends in Wilderness, Virginia."
+    },
+    {
+      "s": "State Highway 246",
+      "r": "route end",
+      "o": "Mowad",
+      "desc": "End of the route.",
+      "lab": "State Highway 246 is a route which ends at Mowad."
+    }
+  ],
+  "route junction": [
+    {
+      "s": "New Jersey Route 120",
+      "r": "route junction",
+      "o": "East Rutherford, New Jersey",
+      "desc": "A junction or cross to another route.",
+      "lab": "New Jersey Route 120 has a route junction at East Rutherford, New Jersey."
+    },
+    {
+      "s": "National Highway 44",
+      "r": "route junction",
+      "o": "Dindigul",
+      "desc": "A junction or cross to another route.",
+      "lab": "National Highway 44 has a junction at Dindigul."
+    }
+  ],
+  "route start": [
+    {
+      "s": "Massachusetts Route 143",
+      "r": "route start",
+      "o": "Hinsdale, Massachusetts",
+      "desc": "Start of the route.",
+      "lab": "Massachusetts Route 143 begins in Hinsdale, Massachusetts."
+    },
+    {
+      "s": "New York State Route 91",
+      "r": "route start",
+      "o": "Truxton, New York",
+      "desc": "Start of the route.",
+      "lab": "Truxton, New York is where the New York State Route 91 begins."
+    },
+    {
+      "s": "California State Route 175",
+      "r": "route start",
+      "o": "Hopland, California",
+      "desc": "Start of the route.",
+      "lab": "California State Route 175 begins in Hopland, California."
+    },
+    {
+      "s": "BR-210",
+      "r": "route start",
+      "o": "Pedra Branca do Amapari",
+      "desc": "Start of the route.",
+      "lab": "BR-210 begins at Pedra Branca do Amapari."
+    }
+  ],
+  "serving railway line": [
+    {
+      "s": "Mainz Hauptbahnhof",
+      "r": "serving railway line",
+      "o": "West Rhine Railway",
+      "desc": "Railway services that serve the station.",
+      "lab": "West Rhine Railway is the serving railway line of Mainz Hauptbahnhof."
+    },
+    {
+      "s": "Davos Laret railway station",
+      "r": "serving railway line",
+      "o": "Landquart\u2013Davos Platz railway line",
+      "desc": "Railway services that serve the station.",
+      "lab": "Davos Laret railway station is served by the Landquart\u2013Davos Platz railway line."
+    },
+    {
+      "s": "Bomen railway station",
+      "r": "serving railway line",
+      "o": "Main Southern railway line, New South Wales",
+      "desc": "Railway services that serve the station.",
+      "lab": "Bomen railway station is served by Main Southern railway line, New South Wales."
+    }
+  ],
+  "used in war": [
+    {
+      "s": "IWI ACE",
+      "r": "used in war",
+      "o": "Mexican drug war",
+      "desc": "wars that were typical for the usage of a weapon",
+      "lab": "IWI ACE is a rifle used in the Mexican drug war."
+    },
+    {
+      "s": "RPG-43",
+      "r": "used in war",
+      "o": "The Troubles",
+      "desc": "wars that were typical for the usage of a weapon",
+      "lab": "RPG-43 were used in The Troubles."
+    },
+    {
+      "s": "1916 1",
+      "r": "used in war",
+      "o": "World War I",
+      "desc": "wars that were typical for the usage of a weapon",
+      "lab": "1916 1 were used during World War I."
+    },
+    {
+      "s": "RPO-A Shmel",
+      "r": "used in war",
+      "o": "War in Donbas",
+      "desc": "wars that were typical for the usage of a weapon",
+      "lab": "In War in Donbas the RPO-A Shmel was used."
+    },
+    {
+      "s": "Panzerhaubitze 2000",
+      "r": "used in war",
+      "o": "War in Afghanistan",
+      "desc": "wars that were typical for the usage of a weapon",
+      "lab": "Panzerhaubitze 2000 was used in War in Afghanistan."
+    }
+  ],
+  "webcast": [
+    {
+      "s": "WPHP",
+      "r": "webcast",
+      "o": "wphs.m3u",
+      "desc": "The URL to the webcast of the Thing.",
+      "lab": "WPHP has a webcast called wphs.m3u."
+    },
+    {
+      "s": "Radio Veronica",
+      "r": "webcast",
+      "o": "veronica-rockradio",
+      "desc": "The URL to the webcast of the Thing.",
+      "lab": "The webcast of Radio Veronica is veronica-rockradio."
+    }
+  ],
+  "assets": [
+    {
+      "s": "Bankia",
+      "r": "assets",
+      "o": "1.79098E11",
+      "desc": "Assets and liabilities are part of a companis balance sheet.",
+      "lab": "Bankia has assets worth 1.79098E11."
+    },
+    {
+      "s": "Unocal Corporation",
+      "r": "assets",
+      "o": "1.3101E10",
+      "desc": "Assets and liabilities are part of a companis balance sheet.",
+      "lab": "Unocal Corporation has assets of 1.3101E10."
+    },
+    {
+      "s": "HNA Technology HNA Technology 1",
+      "r": "assets",
+      "o": "117.966",
+      "desc": "Assets and liabilities are part of a companis balance sheet.",
+      "lab": "HNA Technology HNA Technology 1 has assets worth 117.966."
+    },
+    {
+      "s": "CBZ Bank Limited",
+      "r": "assets",
+      "o": "1.991E9",
+      "desc": "Assets and liabilities are part of a companis balance sheet.",
+      "lab": "CBZ Bank Limited has assets of 1.991E9."
+    }
+  ],
+  "bicycle information": [
+    {
+      "s": "Sanagu Station",
+      "r": "bicycle information",
+      "o": "Available",
+      "desc": "Information on stations bicycle facilities.",
+      "lab": "There is bicycle information Available at Sanagu Station."
+    },
+    {
+      "s": "Kwasa Sentral MRT station",
+      "r": "bicycle information",
+      "o": "Not available",
+      "desc": "Information on stations bicycle facilities.",
+      "lab": "Kwasa Sentral MRT station bicycle information is Not available."
+    }
+  ],
+  "bridge carries": [
+    {
+      "s": "Catlin Covered Bridge",
+      "r": "bridge carries",
+      "o": "Pedestrian traffic",
+      "desc": "Type of vehicles the bridge carries.",
+      "lab": "The Catlin Covered Bridge carries Pedestrian traffic."
+    },
+    {
+      "s": "Jiangjiehe Bridge",
+      "r": "bridge carries",
+      "o": "S205 provincial road",
+      "desc": "Type of vehicles the bridge carries.",
+      "lab": "The Jiangjiehe Bridge carries the S205 provincial road."
+    },
+    {
+      "s": "Angle Vale Bridge",
+      "r": "bridge carries",
+      "o": "Motor vehicles",
+      "desc": "Type of vehicles the bridge carries.",
+      "lab": "Angle Vale Bridge was built for and used by Motor vehicles."
+    },
+    {
+      "s": "Stanley Ferry Aqueduct",
+      "r": "bridge carries",
+      "o": "Aire and Calder Navigation",
+      "desc": "Type of vehicles the bridge carries.",
+      "lab": "Stanley Ferry Aqueduct carries Aire and Calder Navigation vehicles."
+    }
+  ],
+  "building end date": [
+    {
+      "s": "Lottie Moon House",
+      "r": "building end date",
+      "o": "1831",
+      "desc": "Building end date of an Architectural structure, man-made Lake, etc.",
+      "lab": "Lottie Moon House was completed in 1831."
+    },
+    {
+      "s": "Fort San Lucian",
+      "r": "building end date",
+      "o": "1610\u20131611",
+      "desc": "Building end date of an Architectural structure, man-made Lake, etc.",
+      "lab": "Fort San Lucian was completed in 1610\u20131611."
+    }
+  ],
+  "capacity": [
+    {
+      "s": "A.S.D. Fersina Perginese",
+      "r": "capacity",
+      "o": "2000",
+      "desc": "Number of people who can be served by a Train or other service; or participate in a Soccer club, Cricket team, etc",
+      "lab": "A.S.D. Fersina Perginese have a capacity of 2000."
+    },
+    {
+      "s": "AS Vacoas-Phoenix",
+      "r": "capacity",
+      "o": "6200",
+      "desc": "Number of people who can be served by a Train or other service; or participate in a Soccer club, Cricket team, etc",
+      "lab": "The AS Vacoas-Phoenix stadium has a capacity of 6200."
+    },
+    {
+      "s": "Gostaresh Foulad F.C.",
+      "r": "capacity",
+      "o": "12000",
+      "desc": "Number of people who can be served by a Train or other service; or participate in a Soccer club, Cricket team, etc",
+      "lab": "Gostaresh Foulad F.C.'s stadium had a capacity of 12000."
+    }
+  ],
+  "casualties": [
+    {
+      "s": "2017 Batangas earthquakes",
+      "r": "casualties",
+      "o": "6",
+      "desc": "Number of casualties of a Military conflict or natural disaster such as an Earthquake",
+      "lab": "2017 Batangas earthquakes resulted in 6 casulaties."
+    },
+    {
+      "s": "2020 Oaxaca earthquake",
+      "r": "casualties",
+      "o": "10",
+      "desc": "Number of casualties of a Military conflict or natural disaster such as an Earthquake",
+      "lab": "There were 10 casualties in the 2020 Oaxaca earthquake."
+    }
+  ],
+  "ch eMBL": [
+    {
+      "s": "Bicifadine",
+      "r": "ch eMBL",
+      "o": "511099",
+      "desc": "Ch eMBL is a manually curated chemical database of bioactive molecules with drug-like properties.",
+      "lab": "Bicifadine is a chemical numbered 511099."
+    }
+  ],
+  "classification": [
+    {
+      "s": "Blake Marler",
+      "r": "classification",
+      "o": "Final, recurring",
+      "desc": "Any string representing a class or category this thing is assigned to.",
+      "lab": "Blake Marler's classification is Final, recurring."
+    }
+  ],
+  "colour name": [
+    {
+      "s": "Undibacterium pigrum",
+      "r": "colour name",
+      "o": "lightgrey",
+      "desc": "A colour represented by a string holding its name (e.g.: red or green).",
+      "lab": "The colour of Undibacterium pigrum can be described as lightgrey."
+    },
+    {
+      "s": "Pyotr Alexeyev' Resistance Movement",
+      "r": "colour name",
+      "o": "Red",
+      "desc": "A colour represented by a string holding its name (e.g.: red or green).",
+      "lab": "Pyotr Alexeyev' Resistance Movement had a flag that was Red."
+    }
+  ],
+  "confirmed cases": [
+    {
+      "s": "1896 Gloucester smallpox epidemic",
+      "r": "confirmed cases",
+      "o": "2000",
+      "desc": "Number of confirmed cases in a pandemic",
+      "lab": "The 1896 Gloucester smallpox epidemic had 2000 confirmed cases."
+    },
+    {
+      "s": "COVID-19 pandemic in Alberta",
+      "r": "confirmed cases",
+      "o": "335247",
+      "desc": "Number of confirmed cases in a pandemic",
+      "lab": "During the COVID-19 pandemic in Alberta, there were 335247 confirmed cases of Covid-19."
+    }
+  ],
+  "description": [
+    {
+      "s": "Bor Dahegaon Dam",
+      "r": "description",
+      "o": "Earthfill",
+      "desc": "Short description of a person",
+      "lab": "The Bor Dahegaon Dam is an Earthfill dam."
+    },
+    {
+      "s": "Kabeli B1 Hydropower Station",
+      "r": "description",
+      "o": "Gravity",
+      "desc": "Short description of a person",
+      "lab": "Kabeli B1 Hydropower Station is powered by Gravity."
+    }
+  ],
+  "election date leader": [
+    {
+      "s": "National Council",
+      "r": "election date leader",
+      "o": "2020-12-15",
+      "desc": "The date that leader was elected.",
+      "lab": "The leader of the National Council will be elected 2020-12-15."
+    }
+  ],
+  "elevation": [
+    {
+      "s": "Niuatoputapu Airport",
+      "r": "elevation",
+      "o": "9.0",
+      "desc": "average elevation above the sea level",
+      "lab": "Niuatoputapu Airport is at an elevation of 9.0."
+    },
+    {
+      "s": "Sauk City, Washington",
+      "r": "elevation",
+      "o": "71.9328",
+      "desc": "average elevation above the sea level",
+      "lab": "Sauk City, Washington is 71.9328 above sea level."
+    },
+    {
+      "s": "Fort Jones, California",
+      "r": "elevation",
+      "o": "840.943",
+      "desc": "average elevation above the sea level",
+      "lab": "Fort Jones, California is 840.943 above sea level."
+    },
+    {
+      "s": "Hermanos Ameijeiras Airport",
+      "r": "elevation",
+      "o": "100.0",
+      "desc": "average elevation above the sea level",
+      "lab": "Hermanos Ameijeiras Airport is 100.0 above ground."
+    },
+    {
+      "s": "Dire Dawa Airport",
+      "r": "elevation",
+      "o": "1167.0",
+      "desc": "average elevation above the sea level",
+      "lab": "The Dire Dawa Airport has an average elevation of 1167.0."
+    }
+  ],
+  "end date": [
+    {
+      "s": "Video Games Live",
+      "r": "end date",
+      "o": "2018-11-17",
+      "desc": "The end date of the event.",
+      "lab": "Video Games Live ends on 2018-11-17."
+    },
+    {
+      "s": "South Ossetia Historical event 3",
+      "r": "end date",
+      "o": "2008-08-26",
+      "desc": "The end date of the event.",
+      "lab": "South Ossetia HistoricalEvent 3 ended on 2008-08-26."
+    },
+    {
+      "s": "Central American Integration System Historical event 3",
+      "r": "end date",
+      "o": "1960-12-13",
+      "desc": "The end date of the event.",
+      "lab": "The end date for Central American Integration System HistoricalEvent 3 is 1960-12-13."
+    }
+  ],
+  "fatality rate": [
+    {
+      "s": "Dengue pandemic in Sri Lanka",
+      "r": "fatality rate",
+      "o": "2020",
+      "desc": "Number of deaths from pandemic compared to the total number of people diagnosed.",
+      "lab": "The Dengue pandemic in Sri Lanka had a fatality rate of 2020."
+    },
+    {
+      "s": "2018 Nipah virus outbreak in Kerala",
+      "r": "fatality rate",
+      "o": "89",
+      "desc": "Number of deaths from pandemic compared to the total number of people diagnosed.",
+      "lab": "2018 Nipah virus outbreak in Kerala had a fatality rate of 89."
+    },
+    {
+      "s": "1929\u20131930 psittacosis pandemic",
+      "r": "fatality rate",
+      "o": "15",
+      "desc": "Number of deaths from pandemic compared to the total number of people diagnosed.",
+      "lab": "15 people died from the 1929\u20131930 psittacosis pandemic."
+    },
+    {
+      "s": "2021 Nipah virus outbreak in Kerala",
+      "r": "fatality rate",
+      "o": "100",
+      "desc": "Number of deaths from pandemic compared to the total number of people diagnosed.",
+      "lab": "It is reported that the fatality rate of the 2021 Nipah virus outbreak in Kerala was 100 people."
+    }
+  ],
+  "file size": [
+    {
+      "s": "Microsoft Swift key",
+      "r": "file size",
+      "o": "1.618e+08",
+      "desc": "size of a file or software",
+      "lab": "Microsoft SwiftKey has file size 1.618e+08."
+    },
+    {
+      "s": "Crystal disk mark",
+      "r": "file size",
+      "o": "4e+06",
+      "desc": "size of a file or software",
+      "lab": "CrystalDiskMark has a file size of 4e+06."
+    },
+    {
+      "s": "Anki",
+      "r": "file size",
+      "o": "1.34e+08",
+      "desc": "size of a file or software",
+      "lab": "The file size of Anki is 1.34e+08."
+    },
+    {
+      "s": "Vue scan",
+      "r": "file size",
+      "o": "6e+06",
+      "desc": "size of a file or software",
+      "lab": "VueScan has a file size of 6e+06."
+    }
+  ],
+  "first air date": [
+    {
+      "s": "Wentworth",
+      "r": "first air date",
+      "o": "2020-07-28",
+      "desc": "The date on which regular broadcasts began.",
+      "lab": "Wentworth first aired on 2020-07-28."
+    },
+    {
+      "s": "Vietnam Television",
+      "r": "first air date",
+      "o": "1970-09-07",
+      "desc": "The date on which regular broadcasts began.",
+      "lab": "Vietnam Television first aired on 1970-09-07."
+    },
+    {
+      "s": "Project Runway Philippines",
+      "r": "first air date",
+      "o": "2009-08-12",
+      "desc": "The date on which regular broadcasts began.",
+      "lab": "Project Runway Philippines was first aired on 2009-08-12."
+    },
+    {
+      "s": "Degrassi: Next Class",
+      "r": "first air date",
+      "o": "2017-06-30",
+      "desc": "The date on which regular broadcasts began.",
+      "lab": "The final season of Degrassi: Next Class was first broadcasted on 2017-06-30."
+    },
+    {
+      "s": "Ultimate Beastmaster",
+      "r": "first air date",
+      "o": "2017-12-15",
+      "desc": "The date on which regular broadcasts began.",
+      "lab": "Ultimate Beastmaster first aired on 2017-12-15."
+    }
+  ],
+  "first publication date": [
+    {
+      "s": "Last Round Arthurs",
+      "r": "first publication date",
+      "o": "2018-07-20",
+      "desc": "Date of the first publication.",
+      "lab": "The first publication date of the Last Round Arthurs was 2018-07-20."
+    },
+    {
+      "s": "Suspicion",
+      "r": "first publication date",
+      "o": "1984-08-12",
+      "desc": "Date of the first publication.",
+      "lab": "Suspicion was first published on 1984-08-12."
+    },
+    {
+      "s": "Dragon Nest",
+      "r": "first publication date",
+      "o": "2010-06-04",
+      "desc": "Date of the first publication.",
+      "lab": "Dragon Nest was first published on 2010-06-04."
+    }
+  ],
+  "frequency of publication": [
+    {
+      "s": "Journal of Applied Psychology",
+      "r": "frequency of publication",
+      "o": "Monthly",
+      "desc": "The frequency of periodical publication (eg. Weekly, Bimonthly).",
+      "lab": "Journal of Applied Psychology is published Monthly."
+    },
+    {
+      "s": "Pinball",
+      "r": "frequency of publication",
+      "o": "Quarterly",
+      "desc": "The frequency of periodical publication (eg. Weekly, Bimonthly).",
+      "lab": "Pinball magazine is released Quarterly."
+    },
+    {
+      "s": "Rapid Communications in Mass Spectrometry",
+      "r": "frequency of publication",
+      "o": "Biweekly",
+      "desc": "The frequency of periodical publication (eg. Weekly, Bimonthly).",
+      "lab": "Rapid Communications in Mass Spectrometry is published Biweekly."
+    }
+  ],
+  "image size": [
+    {
+      "s": "Nova srpska politi\u010dka misao",
+      "r": "image size",
+      "o": "300",
+      "desc": "the image size expressed in pixels",
+      "lab": "Nova srpska politi\u010dka misao has an image size of 300."
+    }
+  ],
+  "ingredient name": [
+    {
+      "s": "Porchetta",
+      "r": "ingredient name",
+      "o": "pork,rosemary,garlic, andpepper",
+      "desc": "Main ingredient used to prepare a specific Food or Beverage.",
+      "lab": "Porchetta consists of pork,rosemary,garlic, andpepper."
+    },
+    {
+      "s": "Meatball soup",
+      "r": "ingredient name",
+      "o": "Meatballs,Ground meat,rice,spices",
+      "desc": "Main ingredient used to prepare a specific Food or Beverage.",
+      "lab": "Meatball soup has the ingredients: Meatballs,Ground meat,rice,spices."
+    },
+    {
+      "s": "Sol over Gudhjem",
+      "r": "ingredient name",
+      "o": "Rugbr\u00f8d, smokedherring,chives,egg yolk",
+      "desc": "Main ingredient used to prepare a specific Food or Beverage.",
+      "lab": "The ingredients used to make Sol over Gudhjem are Rugbr\u00f8d, smokedherring,chives,egg yolk."
+    },
+    {
+      "s": "Kari kapitan",
+      "r": "ingredient name",
+      "o": "Chicken",
+      "desc": "Main ingredient used to prepare a specific Food or Beverage.",
+      "lab": "Kari kapitan contains Chicken."
+    }
+  ],
+  "is handicapped accessible": [
+    {
+      "s": "Schiphol Airport railway station",
+      "r": "is handicapped accessible",
+      "o": "1",
+      "desc": "True if the station is handicapped accessible.",
+      "lab": "Schiphol Airport railway station is handicapped accessible (1)."
+    }
+  ],
+  "is part of name": [
+    {
+      "s": "Devon Avenue",
+      "r": "is part of name",
+      "o": "6400 North",
+      "desc": "Name of another thing that this thing is part of.",
+      "lab": "6400 North is part of Devon Avenue."
+    },
+    {
+      "s": "Mandurah Road",
+      "r": "is part of name",
+      "o": "National Route 1",
+      "desc": "Name of another thing that this thing is part of.",
+      "lab": "Mandurah Road is part of National Route 1."
+    }
+  ],
+  "kegg": [
+    {
+      "s": "Lornoxicam",
+      "r": "kegg",
+      "o": "D01866",
+      "desc": "Bioinformatics resource for deciphering the genome.",
+      "lab": "The kegg for Lornoxicam is D01866."
+    }
+  ],
+  "last election date": [
+    {
+      "s": "North Dakota House of Representatives",
+      "r": "last election date",
+      "o": "2020-11-03",
+      "desc": "The last election date for the house.",
+      "lab": "North Dakota House of Representatives last held an election on 2020-11-03."
+    },
+    {
+      "s": "Northamptonshire County Council",
+      "r": "last election date",
+      "o": "2017-05-04",
+      "desc": "The last election date for the house.",
+      "lab": "Northamptonshire County Council's last election date was 2017-05-04."
+    },
+    {
+      "s": "Monaghan County Council",
+      "r": "last election date",
+      "o": "2019-05-24",
+      "desc": "The last election date for the house.",
+      "lab": "The last election for Monaghan County Council was 2019-05-24."
+    },
+    {
+      "s": "Sahrawi National Council",
+      "r": "last election date",
+      "o": "2012-02-20",
+      "desc": "The last election date for the house.",
+      "lab": "Sahrawi National Council had their last election on 2012-02-20."
+    }
+  ],
+  "last publication date": [
+    {
+      "s": "Tomoyo After: It's a Wonderful Life",
+      "r": "last publication date",
+      "o": "2007-10-20",
+      "desc": "Date of the last publication.",
+      "lab": "Tomoyo After: It's a Wonderful Life was last published on 2007-10-20."
+    },
+    {
+      "s": "Sorcerer Hunters",
+      "r": "last publication date",
+      "o": "1996-08-25",
+      "desc": "Date of the last publication.",
+      "lab": "Sorcerer Hunters was last published on 1996-08-25."
+    },
+    {
+      "s": "Amagi Brilliant Park",
+      "r": "last publication date",
+      "o": "2016-09-09",
+      "desc": "Date of the last publication.",
+      "lab": "The last publication date for Amagi Brilliant Park is 2016-09-09."
+    },
+    {
+      "s": "Therapy Game",
+      "r": "last publication date",
+      "o": "2017-03-14",
+      "desc": "Date of the last publication.",
+      "lab": "The manga series Therapy Game was last published on 2017-03-14."
+    }
+  ],
+  "lcc": [
+    {
+      "s": "Salem Falls",
+      "r": "lcc",
+      "o": "PS3566.I372 S26 2001",
+      "desc": "The Library of Congress Classification (LCC) is a system of library classification developed by the Library of Congress.",
+      "lab": "Salem Falls is identified as PS3566.I372 S26 2001."
+    }
+  ],
+  "load limit": [
+    {
+      "s": "Riverton\u2013Belvidere Bridge",
+      "r": "load limit",
+      "o": "50802.3",
+      "desc": "Load limit of the bridge.",
+      "lab": "Riverton\u2013Belvidere Bridge holds 50802.3."
+    },
+    {
+      "s": "Taoyaomen Bridge",
+      "r": "load limit",
+      "o": "2e+09",
+      "desc": "Load limit of the bridge.",
+      "lab": "Taoyaomen Bridge has a load limit of 2e+09."
+    },
+    {
+      "s": "Fletcher Covered Bridge",
+      "r": "load limit",
+      "o": "31751.5",
+      "desc": "Load limit of the bridge.",
+      "lab": "The load limit of the Fletcher Covered Bridge is 31751.5."
+    },
+    {
+      "s": "Nagoya Port Drawbridge",
+      "r": "load limit",
+      "o": "4e+07",
+      "desc": "Load limit of the bridge.",
+      "lab": "The Nagoya Port Drawbridge has a load limit of 4e+07."
+    },
+    {
+      "s": "Mac arthur Bridge",
+      "r": "load limit",
+      "o": "2e+07",
+      "desc": "Load limit of the bridge.",
+      "lab": "The MacArthur Bridge has a load limit of 2e+07."
+    }
+  ],
+  "military unit size": [
+    {
+      "s": "Hertfordshire Militia",
+      "r": "military unit size",
+      "o": "1\u20133 Regiments",
+      "desc": "the size of the military unit",
+      "lab": "Hertfordshire Militia has 1\u20133 Regiments."
+    }
+  ],
+  "number of lines": [
+    {
+      "s": "Kazan Metro",
+      "r": "number of lines",
+      "o": "1",
+      "desc": "Number of lines in the transit system.",
+      "lab": "Kazan Metro has 1 line."
+    },
+    {
+      "s": "Santa Clara Valley Transportation Authority",
+      "r": "number of lines",
+      "o": "70",
+      "desc": "Number of lines in the transit system.",
+      "lab": "The Santa Clara Valley Transportation Authority has 70 lines."
+    },
+    {
+      "s": "Davenport Citibus",
+      "r": "number of lines",
+      "o": "13",
+      "desc": "Number of lines in the transit system.",
+      "lab": "Davenport Citibus has 13 transport lines."
+    },
+    {
+      "s": "Ningbo Rail Transit",
+      "r": "number of lines",
+      "o": "5",
+      "desc": "Number of lines in the transit system.",
+      "lab": "Ningbo Rail Transit contains 5 transit lines."
+    }
+  ],
+  "number of platform levels": [
+    {
+      "s": "Yugo-Zapadnaya",
+      "r": "number of platform levels",
+      "o": "1",
+      "desc": "Number of levels of platforms at the station.",
+      "lab": "Yugo-Zapadnaya has 1 platform level."
+    },
+    {
+      "s": "Esquimalt station",
+      "r": "number of platform levels",
+      "o": "1",
+      "desc": "Number of levels of platforms at the station.",
+      "lab": "The number of platforms at Esquimalt station is 1."
+    },
+    {
+      "s": "Mesonisi railway station",
+      "r": "number of platform levels",
+      "o": "1",
+      "desc": "Number of levels of platforms at the station.",
+      "lab": "Mesonisi railway station has 1 platform level."
+    },
+    {
+      "s": "Hillview MRT station",
+      "r": "number of platform levels",
+      "o": "1",
+      "desc": "Number of levels of platforms at the station.",
+      "lab": "The Hillview MRT station has only 1 platform level."
+    }
+  ],
+  "number of tracks": [
+    {
+      "s": "Ksi\u0119cia Janusza metro station",
+      "r": "number of tracks",
+      "o": "2",
+      "desc": "Number of tracks of a railway or railway station.",
+      "lab": "Ksi\u0119cia Janusza metro station has 2 railway tracks."
+    },
+    {
+      "s": "Home Hill railway station",
+      "r": "number of tracks",
+      "o": "2",
+      "desc": "Number of tracks of a railway or railway station.",
+      "lab": "Home Hill railway station has 2 tracks."
+    },
+    {
+      "s": "Nervi\u00f3n",
+      "r": "number of tracks",
+      "o": "2",
+      "desc": "Number of tracks of a railway or railway station.",
+      "lab": "Nervi\u00f3n contains 2 tracks."
+    },
+    {
+      "s": "Lindevang Station",
+      "r": "number of tracks",
+      "o": "2",
+      "desc": "Number of tracks of a railway or railway station.",
+      "lab": "Lindevang Station has 2 tracks."
+    },
+    {
+      "s": "Girard station",
+      "r": "number of tracks",
+      "o": "2",
+      "desc": "Number of tracks of a railway or railway station.",
+      "lab": "Girard station has 2 tracks."
+    }
+  ],
+  "number sold": [
+    {
+      "s": "Jed Madela discography 2010 1",
+      "r": "number sold",
+      "o": "10000",
+      "desc": "Number of things (eg vehicles) sold",
+      "lab": "Jed Madela discography 2010 1 sold 10000 copies."
+    },
+    {
+      "s": "List of best-selling albums by country 1994 3",
+      "r": "number sold",
+      "o": "1000000",
+      "desc": "Number of things (eg vehicles) sold",
+      "lab": "From the List of best-selling albums by country 1994 3, 1000000 albums were sold."
+    }
+  ],
+  "oclc": [
+    {
+      "s": "Touched with Fire",
+      "r": "oclc",
+      "o": "85753373",
+      "desc": "Online Computer Library Center number",
+      "lab": "Touched with Fire has the Online Computer Library Centre number 85753373."
+    },
+    {
+      "s": "The Riddle of the Wren",
+      "r": "oclc",
+      "o": "10900735",
+      "desc": "Online Computer Library Center number",
+      "lab": "The Riddle of the Wren has an Online Computer Library Centre number of 10900735."
+    },
+    {
+      "s": "Indian Journal of Dermatology, Venereology and Leprology",
+      "r": "oclc",
+      "o": "02884822",
+      "desc": "Online Computer Library Center number",
+      "lab": "Indian Journal of Dermatology, Venereology and Leprology's Online Computer Library Center number is 02884822."
+    }
+  ],
+  "original name": [
+    {
+      "s": "Carache Municipality",
+      "r": "original name",
+      "o": "Municipio Carache",
+      "desc": "The original name of the entity, e.g. film, settlement, etc.",
+      "lab": "Carache Municipality was originally called Municipio Carache."
+    }
+  ],
+  "other serving lines": [
+    {
+      "s": "Heritage Crossing station",
+      "r": "other serving lines",
+      "o": "DART South Irving Go Link",
+      "desc": "Connecting services that serve the station such as bus, etc.",
+      "lab": "Heritage Crossing station also has trains going through other serving lines to DART South Irving Go Link."
+    },
+    {
+      "s": "Kipling station",
+      "r": "other serving lines",
+      "o": "Bloor West",
+      "desc": "Connecting services that serve the station such as bus, etc.",
+      "lab": "Bloor West is another service line of the Kipling station."
+    },
+    {
+      "s": "Rosebank railway station",
+      "r": "other serving lines",
+      "o": "UCTJammie Shuttle",
+      "desc": "Connecting services that serve the station such as bus, etc.",
+      "lab": "Other serving lines of the Rosebank railway station include the UCTJammie Shuttle."
+    }
+  ],
+  "parking information": [
+    {
+      "s": "Jurong Town Hall MRT station",
+      "r": "parking information",
+      "o": "Yes",
+      "desc": "Information on stations parking facilities.",
+      "lab": "Yes, Jurong Town Hall MRT station has parking."
+    },
+    {
+      "s": "Rasskazovka",
+      "r": "parking information",
+      "o": "No",
+      "desc": "Information on stations parking facilities.",
+      "lab": "Rasskazovka station does not have parking."
+    }
+  ],
+  "partial failed launches": [
+    {
+      "s": "Viking",
+      "r": "partial failed launches",
+      "o": "4",
+      "desc": "total number of launches resulting in partial failure",
+      "lab": "Viking had 4 partial failed launches."
+    },
+    {
+      "s": "List of Delta 3 launches",
+      "r": "partial failed launches",
+      "o": "1",
+      "desc": "total number of launches resulting in partial failure",
+      "lab": "Out of a list of Delta 3 launches, 1 partially failed."
+    },
+    {
+      "s": "Long March 2E",
+      "r": "partial failed launches",
+      "o": "1",
+      "desc": "total number of launches resulting in partial failure",
+      "lab": "Long March 2E had 1 partial failed launch."
+    }
+  ],
+  "passengers per year": [
+    {
+      "s": "Santa Fe Depot",
+      "r": "passengers per year",
+      "o": "47644",
+      "desc": "Number of passengers per year.",
+      "lab": "Santa Fe Depot has 47644 passengers per year."
+    },
+    {
+      "s": "Minami-Hinaga Station",
+      "r": "passengers per year",
+      "o": "690",
+      "desc": "Number of passengers per year.",
+      "lab": "Minami-Hinaga Station has 690 passengers per year."
+    }
+  ],
+  "pendamic deaths": [
+    {
+      "s": "2014 Portugal legionellosis outbreak",
+      "r": "pendamic deaths",
+      "o": "12",
+      "desc": "Number of deaths caused by pandemic",
+      "lab": "The 2014 Portugal legionellosis outbreak caused 12 pendamic deaths."
+    }
+  ],
+  "premiere date": [
+    {
+      "s": "Lady Day at Emerson's Bar and Grill",
+      "r": "premiere date",
+      "o": "1986-04-16",
+      "desc": "Date the play was first performed.",
+      "lab": "Lady Day at Emerson's Bar and Grill first premiered on 1986-04-16."
+    },
+    {
+      "s": "Play Dead",
+      "r": "premiere date",
+      "o": "2010-11-10",
+      "desc": "Date the play was first performed.",
+      "lab": "The premiere date of Play Dead was 2010-11-10."
+    },
+    {
+      "s": "Trelawny of the 'Wells'",
+      "r": "premiere date",
+      "o": "1898-01-29",
+      "desc": "Date the play was first performed.",
+      "lab": "Trelawny of the 'Wells' first premiered on 1898-01-29."
+    },
+    {
+      "s": "Bottom Live: The Big Number Two Tour",
+      "r": "premiere date",
+      "o": "1995-11-06",
+      "desc": "Date the play was first performed.",
+      "lab": "The premiere date of Bottom Live: The Big Number Two Tour was 1995-11-06."
+    }
+  ],
+  "premiere year": [
+    {
+      "s": "The Life of Rufus Dawes For the Term of His Natural Life 1",
+      "r": "premiere year",
+      "o": "1886",
+      "desc": "Year the play was first performed.",
+      "lab": "The Life of Rufus Dawes For the Term of His Natural Life 1 premiered in 1886."
+    },
+    {
+      "s": "Circle Mirror Transformation",
+      "r": "premiere year",
+      "o": "2009",
+      "desc": "Year the play was first performed.",
+      "lab": "Circle Mirror Transformation premiered in 2009."
+    },
+    {
+      "s": "Kanta",
+      "r": "premiere year",
+      "o": "1889",
+      "desc": "Year the play was first performed.",
+      "lab": "Kanta premiered in 1889."
+    }
+  ],
+  "railway platforms": [
+    {
+      "s": "Lille-Flandres station",
+      "r": "railway platforms",
+      "o": "9",
+      "desc": "Information on the type of platform(s) at the station.",
+      "lab": "Lille-Flandres station has 9 platforms."
+    },
+    {
+      "s": "Songjeong Park station",
+      "r": "railway platforms",
+      "o": "2",
+      "desc": "Information on the type of platform(s) at the station.",
+      "lab": "Songjeong Park station has 2 railway platforms."
+    },
+    {
+      "s": "Titagarh railway station",
+      "r": "railway platforms",
+      "o": "4",
+      "desc": "Information on the type of platform(s) at the station.",
+      "lab": "Titagarh railway station has 4 railway platforms."
+    }
+  ],
+  "recovery cases": [
+    {
+      "s": "COVID-19 pandemic in Nunavut",
+      "r": "recovery cases",
+      "o": "670",
+      "desc": "Number of recovered cases in a pandemic",
+      "lab": "The number of recovery cases during the COVID-19 pandemic in Nunavut is 670."
+    },
+    {
+      "s": "COVID-19 pandemic in Normandy",
+      "r": "recovery cases",
+      "o": "13743",
+      "desc": "Number of recovered cases in a pandemic",
+      "lab": "The recovery cases in the COVID-19 pandemic in Normandy total 13743."
+    },
+    {
+      "s": "COVID-19 pandemic in South Africa",
+      "r": "recovery cases",
+      "o": "2849558",
+      "desc": "Number of recovered cases in a pandemic",
+      "lab": "2849558 cases have recovered in the COVID-19 pandemic in South Africa."
+    }
+  ],
+  "route end direction": [
+    {
+      "s": "National Route 9",
+      "r": "route end direction",
+      "o": "East",
+      "desc": "End of the route.",
+      "lab": "National Route 9 ends East."
+    },
+    {
+      "s": "New Brunswick Route 7",
+      "r": "route end direction",
+      "o": "South",
+      "desc": "End of the route.",
+      "lab": "New Brunswick Route 7 routes ends in a South direction."
+    }
+  ],
+  "route start direction": [
+    {
+      "s": "State Highway 62",
+      "r": "route start direction",
+      "o": "East",
+      "desc": "End of the route.",
+      "lab": "The State Highway 62 route starts out to the east."
+    }
+  ],
+  "satcat": [
+    {
+      "s": "Apollo 12",
+      "r": "satcat",
+      "o": "CSM: 4225",
+      "desc": "satellite catalogue number, omit leading zeroes (e.g. 25544)",
+      "lab": "CSM: 4225 is the catalogue number for Apollo 12."
+    },
+    {
+      "s": "Kosmos 2380",
+      "r": "satcat",
+      "o": "26989",
+      "desc": "satellite catalogue number, omit leading zeroes (e.g. 25544)",
+      "lab": "Kosmos 2380 has the satcat number 26989."
+    }
+  ],
+  "setting of play": [
+    {
+      "s": "On the Rocks: A Political Comedy",
+      "r": "setting of play",
+      "o": "The near future",
+      "desc": "The places and time where the play takes place.",
+      "lab": "On the Rocks: A Political Comedy is set in the The near future."
+    },
+    {
+      "s": "Sweat",
+      "r": "setting of play",
+      "o": "Reading, Pennsylvania",
+      "desc": "The places and time where the play takes place.",
+      "lab": "Sweat is set in Reading, Pennsylvania."
+    }
+  ],
+  "start date": [
+    {
+      "s": "1952 United States presidential election in Louisiana",
+      "r": "start date",
+      "o": "1952-11-04",
+      "desc": "The start date of the event.",
+      "lab": "The start of the 1952 United States presidential election in Louisiana was on 1952-11-04."
+    },
+    {
+      "s": "2021 Estonian presidential election",
+      "r": "start date",
+      "o": "2021-08-31",
+      "desc": "The start date of the event.",
+      "lab": "The 2021 Estonian presidential election started on 2021-08-31."
+    },
+    {
+      "s": "2006 Sarawak state election",
+      "r": "start date",
+      "o": "2006-05-20",
+      "desc": "The start date of the event.",
+      "lab": "The 2006 Sarawak state election began in 2006-05-20."
+    }
+  ],
+  "station structure": [
+    {
+      "s": "Yenikap\u0131 Transfer Center Yenikap\u0131 1",
+      "r": "station structure",
+      "o": "Underground",
+      "desc": "Type of station structure (underground, at-grade, or elevated).",
+      "lab": "Yenikap\u0131 Transfer Center Yenikap\u0131 1 is an Underground station."
+    },
+    {
+      "s": "Beixinjing station",
+      "r": "station structure",
+      "o": "Underground",
+      "desc": "Type of station structure (underground, at-grade, or elevated).",
+      "lab": "Beixinjing Station is an Underground station."
+    }
+  ],
+  "subject of play": [
+    {
+      "s": "A Very DNA Reunion",
+      "r": "subject of play",
+      "o": "DNAtechnology",
+      "desc": "The overall subject matter dealt with by the play.",
+      "lab": "A Very DNA Reunion is about DNAtechnology."
+    }
+  ],
+  "suspected cases": [
+    {
+      "s": "COVID-19 pandemic in Haiti",
+      "r": "suspected cases",
+      "o": "32304",
+      "desc": "Number of suspected cases in a pandemic",
+      "lab": "The COVID-19 pandemic in Haiti has 32304 suspected cases."
+    },
+    {
+      "s": "1924 Los Angeles pneumonic plague outbreak",
+      "r": "suspected cases",
+      "o": "37",
+      "desc": "Number of suspected cases in a pandemic",
+      "lab": "There were 37 suspected cases in the 1924 Los Angeles pneumonic plague outbreak."
+    }
+  ],
+  "symbol": [
+    {
+      "s": "Vasoactive intestinal peptide receptor",
+      "r": "symbol",
+      "o": "ADCYAP1R1",
+      "desc": "HUGO Gene Symbol",
+      "lab": "The gene symbol for Vasoactive intestinal peptide receptor is ADCYAP1R1."
+    },
+    {
+      "s": "Chlorosome",
+      "r": "symbol",
+      "o": "Bac chlor c",
+      "desc": "HUGO Gene Symbol",
+      "lab": "The symbol for chlorosome is bac chlorc."
+    },
+    {
+      "s": "Kelch motif",
+      "r": "symbol",
+      "o": "Kelch 5",
+      "desc": "HUGO Gene Symbol",
+      "lab": "Kelch motif has the symbol of Kelch 5."
+    }
+  ],
+  "tennis surface type": [
+    {
+      "s": "2017 Bauer Watertechnology Cup",
+      "r": "tennis surface type",
+      "o": "Carpet",
+      "desc": "There are five types of court surface used in professional play.",
+      "lab": "2017 Bauer Watertechnology Cup is played on Carpet."
+    }
+  ],
+  "visitor statistics as of": [
+    {
+      "s": "Yenikap\u0131 Transfer Center Yenikap\u0131 1",
+      "r": "visitor statistics as of",
+      "o": "2017",
+      "desc": "Year visitor information was gathered.",
+      "lab": "Yenikap\u0131 Transfer Center Yenikap\u0131 1 had visitors statistics in the year of 2017."
+    },
+    {
+      "s": "Arc-et-Senans station",
+      "r": "visitor statistics as of",
+      "o": "2018",
+      "desc": "Year visitor information was gathered.",
+      "lab": "The visitor statistics for Arc-et-Senans station are valid as of 2018."
+    },
+    {
+      "s": "Ernakulam Junction railway station",
+      "r": "visitor statistics as of",
+      "o": "2018",
+      "desc": "Year visitor information was gathered.",
+      "lab": "Ernakulam Junction railway station visitor statistics were recorded in 2018."
+    }
+  ],
+  "visitors percentage change": [
+    {
+      "s": "Tlatelolco metro station",
+      "r": "visitors percentage change",
+      "o": "-41.57",
+      "desc": "Percentage increase or decrease.",
+      "lab": "Tlatelolco metro station has seen a drop in visitors by -41.57 percent."
+    }
+  ],
+  "year of electrification": [
+    {
+      "s": "Buckower Chaussee station",
+      "r": "year of electrification",
+      "o": "0750",
+      "desc": "Year station was electrified, if not previously at date of opening.",
+      "lab": "Buckower Chaussee station was electrified at 0750."
+    },
+    {
+      "s": "Pasivedala railway station",
+      "r": "year of electrification",
+      "o": "0025",
+      "desc": "Year station was electrified, if not previously at date of opening.",
+      "lab": "Pasivedala railway station was electrified on 0025."
+    },
+    {
+      "s": "30th Street station",
+      "r": "year of electrification",
+      "o": "0700",
+      "desc": "Year station was electrified, if not previously at date of opening.",
+      "lab": "30th street station was electrified on 0700."
+    },
+    {
+      "s": "Metro kent",
+      "r": "year of electrification",
+      "o": "0001",
+      "desc": "Year station was electrified, if not previously at date of opening.",
+      "lab": "MetroKent was electrified in 0001."
+    }
+  ],
+  "depth": [
+    {
+      "s": "Censorinus",
+      "r": "depth",
+      "o": "400.0",
+      "desc": "Is a measure of the distance between a reference height and a point underneath.",
+      "lab": "Censorinus has a depth of 400.0."
+    },
+    {
+      "s": "Cocheras",
+      "r": "depth",
+      "o": "12.0",
+      "desc": "Is a measure of the distance between a reference height and a point underneath.",
+      "lab": "The depth of Cocheras is 12.0."
+    },
+    {
+      "s": "Titan",
+      "r": "depth",
+      "o": "141.5",
+      "desc": "Is a measure of the distance between a reference height and a point underneath.",
+      "lab": "Titan has a depth of 141.5."
+    }
+  ],
+  "jstor": [
+    {
+      "s": "The Journal of Economic History",
+      "r": "jstor",
+      "o": "00220507",
+      "desc": "JSTOR number (short for Journal Storage) is a United States-based online system number for archiving academic journals.",
+      "lab": "The Journal of Economic History's jstor archive number is 00220507."
+    },
+    {
+      "s": "Journal of Speculative Philosophy",
+      "r": "jstor",
+      "o": "0891625X",
+      "desc": "JSTOR number (short for Journal Storage) is a United States-based online system number for archiving academic journals.",
+      "lab": "Journal of Speculative Philosophy has a jstor number of 0891625X."
+    }
+  ],
+  "lccn": [
+    {
+      "s": "Professional Ethics",
+      "r": "lccn",
+      "o": "93-660008",
+      "desc": "The Library of Congress Control Number or LCCN is a serially based system of numbering cataloging records in the Library of Congress in the United States.",
+      "lab": "93-660008 is the lccn of Professional Ethics."
+    },
+    {
+      "s": "Federal Law Review",
+      "r": "lccn",
+      "o": "77020319",
+      "desc": "The Library of Congress Control Number or LCCN is a serially based system of numbering cataloging records in the Library of Congress in the United States.",
+      "lab": "The lccn of the Federal Law Review is 77020319."
+    }
+  ],
+  "pdb": [
+    {
+      "s": "Barnase",
+      "r": "pdb",
+      "o": "1BRS",
+      "desc": "gene entry for 3D structural data as per the PDB (Protein Data Bank) database",
+      "lab": "Barnase has a pdb of 1BRS."
+    },
+    {
+      "s": "RAR-related orphan receptor",
+      "r": "pdb",
+      "o": "1N83",
+      "desc": "gene entry for 3D structural data as per the PDB (Protein Data Bank) database",
+      "lab": "The gene entry for RAR-related orphan receptor in the Protein Data Bank is 1N83."
+    }
+  ],
+  "is peer reviewed": [
+    {
+      "s": "Journal of Historical Review",
+      "r": "is peer reviewed",
+      "o": "0",
+      "desc": "In academia peer review is often used to determine an academic papers suitability for publication.",
+      "lab": "Journal of Historical Review has 0 peer reviews."
+    }
+  ],
+  "county": [
+    {
+      "s": "Pendleton Heights High School",
+      "r": "county",
+      "o": "Madison County, Indiana",
+      "desc": "The county where the thing is located.",
+      "lab": "Pendleton Heights High School is located in Madison County, Indiana."
+    },
+    {
+      "s": "Sharnbrook Academy",
+      "r": "county",
+      "o": "Bedfordshire",
+      "desc": "The county where the thing is located.",
+      "lab": "Sharnbrook Academy is situated in the county of Bedfordshire."
+    },
+    {
+      "s": "Canat Elementary School",
+      "r": "county",
+      "o": "Philippines",
+      "desc": "The county where the thing is located.",
+      "lab": "Canat Elementary School is in the Philippines county."
+    },
+    {
+      "s": "Bishop Blanchet High School",
+      "r": "county",
+      "o": "King County, Washington",
+      "desc": "The county where the thing is located.",
+      "lab": "Bishop Blanchet High School is in King County, Washington."
+    },
+    {
+      "s": "Prendergast School",
+      "r": "county",
+      "o": "London",
+      "desc": "The county where the thing is located.",
+      "lab": "Prendergast School is in London."
+    }
+  ],
+  "route end location": [
+    {
+      "s": "Kingsway Tunnel Kingsway Tunnel 1",
+      "r": "route end location",
+      "o": "Merseyside",
+      "desc": "The end location of the route.",
+      "lab": "Kingsway Tunnel Kingsway Tunnel 1 ends in Merseyside."
+    },
+    {
+      "s": "Discovery Bay Tunnel",
+      "r": "route end location",
+      "o": "Siu Ho Wan",
+      "desc": "The end location of the route.",
+      "lab": "Discovery Bay Tunnel ends at Siu Ho Wan."
+    }
+  ],
+  "route start location": [
+    {
+      "s": "Tauern Railway Tunnel",
+      "r": "route start location",
+      "o": "Salzburg",
+      "desc": "The start location of the route.",
+      "lab": "Tauern Railway Tunnel starts in Salzburg."
+    },
+    {
+      "s": "Jeddo Tunnel",
+      "r": "route start location",
+      "o": "Black Creek",
+      "desc": "The start location of the route.",
+      "lab": "The Jeddo Tunnel starts at Black Creek."
+    },
+    {
+      "s": "Saverne Tunnel",
+      "r": "route start location",
+      "o": "Eckartswiller",
+      "desc": "The start location of the route.",
+      "lab": "Saverne Tunnel starts at Eckartswiller."
+    },
+    {
+      "s": "Robertson Tunnel",
+      "r": "route start location",
+      "o": "Goose Hollow, Portland, Oregon",
+      "desc": "The start location of the route.",
+      "lab": "Robertson Tunnel route starts at Goose Hollow, Portland, Oregon."
+    }
+  ],
+  "us sales": [
+    {
+      "s": "Acura TSX 2010 1",
+      "r": "us sales",
+      "o": "126",
+      "desc": "Number of things (eg vehicles) sold in the US",
+      "lab": "Acura TSX 2010 1 has us sales of 126."
+    },
+    {
+      "s": "BMW 5 Series 1999 1",
+      "r": "us sales",
+      "o": "38218",
+      "desc": "Number of things (eg vehicles) sold in the US",
+      "lab": "38218 BMW 5 Series 1999 1 were sold in the US."
+    }
+  ],
+  "active years": [
+    {
+      "s": "Phoemela Baranda",
+      "r": "active years",
+      "o": "1999\u2013present",
+      "desc": "Also called floruit.",
+      "lab": "Phoemela Baranda's active years are from 1999\u2013present."
+    },
+    {
+      "s": "Merignac internment camp",
+      "r": "active years",
+      "o": "17 November 1940 \u2013 26 August 1944",
+      "desc": "Also called floruit.",
+      "lab": "Merignac internment camp had the active years of 17 November 1940 \u2013 26 August 1944."
+    },
+    {
+      "s": "Casoli internment camp",
+      "r": "active years",
+      "o": "1940",
+      "desc": "Also called floruit.",
+      "lab": "Casoli internment camp was active in 1940."
+    },
+    {
+      "s": "Maria Eriksson",
+      "r": "active years",
+      "o": "2009-present",
+      "desc": "Also called floruit.",
+      "lab": "Maria Eriksson has been active from 2009-present."
+    }
+  ],
+  "chorus character in play": [
+    {
+      "s": "Alcmaeon in Psophis",
+      "r": "chorus character in play",
+      "o": "Young women",
+      "desc": "The name of the (Greek) chorus character in play.",
+      "lab": "Young women play the chorus character in Alcmaeon in Psophis."
+    },
+    {
+      "s": "Ajax",
+      "r": "chorus character in play",
+      "o": "Sailors from salamis",
+      "desc": "The name of the (Greek) chorus character in play.",
+      "lab": "In Ajax, the Sailors fromSalamis play the chorus character."
+    },
+    {
+      "s": "Philoctetes",
+      "r": "chorus character in play",
+      "o": "Greek sailors",
+      "desc": "The name of the (Greek) chorus character in play.",
+      "lab": "Philoctetes is a chorus character in the play GreekSailors."
+    }
+  ],
+  "originally used for": [
+    {
+      "s": "Warsaw concentration camp",
+      "r": "originally used for",
+      "o": "G\u0119si\u00f3wkaprison",
+      "desc": "Original use of Architectural structure or Concentration camp, if it is currently being used as anything other than its original purpose.",
+      "lab": "Warsaw concentration camp was built on the site of G\u0119si\u00f3wkaprison."
+    },
+    {
+      "s": "Szebnie concentration camp",
+      "r": "originally used for",
+      "o": "Internment",
+      "desc": "Original use of Architectural structure or Concentration camp, if it is currently being used as anything other than its original purpose.",
+      "lab": "The Szebnie concentration camp was originally used for Internment."
+    }
+  ],
+  "range": [
+    {
+      "s": "Mazibuko M1B",
+      "r": "range",
+      "o": "400",
+      "desc": "Maximum distance without refueling",
+      "lab": "The Mazibuko M1B truck will have a range of 400."
+    },
+    {
+      "s": "Voyah Free",
+      "r": "range",
+      "o": "500",
+      "desc": "Maximum distance without refueling",
+      "lab": "Voyah Free can travel 500 km without refuelling."
+    },
+    {
+      "s": "BAZ-6909",
+      "r": "range",
+      "o": "1000",
+      "desc": "Maximum distance without refueling",
+      "lab": "BAZ-6909 can travel 1000 without refuelling."
+    },
+    {
+      "s": "KZKT-7428",
+      "r": "range",
+      "o": "1500",
+      "desc": "Maximum distance without refueling",
+      "lab": "The KZKT-7428 has a range of 1500."
+    }
+  ],
+  "victims": [
+    {
+      "s": "Natzweiler-Struthof concentration camp Natzweiler-Struthof 1",
+      "r": "victims",
+      "o": "mainly resistance fighters from occupied European nations",
+      "desc": "Type, description, or name(s) of victims of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Natzweiler-Struthof concentration camp Natzweiler-Struthof 1 held mainly resistance fighters from occupied European nations."
+    },
+    {
+      "s": "Monowitz concentration camp",
+      "r": "victims",
+      "o": "Mainly jews",
+      "desc": "Type, description, or name(s) of victims of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Monowitz concentration camp\u2019s victims were MainlyJews."
+    },
+    {
+      "s": "Kaufering concentration camp complex",
+      "r": "victims",
+      "o": "Mostly Jews",
+      "desc": "Type, description, or name(s) of victims of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "The victims in the Kaufering concentration camp complex were mostly Jews."
+    },
+    {
+      "s": "Su\u0161ica camp",
+      "r": "victims",
+      "o": "Bosniaks",
+      "desc": "Type, description, or name(s) of victims of a Concentration camp, Criminal, Serial killer, or some other atrocity",
+      "lab": "Bosniaks were the victims in the Su\u0161ica camp."
+    }
+  ],
+  "construction material": [
+    {
+      "s": "Red Bridge",
+      "r": "construction material",
+      "o": "Rock",
+      "desc": "Construction material (eg. concrete, steel, iron, stone, brick, wood).",
+      "lab": "Red Bridge is made of Rock."
+    },
+    {
+      "s": "Landwasser Viaduct",
+      "r": "construction material",
+      "o": "Limestone",
+      "desc": "Construction material (eg. concrete, steel, iron, stone, brick, wood).",
+      "lab": "Landwasser Viaduct is constructed with Limestone."
+    },
+    {
+      "s": "Jamestown Verrazzano Bridge",
+      "r": "construction material",
+      "o": "Concrete",
+      "desc": "Construction material (eg. concrete, steel, iron, stone, brick, wood).",
+      "lab": "Jamestown Verrazzano Bridge is made of Concrete."
+    }
+  ],
+  "former broadcast network": [
+    {
+      "s": "Kentucky Channel",
+      "r": "former broadcast network",
+      "o": "KET ED",
+      "desc": "A former parent broadcast network to which the broadcaster once belonged.",
+      "lab": "The former broadcast network of Kentucky channel was KET ED."
+    },
+    {
+      "s": "NBC Montana",
+      "r": "former broadcast network",
+      "o": "CBS",
+      "desc": "A former parent broadcast network to which the broadcaster once belonged.",
+      "lab": "The former broadcast network of NBC Montana is CBS."
+    }
+  ],
+  "honours": [
+    {
+      "s": "Wayne Meylan",
+      "r": "honours",
+      "o": "1967 College Football All-America Team",
+      "desc": "Honours bestowed upon a Person, Organization, Race horse, etc",
+      "lab": "Wayne Meylan was an honour student for 1967 College Football All-America Team."
+    },
+    {
+      "s": "Thomas Joseph Kelly",
+      "r": "honours",
+      "o": "National Museum of Racing and Hall of Fame",
+      "desc": "Honours bestowed upon a Person, Organization, Race horse, etc",
+      "lab": "Thomas Joseph Kelly was entered into the National Museum of Racing and Hall of Fame."
+    },
+    {
+      "s": "Robert H. Michel",
+      "r": "honours",
+      "o": "Purple Heart",
+      "desc": "Honours bestowed upon a Person, Organization, Race horse, etc",
+      "lab": "Robert H. Michel received the Purple Heart."
+    },
+    {
+      "s": "Joseph Beeston",
+      "r": "honours",
+      "o": "Order of St Michael and St George",
+      "desc": "Honours bestowed upon a Person, Organization, Race horse, etc",
+      "lab": "Joseph Beeston has been awarded the Order of St Michael and St George."
+    },
+    {
+      "s": "Carlos Alberto dos Santos Cruz",
+      "r": "honours",
+      "o": "Order of Aeronautical Merit",
+      "desc": "Honours bestowed upon a Person, Organization, Race horse, etc",
+      "lab": "Carlos Alberto dos Santos Cruz received honours in the Order of Aeronautical Merit."
+    }
+  ],
+  "important station": [
+    {
+      "s": "Stagecoach Yorkshire",
+      "r": "important station",
+      "o": "Rotherham Interchange",
+      "desc": "Destinations, depots, junctions, major stops, hubs...",
+      "lab": "Rotherham Interchange is an important hub for Stagecoach Yorkshire."
+    },
+    {
+      "s": "Stagecoach Yorkshire",
+      "r": "important station",
+      "o": "Meadowhall Interchange",
+      "desc": "Destinations, depots, junctions, major stops, hubs...",
+      "lab": "Meadowhall Interchange is one of Stagecoach Yorkshire's major stops."
+    },
+    {
+      "s": "Telemark Bilruter",
+      "r": "important station",
+      "o": "Vr\u00e5dal",
+      "desc": "Destinations, depots, junctions, major stops, hubs...",
+      "lab": "Vr\u00e5dal is an important stop for the Telemark Bilruter buses."
+    }
+  ]
+}

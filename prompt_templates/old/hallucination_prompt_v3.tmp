@@ -1,0 +1,9 @@
+# EXAMPLE:
+[original template]: `The <subject> was the edition of the Badminton Championships.`
+[source data]:  `<subject> |  edition number | <object>.`
+[fixed template]: `The <subject> was edition number <object>.`
+
+# TASK:
+[original template]: {template}
+[source data]:  {data}
+[fixed template]:

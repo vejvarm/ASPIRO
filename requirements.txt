@@ -1,0 +1,9 @@
+pandas~=2.0.2
+typing~=3.7.4.3
+langchain~=0.0.209
+git+https://github.com/KaijuML/parent
+tqdm~=4.65.0
+aenum~=3.1.14
+requests~=2.31.0
+ordered-set
+openai
