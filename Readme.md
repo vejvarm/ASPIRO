@@ -32,6 +32,10 @@ python run_aspiro.py --config path/to/config
 ```
 NOTE: if no `--config` argument is provided `setups/json_default.json` is chosen as default 
 
+#### example:
+```
+python run_aspiro.py --config setups/json_default.json --output "outputs/d2t/aspiro_test/"
+```
 
 ### Run from Data of previous run
 You can replace the 0shot (0th model in `llmstack`) model in config file with `path/to/previous/result/json`.
