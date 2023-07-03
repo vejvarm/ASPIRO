@@ -35,7 +35,7 @@ def _parse_model_choices(config: dict[str: list[str]]):
             path_to_data = pathlib.Path(model)
             extend_enum(ModelChoices, config["file_name"].upper(), path_to_data)
             llm_stack.append(ModelChoices[config["file_name"].upper()])
-        elif model.upper() in ModelChoices:
+        elif model.upper() in [m.name for m in ModelChoices]:
             llm_stack.append(ModelChoices[model.upper()])
         elif model.lower() in ModelChoices:
             llm_stack.append(ModelChoices(model.lower()))

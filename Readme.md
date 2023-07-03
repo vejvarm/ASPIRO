@@ -1,6 +1,13 @@
 # Requirements:
+## OpenAI models only:
 ``` bash
 pip install -r requirements.txt
+```
+
+## Local addon:
+If you want to run local models (such as Falcon-llm-7B), run the following as well:
+```bash
+pip install -r requirements-local.txt
 ```
 
 # Execution:

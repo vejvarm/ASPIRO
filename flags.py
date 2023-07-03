@@ -2,6 +2,9 @@ import os
 import pathlib
 from aenum import Enum
 
+os.environ["TOKENIZERS_PARALLELISM"] = "true"
+
+
 PROJECT_ROOT = pathlib.Path(os.path.dirname(__file__))
 LOG_ROOT = PROJECT_ROOT.joinpath("logs")
 PROMPT_TEMPLATES_FOLDER = PROJECT_ROOT.joinpath("prompt_templates")
@@ -114,6 +117,7 @@ class ModelChoices(Enum):
     G4_0314 = "gpt-4-0314"  # GPT-4 snapshot from March 14th
     G4_0613 = "gpt-4-0613"  # GPT-4 snapshot from June 13th
     G4 = "gpt-4"  # the default GPT-4 model as per OpenAI documentation
+    FALCON_7B = "tiiuae/falcon-7b-instruct"  # instruct-falcon-llm from Technology Innovation Institute
     NONE = None  # defined for omitting Consistency Validation step
 
 sTOTAL_ERRORS = "TOTAL_ERRORS"

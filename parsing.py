@@ -24,6 +24,7 @@ from flags import (CONSTANT_PLACEHOLDER, TemplateErrors, ERROR_MESSAGES, Templat
                    PROMPT_TEMPLATES_FOLDER, ModelChoices, API_KEY_JSON, SUBJECT, RELATION, OBJECT,
                    OPENAI_REQUEST_TIMEOUT)
 from helpers import setup_logger, make_json_compliant
+from models import LLMBuilder
 
 NAIVE_COMPLETION_RETRY_WITH_ERROR = PROMPT_TEMPLATES_FOLDER.joinpath("retry.tmp").open().read()
 NAIVE_RETRY_WITH_ERROR_PROMPT = PromptTemplate.from_template(NAIVE_COMPLETION_RETRY_WITH_ERROR)
@@ -236,9 +237,9 @@ class ConsistencyValidator:
     class Metrics(Enum):
         PARENT = auto()
 
-    def __init__(self, metric: Metrics, threshold: float, model_choice: ModelChoices, prompt_template: str,
+    def __init__(self, metric: Metrics, threshold: float, llm_builder: LLMBuilder, model_choice: ModelChoices, prompt_template: str,
                  source_data_key: str = "data", first_key: str = None, output_key: str = None,
-                 max_tokens: int = 100, stop: list[str] = (".\n", "\n"),
+                 temperature=0., max_tokens: int = 100, stop: list[str] = (".\n", "\n"),
                  logger: logging.Logger = None, path_to_jsonl_results_file: pathlib.Path = None):
         assert metric in self.Metrics
         assert 0 < threshold < 1
@@ -253,22 +254,24 @@ class ConsistencyValidator:
         self.first_key = first_key
         self.output_key = output_key
         self.prompt = self._prepare_prompt_template(prompt_template)
+        self.temperature = temperature
         self.max_tokens = max_tokens
         self.stop = stop
-        self.chain = LLMChain(llm=self._initialize_model(), prompt=self.prompt)
+        llm = llm_builder.initialize_cv_llm(model_choice, temperature=self.temperature,
+                                            max_tokens=self.max_tokens, stop_sequences=self.stop)
+        self.chain = LLMChain(llm=llm, prompt=self.prompt)
         self.logger = logger if logger is not None else setup_logger(__name__, logging.WARNING)
         self.results_file = path_to_jsonl_results_file
 
     def _initialize_model(self):
         model_choice = self.model_choice
-        os.environ["OPENAI_API_KEY"] = json.load(API_KEY_JSON.open())["openai"]
         if model_choice in [ModelChoices.G3P5T, ModelChoices.G4]:
             llm_class = ChatOpenAI
         elif model_choice in [ModelChoices.G3P5]:
             llm_class = OpenAI
         else:
             raise NotImplementedError(f"Choose one of {list(ModelChoices)} for model API")
-        return llm_class(model_name=model_choice.value, temperature=0., max_tokens=self.max_tokens, stop=self.stop,
+        return llm_class(model_name=model_choice.value, temperature=self.temperature, max_tokens=self.max_tokens, stop=self.stop,
                          request_timeout=OPENAI_REQUEST_TIMEOUT)
 
     def _parse_answer(self, llm_answer: str) -> dict:

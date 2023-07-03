@@ -2,9 +2,9 @@
     "n_runs": 1,
     "dataset_choice": "REL2TEXT",
     "initial_template": "JSON",
-    "llm_stack": ["text-davinci-003" ],
-    "max_retry_shots": 0,
-    "consist_val_model": "NONE",
+    "llm_stack": ["FALCON_7B", "FALCON_7B" ],
+    "max_retry_shots": 1,
+    "consist_val_model": "FALCON_7B",
     "example_format": "JSON",
 
     "max_fetched_examples_per_pid": 2,

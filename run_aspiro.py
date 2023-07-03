@@ -3,79 +3,23 @@ import json
 import logging
 import pathlib
 
-from langchain import PromptTemplate, LLMChain
-from langchain.base_language import BaseLanguageModel
-from langchain.chat_models import ChatOpenAI
-from langchain.llms import OpenAI
-from langchain.llms.fake import FakeListLLM
 from langchain.schema import OutputParserException
 from tqdm import tqdm
 
 from error_analysis import analyze_and_save_errors
-from flags import (LOG_ROOT, Templates, TemplateErrors, ERROR_MESSAGES, ModelChoices,
-                   OPENAI_REQUEST_TIMEOUT, RDF_EXAMPLE_FILE_NAME, BACKUP_TEMPLATE)
+from flags import (LOG_ROOT, TemplateErrors, ERROR_MESSAGES, ModelChoices,
+                   RDF_EXAMPLE_FILE_NAME, BACKUP_TEMPLATE, DATA_ROOT)
 from helpers import setup_logger, load_examples, load_and_validate_config
+from models import NShotGenerator, LLMBuilder
 from parsing import (build_output_dict, prepare_prompt, MultiRetryParser, ConsistencyValidator, TextOutputParser)
 
 LOGFILE_PATH = LOG_ROOT.joinpath(pathlib.Path(__file__).name.removesuffix(".py")+".log")
 LOGGER = setup_logger(__name__, loglevel=logging.WARNING, output_log_file=LOGFILE_PATH)
 
 
-def initialize_chains(model_choices: list[ModelChoices], prompt: PromptTemplate, max_tokens_to_generate: int,
-                     temperature: float, stop_sequences: list[str], template_file: Templates) -> tuple[list[BaseLanguageModel], list[LLMChain]]:
-    models = []
-    chains = []
-    for model_choice in model_choices:
-        if model_choice not in ModelChoices:
-            raise NotImplementedError(f"Choose one of {list(ModelChoices)} for model Variant")
-
-        if isinstance(model_choice.value, pathlib.Path):
-            llm = FakeListLLM(responses=build_llm_inputs(template_file, model_choice.value))
-        elif model_choice in [ModelChoices.G3P5, ModelChoices.G3]:
-            model_id = model_choice.value
-            llm = OpenAI(model_name=model_id, temperature=temperature, max_tokens=max_tokens_to_generate,
-                         top_p=1, frequency_penalty=0, request_timeout=OPENAI_REQUEST_TIMEOUT, stop=stop_sequences)
-        elif model_choice in [ModelChoices.G3P5T, ModelChoices.G3P5T_0301, ModelChoices.G4, ModelChoices.G4_0314]:
-            model_id = model_choice.value
-            llm = ChatOpenAI(model_name=model_id, temperature=temperature, max_tokens=max_tokens_to_generate,
-                             stop=stop_sequences, request_timeout=OPENAI_REQUEST_TIMEOUT)
-        else:
-            raise NotImplementedError(f"Choose one of {list(ModelChoices)} for model Variant")
-
-        models.append(llm)
-        chains.append(LLMChain(prompt=prompt, llm=llm))
-
-    return models, chains
-
-
 def dehalucinate(dc: ConsistencyValidator, text: str, metadata: dict, keep_result_with_better_score):
     text = dc.run(text, metadata, keep_result_with_better_score)
     return text
-
-
-def build_llm_inputs(template_file: Templates, path_to_data: pathlib.Path, remove_empty_lines=True):
-
-    if path_to_data.suffix == ".txt":
-        inputs_list = path_to_data.open().readlines()
-    elif path_to_data.suffix == ".json":
-        json_dict = json.load(path_to_data.open())
-        inputs_list = [v["output"] for v in json_dict.values()]
-    elif path_to_data.suffix == ".jsonl":
-        list_of_jsons = path_to_data.open().readlines()
-        inputs_list = [list(json.loads(row).values())[0][0] for row in list_of_jsons]
-    else:
-        raise NotImplementedError("provided path to saved model outputs is not in valid format.")
-
-    if remove_empty_lines:
-        inputs_list = [row for row in inputs_list if row != "\n"]
-
-    if "json" in template_file.value.name:
-        metadata = json.load(template_file.value.with_suffix(".json").open())
-        fake_inputs = [json.dumps({metadata["first_key"]: "", metadata["output_key"]: row}) for row in inputs_list]
-    else:
-        fake_inputs = inputs_list
-
-    return fake_inputs
 
 
 # debugging
@@ -114,6 +58,7 @@ def main(args):
     cv_keep_better = config["cv_keep_better"]  # @param
 
     dataset_folder = dataset_choice.value
+    output_folder = pathlib.Path(args.output).joinpath(dataset_folder.relative_to(DATA_ROOT))
     assert all(model in ModelChoices for model in model_choices)
     assert consist_val_model in ModelChoices
 
@@ -122,9 +67,14 @@ def main(args):
     # LOGGER.warning(prompt.format(examples="hi\nyou"))
 
     # INITIALIZE LANGCHAIN with specified `model_choices` and `prompt`
-    models, llm_chains = initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature,
-                                        stop_sequences, template_file)
-    retry_parser = MultiRetryParser.from_llms(parser=output_parser, llms=models)
+    llm_builder = LLMBuilder()
+    llm_builder.initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature, stop_sequences,
+                                 template_file)
+    llms = llm_builder.llms
+    llm_chains = llm_builder.chains
+    # llms, llm_chains = initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature,
+    #                                        stop_sequences, template_file)
+    retry_parser = MultiRetryParser.from_llms(parser=output_parser, llms=llms)
 
     # INITIALIZE dehalucination chain class
     dc_prompt_version = f"_{cv_template.name.lower()}"
@@ -136,12 +86,10 @@ def main(args):
         prompt_template = cv_template.value.open().read()
         prompt_metadata = json.load(cv_template.value.with_suffix(".json").open())
         # TODO make work for versions below v4
-        dc = ConsistencyValidator(cv_metric, cv_threshold, consist_val_model, prompt_template,
+        dc = ConsistencyValidator(cv_metric, cv_threshold, llm_builder, consist_val_model, prompt_template,
                                   source_data_key=prompt_metadata["source_data_key"],
-                                  first_key=prompt_metadata["first_key"],
-                                  output_key=prompt_metadata["output_key"],
-                                  stop=prompt_metadata["stop"],
-                                  path_to_jsonl_results_file=consistency_validator_log)
+                                  first_key=prompt_metadata["first_key"], output_key=prompt_metadata["output_key"],
+                                  stop=prompt_metadata["stop"], path_to_jsonl_results_file=consistency_validator_log)
     else:
         dc = None
 
@@ -156,7 +104,7 @@ def main(args):
         # Define files for results
         retry_models = ",".join([mch.name for mch in model_choices[1:]]) if (max_retry_shots > 0
                                                                              and len(model_choices) > 1) else "NONE"
-        path_to_output_template_json = dataset_folder.joinpath(
+        path_to_output_template_json = output_folder.joinpath(
             f"{template_file.name}").joinpath(
             f"{model_choices[0].name}({retry_models})({max_retry_shots}shot)({consist_val_model.name or 'NONE'})").joinpath(
             f"max_examples{max_fetched_examples_per_pid}").joinpath(f"run{run:02d}").joinpath(
@@ -236,10 +184,10 @@ def main(args):
                     backup_count += 1
 
             output_dict = build_output_dict(output=output_dict["output"],
-                                        error_codes=output_dict["error_codes"],
-                                        error_messages=output_dict["error_messages"],
-                                        rdf_example=rdf_example,
-                                        subj_labels=subj_labs, obj_labels=obj_labs, shot=shot)
+                                            error_codes=output_dict["error_codes"],
+                                            error_messages=output_dict["error_messages"],
+                                            rdf_example=rdf_example,
+                                            subj_labels=subj_labs, obj_labels=obj_labs, shot=shot)
             # dehalucinate
             if dc is not None:
                 text = dehalucinate(dc, output_dict["output"], metadata, cv_keep_better)
@@ -265,4 +213,5 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process the path to the configuration file.')
     parser.add_argument('--config', type=str, default="setups/json_default.json", help='Path to the configuration file.')
+    parser.add_argument('--output', type=str, default="data", help='Path to output folder.')
     main(parser.parse_args())
