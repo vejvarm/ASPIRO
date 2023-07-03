@@ -2,7 +2,7 @@
     "n_runs": 1,
     "dataset_choice": "REL2TEXT",
     "initial_template": "JSON",
-    "llm_stack": ["gpt-3.5-turbo-0301" ],
+    "llm_stack": ["gpt-3.5-turbo-0613" ],
     "max_retry_shots": 0,
     "consist_val_model": "NONE",
     "example_format": "JSON",

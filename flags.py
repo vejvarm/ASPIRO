@@ -41,7 +41,7 @@ BACKUP_TEMPLATE_REGEX = r"^<subject>'s (.*?) is <object>\.?"  # for detecting th
 class Templates(Enum):
     DEFAULT = PROMPT_TEMPLATES_FOLDER.joinpath("default.tmp")
     ASDOT = PROMPT_TEMPLATES_FOLDER.joinpath("v0_ASDOT.tmp")
-    JSON = PROMPT_TEMPLATES_FOLDER.joinpath("v18_json.tmp")
+    JSON = PROMPT_TEMPLATES_FOLDER.joinpath("v19_json.tmp")  # v18 without format_instructions
 
     # old versions
     V5 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v5.tmp")
@@ -54,6 +54,7 @@ class Templates(Enum):
     V12 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v12.tmp")   # linguistic knowledge, zero-shot (no examples), no {format_instructions}
     V13 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v13.tmp")   # 1-shot (1 correct example)
     V17 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v17_json.tmp")   # output as json structure
+    V18 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v18_json.tmp")
 
 
 class ConsistencyTemplateNames(Enum):
@@ -106,11 +107,13 @@ class RDFExampleFormat(Enum):
 
 class ModelChoices(Enum):
     G3 = "davinci"
-    G3P5T_0301 = "gpt-3.5-turbo-0301"
-    G3P5T = "gpt-3.5-turbo"
+    G3P5T_0301 = "gpt-3.5-turbo-0301"  # turbo snapshot from March 1st
+    G3P5T_0613 = "gpt-3.5-turbo-0613"  # turbo snapshot from June 13th
+    G3P5T = "gpt-3.5-turbo"  # the default turbo model as per OpenAI documentation
     G3P5 = "text-davinci-003"
-    G4_0314 = "gpt-4-0314"
-    G4 = "gpt-4"
+    G4_0314 = "gpt-4-0314"  # GPT-4 snapshot from March 14th
+    G4_0613 = "gpt-4-0613"  # GPT-4 snapshot from June 13th
+    G4 = "gpt-4"  # the default GPT-4 model as per OpenAI documentation
     NONE = None  # defined for omitting Consistency Validation step
 
 sTOTAL_ERRORS = "TOTAL_ERRORS"
