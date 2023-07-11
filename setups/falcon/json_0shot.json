@@ -1,9 +1,8 @@
 {
-    "n_runs": 1,
+    "n_runs": 5,
     "dataset_choice": "REL2TEXT",
     "initial_template": "JSON",
-    "llm_stack": ["data/rel2text/JSON/G3P5T_0301(NONE)(0shot)(NONE)/max_examples2/run00/templates-rel2text_JSON.json", "gpt-3.5-turbo"],
-    "max_retry_shots": 1,
+    "llm_stack": ["FALCON_7B"],
     "consist_val_model": "NONE",
     "example_format": "JSON",
 

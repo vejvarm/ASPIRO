@@ -1,13 +1,13 @@
 {
     "n_runs": 1,
-    "dataset_choice": "REL2TEXT",
+    "dataset_choice": "WIKIDATA",
     "initial_template": "JSON",
-    "llm_stack": ["FALCON_7B", "FALCON_7B" ],
-    "max_retry_shots": 1,
-    "consist_val_model": "FALCON_7B",
+    "llm_stack": ["gpt-3.5-turbo"],
+    "max_retry_shots": 0,
+    "consist_val_model": "NONE",
     "example_format": "JSON",
 
-    "max_fetched_examples_per_pid": 2,
+    "max_fetched_examples_per_pid": 1,
     "error_dump_subfolder": "err",
     "use_backup": false,
 

@@ -20,21 +20,21 @@ def load_and_validate_config(config_file):
     # Validate the values against the Enums
     config['dataset_choice'] = DatasetChoice[config['dataset_choice'].upper()]
     config['initial_template'] = Templates[config['initial_template'].upper()]
-    config['llm_stack'] = _parse_model_choices(config)
-    config['consist_val_model'] = ModelChoices[config['consist_val_model'].upper()]
+    config['llm_stack'] = _parse_model_choices(config['llm_stack'], config['file_name'])
+    config['consist_val_model'] = _parse_model_choices([config['consist_val_model']], "CV")[0]
     config['example_format'] = RDFExampleFormat[config['example_format'].upper()]
     config['cv_template'] = ConsistencyTemplateNames[config['cv_template'].upper()]
 
     return config
 
 
-def _parse_model_choices(config: dict[str: list[str]]):
+def _parse_model_choices(model_list: list[str], model_name: str):
     llm_stack = []
-    for model in config["llm_stack"]:
+    for model in model_list:
         if pathlib.Path(model).exists():
             path_to_data = pathlib.Path(model)
-            extend_enum(ModelChoices, config["file_name"].upper(), path_to_data)
-            llm_stack.append(ModelChoices[config["file_name"].upper()])
+            extend_enum(ModelChoices, model_name.upper(), path_to_data)
+            llm_stack.append(ModelChoices[model_name.upper()])
         elif model.upper() in [m.name for m in ModelChoices]:
             llm_stack.append(ModelChoices[model.upper()])
         elif model.lower() in ModelChoices:
@@ -132,6 +132,10 @@ def parse_rdf_list_to_examples(rdf_list: list[dict[str: str]], max_examples: int
             s_label = rdf["s"]
             r_label = rdf["r"]
             o_label = rdf["o"]
+        elif dataset_choice in [DatasetChoice.WIKIDATA, DatasetChoice.WIKIDATA_TEST]:
+            s_label = rdf["s"]
+            r_label = rdf["r"]
+            o_label = rdf["o"]
         else:
             raise NotImplementedError("Chosen `DatasetChoice` is not supported yet.")
 
@@ -151,7 +155,7 @@ def load_examples(path_to_example_json: pathlib.Path, max_examples_per_pid: int,
     if path_to_example_json.exists():
         fetched_example_dict = json.load(path_to_example_json.open())
     else:
-        raise NotImplementedError("Place run `scripts/dataset_builders/build` script for the respective dataset first")
+        raise NotImplementedError(f"{path_to_example_json.name} is missing! Please run `scripts/dataset_builders/build` script for the respective dataset first")
 
     pid_examples_dict = {pid: parse_rdf_list_to_examples(rdf_list, max_examples_per_pid, output_type, dataset_choice, sep=RDF_SEPARATOR)
                          for pid, rdf_list in fetched_example_dict.items()}

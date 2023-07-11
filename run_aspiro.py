@@ -39,7 +39,9 @@ def main(args):
     dataset_choice = config["dataset_choice"]  # @param
     template_file = config["initial_template"]  # @param (NOTE! two-shot only works with V10 or above)
     model_choices = config["llm_stack"]  # @param
-    max_retry_shots = config["max_retry_shots"]  # @param (0 ... zero-shot, 1 ... one-shot, ....)
+    load_in_8bit = config["load_in_8bit"] if "load_in_8bit" in config.keys() else False
+    load_in_4bit = config["load_in_4bit"] if "load_in_4bit" in config.keys() else False
+    max_retry_shots = config["max_retry_shots"] if "max_retry_shots" in config.keys() else len(model_choices) - 1  # @param (0 ... zero-shot, 1 ... one-shot, ....)
     consist_val_model = config["consist_val_model"]  # @param  (if None, don't use dehalucination)
     example_format = config["example_format"]  # @param
     max_fetched_examples_per_pid = config["max_fetched_examples_per_pid"]  # @param
@@ -56,6 +58,8 @@ def main(args):
     cv_threshold = config["cv_threshold"]  # about 157 prompts in the original
     cv_template = config["cv_template"]
     cv_keep_better = config["cv_keep_better"]  # @param
+    cv_load_in_8bit = config["cv_load_in_8bit"] if "cv_load_in_8bit" in config.keys() else False
+    cv_load_in_4bit = config["cv_load_in_4bit"] if "cv_load_in_4bit" in config.keys() else False
 
     dataset_folder = dataset_choice.value
     output_folder = pathlib.Path(args.output).joinpath(dataset_folder.relative_to(DATA_ROOT))
@@ -68,8 +72,12 @@ def main(args):
 
     # INITIALIZE LANGCHAIN with specified `model_choices` and `prompt`
     llm_builder = LLMBuilder()
-    llm_builder.initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature, stop_sequences,
-                                 template_file)
+    llm_builder.initialize_chains(model_choices, prompt, template_file,
+                                  max_tokens_to_generate=max_tokens_to_generate,
+                                  temperature=temperature,
+                                  stop_sequences=stop_sequences,
+                                  load_in_8bit=load_in_8bit,
+                                  load_in_4bit=load_in_4bit)
     llms = llm_builder.llms
     llm_chains = llm_builder.chains
     # llms, llm_chains = initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature,
@@ -89,7 +97,8 @@ def main(args):
         dc = ConsistencyValidator(cv_metric, cv_threshold, llm_builder, consist_val_model, prompt_template,
                                   source_data_key=prompt_metadata["source_data_key"],
                                   first_key=prompt_metadata["first_key"], output_key=prompt_metadata["output_key"],
-                                  stop=prompt_metadata["stop"], path_to_jsonl_results_file=consistency_validator_log)
+                                  stop=prompt_metadata["stop"], path_to_jsonl_results_file=consistency_validator_log,
+                                  load_in_8bit=cv_load_in_8bit, load_in_4bit=cv_load_in_4bit)
     else:
         dc = None
 

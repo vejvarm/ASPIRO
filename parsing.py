@@ -240,7 +240,7 @@ class ConsistencyValidator:
     def __init__(self, metric: Metrics, threshold: float, llm_builder: LLMBuilder, model_choice: ModelChoices, prompt_template: str,
                  source_data_key: str = "data", first_key: str = None, output_key: str = None,
                  temperature=0., max_tokens: int = 100, stop: list[str] = (".\n", "\n"),
-                 logger: logging.Logger = None, path_to_jsonl_results_file: pathlib.Path = None):
+                 logger: logging.Logger = None, path_to_jsonl_results_file: pathlib.Path = None, **model_kwargs):
         assert metric in self.Metrics
         assert 0 < threshold < 1
         assert model_choice in ModelChoices
@@ -257,22 +257,11 @@ class ConsistencyValidator:
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.stop = stop
-        llm = llm_builder.initialize_cv_llm(model_choice, temperature=self.temperature,
-                                            max_tokens=self.max_tokens, stop_sequences=self.stop)
+        llm = llm_builder.initialize_llm(model_choice, temperature=self.temperature,
+                                         max_tokens=self.max_tokens, stop_sequences=self.stop, **model_kwargs)
         self.chain = LLMChain(llm=llm, prompt=self.prompt)
         self.logger = logger if logger is not None else setup_logger(__name__, logging.WARNING)
         self.results_file = path_to_jsonl_results_file
-
-    def _initialize_model(self):
-        model_choice = self.model_choice
-        if model_choice in [ModelChoices.G3P5T, ModelChoices.G4]:
-            llm_class = ChatOpenAI
-        elif model_choice in [ModelChoices.G3P5]:
-            llm_class = OpenAI
-        else:
-            raise NotImplementedError(f"Choose one of {list(ModelChoices)} for model API")
-        return llm_class(model_name=model_choice.value, temperature=self.temperature, max_tokens=self.max_tokens, stop=self.stop,
-                         request_timeout=OPENAI_REQUEST_TIMEOUT)
 
     def _parse_answer(self, llm_answer: str) -> dict:
         try:
@@ -421,6 +410,7 @@ class MultiRetryParser(BaseOutputParser[T]):
             shot += 1
             # print(f"retry attempt {shot}", end=", ")
             m = min(shot, len(self.retry_chains) - 1)
+            # print(f"shot: {shot}, LLM[m]: {self.retry_chains[m].llm}")  # NOTE: DEBUG
             new_completion = self.retry_chains[m].run(
                 prompt=prompt_value.to_string(), completion=completion, error=str(json.loads(str(e))["error_messages"])
                 )

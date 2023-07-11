@@ -1,13 +1,13 @@
 {
     "n_runs": 1,
-    "dataset_choice": "REL2TEXT",
+    "dataset_choice": "WIKIDATA",
     "initial_template": "JSON",
-    "llm_stack": ["data/rel2text/JSON/G3P5T_0301(NONE)(0shot)(NONE)/max_examples2/run00/templates-rel2text_JSON.json", "gpt-3.5-turbo"],
-    "max_retry_shots": 1,
+    "llm_stack": ["/media/freya/kubuntu-data/datasets/d2t/csqa-d2t/aspiro_test/wikidata/JSON/G3P5T(NONE)(0shot)(NONE)/max_examples1/run00/templates-wikidata_JSON.json", "gpt-3.5-turbo"],
+    "max_retry_shots": 5,
     "consist_val_model": "NONE",
     "example_format": "JSON",
 
-    "max_fetched_examples_per_pid": 2,
+    "max_fetched_examples_per_pid": 1,
     "error_dump_subfolder": "err",
     "use_backup": false,
 

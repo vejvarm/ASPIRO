@@ -79,7 +79,7 @@ if __name__ == "__main__":
     parser.add_argument('--input-folder', help="path to input folder with source rel2text data jsons")
     parser.add_argument('--splits', nargs='+', default=["test", "train", "dev"], help="source data splits to include")
     parser.add_argument('--rel2text-raw-tsv', default="rel2text_raw_annotated.tsv")
-    parser.add_argument('--output-folder', default="path to output folder")
+    parser.add_argument('--output-folder', help="path to output folder")
 
     args = parser.parse_args()
 

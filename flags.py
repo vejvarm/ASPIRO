@@ -24,6 +24,8 @@ class DatasetChoice(Enum):
     DART_TEST = DATA_ROOT.joinpath("dart_test")
     REL2TEXT = DATA_ROOT.joinpath("rel2text")
     REL2TEXT_TEST = DATA_ROOT.joinpath("rel2text_test")
+    WIKIDATA = DATA_ROOT.joinpath("wikidata")
+    WIKIDATA_TEST = DATA_ROOT.joinpath("wikidata_test")
 
 
 RDF_SEPARATOR = "<&SEP>"  # '<&SEP>'  # NOTE: legacy '|' has problems as it is present in some entity labels
@@ -118,6 +120,7 @@ class ModelChoices(Enum):
     G4_0613 = "gpt-4-0613"  # GPT-4 snapshot from June 13th
     G4 = "gpt-4"  # the default GPT-4 model as per OpenAI documentation
     FALCON_7B = "tiiuae/falcon-7b-instruct"  # instruct-falcon-llm from Technology Innovation Institute
+    FALCON_40B = "tiiuae/falcon-40b-instruct"  # instruct-falcon-llm from Technology Innovation Institute
     NONE = None  # defined for omitting Consistency Validation step
 
 sTOTAL_ERRORS = "TOTAL_ERRORS"
