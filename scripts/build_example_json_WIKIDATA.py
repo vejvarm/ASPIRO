@@ -192,8 +192,11 @@ def _random_id(length=4):
 def main(args):
     input_folder = pathlib.Path(args.input_folder)
     rel_dict_path = input_folder.joinpath("index_rel_dict.json")
+    id2label_dict_path = input_folder.joinpath("items_wikidata_n.json")
     assert rel_dict_path.exists(), f"Place `index_rel_dict.json` to `{input_folder}`"
+    assert id2label_dict_path.exists(), f"Place `items_wikidata_n.json` to `{input_folder}`"
     rel_dict = json.load(rel_dict_path.open())
+    id2label_dict = json.load(id2label_dict_path.open())
     output_folder = pathlib.Path(args.output_folder)
     output_folder.mkdir(parents=True, exist_ok=True)
     if args.labels_file != "":
@@ -225,9 +228,6 @@ def main(args):
     # print(rel_metadata_dict)
 
     # Phase 2: Build rdf_examples_for_each_pid.json
-    id2label_dict_path = input_folder.joinpath("items_wikidata_n.json")
-    assert id2label_dict_path.exists(), f"Place `items_wikidata_n.json` to `{input_folder}`"
-    id2label_dict = json.load(id2label_dict_path.open())
     path_to_example_json = output_folder.joinpath("rdf_examples_for_each_pid.json")
     path_to_label_memory = output_folder.joinpath("label_memory.json")
     path_to_no_example_json = output_folder.joinpath("no_examples.json")
@@ -289,7 +289,7 @@ if __name__ == "__main__":
     path_to_dataset = DEFAULT_FOLDER
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input-folder', help="path to input folder with source rel2text data jsons", type=str, default=path_to_dataset)
+    parser.add_argument('--input-folder', help="path to input folder with source wikidata data jsons", type=str, default=path_to_dataset)
     parser.add_argument('--output-folder', help="path to output folder", type=str, default=path_to_dataset)
     parser.add_argument('--labels-file', help="(optional) file with label templates.", type=str, default="")
 
