@@ -1,3 +1,18 @@
+ASPIRO: Parse RDF triples to natural language templates
+---
+
+Robust data-to-text generation from RDF triples using multi-shot reprompting of Large language models.
+
+**Influenced by**: \
+https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main
+https://github.com/szxiangjn/any-shot-data2text
+
+This repository contains code for reproducing the paper results accepted to the _Findings of the ACL: EMNLP2023_.
+
+    Martin Vejvar & Yasutaka Fujimoto: ASPIRO: Any-shot Structured Parsing-error-Induced ReprOmpting for Consistent Data-to-Text Generation. In: Findings of the Association for Computational Linguistics: EMNLP 2023.
+
+Link for the paper: (todo)
+
 # Requirements:
 ## OpenAI models only:
 ``` bash
@@ -18,7 +33,6 @@ On Linux, you can run the following from console:
 export OPENAI_API_KEY="your-private-api-key"
 ```
 To generate new API key, visit [OpenAI API keys](https://platform.openai.com/account/api-keys) page.
-
 
 
 ## 2) Check Config
@@ -47,22 +61,29 @@ python run_aspiro --config setups/json_from_data.json
 ```
 
 
-# Building dataset scripts
-In these source files the data is already built in the `data` folder.
+# Preparing datasets
+In these source files the data is already built and ready in the `data` folder.
 
-But in case you want to build the data again, you can use the `build_` scripts in the `scripts` folder.
+In case you want to rebuild the data, you can use the `build_[dataset-name].py` scripts in the `scripts` folder.
 
 ## Build REL2TEXT:
+### 1) generate data
 ``` bash
-python scripts/build_example_json_REL2TEXT.py --input-folder sources/rel2text --output-folder sources/rel2text/data
+python scripts/build_REL2TEXT.py --input-folder sources/rel2text --output-folder sources/rel2text/data
 ```
-
-If you want to use the generated data the pipeline, remove the '(split|split|...)' prefix from the generated `(splits)rdf_examples_for_each_pid.json` file and place it into `data/rel2text` folder.
+### 2) move generated data
+To use generated data in ASPIRO, rename the generated file in `--output-folder` to simply `rdf_examples_for_each_pid.json` (remove the leading `'(split|split|...)'`) file and place it into `data/rel2text` folder.
 
 
 ## Build DART:
+### 1) generate data
 ```bash
-python scripts/build_example_json_DART.py --input-folder sources/dart --output-folder sources/dart/data
+python scripts/build_DART.py --input-folder sources/dart --output-folder sources/dart/data
+```
+
+## WebNLG:
+``` bash
+python build_WebNLG.py 
 ```
 
 If you want to use the generated data the pipeline, move [dart2rlabel_map.json](sources%2Fdart%2Fdata%2Fdart2rlabel_map.json), [rdf_examples_for_each_pid.json](sources%2Fdart%2Fdata%2Frdf_examples_for_each_pid.json)
