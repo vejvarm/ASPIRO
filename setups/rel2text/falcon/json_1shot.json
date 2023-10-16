@@ -1,10 +1,12 @@
 {
-    "n_runs": 5,
+    "n_runs": 1,
     "dataset_choice": "REL2TEXT",
     "initial_template": "JSON",
-    "llm_stack": ["FALCON_7B", "FALCON_7B"],
+    "llm_stack": ["/media/freya/kubuntu-data/datasets/d2t/csqa-d2t/aspiro_test/rel2text/JSON/a1_FALCON_7B(NONE)(0shot)(NONE)/max_examples2/run00/templates-rel2text_JSON.json", "FALCON_7B"],
     "consist_val_model": "NONE",
     "example_format": "JSON",
+    "load_in_8bit": false,
+    "load_in_4bit": true,
 
     "max_fetched_examples_per_pid": 2,
     "error_dump_subfolder": "err",

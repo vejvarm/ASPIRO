@@ -1,12 +1,12 @@
 {
     "n_runs": 5,
-    "dataset_choice": "REL2TEXT",
-    "initial_template": "JSON",
-    "llm_stack": ["FALCON_7B", "FALCON_7B", "FALCON_7B", "FALCON_7B", "FALCON_7B"],
+    "dataset_choice": "WEBNLG",
+    "initial_template": "ASDOT",
+    "llm_stack": ["gpt-3.5-turbo"],
     "consist_val_model": "NONE",
-    "example_format": "JSON",
+    "example_format": "TABLE",
 
-    "max_fetched_examples_per_pid": 2,
+    "max_fetched_examples_per_pid": 1,
     "error_dump_subfolder": "err",
     "use_backup": false,
 

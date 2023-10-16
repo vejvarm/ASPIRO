@@ -1,0 +1,7064 @@
+{
+  "1st_runway_LengthFeet": [
+    {
+      "s": "Ashgabat_International_Airport",
+      "r": "1st_runway_LengthFeet",
+      "o": "12467",
+      "lab": "1st runway of <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Abilene_Regional_Airport",
+      "r": "1st_runway_LengthFeet",
+      "o": "3678",
+      "lab": "1st runway of <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Angola_International_Airport",
+      "r": "1st_runway_LengthFeet",
+      "o": "13123",
+      "lab": "1st runway of <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Appleton_International_Airport",
+      "r": "1st_runway_LengthFeet",
+      "o": "8002",
+      "lab": "1st runway of <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Alpena_County_Regional_Airport",
+      "r": "1st_runway_LengthFeet",
+      "o": "9001",
+      "lab": "1st runway of <subject> airport is <object> feet long ."
+    }
+  ],
+  "1st_runway_LengthMetre": [
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "1st_runway_LengthMetre",
+      "o": "3800",
+      "lab": "1st runway of <subject> airport is <object> meters long ."
+    }
+  ],
+  "1st_runway_Number": [
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "1st_runway_Number",
+      "o": "18",
+      "lab": "1st runway of <subject> airport has number <object> ."
+    },
+    {
+      "s": "Angola_International_Airport",
+      "r": "1st_runway_Number",
+      "o": "5",
+      "lab": "1st runway of <subject> airport has number <object> ."
+    }
+  ],
+  "1st_runway_SurfaceType": [
+    {
+      "s": "Angola_International_Airport",
+      "r": "1st_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The first runway at <subject> is made from <object> ."
+    },
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "1st_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The first runway at <subject> is made from <object> ."
+    },
+    {
+      "s": "Abilene_Regional_Airport",
+      "r": "1st_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The first runway at <subject> is made from <object> ."
+    },
+    {
+      "s": "Alderney_Airport",
+      "r": "1st_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The first runway at <subject> is made from <object> ."
+    },
+    {
+      "s": "Alderney_Airport",
+      "r": "1st_runway_SurfaceType",
+      "o": "Poaceae",
+      "lab": "The first runway at <subject> is made from <object> ."
+    }
+  ],
+  "2nd_runway_SurfaceType": [
+    {
+      "s": "Ardmore_Airport_(New_Zealand)",
+      "r": "2nd_runway_SurfaceType",
+      "o": "Poaceae",
+      "lab": "The second runway at <subject> is made from <object> ."
+    }
+  ],
+  "3rd_runway_LengthFeet": [
+    {
+      "s": "Abilene_Regional_Airport",
+      "r": "3rd_runway_LengthFeet",
+      "o": "7202",
+      "lab": "3rd runway of the <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Andrews_County_Airport",
+      "r": "3rd_runway_LengthFeet",
+      "o": "2939",
+      "lab": "3rd runway of the <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Ashgabat_International_Airport",
+      "r": "3rd_runway_LengthFeet",
+      "o": "2953",
+      "lab": "3rd runway of the <subject> airport is <object> feet long ."
+    },
+    {
+      "s": "Ardmore_Airport_(New_Zealand)",
+      "r": "3rd_runway_LengthFeet",
+      "o": "1960",
+      "lab": "3rd runway of the <subject> airport is <object> feet long ."
+    }
+  ],
+  "3rd_runway_SurfaceType": [
+    {
+      "s": "Ardmore_Airport_(New_Zealand)",
+      "r": "3rd_runway_SurfaceType",
+      "o": "Poaceae",
+      "lab": "The 3rd runway at the <subject> airport is made of <object> ."
+    }
+  ],
+  "4th_runway_LengthFeet": [
+    {
+      "s": "Andrews_County_Airport",
+      "r": "4th_runway_LengthFeet",
+      "o": "25",
+      "lab": "4tg runway of the <subject> airport is <object> feet long ."
+    }
+  ],
+  "4th_runway_SurfaceType": [
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "4th_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The 4th runway at the <subject> airport is made of <object> ."
+    },
+    {
+      "s": "Andrews_County_Airport",
+      "r": "4th_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The 4th runway at the <subject> airport is made of <object> ."
+    }
+  ],
+  "5th_runway_Number": [
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "5th_runway_Number",
+      "o": "18",
+      "lab": "5th runway of <subject> airport has number <object> ."
+    }
+  ],
+  "CODEN_code": [
+    {
+      "s": "Acta_Palaeontologica_Polonica",
+      "r": "CODEN_code",
+      "o": "APGPAC",
+      "lab": "<subject> has the CODEN code <object> ."
+    },
+    {
+      "s": "AIP_Advances",
+      "r": "CODEN_code",
+      "o": "AAIDBI",
+      "lab": "<subject> has the CODEN code <object> ."
+    },
+    {
+      "s": "Acta_Mathematica_Hungarica",
+      "r": "CODEN_code",
+      "o": "AMAHE9",
+      "lab": "<subject> has the CODEN code <object> ."
+    },
+    {
+      "s": "Administrative_Science_Quarterly",
+      "r": "CODEN_code",
+      "o": "ASCQAG",
+      "lab": "<subject> has the CODEN code <object> ."
+    },
+    {
+      "s": "Addiction_(journal)",
+      "r": "CODEN_code",
+      "o": "ADICE5",
+      "lab": "<subject> has the CODEN code <object> ."
+    }
+  ],
+  "EISSN_number": [
+    {
+      "s": "AIP_Advances",
+      "r": "EISSN_number",
+      "o": "2158",
+      "lab": "<subject> has the EISSN number <object> ."
+    },
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "EISSN_number",
+      "o": "1080",
+      "lab": "<subject> has the EISSN number <object> ."
+    }
+  ],
+  "IATA_Location_Identifier": [
+    {
+      "s": "Agra_Airport",
+      "r": "IATA_Location_Identifier",
+      "o": "AGR",
+      "lab": "<subject> has an <object> IATA Location Identifier ."
+    },
+    {
+      "s": "Ashgabat_International_Airport",
+      "r": "IATA_Location_Identifier",
+      "o": "ASB",
+      "lab": "<subject> has an <object> IATA Location Identifier ."
+    }
+  ],
+  "ICAO_Location_Identifier": [
+    {
+      "s": "Agra_Airport",
+      "r": "ICAO_Location_Identifier",
+      "o": "VIAG",
+      "lab": "<subject> has an <object> ICAO Location Identifier ."
+    },
+    {
+      "s": "Afonso_Pena_International_Airport",
+      "r": "ICAO_Location_Identifier",
+      "o": "SBCT",
+      "lab": "<subject> has an <object> ICAO Location Identifier ."
+    },
+    {
+      "s": "Abilene_Regional_Airport",
+      "r": "ICAO_Location_Identifier",
+      "o": "KABI",
+      "lab": "<subject> has an <object> ICAO Location Identifier ."
+    },
+    {
+      "s": "Ashgabat_International_Airport",
+      "r": "ICAO_Location_Identifier",
+      "o": "UTAA",
+      "lab": "<subject> has an <object> ICAO Location Identifier ."
+    },
+    {
+      "s": "Al_Asad_Airbase",
+      "r": "ICAO_Location_Identifier",
+      "o": "ORAA",
+      "lab": "<subject> has an <object> ICAO Location Identifier ."
+    }
+  ],
+  "ISBN_number": [
+    {
+      "s": "Above_the_Veil",
+      "r": "ISBN_number",
+      "o": "0-439-17685-9",
+      "lab": "<subject> 's ISBN number is <object> ."
+    },
+    {
+      "s": "A_Severed_Wasp",
+      "r": "ISBN_number",
+      "o": "0-374-26131-8",
+      "lab": "<subject> 's ISBN number is <object> ."
+    },
+    {
+      "s": "1634:_The_Bavarian_Crisis",
+      "r": "ISBN_number",
+      "o": "978-1-4165-4253-7",
+      "lab": "<subject> 's ISBN number is <object> ."
+    },
+    {
+      "s": "Aenir",
+      "r": "ISBN_number",
+      "o": "0-439-17684-0",
+      "lab": "<subject> 's ISBN number is <object> ."
+    },
+    {
+      "s": "A_Long_Long_Way",
+      "r": "ISBN_number",
+      "o": "0-670-03380-4",
+      "lab": "<subject> 's ISBN number is <object> ."
+    }
+  ],
+  "ISSN_number": [
+    {
+      "s": "Acta_Palaeontologica_Polonica",
+      "r": "ISSN_number",
+      "o": "0567-7920",
+      "lab": "<subject> 's ISSN number is <object> ."
+    },
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "ISSN_number",
+      "o": "1080-6377",
+      "lab": "<subject> 's ISSN number is <object> ."
+    },
+    {
+      "s": "ACM_Transactions_on_Information_Systems",
+      "r": "ISSN_number",
+      "o": "1046-8188",
+      "lab": "<subject> 's ISSN number is <object> ."
+    },
+    {
+      "s": "Addiction_(journal)",
+      "r": "ISSN_number",
+      "o": "0965-2140",
+      "lab": "<subject> 's ISSN number is <object> ."
+    },
+    {
+      "s": "Addiction_(journal)",
+      "r": "ISSN_number",
+      "o": "1360-0443",
+      "lab": "<subject> 's ISSN number is <object> ."
+    }
+  ],
+  "LCCN_number": [
+    {
+      "s": "ACM_Transactions_on_Information_Systems",
+      "r": "LCCN_number",
+      "o": "89646863",
+      "lab": "<subject> 's LCCN number is <object> ."
+    },
+    {
+      "s": "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg",
+      "r": "LCCN_number",
+      "o": "32024459",
+      "lab": "<subject> 's LCCN number is <object> ."
+    },
+    {
+      "s": "Acta_Palaeontologica_Polonica",
+      "r": "LCCN_number",
+      "o": "60040714",
+      "lab": "<subject> 's LCCN number is <object> ."
+    },
+    {
+      "s": "AIDS_(journal)",
+      "r": "LCCN_number",
+      "o": "90640840",
+      "lab": "<subject> 's LCCN number is <object> ."
+    },
+    {
+      "s": "Acta_Mathematica_Hungarica",
+      "r": "LCCN_number",
+      "o": "83646315",
+      "lab": "<subject> 's LCCN number is <object> ."
+    }
+  ],
+  "LibraryofCongressClassification": [
+    {
+      "s": "A_Severed_Wasp",
+      "r": "LibraryofCongressClassification",
+      "o": "PS3523.E55 S4 1982",
+      "lab": "<subject> has the Library of Congress Classification id <object> ."
+    },
+    {
+      "s": "A_Glastonbury_Romance",
+      "r": "LibraryofCongressClassification",
+      "o": "PR6031.O867",
+      "lab": "<subject> has the Library of Congress Classification id <object> ."
+    }
+  ],
+  "OCLC_number": [
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "OCLC_number",
+      "o": "1480153",
+      "lab": "<subject> has the OCLC number <object> ."
+    },
+    {
+      "s": "Above_the_Veil",
+      "r": "OCLC_number",
+      "o": "46451790",
+      "lab": "<subject> has the OCLC number <object> ."
+    },
+    {
+      "s": "A_Fortress_of_Grey_Ice",
+      "r": "OCLC_number",
+      "o": "51969173",
+      "lab": "<subject> has the OCLC number <object> ."
+    },
+    {
+      "s": "A_Wizard_of_Mars",
+      "r": "OCLC_number",
+      "o": "318875313",
+      "lab": "<subject> has the OCLC number <object> ."
+    },
+    {
+      "s": "Aenir",
+      "r": "OCLC_number",
+      "o": "45644811",
+      "lab": "<subject> has the OCLC number <object> ."
+    }
+  ],
+  "ReferenceNumber in the National Register of Historic Places": [
+    {
+      "s": "Asilomar_Conference_Grounds",
+      "r": "ReferenceNumber in the National Register of Historic Places",
+      "o": "87000823",
+      "lab": "<subject> ' reference number is <object> in the National Register of Historic Places ."
+    },
+    {
+      "s": "Asher_and_Mary_Isabelle_Richardson_House",
+      "r": "ReferenceNumber in the National Register of Historic Places",
+      "o": "88002539",
+      "lab": "<subject> ' reference number is <object> in the National Register of Historic Places ."
+    },
+    {
+      "s": "Asser_Levy_Public_Baths",
+      "r": "ReferenceNumber in the National Register of Historic Places",
+      "o": "80002709",
+      "lab": "<subject> ' reference number is <object> in the National Register of Historic Places ."
+    }
+  ],
+  "UTCOffset": [
+    {
+      "s": "Antioch,_California",
+      "r": "UTCOffset",
+      "o": "-7",
+      "lab": "<subject> has an UTC offset of <object> ."
+    },
+    {
+      "s": "Anaheim,_California",
+      "r": "UTCOffset",
+      "o": "-7",
+      "lab": "<subject> has an UTC offset of <object> ."
+    },
+    {
+      "s": "Anaheim,_California",
+      "r": "UTCOffset",
+      "o": "-8",
+      "lab": "<subject> has an UTC offset of <object> ."
+    },
+    {
+      "s": "Antioch,_California",
+      "r": "UTCOffset",
+      "o": "-8",
+      "lab": "<subject> has an UTC offset of <object> ."
+    }
+  ],
+  "abbreviation": [
+    {
+      "s": "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg",
+      "r": "abbreviation",
+      "o": "Abh. Math. Semin. Univ. Hambg.",
+      "lab": "<subject> is abbreivated as <object>"
+    },
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "abbreviation",
+      "o": "Am. J. Math.",
+      "lab": "<subject> is abbreivated as <object>"
+    },
+    {
+      "s": "AIP_Advances",
+      "r": "abbreviation",
+      "o": "AIP Adv.",
+      "lab": "<subject> is abbreivated as <object>"
+    },
+    {
+      "s": "ACM_Transactions_on_Information_Systems",
+      "r": "abbreviation",
+      "o": "ACM Trans. Inf. Syst.",
+      "lab": "<subject> is abbreivated as <object>"
+    },
+    {
+      "s": "Administrative_Science_Quarterly",
+      "r": "abbreviation",
+      "o": "Admin. Sci. Q.",
+      "lab": "<subject> is abbreivated as <object>"
+    }
+  ],
+  "academicDiscipline": [
+    {
+      "s": "AIDS_(journal)",
+      "r": "academicDiscipline",
+      "o": "HIV",
+      "lab": "<subject> studies <object> ."
+    },
+    {
+      "s": "AIP_Advances",
+      "r": "academicDiscipline",
+      "o": "Physics",
+      "lab": "<subject> studies <object> ."
+    },
+    {
+      "s": "Administrative_Science_Quarterly",
+      "r": "academicDiscipline",
+      "o": "Management",
+      "lab": "<subject> studies <object> ."
+    },
+    {
+      "s": "AIDS_(journal)",
+      "r": "academicDiscipline",
+      "o": "HIV/AIDS",
+      "lab": "<subject> studies <object> ."
+    },
+    {
+      "s": "Acta_Palaeontologica_Polonica",
+      "r": "academicDiscipline",
+      "o": "Paleobiology",
+      "lab": "<subject> studies <object> ."
+    }
+  ],
+  "academicStaffSize": [
+    {
+      "s": "Accademia_di_Architettura_di_Mendrisio",
+      "r": "academicStaffSize",
+      "o": "100",
+      "lab": "<subject> has <object> employees ."
+    },
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "academicStaffSize",
+      "o": "~500",
+      "lab": "<subject> has <object> employees ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "academicStaffSize",
+      "o": "737",
+      "lab": "<subject> has <object> employees ."
+    },
+    {
+      "s": "AWH_Engineering_College",
+      "r": "academicStaffSize",
+      "o": "250",
+      "lab": "<subject> has <object> employees ."
+    }
+  ],
+  "added to the National Register of Historic Places": [
+    {
+      "s": "Asilomar_Conference_Grounds",
+      "r": "added to the National Register of Historic Places",
+      "o": "1987-02-27",
+      "lab": "<subject> was added to the National Register of Historic Places on <object> ."
+    },
+    {
+      "s": "Asher_and_Mary_Isabelle_Richardson_House",
+      "r": "added to the National Register of Historic Places",
+      "o": "1988-11-22",
+      "lab": "<subject> was added to the National Register of Historic Places on <object> ."
+    },
+    {
+      "s": "Asser_Levy_Public_Baths",
+      "r": "added to the National Register of Historic Places",
+      "o": "1980-04-23",
+      "lab": "<subject> was added to the National Register of Historic Places on <object> ."
+    }
+  ],
+  "address": [
+    {
+      "s": "Adisham_Hall",
+      "r": "address",
+      "o": "St. Benedicts Monastery, Adisham, Haputhale, Sri Lanka",
+      "lab": "<subject> is located at <object> ."
+    },
+    {
+      "s": "Amdavad_ni_Gufa",
+      "r": "address",
+      "o": "Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road",
+      "lab": "<subject> is located at <object> ."
+    },
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "address",
+      "o": "101 Ukrop Way",
+      "lab": "<subject> is located at <object> ."
+    },
+    {
+      "s": "Akita_Museum_of_Art",
+      "r": "address",
+      "o": "1-4-2 Nakadori",
+      "lab": "<subject> is located at <object> ."
+    }
+  ],
+  "administrativeArrondissement": [
+    {
+      "s": "Antwerp",
+      "r": "administrativeArrondissement",
+      "o": "Arrondissement_of_Antwerp",
+      "lab": "<subject> is in the administrative arrondissement of <object> ."
+    }
+  ],
+  "administrativeCounty": [
+    {
+      "s": "Derbyshire_Dales",
+      "r": "administrativeCounty",
+      "o": "Derbyshire",
+      "lab": "<subject> is found in the county of <object> ."
+    }
+  ],
+  "affiliation": [
+    {
+      "s": "Cornell_University",
+      "r": "affiliation",
+      "o": "Association_of_American_Universities",
+      "lab": "<subject> is affiliated with <object> ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "affiliation",
+      "o": "European_University_Association",
+      "lab": "<subject> is affiliated with <object> ."
+    },
+    {
+      "s": "Cornell_University",
+      "r": "affiliation",
+      "o": "Association_of_Public_and_Land-grant_Universities",
+      "lab": "<subject> is affiliated with <object> ."
+    },
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "affiliation",
+      "o": "Visvesvaraya_Technological_University",
+      "lab": "<subject> is affiliated with <object> ."
+    },
+    {
+      "s": "University_of_Texas_at_Austin",
+      "r": "affiliation",
+      "o": "University_of_Texas_System",
+      "lab": "<subject> is affiliated with <object> ."
+    }
+  ],
+  "aircraftFighter": [
+    {
+      "s": "United_States_Air_Force",
+      "r": "aircraftFighter",
+      "o": "McDonnell_Douglas_F-15_Eagle",
+      "lab": "<subject> aircraft fighter is called <object> ."
+    },
+    {
+      "s": "United_States_Air_Force",
+      "r": "aircraftFighter",
+      "o": "General_Dynamics_F-16_Fighting_Falcon",
+      "lab": "<subject> aircraft fighter is called <object> ."
+    }
+  ],
+  "aircraftHelicopter": [
+    {
+      "s": "Indian_Air_Force",
+      "r": "aircraftHelicopter",
+      "o": "HAL_Light_Combat_Helicopter",
+      "lab": "<subject> has an aircraft helicopter <object> ."
+    }
+  ],
+  "almaMater": [
+    {
+      "s": "Agnes_Kant",
+      "r": "almaMater",
+      "o": "Radboud_University_Nijmegen",
+      "lab": "<subject> went to the <object> university ."
+    },
+    {
+      "s": "A.T._Charlie_Johnson",
+      "r": "almaMater",
+      "o": "Harvard_University",
+      "lab": "<subject> went to the <object> university ."
+    },
+    {
+      "s": "Abdulsalami_Abubakar",
+      "r": "almaMater",
+      "o": "Technical_Institute,_Kaduna",
+      "lab": "<subject> went to the <object> university ."
+    },
+    {
+      "s": "Josef_Klaus",
+      "r": "almaMater",
+      "o": "University_of_Vienna",
+      "lab": "<subject> went to the <object> university ."
+    },
+    {
+      "s": "Adenan_Satem",
+      "r": "almaMater",
+      "o": "University_of_Adelaide",
+      "lab": "<subject> went to the <object> university ."
+    }
+  ],
+  "alternativeName": [
+    {
+      "s": "Arion_(comicsCharacter)",
+      "r": "alternativeName",
+      "o": "Ahriahn",
+      "lab": "<subject> is also known as <object> ."
+    },
+    {
+      "s": "Asam_pedas",
+      "r": "alternativeName",
+      "o": "Asam padeh",
+      "lab": "<subject> is also known as <object> ."
+    },
+    {
+      "s": "Blockbuster_(comicsCharacter)",
+      "r": "alternativeName",
+      "o": "Roland Desmond",
+      "lab": "<subject> is also known as <object> ."
+    },
+    {
+      "s": "Ajoblanco",
+      "r": "alternativeName",
+      "o": "Ajo blanco",
+      "lab": "<subject> is also known as <object> ."
+    },
+    {
+      "s": "The_Arrow_(comicsCharacter)",
+      "r": "alternativeName",
+      "o": "Rick Parker",
+      "lab": "<subject> is also known as <object> ."
+    }
+  ],
+  "alternativeNames": [
+    {
+      "s": "Buzz_Aldrin",
+      "r": "alternativeNames",
+      "o": "Edwin E. Aldrin, Jr.",
+      "lab": "<subject> is also called <object> ."
+    }
+  ],
+  "anthem": [
+    {
+      "s": "Switzerland",
+      "r": "anthem",
+      "o": "Swiss_Psalm",
+      "lab": "<subject> has a national anthem called <object> ."
+    },
+    {
+      "s": "Romania",
+      "r": "anthem",
+      "o": "De\u0219teapt\u0103-te,_rom\u00e2ne!",
+      "lab": "<subject> has a national anthem called <object> ."
+    },
+    {
+      "s": "Canada",
+      "r": "anthem",
+      "o": "O_Canada",
+      "lab": "<subject> has a national anthem called <object> ."
+    },
+    {
+      "s": "United_States",
+      "r": "anthem",
+      "o": "The_Star-Spangled_Banner",
+      "lab": "<subject> has a national anthem called <object> ."
+    }
+  ],
+  "architect": [
+    {
+      "s": "Adare_Manor",
+      "r": "architect",
+      "o": "James Pain and George Richard Pain,",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "Adare_Manor",
+      "r": "architect",
+      "o": "James_Pain",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "3Arena",
+      "r": "architect",
+      "o": "HOK SVE",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "300_North_LaSalle",
+      "r": "architect",
+      "o": "Pickard_Chilton",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "103_Colmore_Row",
+      "r": "architect",
+      "o": "John_Madin",
+      "lab": "<subject> was designed by <object> ."
+    }
+  ],
+  "architecturalStyle": [
+    {
+      "s": "250_Delaware_Avenue",
+      "r": "architecturalStyle",
+      "o": "Postmodern_architecture",
+      "lab": "<subject> is built in the style of <object> ."
+    },
+    {
+      "s": "Adisham_Hall",
+      "r": "architecturalStyle",
+      "o": "Tudor and Jacabian",
+      "lab": "<subject> is built in the style of <object> ."
+    },
+    {
+      "s": "103_Colmore_Row",
+      "r": "architecturalStyle",
+      "o": "Brutalist_architecture",
+      "lab": "<subject> is built in the style of <object> ."
+    },
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "architecturalStyle",
+      "o": "Georgian_architecture",
+      "lab": "<subject> is built in the style of <object> ."
+    },
+    {
+      "s": "Adisham_Hall",
+      "r": "architecturalStyle",
+      "o": "Tudor_Revival_architecture",
+      "lab": "<subject> is built in the style of <object> ."
+    }
+  ],
+  "areaCode": [
+    {
+      "s": "Alexandria,_Indiana",
+      "r": "areaCode",
+      "o": "765",
+      "lab": "<subject> has the area code <object> ."
+    },
+    {
+      "s": "Anaheim,_California",
+      "r": "areaCode",
+      "o": "657",
+      "lab": "<subject> has the area code <object> ."
+    },
+    {
+      "s": "Auburn,_Alabama",
+      "r": "areaCode",
+      "o": "334",
+      "lab": "<subject> has the area code <object> ."
+    },
+    {
+      "s": "Alpharetta,_Georgia",
+      "r": "areaCode",
+      "o": "770, 404, 678",
+      "lab": "<subject> has the area code <object> ."
+    },
+    {
+      "s": "Austin,_Texas",
+      "r": "areaCode",
+      "o": "512",
+      "lab": "<subject> has the area code <object> ."
+    }
+  ],
+  "areaOfLand": [
+    {
+      "s": "Albuquerque,_New_Mexico",
+      "r": "areaOfLand",
+      "o": "486.2 (square kilometres)",
+      "lab": "<subject> covers <object> of land ."
+    },
+    {
+      "s": "Atlanta",
+      "r": "areaOfLand",
+      "o": "344.9 (square kilometres)",
+      "lab": "<subject> covers <object> of land ."
+    },
+    {
+      "s": "Austin,_Texas",
+      "r": "areaOfLand",
+      "o": "686.0 (square kilometres)",
+      "lab": "<subject> covers <object> of land ."
+    }
+  ],
+  "areaOfWater": [
+    {
+      "s": "Albany,_Oregon",
+      "r": "areaOfWater",
+      "o": "0.54 (square kilometres)",
+      "lab": "<subject> has an area of water <object> ."
+    },
+    {
+      "s": "Alpharetta,_Georgia",
+      "r": "areaOfWater",
+      "o": "1.0 (square kilometres)",
+      "lab": "<subject> has an area of water <object> ."
+    },
+    {
+      "s": "Abilene,_Texas",
+      "r": "areaOfWater",
+      "o": "14.2 (square kilometres)",
+      "lab": "<subject> has an area of water <object> ."
+    },
+    {
+      "s": "Auburn,_Alabama",
+      "r": "areaOfWater",
+      "o": "1.7 (square kilometres)",
+      "lab": "<subject> has an area of water <object> ."
+    },
+    {
+      "s": "Anaheim,_California",
+      "r": "areaOfWater",
+      "o": "25.2 (square kilometres)",
+      "lab": "<subject> has an area of water <object> ."
+    }
+  ],
+  "areaTotal": [
+    {
+      "s": "Albany,_Oregon",
+      "r": "areaTotal",
+      "o": "45.97 (square kilometres)",
+      "lab": "<subject> has an area of <object> ."
+    },
+    {
+      "s": "Arlington,_Texas",
+      "r": "areaTotal",
+      "o": "258.2 (square kilometres)",
+      "lab": "<subject> has an area of <object> ."
+    },
+    {
+      "s": "Akron,_Ohio",
+      "r": "areaTotal",
+      "o": "161.54 (square kilometres)",
+      "lab": "<subject> has an area of <object> ."
+    },
+    {
+      "s": "Ann_Arbor,_Michigan",
+      "r": "areaTotal",
+      "o": "74.33 (square kilometres)",
+      "lab": "<subject> has an area of <object> ."
+    },
+    {
+      "s": "Albany,_Georgia",
+      "r": "areaTotal",
+      "o": "144.7 (square kilometres)",
+      "lab": "<subject> has an area of <object> ."
+    }
+  ],
+  "attackAircraft": [
+    {
+      "s": "United_States_Air_Force",
+      "r": "attackAircraft",
+      "o": "Lockheed_AC-130",
+      "lab": "<object> is an attack aircraft of <subject> ."
+    }
+  ],
+  "author": [
+    {
+      "s": "Alcatraz_Versus_the_Evil_Librarians",
+      "r": "author",
+      "o": "Brandon_Sanderson",
+      "lab": "<subject> is written by <object> ."
+    },
+    {
+      "s": "1634:_The_Baltic_War",
+      "r": "author",
+      "o": "David_Weber",
+      "lab": "<subject> is written by <object> ."
+    },
+    {
+      "s": "1634:_The_Ram_Rebellion",
+      "r": "author",
+      "o": "Virginia_DeMarce",
+      "lab": "<subject> is written by <object> ."
+    },
+    {
+      "s": "Above_the_Veil",
+      "r": "author",
+      "o": "Garth_Nix",
+      "lab": "<subject> is written by <object> ."
+    },
+    {
+      "s": "1634:_The_Bavarian_Crisis",
+      "r": "author",
+      "o": "Virginia DeMarce and Eric Flint",
+      "lab": "<subject> is written by <object> ."
+    }
+  ],
+  "award": [
+    {
+      "s": "Adam_Koc",
+      "r": "award",
+      "o": "Virtuti_Militari",
+      "lab": "<subject> has won <object> ."
+    },
+    {
+      "s": "John_Buscema",
+      "r": "award",
+      "o": "Alley_Award",
+      "lab": "<subject> has won <object> ."
+    },
+    {
+      "s": "Jan_Duursema",
+      "r": "award",
+      "o": "Eisner_Award",
+      "lab": "<subject> has won <object> ."
+    },
+    {
+      "s": "Marv_Wolfman",
+      "r": "award",
+      "o": "Kirby_Award",
+      "lab": "<subject> has won <object> ."
+    },
+    {
+      "s": "Roy_Thomas",
+      "r": "award",
+      "o": "Academy_of_Comic_Book_Arts",
+      "lab": "<subject> has won <object> ."
+    }
+  ],
+  "awards": [
+    {
+      "s": "Alan_Shepard",
+      "r": "awards",
+      "o": "Distinguished_Service_Medal_(United_States_Navy)",
+      "lab": "<subject> received <object> awards ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "awards",
+      "o": "20",
+      "lab": "<subject> received <object> awards ."
+    }
+  ],
+  "backup pilot": [
+    {
+      "s": "Apollo_8",
+      "r": "backup pilot",
+      "o": "Buzz_Aldrin",
+      "lab": "<subject> 's backup pilot was <object> ."
+    },
+    {
+      "s": "Apollo_12",
+      "r": "backup pilot",
+      "o": "Alfred_Worden",
+      "lab": "<subject> 's backup pilot was <object> ."
+    },
+    {
+      "s": "Apollo_11",
+      "r": "backup pilot",
+      "o": "William_Anders",
+      "lab": "<subject> 's backup pilot was <object> ."
+    }
+  ],
+  "battles": [
+    {
+      "s": "Allan_Shivers",
+      "r": "battles",
+      "o": "World_War_II",
+      "lab": "<subject> has fought in <object> ."
+    },
+    {
+      "s": "United_States_Army",
+      "r": "battles",
+      "o": "American_Civil_War",
+      "lab": "<subject> has fought in <object> ."
+    },
+    {
+      "s": "Abner_W._Sibal",
+      "r": "battles",
+      "o": "World_War_II",
+      "lab": "<subject> has fought in <object> ."
+    },
+    {
+      "s": "Aaron_S._Daggett",
+      "r": "battles",
+      "o": "Battle_of_Gettysburg",
+      "lab": "<subject> has fought in <object> ."
+    },
+    {
+      "s": "United_States_Air_Force",
+      "r": "battles",
+      "o": "Korean_War",
+      "lab": "<subject> has fought in <object> ."
+    }
+  ],
+  "bedCount": [
+    {
+      "s": "Ampara_Hospital",
+      "r": "bedCount",
+      "o": "476",
+      "lab": "<subject> has <object> beds ."
+    }
+  ],
+  "bird": [
+    {
+      "s": "New_Hampshire",
+      "r": "bird",
+      "o": "Purple_finch",
+      "lab": "<object> is a bird living in <subject> ."
+    }
+  ],
+  "birthDate": [
+    {
+      "s": "Abradab",
+      "r": "birthDate",
+      "o": "1978-11-12",
+      "lab": "<subject> was born on <object> ."
+    },
+    {
+      "s": "Ace_Wilder",
+      "r": "birthDate",
+      "o": "1982-07-23",
+      "lab": "<subject> was born on <object> ."
+    },
+    {
+      "s": "Alberto_Teisaire",
+      "r": "birthDate",
+      "o": "1891-05-20",
+      "lab": "<subject> was born on <object> ."
+    },
+    {
+      "s": "Abdul_Taib_Mahmud",
+      "r": "birthDate",
+      "o": "1936-05-21",
+      "lab": "<subject> was born on <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "birthDate",
+      "o": "1923-11-18",
+      "lab": "<subject> was born on <object> ."
+    }
+  ],
+  "birthName": [
+    {
+      "s": "Alan_Bean",
+      "r": "birthName",
+      "o": "Alan LaVern Bean",
+      "lab": "<subject> was born as <object> ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "birthName",
+      "o": "Edwin Eugene Aldrin Jr.",
+      "lab": "<subject> was born as <object> ."
+    }
+  ],
+  "birthPlace": [
+    {
+      "s": "William_M._O._Dawson",
+      "r": "birthPlace",
+      "o": "Bloomington,_Maryland",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Walter_Baade",
+      "r": "birthPlace",
+      "o": "Preu\u00dfisch_Oldendorf",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Albert_Jennings_Fountain",
+      "r": "birthPlace",
+      "o": "New_York",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Aleksander_Barkov,_Jr.",
+      "r": "birthPlace",
+      "o": "Tampere, Finland",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "John_Cowper_Powys",
+      "r": "birthPlace",
+      "o": "Shirley,_Derbyshire",
+      "lab": "<subject> was born in <object> ."
+    }
+  ],
+  "buildingStartDate": [
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "buildingStartDate",
+      "o": "30 March 2007",
+      "lab": "Construction of <subject> began in <object> ."
+    },
+    {
+      "s": "108_St_Georges_Terrace",
+      "r": "buildingStartDate",
+      "o": "1981",
+      "lab": "Construction of <subject> began in <object> ."
+    },
+    {
+      "s": "Adare_Manor",
+      "r": "buildingStartDate",
+      "o": "1700",
+      "lab": "Construction of <subject> began in <object> ."
+    },
+    {
+      "s": "Adisham_Hall",
+      "r": "buildingStartDate",
+      "o": "1927",
+      "lab": "Construction of <subject> began in <object> ."
+    },
+    {
+      "s": "20_Fenchurch_Street",
+      "r": "buildingStartDate",
+      "o": "January 2009",
+      "lab": "Construction of <subject> began in <object> ."
+    }
+  ],
+  "buildingType": [
+    {
+      "s": "3Arena",
+      "r": "buildingType",
+      "o": "Concert and events venue",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Addis_Ababa_City_Hall",
+      "r": "buildingType",
+      "o": "Seat_of_local_government",
+      "lab": "<subject> is <object> ."
+    }
+  ],
+  "capital": [
+    {
+      "s": "United_States",
+      "r": "capital",
+      "o": "Washington,_D.C.",
+      "lab": "<subject> 's capital is <object> ."
+    },
+    {
+      "s": "England",
+      "r": "capital",
+      "o": "London",
+      "lab": "<subject> 's capital is <object> ."
+    },
+    {
+      "s": "Georgia_(U.S._state)",
+      "r": "capital",
+      "o": "Atlanta",
+      "lab": "<subject> 's capital is <object> ."
+    },
+    {
+      "s": "Alderney",
+      "r": "capital",
+      "o": "Saint_Anne,_Alderney",
+      "lab": "<subject> 's capital is <object> ."
+    },
+    {
+      "s": "Malaysia",
+      "r": "capital",
+      "o": "Kuala_Lumpur",
+      "lab": "<subject> 's capital is <object> ."
+    }
+  ],
+  "carbohydrate": [
+    {
+      "s": "Barny_Cakes",
+      "r": "carbohydrate",
+      "o": "18.0 g",
+      "lab": "<subject> have <object> of carbohydrates ."
+    }
+  ],
+  "category": [
+    {
+      "s": "11th_Mississippi_Infantry_Monument",
+      "r": "category",
+      "o": "Contributing_property",
+      "lab": "<subject> is categorized as <object> ."
+    },
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "category",
+      "o": "Historic_districts_in_the_United_States",
+      "lab": "<subject> is categorized as <object> ."
+    }
+  ],
+  "chairman": [
+    {
+      "s": "A.C._Milan",
+      "r": "chairman",
+      "o": "Silvio_Berlusconi",
+      "lab": "<object> is chairman of <subject> ."
+    },
+    {
+      "s": "Akron_Summit_Assault",
+      "r": "chairman",
+      "o": "Dave_Laughlin",
+      "lab": "<object> is chairman of <subject> ."
+    },
+    {
+      "s": "Olympique_Lyonnais",
+      "r": "chairman",
+      "o": "Jean-Michel_Aulas",
+      "lab": "<object> is chairman of <subject> ."
+    },
+    {
+      "s": "A.E_Dimitra_Efxeinoupolis",
+      "r": "chairman",
+      "o": "Antonis_Milionis",
+      "lab": "<object> is chairman of <subject> ."
+    },
+    {
+      "s": "FC_Spartak_Moscow",
+      "r": "chairman",
+      "o": "Sergey_Rodionov",
+      "lab": "<object> is chairman of <subject> ."
+    }
+  ],
+  "chairmanTitle": [
+    {
+      "s": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+      "r": "chairmanTitle",
+      "o": "President",
+      "lab": "<subject> 's chairman is called <object> ."
+    }
+  ],
+  "chairperson": [
+    {
+      "s": "Democratic_Party_(United_States)",
+      "r": "chairperson",
+      "o": "Debbie_Wasserman_Schultz",
+      "lab": "<subject> is the chair of <object> ."
+    }
+  ],
+  "champions": [
+    {
+      "s": "Azerbaijan_Premier_League",
+      "r": "champions",
+      "o": "Qaraba\u011f_FK",
+      "lab": "<object> won <subject> ."
+    },
+    {
+      "s": "Serie_B",
+      "r": "champions",
+      "o": "Carpi_F.C._1909",
+      "lab": "<object> won <subject> ."
+    },
+    {
+      "s": "Superleague_Greece",
+      "r": "champions",
+      "o": "Olympiacos_F.C.",
+      "lab": "<object> won <subject> ."
+    },
+    {
+      "s": "Premier_Development_League",
+      "r": "champions",
+      "o": "K-W_United_FC",
+      "lab": "<object> won <subject> ."
+    },
+    {
+      "s": "Serie_D",
+      "r": "champions",
+      "o": "S.S._Robur_Siena",
+      "lab": "<object> won <subject> ."
+    }
+  ],
+  "chancellor": [
+    {
+      "s": "College_of_William_&_Mary",
+      "r": "chancellor",
+      "o": "Robert_Gates",
+      "lab": "<object> is the chancellor of <subject> ."
+    }
+  ],
+  "city": [
+    {
+      "s": "Houston_Texans",
+      "r": "city",
+      "o": "Texas",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "city",
+      "o": "Bangalore",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Tennessee_Titans",
+      "r": "city",
+      "o": "Nashville,_Tennessee",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "city",
+      "o": "Alba_Iulia",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "St._Louis_Rams",
+      "r": "city",
+      "o": "St._Louis",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "cityServed": [
+    {
+      "s": "Aarhus_Airport",
+      "r": "cityServed",
+      "o": "Aarhus",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Adirondack_Regional_Airport",
+      "r": "cityServed",
+      "o": "Lake_Placid,_New_York",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Allama_Iqbal_International_Airport",
+      "r": "cityServed",
+      "o": "Lahore",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Atlantic_City_International_Airport",
+      "r": "cityServed",
+      "o": "Atlantic_City,_New_Jersey",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Alderney_Airport",
+      "r": "cityServed",
+      "o": "Alderney",
+      "lab": "<subject> serves <object> ."
+    }
+  ],
+  "class": [
+    {
+      "s": "AMC_Matador",
+      "r": "class",
+      "o": "Mid-size_car",
+      "lab": "<subject> is classified as <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "class",
+      "o": "Mid-size_car",
+      "lab": "<subject> is classified as <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "class",
+      "o": "Luxury_vehicle",
+      "lab": "<subject> is classified as <object> ."
+    },
+    {
+      "s": "Audi_A1",
+      "r": "class",
+      "o": "Supermini",
+      "lab": "<subject> is classified as <object> ."
+    },
+    {
+      "s": "Chicken",
+      "r": "class",
+      "o": "Bird",
+      "lab": "<subject> is classified as <object> ."
+    }
+  ],
+  "club": [
+    {
+      "s": "Alaa_Abdul-Zahra",
+      "r": "club",
+      "o": "Sanat_Mes_Kerman_F.C.",
+      "lab": "<subject> plays in <object> ."
+    },
+    {
+      "s": "Abel_Hern\u00e1ndez",
+      "r": "club",
+      "o": "Central_Espa\u00f1ol",
+      "lab": "<subject> plays in <object> ."
+    },
+    {
+      "s": "Alaa_Abdul-Zahra",
+      "r": "club",
+      "o": "Al-Zawraa_SC",
+      "lab": "<subject> plays in <object> ."
+    },
+    {
+      "s": "Paulo_Sousa",
+      "r": "club",
+      "o": "Maccabi_Tel_Aviv_F.C.",
+      "lab": "<subject> plays in <object> ."
+    },
+    {
+      "s": "Ahmad_Kadhim_Assad",
+      "r": "club",
+      "o": "Iraq_national_football_team",
+      "lab": "<subject> plays in <object> ."
+    }
+  ],
+  "commander": [
+    {
+      "s": "World_War_II",
+      "r": "commander",
+      "o": "Franklin_D._Roosevelt",
+      "lab": "<subject> was commanded by <object> ."
+    },
+    {
+      "s": "Apollo_12",
+      "r": "commander",
+      "o": "David_Scott",
+      "lab": "<subject> was commanded by <object> ."
+    },
+    {
+      "s": "Gulf_War",
+      "r": "commander",
+      "o": "Colin_Powell",
+      "lab": "<subject> was commanded by <object> ."
+    },
+    {
+      "s": "Polish\u2013Soviet_War",
+      "r": "commander",
+      "o": "Leon_Trotsky",
+      "lab": "<subject> was commanded by <object> ."
+    },
+    {
+      "s": "World_War_II",
+      "r": "commander",
+      "o": "Chiang_Kai-shek",
+      "lab": "<subject> was commanded by <object> ."
+    }
+  ],
+  "compete in": [
+    {
+      "s": "University_of_Texas_at_Austin",
+      "r": "compete in",
+      "o": "Big_12_Conference",
+      "lab": "<subject> competed in <object> ."
+    }
+  ],
+  "completionDate": [
+    {
+      "s": "Addis_Ababa_City_Hall",
+      "r": "completionDate",
+      "o": "1964",
+      "lab": "<subject> was finished in <object> ."
+    },
+    {
+      "s": "3Arena",
+      "r": "completionDate",
+      "o": "December 2008",
+      "lab": "<subject> was finished in <object> ."
+    },
+    {
+      "s": "AIDAstella",
+      "r": "completionDate",
+      "o": "2013-03-11",
+      "lab": "<subject> was finished in <object> ."
+    },
+    {
+      "s": "320_South_Boston_Building",
+      "r": "completionDate",
+      "o": "1929",
+      "lab": "<subject> was finished in <object> ."
+    },
+    {
+      "s": "103_Colmore_Row",
+      "r": "completionDate",
+      "o": "1976",
+      "lab": "<subject> was finished in <object> ."
+    }
+  ],
+  "cost": [
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "cost",
+      "o": "75.0 million (dollars)",
+      "lab": "<subject> costs <object> ."
+    },
+    {
+      "s": "108_St_Georges_Terrace",
+      "r": "cost",
+      "o": "120 million (Australian dollars)",
+      "lab": "<subject> costs <object> ."
+    },
+    {
+      "s": "250_Delaware_Avenue",
+      "r": "cost",
+      "o": "110 million (dollars)",
+      "lab": "<subject> costs <object> ."
+    }
+  ],
+  "country": [
+    {
+      "s": "Fallujah",
+      "r": "country",
+      "o": "Iraq",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "\u00cdcolo_e_Bengo",
+      "r": "country",
+      "o": "Angola",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "Saranac_Lake,_New_York",
+      "r": "country",
+      "o": "United_States",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "New_Jersey",
+      "r": "country",
+      "o": "United_States",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "country",
+      "o": "Romania",
+      "lab": "<subject> is from <object> ."
+    }
+  ],
+  "countySeat": [
+    {
+      "s": "Hays_County,_Texas",
+      "r": "countySeat",
+      "o": "San_Marcos,_Texas",
+      "lab": "<subject> county seat is <object> ."
+    },
+    {
+      "s": "Lee_County,_Alabama",
+      "r": "countySeat",
+      "o": "Opelika,_Alabama",
+      "lab": "<subject> county seat is <object> ."
+    },
+    {
+      "s": "Potter_County,_Texas",
+      "r": "countySeat",
+      "o": "Amarillo,_Texas",
+      "lab": "<subject> county seat is <object> ."
+    },
+    {
+      "s": "Randall_County,_Texas",
+      "r": "countySeat",
+      "o": "Canyon,_Texas",
+      "lab": "<subject> county seat is <object> ."
+    },
+    {
+      "s": "Tarrant_County,_Texas",
+      "r": "countySeat",
+      "o": "Fort_Worth,_Texas",
+      "lab": "<subject> county seat is <object> ."
+    }
+  ],
+  "course": [
+    {
+      "s": "Amatriciana_sauce",
+      "r": "course",
+      "o": "Italian_meal_structure",
+      "lab": "<subject> is a <object> dish."
+    },
+    {
+      "s": "Bakewell_pudding",
+      "r": "course",
+      "o": "Dessert",
+      "lab": "<subject> is a <object> dish."
+    },
+    {
+      "s": "Binignit",
+      "r": "course",
+      "o": "Dessert",
+      "lab": "<subject> is a <object> dish."
+    },
+    {
+      "s": "Arem-arem",
+      "r": "course",
+      "o": "Main course",
+      "lab": "<subject> is a <object> dish."
+    },
+    {
+      "s": "Bionico",
+      "r": "course",
+      "o": "Dessert",
+      "lab": "<subject> is a <object> dish."
+    }
+  ],
+  "creator": [
+    {
+      "s": "Bozo_the_Iron_Man",
+      "r": "creator",
+      "o": "George_Brenner",
+      "lab": "<subject> was created by <object> ."
+    },
+    {
+      "s": "April_ONeil",
+      "r": "creator",
+      "o": "Kevin_Eastman",
+      "lab": "<subject> was created by <object> ."
+    },
+    {
+      "s": "Barny_Cakes",
+      "r": "creator",
+      "o": "Mondelez_International",
+      "lab": "<subject> was created by <object> ."
+    },
+    {
+      "s": "Auron_(comicsCharacter)",
+      "r": "creator",
+      "o": "Karl_Kesel",
+      "lab": "<subject> was created by <object> ."
+    },
+    {
+      "s": "Ben_Urich",
+      "r": "creator",
+      "o": "Roger_McKenzie_(comic_book_writer)",
+      "lab": "<subject> was created by <object> ."
+    }
+  ],
+  "creatorOfDish": [
+    {
+      "s": "Asam_pedas",
+      "r": "creatorOfDish",
+      "o": "Malay_cuisine",
+      "lab": "<subject> was created within <object> ."
+    },
+    {
+      "s": "Asam_pedas",
+      "r": "creatorOfDish",
+      "o": "Padang_cuisine",
+      "lab": "<subject> was created within <object> ."
+    }
+  ],
+  "crewMembers": [
+    {
+      "s": "Apollo_8",
+      "r": "crewMembers",
+      "o": "Frank_Borman",
+      "lab": "<object> was a crew member of <subject> ."
+    }
+  ],
+  "currency": [
+    {
+      "s": "Republic_of_Ireland",
+      "r": "currency",
+      "o": "Euro",
+      "lab": "<subject> 's currency is <object> ."
+    },
+    {
+      "s": "Indonesia",
+      "r": "currency",
+      "o": "Indonesian_rupiah",
+      "lab": "<subject> 's currency is <object> ."
+    },
+    {
+      "s": "France",
+      "r": "currency",
+      "o": "Euro",
+      "lab": "<subject> 's currency is <object> ."
+    },
+    {
+      "s": "Sri_Lanka",
+      "r": "currency",
+      "o": "Sri_Lankan_rupee",
+      "lab": "<subject> 's currency is <object> ."
+    },
+    {
+      "s": "United_Kingdom",
+      "r": "currency",
+      "o": "Pound_sterling",
+      "lab": "<subject> 's currency is <object> ."
+    }
+  ],
+  "currentTenants": [
+    {
+      "s": "Addis_Ababa_City_Hall",
+      "r": "currentTenants",
+      "o": "Government of Addis Ababa",
+      "lab": "<object> is the current tenant of <subject> ."
+    },
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "currentTenants",
+      "o": "Mason_School_of_Business",
+      "lab": "<object> is the current tenant of <subject> ."
+    }
+  ],
+  "dateOfRetirement": [
+    {
+      "s": "Alan_Bean",
+      "r": "dateOfRetirement",
+      "o": "June 1981",
+      "lab": "<subject> retired on <object> ."
+    },
+    {
+      "s": "William_Anders",
+      "r": "dateOfRetirement",
+      "o": "1969-09-01",
+      "lab": "<subject> retired on <object> ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "dateOfRetirement",
+      "o": "1971-07-01",
+      "lab": "<subject> retired on <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "dateOfRetirement",
+      "o": "1974-08-01",
+      "lab": "<subject> retired on <object> ."
+    }
+  ],
+  "dean": [
+    {
+      "s": "Accademia_di_Architettura_di_Mendrisio",
+      "r": "dean",
+      "o": "Mario_Botta",
+      "lab": "<subject> dean is <object> ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "dean",
+      "o": "Thomas Pallesen",
+      "lab": "<subject> dean is <object> ."
+    }
+  ],
+  "deathDate": [
+    {
+      "s": "Alan_Shepard",
+      "r": "deathDate",
+      "o": "1998-07-21",
+      "lab": "<subject> died on <object> ."
+    },
+    {
+      "s": "Elliot_See",
+      "r": "deathDate",
+      "o": "1966-02-28",
+      "lab": "<subject> died on <object> ."
+    }
+  ],
+  "deathPlace": [
+    {
+      "s": "John_Cowper_Powys",
+      "r": "deathPlace",
+      "o": "Blaenau_Ffestiniog",
+      "lab": "<subject> died in <object> ."
+    },
+    {
+      "s": "Alfons_Gorbach",
+      "r": "deathPlace",
+      "o": "Styria",
+      "lab": "<subject> died in <object> ."
+    },
+    {
+      "s": "Albert_Jennings_Fountain",
+      "r": "deathPlace",
+      "o": "New_Mexico_Territory",
+      "lab": "<subject> died in <object> ."
+    },
+    {
+      "s": "Alfredo_Zitarrosa",
+      "r": "deathPlace",
+      "o": "Montevideo",
+      "lab": "<subject> died in <object> ."
+    },
+    {
+      "s": "Agust\u00edn_Barboza",
+      "r": "deathPlace",
+      "o": "Paraguay",
+      "lab": "<subject> died in <object> ."
+    }
+  ],
+  "dedicatedTo": [
+    {
+      "s": "Baku_Turkish_Martyrs_Memorial",
+      "r": "dedicatedTo",
+      "o": "Ottoman Army soldiers killed in the Battle of Baku",
+      "lab": "<subject> is dedicated to <object> ."
+    },
+    {
+      "s": "Dead_Mans_Plack",
+      "r": "dedicatedTo",
+      "o": "\u00c6thelwald,_Ealdorman_of_East_Anglia",
+      "lab": "<subject> is dedicated to <object> ."
+    }
+  ],
+  "demonym": [
+    {
+      "s": "South_Africa",
+      "r": "demonym",
+      "o": "South_Africa",
+      "lab": "<subject> inhabitants are known as <object> ."
+    },
+    {
+      "s": "Greece",
+      "r": "demonym",
+      "o": "Greeks",
+      "lab": "<subject> inhabitants are known as <object> ."
+    },
+    {
+      "s": "Uruguay",
+      "r": "demonym",
+      "o": "Uruguayans",
+      "lab": "<subject> inhabitants are known as <object> ."
+    },
+    {
+      "s": "Italy",
+      "r": "demonym",
+      "o": "Italians",
+      "lab": "<subject> inhabitants are known as <object> ."
+    },
+    {
+      "s": "United_Kingdom",
+      "r": "demonym",
+      "o": "British_people",
+      "lab": "<subject> inhabitants are known as <object> ."
+    }
+  ],
+  "designer": [
+    {
+      "s": "AMC_Matador",
+      "r": "designer",
+      "o": "Richard_A._Teague",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "Baku_Turkish_Martyrs_Memorial",
+      "r": "designer",
+      "o": "H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner",
+      "lab": "<subject> was designed by <object> ."
+    },
+    {
+      "s": "Atat\u00fcrk_Monument_(\u0130zmir)",
+      "r": "designer",
+      "o": "Pietro_Canonica",
+      "lab": "<subject> was designed by <object> ."
+    }
+  ],
+  "developer": [
+    {
+      "s": "AC_Hotel_Bella_Sky_Copenhagen",
+      "r": "developer",
+      "o": "Bella_Center",
+      "lab": "<subject> was developed by <object> ."
+    }
+  ],
+  "director": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "director",
+      "o": "Dr. G. P. Prabhukumar",
+      "lab": "<subject> was directed by <object> ."
+    }
+  ],
+  "dishVariation": [
+    {
+      "s": "Barny_Cakes",
+      "r": "dishVariation",
+      "o": "Chocolate",
+      "lab": "<object> is a type of <subject> ."
+    },
+    {
+      "s": "Bionico",
+      "r": "dishVariation",
+      "o": "Cottage_cheese",
+      "lab": "<object> is a type of <subject> ."
+    },
+    {
+      "s": "Pakora",
+      "r": "dishVariation",
+      "o": "Cauliflower",
+      "lab": "<object> is a type of <subject> ."
+    },
+    {
+      "s": "Dessert",
+      "r": "dishVariation",
+      "o": "Cake",
+      "lab": "<object> is a type of <subject> ."
+    },
+    {
+      "s": "Barny_Cakes",
+      "r": "dishVariation",
+      "o": "Strawberry",
+      "lab": "<object> is a type of <subject> ."
+    }
+  ],
+  "distributor": [
+    {
+      "s": "Big_Hero_6_(film)",
+      "r": "distributor",
+      "o": "Walt_Disney_Studios_Motion_Pictures",
+      "lab": "<subject> was distributed by <object> ."
+    }
+  ],
+  "district": [
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "district",
+      "o": "Monocacy_National_Battlefield",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "division": [
+    {
+      "s": "Sweet_potato",
+      "r": "division",
+      "o": "Flowering_plant",
+      "lab": "<subject> belongs to <object> ."
+    },
+    {
+      "s": "Audi",
+      "r": "division",
+      "o": "Audi_e-tron",
+      "lab": "<subject> belongs to <object> ."
+    },
+    {
+      "s": "Tomato",
+      "r": "division",
+      "o": "Flowering_plant",
+      "lab": "<subject> belongs to <object> ."
+    },
+    {
+      "s": "Poaceae",
+      "r": "division",
+      "o": "Flowering_plant",
+      "lab": "<subject> belongs to <object> ."
+    },
+    {
+      "s": "Almond",
+      "r": "division",
+      "o": "Flowering_plant",
+      "lab": "<subject> belongs to <object> ."
+    }
+  ],
+  "doctoralAdvisor": [
+    {
+      "s": "A.T._Charlie_Johnson",
+      "r": "doctoralAdvisor",
+      "o": "Michael_Tinkham",
+      "lab": "<subject> doctoral advisor was <object> ."
+    }
+  ],
+  "editor": [
+    {
+      "s": "AIP_Advances",
+      "r": "editor",
+      "o": "A.T._Charlie_Johnson",
+      "lab": "<subject> was edited by <object> ."
+    },
+    {
+      "s": "AIP_Advances",
+      "r": "editor",
+      "o": "Vincent H. Crespi, Bernard S. Gerstman, A.T. Charlie Johnson,  Masaaki Tanaka, Enge G. Wang",
+      "lab": "<subject> was edited by <object> ."
+    }
+  ],
+  "elevationAboveTheSeaLevel": [
+    {
+      "s": "Anaheim,_California",
+      "r": "elevationAboveTheSeaLevel",
+      "o": "48.0",
+      "lab": "<subject> is <object> above sea level ."
+    },
+    {
+      "s": "Attica,_Indiana",
+      "r": "elevationAboveTheSeaLevel",
+      "o": "166.0",
+      "lab": "<subject> is <object> above sea level ."
+    },
+    {
+      "s": "Auburn,_Alabama",
+      "r": "elevationAboveTheSeaLevel",
+      "o": "214.0",
+      "lab": "<subject> is <object> above sea level ."
+    },
+    {
+      "s": "Arlington,_Texas",
+      "r": "elevationAboveTheSeaLevel",
+      "o": "184.0",
+      "lab": "<subject> is <object> above sea level ."
+    },
+    {
+      "s": "Alexandria,_Indiana",
+      "r": "elevationAboveTheSeaLevel",
+      "o": "265.0",
+      "lab": "<subject> is <object> above sea level ."
+    }
+  ],
+  "elevationAboveTheSeaLevel_(in_feet)": [
+    {
+      "s": "Afonso_Pena_International_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_feet)",
+      "o": "2988",
+      "lab": "<subject> is <object> ft above sea level ."
+    },
+    {
+      "s": "Al_Asad_Airbase",
+      "r": "elevationAboveTheSeaLevel_(in_feet)",
+      "o": "618",
+      "lab": "<subject> is <object> ft above sea level ."
+    },
+    {
+      "s": "Atlantic_City_International_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_feet)",
+      "o": "75",
+      "lab": "<subject> is <object> ft above sea level ."
+    }
+  ],
+  "elevationAboveTheSeaLevel_(in_metres)": [
+    {
+      "s": "Afonso_Pena_International_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_metres)",
+      "o": "911.0",
+      "lab": "<subject> is <object> metres above the sea level ."
+    },
+    {
+      "s": "Antwerp_International_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_metres)",
+      "o": "12.0",
+      "lab": "<subject> is <object> metres above the sea level ."
+    },
+    {
+      "s": "Andrews_County_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_metres)",
+      "o": "973.0",
+      "lab": "<subject> is <object> metres above the sea level ."
+    },
+    {
+      "s": "Aarhus_Airport",
+      "r": "elevationAboveTheSeaLevel_(in_metres)",
+      "o": "25.0",
+      "lab": "<subject> is <object> metres above the sea level ."
+    },
+    {
+      "s": "Ardmore_Airport_(New_Zealand)",
+      "r": "elevationAboveTheSeaLevel_(in_metres)",
+      "o": "34.0",
+      "lab": "<subject> is <object> metres above the sea level ."
+    }
+  ],
+  "established": [
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "established",
+      "o": "1907-07-11",
+      "lab": "<subject> was established on <object> ."
+    },
+    {
+      "s": "AWH_Engineering_College",
+      "r": "established",
+      "o": "2001",
+      "lab": "<subject> was established on <object> ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "established",
+      "o": "1928",
+      "lab": "<subject> was established on <object> ."
+    },
+    {
+      "s": "11th_Mississippi_Infantry_Monument",
+      "r": "established",
+      "o": "2000",
+      "lab": "<subject> was established on <object> ."
+    },
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "established",
+      "o": "2000",
+      "lab": "<subject> was established on <object> ."
+    }
+  ],
+  "ethnicGroup": [
+    {
+      "s": "Java",
+      "r": "ethnicGroup",
+      "o": "Javanese_people",
+      "lab": "<object> are an ethnic group in <subject> ."
+    },
+    {
+      "s": "South_Africa",
+      "r": "ethnicGroup",
+      "o": "Asian_South_Africans",
+      "lab": "<object> are an ethnic group in <subject> ."
+    },
+    {
+      "s": "Philippines",
+      "r": "ethnicGroup",
+      "o": "Ilocano_people",
+      "lab": "<object> are an ethnic group in <subject> ."
+    },
+    {
+      "s": "Ireland",
+      "r": "ethnicGroup",
+      "o": "White_people",
+      "lab": "<object> are an ethnic group in <subject> ."
+    },
+    {
+      "s": "United_States",
+      "r": "ethnicGroup",
+      "o": "Native_Americans_in_the_United_States",
+      "lab": "<object> are an ethnic group in <subject> ."
+    }
+  ],
+  "ethnicGroups": [
+    {
+      "s": "England",
+      "r": "ethnicGroups",
+      "o": "British_Arabs",
+      "lab": "<object> are <subject> ethnic group ."
+    }
+  ],
+  "family": [
+    {
+      "s": "Avocado",
+      "r": "family",
+      "o": "Lauraceae",
+      "lab": "<subject> is a member of the <object> family ."
+    },
+    {
+      "s": "Tomato",
+      "r": "family",
+      "o": "Solanaceae",
+      "lab": "<subject> is a member of the <object> family ."
+    },
+    {
+      "s": "Celery",
+      "r": "family",
+      "o": "Apiaceae",
+      "lab": "<subject> is a member of the <object> family ."
+    },
+    {
+      "s": "HIV",
+      "r": "family",
+      "o": "Retrovirus",
+      "lab": "<subject> is a member of the <object> family ."
+    },
+    {
+      "s": "Lemon",
+      "r": "family",
+      "o": "Rutaceae",
+      "lab": "<subject> is a member of the <object> family ."
+    }
+  ],
+  "fat": [
+    {
+      "s": "Barny_Cakes",
+      "r": "fat",
+      "o": "4.8 g",
+      "lab": "<subject> contain <object> of fat ."
+    }
+  ],
+  "firstAppearanceInFilm": [
+    {
+      "s": "Baymax",
+      "r": "firstAppearanceInFilm",
+      "o": "Big_Hero_6_(film)",
+      "lab": "<subject> first appeared in <object> ."
+    }
+  ],
+  "firstPublicationYear": [
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "firstPublicationYear",
+      "o": "1878",
+      "lab": "<subject> was first published in <object> ."
+    },
+    {
+      "s": "AIDS_(journal)",
+      "r": "firstPublicationYear",
+      "o": "1987",
+      "lab": "<subject> was first published in <object> ."
+    }
+  ],
+  "floorArea": [
+    {
+      "s": "Akita_Museum_of_Art",
+      "r": "floorArea",
+      "o": "3746.66 (square metres)",
+      "lab": "<subject> has a floor area of <object> ."
+    },
+    {
+      "s": "20_Fenchurch_Street",
+      "r": "floorArea",
+      "o": "62145.3 (square metres)",
+      "lab": "<subject> has a floor area of <object> ."
+    },
+    {
+      "s": "250_Delaware_Avenue",
+      "r": "floorArea",
+      "o": "30843.8 (square metres)",
+      "lab": "<subject> has a floor area of <object> ."
+    },
+    {
+      "s": "11_Diagonal_Street",
+      "r": "floorArea",
+      "o": "1200 (square metres)",
+      "lab": "<subject> has a floor area of <object> ."
+    },
+    {
+      "s": "Addis_Ababa_City_Hall",
+      "r": "floorArea",
+      "o": "140000.0 (square metres)",
+      "lab": "<subject> has a floor area of <object> ."
+    }
+  ],
+  "floorCount": [
+    {
+      "s": "250_Delaware_Avenue",
+      "r": "floorCount",
+      "o": "12",
+      "lab": "<subject> has <object> floors ."
+    },
+    {
+      "s": "20_Fenchurch_Street",
+      "r": "floorCount",
+      "o": "34",
+      "lab": "<subject> has <object> floors ."
+    },
+    {
+      "s": "11_Diagonal_Street",
+      "r": "floorCount",
+      "o": "20",
+      "lab": "<subject> has <object> floors ."
+    },
+    {
+      "s": "108_St_Georges_Terrace",
+      "r": "floorCount",
+      "o": "50",
+      "lab": "<subject> has <object> floors ."
+    },
+    {
+      "s": "200_Public_Square",
+      "r": "floorCount",
+      "o": "45",
+      "lab": "<subject> has <object> floors ."
+    }
+  ],
+  "followedBy": [
+    {
+      "s": "Castle_(novel)",
+      "r": "followedBy",
+      "o": "Aenir",
+      "lab": "<subject> is followed by <object> ."
+    },
+    {
+      "s": "Aenir",
+      "r": "followedBy",
+      "o": "Above_the_Veil",
+      "lab": "<subject> is followed by <object> ."
+    },
+    {
+      "s": "Annie_Dunne",
+      "r": "followedBy",
+      "o": "A_Long_Long_Way",
+      "lab": "<subject> is followed by <object> ."
+    },
+    {
+      "s": "Above_the_Veil",
+      "r": "followedBy",
+      "o": "Into_Battle_(novel)",
+      "lab": "<subject> is followed by <object> ."
+    },
+    {
+      "s": "A_Long_Long_Way",
+      "r": "followedBy",
+      "o": "The_Secret_Scripture",
+      "lab": "<subject> is followed by <object> ."
+    }
+  ],
+  "formerName": [
+    {
+      "s": "1001_Gaussia",
+      "r": "formerName",
+      "o": "1923 OAA907 XC",
+      "lab": "<subject> was formerly called <object> ."
+    },
+    {
+      "s": "320_South_Boston_Building",
+      "r": "formerName",
+      "o": "Exchange National Bank Building",
+      "lab": "<subject> was formerly called <object> ."
+    },
+    {
+      "s": "1097_Vicia",
+      "r": "formerName",
+      "o": "1928 PC",
+      "lab": "<subject> was formerly called <object> ."
+    },
+    {
+      "s": "1089_Tama",
+      "r": "formerName",
+      "o": "A894 VA; A904 VD;",
+      "lab": "<subject> was formerly called <object> ."
+    },
+    {
+      "s": "1101_Clematis",
+      "r": "formerName",
+      "o": "1928 SJ",
+      "lab": "<subject> was formerly called <object> ."
+    }
+  ],
+  "fossil": [
+    {
+      "s": "California",
+      "r": "fossil",
+      "o": "Smilodon",
+      "lab": "<object> is a fossil from <subject> ."
+    }
+  ],
+  "foundationPlace": [
+    {
+      "s": "Marriott_International",
+      "r": "foundationPlace",
+      "o": "Washington,_D.C.",
+      "lab": "<subject> was founded in <object> ."
+    },
+    {
+      "s": "American_Locomotive_Company",
+      "r": "foundationPlace",
+      "o": "Schenectady,_New_York",
+      "lab": "<subject> was founded in <object> ."
+    },
+    {
+      "s": "Caterpillar_Inc.",
+      "r": "foundationPlace",
+      "o": "California",
+      "lab": "<subject> was founded in <object> ."
+    },
+    {
+      "s": "Alvis_Car_and_Engineering_Company",
+      "r": "foundationPlace",
+      "o": "Coventry",
+      "lab": "<subject> was founded in <object> ."
+    },
+    {
+      "s": "Mondelez_International",
+      "r": "foundationPlace",
+      "o": "Chicago",
+      "lab": "<subject> was founded in <object> ."
+    }
+  ],
+  "foundedBy": [
+    {
+      "s": "Audi",
+      "r": "foundedBy",
+      "o": "August_Horch",
+      "lab": "<subject> was founded by <object> ."
+    },
+    {
+      "s": "BBC",
+      "r": "foundedBy",
+      "o": "John_Reith,_1st_Baron_Reith",
+      "lab": "<subject> was founded by <object> ."
+    },
+    {
+      "s": "Gruppo_Bertone",
+      "r": "foundedBy",
+      "o": "Giovanni_Bertone",
+      "lab": "<subject> was founded by <object> ."
+    }
+  ],
+  "founder": [
+    {
+      "s": "The_Bodley_Head",
+      "r": "founder",
+      "o": "Charles_Elkin_Mathews",
+      "lab": "<subject> was founded by <object> ."
+    },
+    {
+      "s": "Springer_Science+Business_Media",
+      "r": "founder",
+      "o": "Julius_Springer",
+      "lab": "<subject> was founded by <object> ."
+    },
+    {
+      "s": "Bangalore",
+      "r": "founder",
+      "o": "Kempe_Gowda_I",
+      "lab": "<subject> was founded by <object> ."
+    },
+    {
+      "s": "SAGE_Publications",
+      "r": "founder",
+      "o": "Sara_Miller_McCune",
+      "lab": "<subject> was founded by <object> ."
+    }
+  ],
+  "foundingDate": [
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "foundingDate",
+      "o": "1907-07-11",
+      "lab": "<subject> was founded on <object> ."
+    }
+  ],
+  "frequency": [
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "frequency",
+      "o": "Bimonthly",
+      "lab": "<subject> is published <object> ."
+    }
+  ],
+  "fullName": [
+    {
+      "s": "Bozo_the_Iron_Man",
+      "r": "fullName",
+      "o": "Hugh Hazzard",
+      "lab": "<subject> 's full name is <object> ."
+    },
+    {
+      "s": "Ben_Urich",
+      "r": "fullName",
+      "o": "Benjamin Urich",
+      "lab": "<subject> 's full name is <object> ."
+    },
+    {
+      "s": "Auron_(comicsCharacter)",
+      "r": "fullName",
+      "o": "Lambien",
+      "lab": "<subject> 's full name is <object> ."
+    },
+    {
+      "s": "Bibbo_Bibbowski",
+      "r": "fullName",
+      "o": "Bo Bibbowski",
+      "lab": "<subject> 's full name is <object> ."
+    }
+  ],
+  "fullname": [
+    {
+      "s": "A.S._Roma",
+      "r": "fullname",
+      "o": "Associazione Sportiva Roma S.p.A.",
+      "lab": "<subject> stands for <object> ."
+    },
+    {
+      "s": "AZ_Alkmaar",
+      "r": "fullname",
+      "o": "Alkmaar Zaanstreek",
+      "lab": "<subject> stands for <object> ."
+    },
+    {
+      "s": "A.S._Livorno_Calcio",
+      "r": "fullname",
+      "o": "Livorno Calcio S.p.A.",
+      "lab": "<subject> stands for <object> ."
+    },
+    {
+      "s": "AZAL_PFK",
+      "r": "fullname",
+      "o": "AZAL Pe\u015f\u0259kar Futbol Klubu",
+      "lab": "<subject> stands for <object> ."
+    },
+    {
+      "s": "A.D._Isidro_Metap\u00e1n",
+      "r": "fullname",
+      "o": "Isidro Metap\u00e1n",
+      "lab": "<subject> stands for <object> ."
+    }
+  ],
+  "genre": [
+    {
+      "s": "Alcatraz_Versus_the_Evil_Librarians",
+      "r": "genre",
+      "o": "Fantasy_literature",
+      "lab": "<subject> performs <object> ."
+    },
+    {
+      "s": "Alex_Day",
+      "r": "genre",
+      "o": "Electronic_music",
+      "lab": "<subject> performs <object> ."
+    },
+    {
+      "s": "Alison_ODonnell",
+      "r": "genre",
+      "o": "Jazz",
+      "lab": "<subject> performs <object> ."
+    },
+    {
+      "s": "Allen_Forrest",
+      "r": "genre",
+      "o": "Acoustic_music",
+      "lab": "<subject> performs <object> ."
+    },
+    {
+      "s": "Aaron_Deer",
+      "r": "genre",
+      "o": "Indie_rock",
+      "lab": "<subject> performs <object> ."
+    }
+  ],
+  "genus": [
+    {
+      "s": "Tomato",
+      "r": "genus",
+      "o": "Solanum",
+      "lab": "<subject> is part of <object> genus ."
+    },
+    {
+      "s": "HIV",
+      "r": "genus",
+      "o": "Lentivirus",
+      "lab": "<subject> is part of <object> genus ."
+    },
+    {
+      "s": "Lemon",
+      "r": "genus",
+      "o": "Citrus",
+      "lab": "<subject> is part of <object> genus ."
+    },
+    {
+      "s": "Celery",
+      "r": "genus",
+      "o": "Apium",
+      "lab": "<subject> is part of <object> genus ."
+    },
+    {
+      "s": "Avocado",
+      "r": "genus",
+      "o": "Persea",
+      "lab": "<subject> is part of <object> genus ."
+    }
+  ],
+  "governingBody": [
+    {
+      "s": "Buenos_Aires",
+      "r": "governingBody",
+      "o": "Buenos_Aires_City_Legislature",
+      "lab": "<subject> is governed by <object> ."
+    },
+    {
+      "s": "Birmingham",
+      "r": "governingBody",
+      "o": "Birmingham_City_Council",
+      "lab": "<subject> is governed by <object> ."
+    },
+    {
+      "s": "Cleveland",
+      "r": "governingBody",
+      "o": "Cleveland_City_Council",
+      "lab": "<subject> is governed by <object> ."
+    },
+    {
+      "s": "Eastern_Province,_Sri_Lanka",
+      "r": "governingBody",
+      "o": "Eastern_Provincial_Council",
+      "lab": "<subject> is governed by <object> ."
+    }
+  ],
+  "governmentType": [
+    {
+      "s": "County_Limerick",
+      "r": "governmentType",
+      "o": "Limerick_City_and_County_Council",
+      "lab": "<object> governs <subject> ."
+    },
+    {
+      "s": "Aarhus",
+      "r": "governmentType",
+      "o": "Magistrate",
+      "lab": "<object> governs <subject> ."
+    }
+  ],
+  "ground": [
+    {
+      "s": "A.S._Livorno_Calcio",
+      "r": "ground",
+      "o": "Livorno, Italy",
+      "lab": "<subject> are based at <object> ."
+    },
+    {
+      "s": "United_Petrotrin_F.C.",
+      "r": "ground",
+      "o": "Palo_Seco",
+      "lab": "<subject> are based at <object> ."
+    },
+    {
+      "s": "A.D._Isidro_Metap\u00e1n",
+      "r": "ground",
+      "o": "Metap\u00e1n",
+      "lab": "<subject> are based at <object> ."
+    },
+    {
+      "s": "A.S._Livorno_Calcio",
+      "r": "ground",
+      "o": "Livorno",
+      "lab": "<subject> are based at <object> ."
+    },
+    {
+      "s": "AZ_Alkmaar",
+      "r": "ground",
+      "o": "AFAS_Stadion",
+      "lab": "<subject> are based at <object> ."
+    }
+  ],
+  "has to its north": [
+    {
+      "s": "Adams_County,_Pennsylvania",
+      "r": "has to its north",
+      "o": "Cumberland_County,_Pennsylvania",
+      "lab": "<object> is to the north of <subject> ."
+    }
+  ],
+  "has to its northeast": [
+    {
+      "s": "Aarhus",
+      "r": "has to its northeast",
+      "o": "Mols",
+      "lab": "<object> is to the northeast of <subject> ."
+    },
+    {
+      "s": "Karnataka",
+      "r": "has to its northeast",
+      "o": "Telangana",
+      "lab": "<object> is to the northeast of <subject> ."
+    }
+  ],
+  "has to its southwest": [
+    {
+      "s": "Adams_County,_Pennsylvania",
+      "r": "has to its southwest",
+      "o": "Frederick_County,_Maryland",
+      "lab": "<object> is to the southwest of <subject> ."
+    }
+  ],
+  "has to its west": [
+    {
+      "s": "Karnataka",
+      "r": "has to its west",
+      "o": "Arabian_Sea",
+      "lab": "<object> is to the west of <subject> ."
+    },
+    {
+      "s": "Adams_County,_Pennsylvania",
+      "r": "has to its west",
+      "o": "Franklin_County,_Pennsylvania",
+      "lab": "<object> is to the west of <subject> ."
+    }
+  ],
+  "headquarter": [
+    {
+      "s": "Turkmenistan_Airlines",
+      "r": "headquarter",
+      "o": "Turkmenistan",
+      "lab": "<subject> headquarter is <object> ."
+    },
+    {
+      "s": "Port_Authority_of_New_York_and_New_Jersey",
+      "r": "headquarter",
+      "o": "Four_World_Trade_Center",
+      "lab": "<subject> headquarter is <object> ."
+    },
+    {
+      "s": "Guiana_Space_Centre",
+      "r": "headquarter",
+      "o": "Kourou,_French_Guiana",
+      "lab": "<subject> headquarter is <object> ."
+    },
+    {
+      "s": "Democratic_Party_(United_States)",
+      "r": "headquarter",
+      "o": "Washington,_D.C.",
+      "lab": "<subject> headquarter is <object> ."
+    },
+    {
+      "s": "Democratic_Party_(United_States)",
+      "r": "headquarter",
+      "o": "South_Capitol_Street",
+      "lab": "<subject> headquarter is <object> ."
+    }
+  ],
+  "headquarters": [
+    {
+      "s": "European_University_Association",
+      "r": "headquarters",
+      "o": "Brussels",
+      "lab": "<subject> headquarter is in <object> ."
+    }
+  ],
+  "height": [
+    {
+      "s": "320_South_Boston_Building",
+      "r": "height",
+      "o": "121.92 (metres)",
+      "lab": "<subject> is <object> high ."
+    },
+    {
+      "s": "Alan_Martin_(footballer)",
+      "r": "height",
+      "o": "185.42 (centimetres)",
+      "lab": "<subject> is <object> high ."
+    },
+    {
+      "s": "Aleksandre_Guruli",
+      "r": "height",
+      "o": "178.0 (centimetres)",
+      "lab": "<subject> is <object> high ."
+    },
+    {
+      "s": "Aleksander_Barkov,_Jr.",
+      "r": "height",
+      "o": "1.905",
+      "lab": "<subject> is <object> high ."
+    },
+    {
+      "s": "3Arena",
+      "r": "height",
+      "o": "28.0 (metres)",
+      "lab": "<subject> is <object> high ."
+    }
+  ],
+  "higher": [
+    {
+      "s": "Distinguished_Service_Medal_(United_States_Navy)",
+      "r": "higher",
+      "o": "Department_of_Commerce_Gold_Medal",
+      "lab": "<subject> is higher than <object> ."
+    }
+  ],
+  "hometown": [
+    {
+      "s": "John_Madin",
+      "r": "hometown",
+      "o": "Birmingham",
+      "lab": "<object> is the home town of <subject> ."
+    }
+  ],
+  "hubAirport": [
+    {
+      "s": "Turkmenistan_Airlines",
+      "r": "hubAirport",
+      "o": "Ashgabat_International_Airport",
+      "lab": "<object> is the hub for <subject> ."
+    },
+    {
+      "s": "Turkmenistan_Airlines",
+      "r": "hubAirport",
+      "o": "Turkmenbashi_International_Airport",
+      "lab": "<object> is the hub for <subject> ."
+    },
+    {
+      "s": "Turkmenistan_Airlines",
+      "r": "hubAirport",
+      "o": "Turkmenabat_Airport",
+      "lab": "<object> is the hub for <subject> ."
+    }
+  ],
+  "impactFactor": [
+    {
+      "s": "AIP_Advances",
+      "r": "impactFactor",
+      "o": "1.524",
+      "lab": "<subject> has the impact <object> ."
+    },
+    {
+      "s": "American_Journal_of_Mathematics",
+      "r": "impactFactor",
+      "o": "1.337",
+      "lab": "<subject> has the impact <object> ."
+    }
+  ],
+  "inaugurationDate": [
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "inaugurationDate",
+      "o": "2009-10-02",
+      "lab": "<subject> was inaugurated on <object> ."
+    },
+    {
+      "s": "Atat\u00fcrk_Monument_(\u0130zmir)",
+      "r": "inaugurationDate",
+      "o": "1932-07-27",
+      "lab": "<subject> was inaugurated on <object> ."
+    },
+    {
+      "s": "Akita_Museum_of_Art",
+      "r": "inaugurationDate",
+      "o": "2013-09-28",
+      "lab": "<subject> was inaugurated on <object> ."
+    }
+  ],
+  "influencedBy": [
+    {
+      "s": "Madeleine_LEngle",
+      "r": "influencedBy",
+      "o": "George_MacDonald",
+      "lab": "<subject> is influenced by <object> ."
+    },
+    {
+      "s": "Eric_Flint",
+      "r": "influencedBy",
+      "o": "Robert_A._Heinlein",
+      "lab": "<subject> is influenced by <object> ."
+    }
+  ],
+  "ingredient": [
+    {
+      "s": "Bandeja_paisa",
+      "r": "ingredient",
+      "o": "Fried_egg",
+      "lab": "<subject> contains <object> ."
+    },
+    {
+      "s": "Arrabbiata_sauce",
+      "r": "ingredient",
+      "o": "Chili_pepper",
+      "lab": "<subject> contains <object> ."
+    },
+    {
+      "s": "Bionico",
+      "r": "ingredient",
+      "o": "Granola",
+      "lab": "<subject> contains <object> ."
+    },
+    {
+      "s": "Bakewell_tart",
+      "r": "ingredient",
+      "o": "Frangipane",
+      "lab": "<subject> contains <object> ."
+    },
+    {
+      "s": "Binignit",
+      "r": "ingredient",
+      "o": "Sweet_potato",
+      "lab": "<subject> contains <object> ."
+    }
+  ],
+  "isPartOf": [
+    {
+      "s": "Auburn,_Alabama",
+      "r": "isPartOf",
+      "o": "Alabama",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Anaheim,_California",
+      "r": "isPartOf",
+      "o": "Orange_County,_California",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Arlington,_Texas",
+      "r": "isPartOf",
+      "o": "Tarrant_County,_Texas",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "County_Limerick",
+      "r": "isPartOf",
+      "o": "Munster",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Asherton,_Texas",
+      "r": "isPartOf",
+      "o": "United_States",
+      "lab": "<subject> is a part of <object> ."
+    }
+  ],
+  "jurisdiction": [
+    {
+      "s": "Flemish_Government",
+      "r": "jurisdiction",
+      "o": "Flanders",
+      "lab": "<subject> jurisdiction is <object> ."
+    },
+    {
+      "s": "Flemish_Government",
+      "r": "jurisdiction",
+      "o": "Flemish_Region",
+      "lab": "<subject> jurisdiction is <object> ."
+    }
+  ],
+  "keyPerson": [
+    {
+      "s": "BBC",
+      "r": "keyPerson",
+      "o": "Tony_Hall,_Baron_Hall_of_Birkenhead",
+      "lab": "<object> is the key person for <subject> ."
+    },
+    {
+      "s": "Caterpillar_Inc.",
+      "r": "keyPerson",
+      "o": "Douglas_R._Oberhelman",
+      "lab": "<object> is the key person for <subject> ."
+    },
+    {
+      "s": "Marriott_International",
+      "r": "keyPerson",
+      "o": "Bill_Marriott",
+      "lab": "<object> is the key person for <subject> ."
+    },
+    {
+      "s": "BBC",
+      "r": "keyPerson",
+      "o": "Rona_Fairhead",
+      "lab": "<object> is the key person for <subject> ."
+    },
+    {
+      "s": "American_Motors",
+      "r": "keyPerson",
+      "o": "Roy_D._Chapin,_Jr.",
+      "lab": "<object> is the key person for <subject> ."
+    }
+  ],
+  "language": [
+    {
+      "s": "Greece",
+      "r": "language",
+      "o": "Greek_language",
+      "lab": "<object> is spoken in <subject> ."
+    },
+    {
+      "s": "Indonesia",
+      "r": "language",
+      "o": "Indonesian_language",
+      "lab": "<object> is spoken in <subject> ."
+    },
+    {
+      "s": "Canada",
+      "r": "language",
+      "o": "English_language",
+      "lab": "<object> is spoken in <subject> ."
+    },
+    {
+      "s": "Iraq",
+      "r": "language",
+      "o": "Arabic",
+      "lab": "<object> is spoken in <subject> ."
+    },
+    {
+      "s": "Philippines",
+      "r": "language",
+      "o": "Philippine_Spanish",
+      "lab": "<object> is spoken in <subject> ."
+    }
+  ],
+  "languages": [
+    {
+      "s": "England",
+      "r": "languages",
+      "o": "Cornish_language",
+      "lab": "<object> is spoken in <subject> ."
+    }
+  ],
+  "largestCity": [
+    {
+      "s": "Hays_County,_Texas",
+      "r": "largestCity",
+      "o": "San_Marcos,_Texas",
+      "lab": "<subject> is the largest city in <object> ."
+    },
+    {
+      "s": "Vermont",
+      "r": "largestCity",
+      "o": "Burlington,_Vermont",
+      "lab": "<subject> is the largest city in <object> ."
+    },
+    {
+      "s": "Turkey",
+      "r": "largestCity",
+      "o": "Istanbul",
+      "lab": "<subject> is the largest city in <object> ."
+    },
+    {
+      "s": "Michigan",
+      "r": "largestCity",
+      "o": "Detroit",
+      "lab": "<subject> is the largest city in <object> ."
+    },
+    {
+      "s": "Tarrant_County,_Texas",
+      "r": "largestCity",
+      "o": "Fort_Worth,_Texas",
+      "lab": "<subject> is the largest city in <object> ."
+    }
+  ],
+  "lastAired": [
+    {
+      "s": "Bananaman",
+      "r": "lastAired",
+      "o": "1986-04-15",
+      "lab": "<subject> last aired on <object> ."
+    }
+  ],
+  "latinName": [
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "latinName",
+      "o": "Universitas Apulensis",
+      "lab": "<subject> has the latin name <object> ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "latinName",
+      "o": "Universitas Aarhusiensis",
+      "lab": "<subject> has the latin name <object> ."
+    }
+  ],
+  "leader": [
+    {
+      "s": "Amsterdam",
+      "r": "leader",
+      "o": "Eberhard_van_der_Laan",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Italy",
+      "r": "leader",
+      "o": "Sergio_Mattarella",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "United_States",
+      "r": "leader",
+      "o": "Barack_Obama",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Atlantic_City,_New_Jersey",
+      "r": "leader",
+      "o": "Don_Guardian",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Greece",
+      "r": "leader",
+      "o": "Prokopis_Pavlopoulos",
+      "lab": "<object> is the leader of <subject> ."
+    }
+  ],
+  "leaderName": [
+    {
+      "s": "Moscow",
+      "r": "leaderName",
+      "o": "Sergey_Sobyanin",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Sri_Lanka",
+      "r": "leaderName",
+      "o": "Ranil_Wickremesinghe",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Republic_of_Ireland",
+      "r": "leaderName",
+      "o": "Enda_Kenny",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Germany",
+      "r": "leaderName",
+      "o": "Joachim_Gauck",
+      "lab": "<object> is the leader of <subject> ."
+    },
+    {
+      "s": "Malaysia",
+      "r": "leaderName",
+      "o": "Abdul_Halim_of_Kedah",
+      "lab": "<object> is the leader of <subject> ."
+    }
+  ],
+  "leaderParty": [
+    {
+      "s": "Alcobendas",
+      "r": "leaderParty",
+      "o": "Peoples_Party_(Spain)",
+      "lab": "<object> are the leading party in <subject> ."
+    },
+    {
+      "s": "Gubbio",
+      "r": "leaderParty",
+      "o": "Left_Ecology_Freedom",
+      "lab": "<object> are the leading party in <subject> ."
+    },
+    {
+      "s": "Madrid",
+      "r": "leaderParty",
+      "o": "Ahora_Madrid",
+      "lab": "<object> are the leading party in <subject> ."
+    },
+    {
+      "s": "San_Sebasti\u00e1n_de_los_Reyes",
+      "r": "leaderParty",
+      "o": "Peoples_Party_(Spain)",
+      "lab": "<object> are the leading party in <subject> ."
+    }
+  ],
+  "leaderTitle": [
+    {
+      "s": "London",
+      "r": "leaderTitle",
+      "o": "European_Parliament",
+      "lab": "<subject> leader is known as <object> ."
+    },
+    {
+      "s": "Albuquerque,_New_Mexico",
+      "r": "leaderTitle",
+      "o": "New_Mexico_House_of_Representatives",
+      "lab": "<subject> leader is known as <object> ."
+    },
+    {
+      "s": "Gujarat",
+      "r": "leaderTitle",
+      "o": "Gujarat_Legislative_Assembly",
+      "lab": "<subject> leader is known as <object> ."
+    },
+    {
+      "s": "Akron,_Ohio",
+      "r": "leaderTitle",
+      "o": "Mayor",
+      "lab": "<subject> leader is known as <object> ."
+    },
+    {
+      "s": "Albuquerque,_New_Mexico",
+      "r": "leaderTitle",
+      "o": "Mayor",
+      "lab": "<subject> leader is known as <object> ."
+    }
+  ],
+  "league": [
+    {
+      "s": "U.S._Citt\u00e0_di_Palermo",
+      "r": "league",
+      "o": "Serie_A",
+      "lab": "<subject> plays in <object>"
+    },
+    {
+      "s": "SV_Werder_Bremen_II",
+      "r": "league",
+      "o": "3._Liga",
+      "lab": "<subject> plays in <object>"
+    },
+    {
+      "s": "Aleksander_Barkov,_Jr.",
+      "r": "league",
+      "o": "National_Hockey_League",
+      "lab": "<subject> plays in <object>"
+    },
+    {
+      "s": "AZAL_PFK",
+      "r": "league",
+      "o": "Azerbaijan_Premier_League",
+      "lab": "<subject> plays in <object>"
+    },
+    {
+      "s": "AFC_Ajax_(amateurs)",
+      "r": "league",
+      "o": "Hoofdklasse",
+      "lab": "<subject> plays in <object>"
+    }
+  ],
+  "legislature": [
+    {
+      "s": "Switzerland",
+      "r": "legislature",
+      "o": "Federal_Assembly_(Switzerland)",
+      "lab": "<subject> has legislature of <object> ."
+    },
+    {
+      "s": "Azerbaijan",
+      "r": "legislature",
+      "o": "National_Assembly_(Azerbaijan)",
+      "lab": "<subject> has legislature of <object> ."
+    }
+  ],
+  "literaryGenre": [
+    {
+      "s": "Alcatraz_Versus_the_Evil_Librarians",
+      "r": "literaryGenre",
+      "o": "Fantasy_literature",
+      "lab": "<subject> is considered <object> ."
+    }
+  ],
+  "location": [
+    {
+      "s": "Costa_Crociere",
+      "r": "location",
+      "o": "Genoa",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+      "r": "location",
+      "o": "San_Sebasti\u00e1n_de_los_Reyes",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "103_Colmore_Row",
+      "r": "location",
+      "o": "Birmingham",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "location",
+      "o": "Williamsburg,_Virginia",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Asher_and_Mary_Isabelle_Richardson_House",
+      "r": "location",
+      "o": "Asherton,_Texas",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "locationCity": [
+    {
+      "s": "General_Dynamics_Electric_Boat",
+      "r": "locationCity",
+      "o": "Groton,_Connecticut",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Arianespace",
+      "r": "locationCity",
+      "o": "Courcouronnes",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Neptun_Werft",
+      "r": "locationCity",
+      "o": "Rostock",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "BBC",
+      "r": "locationCity",
+      "o": "Broadcasting_House",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "ENAIRE",
+      "r": "locationCity",
+      "o": "Madrid",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "locationIdentifier": [
+    {
+      "s": "Appleton_International_Airport",
+      "r": "locationIdentifier",
+      "o": "ATW",
+      "lab": "<subject> location id is <object> ."
+    },
+    {
+      "s": "Andrews_County_Airport",
+      "r": "locationIdentifier",
+      "o": "E11",
+      "lab": "<subject> location id is <object> ."
+    },
+    {
+      "s": "Alpena_County_Regional_Airport",
+      "r": "locationIdentifier",
+      "o": "APN",
+      "lab": "<subject> location id is <object> ."
+    },
+    {
+      "s": "Al-Taqaddum_Air_Base",
+      "r": "locationIdentifier",
+      "o": "MAT",
+      "lab": "<subject> location id is <object> ."
+    },
+    {
+      "s": "Adirondack_Regional_Airport",
+      "r": "locationIdentifier",
+      "o": "SLK",
+      "lab": "<subject> location id is <object> ."
+    }
+  ],
+  "mainIngredients": [
+    {
+      "s": "Arem-arem",
+      "r": "mainIngredients",
+      "o": "compressed rice cooked in banana leaf with vegetables or minced meat fillings",
+      "lab": "<object> is a main ingredient of <subject> ."
+    },
+    {
+      "s": "Beef_kway_teow",
+      "r": "mainIngredients",
+      "o": "Kway teow, beef tender loin, gula Melaka, sliced, dried black beans, garlic, dark soy sauce, lengkuas, oyster sauce, soya sauce, chilli and sesame oil",
+      "lab": "<object> is a main ingredient of <subject> ."
+    },
+    {
+      "s": "Bacon_Explosion",
+      "r": "mainIngredients",
+      "o": "Sausage",
+      "lab": "<object> is a main ingredient of <subject> ."
+    },
+    {
+      "s": "Batchoy",
+      "r": "mainIngredients",
+      "o": "noodles, pork organs, vegetables, chicken, shrimp, beef",
+      "lab": "<object> is a main ingredient of <subject> ."
+    },
+    {
+      "s": "Ayam_penyet",
+      "r": "mainIngredients",
+      "o": "Squeezed\" or \"smashed\" fried chicken served with sambal",
+      "lab": "<object> is a main ingredient of <subject> ."
+    }
+  ],
+  "manager": [
+    {
+      "s": "A.C._Lumezzane",
+      "r": "manager",
+      "o": "Michele_Marcolini",
+      "lab": "<subject> is managed by <object> ."
+    },
+    {
+      "s": "U.S._Citt\u00e0_di_Palermo",
+      "r": "manager",
+      "o": "Giuseppe_Iachini",
+      "lab": "<subject> is managed by <object> ."
+    },
+    {
+      "s": "A.S._Livorno_Calcio",
+      "r": "manager",
+      "o": "Christian_Panucci",
+      "lab": "<subject> is managed by <object> ."
+    },
+    {
+      "s": "Pe\u00f1arol",
+      "r": "manager",
+      "o": "Jorge_Orosm\u00e1n_da_Silva",
+      "lab": "<subject> is managed by <object> ."
+    },
+    {
+      "s": "A.F.C._Blackpool",
+      "r": "manager",
+      "o": "Stuart_Parker_(footballer)",
+      "lab": "<subject> is managed by <object> ."
+    }
+  ],
+  "material": [
+    {
+      "s": "Dead_Mans_Plack",
+      "r": "material",
+      "o": "Rock_(geology)",
+      "lab": "<subject> is made of <object> ."
+    },
+    {
+      "s": "Atat\u00fcrk_Monument_(\u0130zmir)",
+      "r": "material",
+      "o": "Bronze",
+      "lab": "<subject> is made of <object> ."
+    },
+    {
+      "s": "Baku_Turkish_Martyrs_Memorial",
+      "r": "material",
+      "o": "Red granite and white marble",
+      "lab": "<subject> is made of <object> ."
+    }
+  ],
+  "mayor": [
+    {
+      "s": "Antwerp",
+      "r": "mayor",
+      "o": "Bart_De_Wever",
+      "lab": "<object> is the mayor of <subject> ."
+    },
+    {
+      "s": "Athens",
+      "r": "mayor",
+      "o": "Giorgos_Kaminis",
+      "lab": "<object> is the mayor of <subject> ."
+    }
+  ],
+  "mediaType": [
+    {
+      "s": "A_Wizard_of_Mars",
+      "r": "mediaType",
+      "o": "Print",
+      "lab": "<subject> was produced in <object> ."
+    },
+    {
+      "s": "Alcatraz_Versus_the_Evil_Librarians",
+      "r": "mediaType",
+      "o": "Print",
+      "lab": "<subject> was produced in <object> ."
+    },
+    {
+      "s": "Aenir",
+      "r": "mediaType",
+      "o": "Paperback",
+      "lab": "<subject> was produced in <object> ."
+    },
+    {
+      "s": "1634:_The_Ram_Rebellion",
+      "r": "mediaType",
+      "o": "Print",
+      "lab": "<subject> was produced in <object> ."
+    },
+    {
+      "s": "Above_the_Veil",
+      "r": "mediaType",
+      "o": "Hardcover",
+      "lab": "<subject> was produced in <object> ."
+    }
+  ],
+  "motto": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "motto",
+      "o": "Nurturing Excellence",
+      "lab": "<subject> motto is <object> ."
+    }
+  ],
+  "municipality": [
+    {
+      "s": "11th_Mississippi_Infantry_Monument",
+      "r": "municipality",
+      "o": "Gettysburg,_Pennsylvania",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "nationality": [
+    {
+      "s": "N._R._Pogson",
+      "r": "nationality",
+      "o": "England",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "James_Craig_Watson",
+      "r": "nationality",
+      "o": "Canada",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "Elliot_See",
+      "r": "nationality",
+      "o": "United_States",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "John_Buscema",
+      "r": "nationality",
+      "o": "Americans",
+      "lab": "<subject> is from <object> ."
+    },
+    {
+      "s": "Ab_Klink",
+      "r": "nationality",
+      "o": "Netherlands",
+      "lab": "<subject> is from <object> ."
+    }
+  ],
+  "nativeName": [
+    {
+      "s": "Baku_Turkish_Martyrs_Memorial",
+      "r": "nativeName",
+      "o": "T\u00fcrk \u015eehitleri An\u0131t\u0131",
+      "lab": "<object> is the native name of <subject> ."
+    },
+    {
+      "s": "Agra_Airport",
+      "r": "nativeName",
+      "o": "Kheria Air Force Station",
+      "lab": "<object> is the native name of <subject> ."
+    }
+  ],
+  "nearestCity": [
+    {
+      "s": "Monocacy_National_Battlefield",
+      "r": "nearestCity",
+      "o": "Frederick,_Maryland",
+      "lab": "<subject> is the nearest city to <object> ."
+    }
+  ],
+  "nickname": [
+    {
+      "s": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+      "r": "nickname",
+      "o": "Asa Gigante ",
+      "lab": "<subject> is known as <object> ."
+    },
+    {
+      "s": "AFC_Ajax_(amateurs)",
+      "r": "nickname",
+      "o": "Joden , Godenzonen",
+      "lab": "<subject> is known as <object> ."
+    },
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "nickname",
+      "o": "Uab",
+      "lab": "<subject> is known as <object> ."
+    },
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "nickname",
+      "o": "AIT",
+      "lab": "<subject> is known as <object> ."
+    },
+    {
+      "s": "Cornell_University",
+      "r": "nickname",
+      "o": "Cornell_Big_Red",
+      "lab": "<subject> is known as <object> ."
+    }
+  ],
+  "notableWork": [
+    {
+      "s": "John_Cowper_Powys",
+      "r": "notableWork",
+      "o": "Porius:_A_Romance_of_the_Dark_Ages",
+      "lab": "<object> is a notable work by <subject> ."
+    },
+    {
+      "s": "John_Cowper_Powys",
+      "r": "notableWork",
+      "o": "Wolf_Solent",
+      "lab": "<object> is a notable work by <subject> ."
+    },
+    {
+      "s": "John_Cowper_Powys",
+      "r": "notableWork",
+      "o": "A_Glastonbury_Romance",
+      "lab": "<object> is a notable work by <subject> ."
+    },
+    {
+      "s": "John_Cowper_Powys",
+      "r": "notableWork",
+      "o": "Owen_Glendower_(novel)",
+      "lab": "<object> is a notable work by <subject> ."
+    }
+  ],
+  "numberOfMembers": [
+    {
+      "s": "ACF_Fiorentina",
+      "r": "numberOfMembers",
+      "o": "47290",
+      "lab": "<subject> has <object> members ."
+    },
+    {
+      "s": "A.S._Gubbio_1910",
+      "r": "numberOfMembers",
+      "o": "5300",
+      "lab": "<subject> has <object> members ."
+    },
+    {
+      "s": "1._FC_K\u00f6ln",
+      "r": "numberOfMembers",
+      "o": "50000",
+      "lab": "<subject> has <object> members ."
+    },
+    {
+      "s": "A.F.C._Fylde",
+      "r": "numberOfMembers",
+      "o": "3180",
+      "lab": "<subject> has <object> members ."
+    },
+    {
+      "s": "AFC_Ajax_(amateurs)",
+      "r": "numberOfMembers",
+      "o": "5000",
+      "lab": "<subject> has <object> members ."
+    }
+  ],
+  "numberOfPages": [
+    {
+      "s": "A_Long_Long_Way",
+      "r": "numberOfPages",
+      "o": "292",
+      "lab": "<subject> has <object> pages ."
+    },
+    {
+      "s": "A_Wizard_of_Mars",
+      "r": "numberOfPages",
+      "o": "560",
+      "lab": "<subject> has <object> pages ."
+    },
+    {
+      "s": "A_Fortress_of_Grey_Ice",
+      "r": "numberOfPages",
+      "o": "672",
+      "lab": "<subject> has <object> pages ."
+    },
+    {
+      "s": "A_Loyal_Character_Dancer",
+      "r": "numberOfPages",
+      "o": "360",
+      "lab": "<subject> has <object> pages ."
+    },
+    {
+      "s": "1634:_The_Ram_Rebellion",
+      "r": "numberOfPages",
+      "o": "512",
+      "lab": "<subject> has <object> pages ."
+    }
+  ],
+  "numberOfPostgraduateStudents": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "numberOfPostgraduateStudents",
+      "o": "700",
+      "lab": "<subject> has <object> postgraduate students ."
+    }
+  ],
+  "numberOfStudents": [
+    {
+      "s": "Accademia_di_Architettura_di_Mendrisio",
+      "r": "numberOfStudents",
+      "o": "600",
+      "lab": "<subject> has <object> students ."
+    },
+    {
+      "s": "School of Business and Social Sciences at the Aarhus University",
+      "r": "numberOfStudents",
+      "o": "16000",
+      "lab": "<subject> has <object> students ."
+    }
+  ],
+  "numberOfUndergraduateStudents": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "numberOfUndergraduateStudents",
+      "o": "10000",
+      "lab": "<subject> has <object> undergraduate students ."
+    }
+  ],
+  "occupation": [
+    {
+      "s": "William_Anders",
+      "r": "occupation",
+      "o": "Fighter_pilot",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "occupation",
+      "o": "Test_pilot",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "occupation",
+      "o": "Fighter_pilot",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Elliot_See",
+      "r": "occupation",
+      "o": "Test_pilot",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Andra_(singer)",
+      "r": "occupation",
+      "o": "singer, Reality television judge",
+      "lab": "<subject> is <object> ."
+    }
+  ],
+  "officialLanguage": [
+    {
+      "s": "Philippines",
+      "r": "officialLanguage",
+      "o": "Philippine_English",
+      "lab": "<object> is the official language of <subject> ."
+    },
+    {
+      "s": "Italy",
+      "r": "officialLanguage",
+      "o": "Italian_language",
+      "lab": "<object> is the official language of <subject> ."
+    },
+    {
+      "s": "Belgium",
+      "r": "officialLanguage",
+      "o": "German_language",
+      "lab": "<object> is the official language of <subject> ."
+    },
+    {
+      "s": "Iraq",
+      "r": "officialLanguage",
+      "o": "Arabic",
+      "lab": "<object> is the official language of <subject> ."
+    },
+    {
+      "s": "Belgium",
+      "r": "officialLanguage",
+      "o": "French_language",
+      "lab": "<object> is the official language of <subject> ."
+    }
+  ],
+  "officialSchoolColour": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "officialSchoolColour",
+      "o": "Blue, White and Orange",
+      "lab": "<object> are the colours of <subject> ."
+    }
+  ],
+  "operatingOrganisation": [
+    {
+      "s": "Antwerp_International_Airport",
+      "r": "operatingOrganisation",
+      "o": "Flemish department of Mobility and Public Works",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "operatingOrganisation",
+      "o": "Schiphol_Group",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Aarhus_Airport",
+      "r": "operatingOrganisation",
+      "o": "Aarhus Lufthavn A/S",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Agra_Airport",
+      "r": "operatingOrganisation",
+      "o": "Indian_Air_Force",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Appleton_International_Airport",
+      "r": "operatingOrganisation",
+      "o": "Outagamie_County,_Wisconsin",
+      "lab": "<subject> is operated by <object> ."
+    }
+  ],
+  "operator": [
+    {
+      "s": "Apollo_8",
+      "r": "operator",
+      "o": "NASA",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "AIDAluna",
+      "r": "operator",
+      "o": "AIDA_Cruises",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Apollo_11",
+      "r": "operator",
+      "o": "NASA",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "ELA-3",
+      "r": "operator",
+      "o": "Arianespace",
+      "lab": "<subject> is operated by <object> ."
+    },
+    {
+      "s": "Apollo_14",
+      "r": "operator",
+      "o": "NASA",
+      "lab": "<subject> is operated by <object> ."
+    }
+  ],
+  "order": [
+    {
+      "s": "Tomato",
+      "r": "order",
+      "o": "Solanales",
+      "lab": "<subject> belong to the <object> order ."
+    },
+    {
+      "s": "Almond",
+      "r": "order",
+      "o": "Rosales",
+      "lab": "<subject> belong to the <object> order ."
+    },
+    {
+      "s": "Almond",
+      "r": "order",
+      "o": "Rosids",
+      "lab": "<subject> belong to the <object> order ."
+    },
+    {
+      "s": "Lemon",
+      "r": "order",
+      "o": "Rosids",
+      "lab": "<subject> belong to the <object> order ."
+    },
+    {
+      "s": "Lemon",
+      "r": "order",
+      "o": "Sapindales",
+      "lab": "<subject> belong to the <object> order ."
+    }
+  ],
+  "outlookRanking": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "outlookRanking",
+      "o": "63",
+      "lab": "<subject> has an outlook ranking of <object> ."
+    }
+  ],
+  "owner": [
+    {
+      "s": "MTU_Friedrichshafen",
+      "r": "owner",
+      "o": "Rolls-Royce_Holdings",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "AIDAstella",
+      "r": "owner",
+      "o": "Costa_Crociere",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "Sportpark_De_Toekomst",
+      "r": "owner",
+      "o": "AFC_Ajax_N.V.",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "AFC_Ajax",
+      "r": "owner",
+      "o": "AFC_Ajax_N.V.",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "AZ_Alkmaar",
+      "r": "owner",
+      "o": "Robert_Eenhoorn",
+      "lab": "<object> owns <subject> ."
+    }
+  ],
+  "owningOrganisation": [
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "owningOrganisation",
+      "o": "National_Park_Service",
+      "lab": "<object> owns <subject> ."
+    }
+  ],
+  "parentCompany": [
+    {
+      "s": "Farrar,_Straus_and_Giroux",
+      "r": "parentCompany",
+      "o": "Macmillan_Publishers",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "Viking_Press",
+      "r": "parentCompany",
+      "o": "Penguin_Random_House",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "Wiley-Blackwell",
+      "r": "parentCompany",
+      "o": "John_Wiley_&_Sons",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "General_Dynamics_Electric_Boat",
+      "r": "parentCompany",
+      "o": "General_Dynamics",
+      "lab": "<object> owns <subject> ."
+    },
+    {
+      "s": "Johns_Hopkins_University_Press",
+      "r": "parentCompany",
+      "o": "Johns_Hopkins_University",
+      "lab": "<object> owns <subject> ."
+    }
+  ],
+  "part": [
+    {
+      "s": "Amsterdam",
+      "r": "part",
+      "o": "Amsterdam-Centrum",
+      "lab": "<subject> is in <object> ."
+    },
+    {
+      "s": "Dallas",
+      "r": "part",
+      "o": "Collin_County,_Texas",
+      "lab": "<subject> is in <object> ."
+    },
+    {
+      "s": "Amsterdam",
+      "r": "part",
+      "o": "Amsterdam-Noord",
+      "lab": "<subject> is in <object> ."
+    }
+  ],
+  "placeOfBirth": [
+    {
+      "s": "Michele_Marcolini",
+      "r": "placeOfBirth",
+      "o": "Italy",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Rolando_Maran",
+      "r": "placeOfBirth",
+      "o": "Italy",
+      "lab": "<subject> was born in <object> ."
+    }
+  ],
+  "placeOfDeath": [
+    {
+      "s": "Alfred_Giles_(architect)",
+      "r": "placeOfDeath",
+      "o": "Kendall_County,_Texas",
+      "lab": "<subject> died in <object> ."
+    }
+  ],
+  "populationDensity": [
+    {
+      "s": "Albuquerque,_New_Mexico",
+      "r": "populationDensity",
+      "o": "1142.3 (inhabitants per square kilometre)",
+      "lab": "<subject> has a population density of <object> ."
+    },
+    {
+      "s": "Amarillo,_Texas",
+      "r": "populationDensity",
+      "o": "746.0 (inhabitants per square kilometre)",
+      "lab": "<subject> has a population density of <object> ."
+    },
+    {
+      "s": "Atlanta",
+      "r": "populationDensity",
+      "o": "1299.0 (inhabitants per square kilometre)",
+      "lab": "<subject> has a population density of <object> ."
+    },
+    {
+      "s": "Atlantic_City,_New_Jersey",
+      "r": "populationDensity",
+      "o": "1421.2 (inhabitants per square kilometre)",
+      "lab": "<subject> has a population density of <object> ."
+    },
+    {
+      "s": "Anderson,_Indiana",
+      "r": "populationDensity",
+      "o": "523.9 (inhabitants per square kilometre)",
+      "lab": "<subject> has a population density of <object> ."
+    }
+  ],
+  "populationTotal": [
+    {
+      "s": "Anaheim,_California",
+      "r": "populationTotal",
+      "o": "336265",
+      "lab": "<object> people live in <subject> ."
+    },
+    {
+      "s": "Antioch,_California",
+      "r": "populationTotal",
+      "o": "102372",
+      "lab": "<object> people live in <subject> ."
+    }
+  ],
+  "postalCode": [
+    {
+      "s": "Birmingham",
+      "r": "postalCode",
+      "o": "B_postcode_area",
+      "lab": "<subject> has postal codes <object> ."
+    },
+    {
+      "s": "Antioch,_California",
+      "r": "postalCode",
+      "o": "94509, 94531",
+      "lab": "<subject> has postal codes <object> ."
+    }
+  ],
+  "precededBy": [
+    {
+      "s": "1634:_The_Bavarian_Crisis",
+      "r": "precededBy",
+      "o": "Grantville_Gazette_II",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "The_Secret_Scripture",
+      "r": "precededBy",
+      "o": "A_Long_Long_Way",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "Aenir",
+      "r": "precededBy",
+      "o": "Castle_(novel)",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "Into_Battle_(novel)",
+      "r": "precededBy",
+      "o": "Above_the_Veil",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "Ring_of_Fire_II",
+      "r": "precededBy",
+      "o": "1634:_The_Bavarian_Crisis",
+      "lab": "<subject> was preceded by <object> ."
+    }
+  ],
+  "president": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "president",
+      "o": "B.M. Reddy",
+      "lab": "<object> is president of <subject> ."
+    },
+    {
+      "s": "Cornell_University",
+      "r": "president",
+      "o": "Elizabeth_Garrett",
+      "lab": "<object> is president of <subject> ."
+    },
+    {
+      "s": "University_of_Texas_at_Austin",
+      "r": "president",
+      "o": "Gregory_L._Fenves",
+      "lab": "<object> is president of <subject> ."
+    }
+  ],
+  "product": [
+    {
+      "s": "BBC",
+      "r": "product",
+      "o": "BBC_Radio",
+      "lab": "<subject> produces <object> ."
+    }
+  ],
+  "publisher": [
+    {
+      "s": "Addiction_(journal)",
+      "r": "publisher",
+      "o": "Wiley-Blackwell",
+      "lab": "<subject> is published by <object> ."
+    },
+    {
+      "s": "Administrative_Science_Quarterly",
+      "r": "publisher",
+      "o": "SAGE_Publications",
+      "lab": "<subject> is published by <object> ."
+    },
+    {
+      "s": "The_Secret_Scripture",
+      "r": "publisher",
+      "o": "Faber_and_Faber",
+      "lab": "<subject> is published by <object> ."
+    },
+    {
+      "s": "Addiction_(journal)",
+      "r": "publisher",
+      "o": "Wiley-Blackwell on behalf of the Society for the Study of Addiction",
+      "lab": "<subject> is published by <object> ."
+    },
+    {
+      "s": "ACM_Transactions_on_Information_Systems",
+      "r": "publisher",
+      "o": "Association_for_Computing_Machinery",
+      "lab": "<subject> is published by <object> ."
+    }
+  ],
+  "rector": [
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "rector",
+      "o": "Breaz Valer Daniel",
+      "lab": "<object> is the rector of <subject> ."
+    }
+  ],
+  "region": [
+    {
+      "s": "Bhajji",
+      "r": "region",
+      "o": "Karnataka",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Arr\u00f2s_negre",
+      "r": "region",
+      "o": "Catalonia",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Beef_kway_teow",
+      "r": "region",
+      "o": "Nationwide in Singapore and Indonesia",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Bionico",
+      "r": "region",
+      "o": "Jalisco",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Chicharr\u00f3n",
+      "r": "region",
+      "o": "Andalusia",
+      "lab": "<subject> comes from <object> ."
+    }
+  ],
+  "regionServed": [
+    {
+      "s": "Port_Authority_of_New_York_and_New_Jersey",
+      "r": "regionServed",
+      "o": "New_Jersey",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Port_Authority_of_New_York_and_New_Jersey",
+      "r": "regionServed",
+      "o": "New_York",
+      "lab": "<subject> serves <object> ."
+    },
+    {
+      "s": "Polish_Academy_of_Sciences",
+      "r": "regionServed",
+      "o": "Poland",
+      "lab": "<subject> serves <object> ."
+    }
+  ],
+  "related": [
+    {
+      "s": "Bhajji",
+      "r": "related",
+      "o": "Pakora",
+      "lab": "<subject> is related to <object> ."
+    }
+  ],
+  "religion": [
+    {
+      "s": "England",
+      "r": "religion",
+      "o": "Church_of_England",
+      "lab": "<object> is the religion of <subject> ."
+    },
+    {
+      "s": "Denmark",
+      "r": "religion",
+      "o": "Church_of_Denmark",
+      "lab": "<object> is the religion of <subject> ."
+    }
+  ],
+  "representative": [
+    {
+      "s": "British_Hong_Kong",
+      "r": "representative",
+      "o": "Chris_Patten",
+      "lab": "<object> served as a representative of <subject> ."
+    }
+  ],
+  "residence": [
+    {
+      "s": "Agnes_Kant",
+      "r": "residence",
+      "o": "Doesburg",
+      "lab": "<subject> resides in <object> ."
+    },
+    {
+      "s": "Abdul_Taib_Mahmud",
+      "r": "residence",
+      "o": "Sarawak",
+      "lab": "<subject> resides in <object> ."
+    },
+    {
+      "s": "Abdul_Taib_Mahmud",
+      "r": "residence",
+      "o": "Kuching",
+      "lab": "<subject> resides in <object> ."
+    },
+    {
+      "s": "Abdul_Taib_Mahmud",
+      "r": "residence",
+      "o": "Demak Jaya, Jalan Bako, Kuching, Sarawak",
+      "lab": "<subject> resides in <object> ."
+    },
+    {
+      "s": "A.T._Charlie_Johnson",
+      "r": "residence",
+      "o": "United_States",
+      "lab": "<subject> resides in <object> ."
+    }
+  ],
+  "river": [
+    {
+      "s": "India",
+      "r": "river",
+      "o": "Ganges",
+      "lab": "<object> is a river in <subject> ."
+    }
+  ],
+  "runwayLength": [
+    {
+      "s": "Athens_International_Airport",
+      "r": "runwayLength",
+      "o": "4000.0",
+      "lab": "<subject> runway is <object> m long ."
+    },
+    {
+      "s": "Alpena_County_Regional_Airport",
+      "r": "runwayLength",
+      "o": "2744.0",
+      "lab": "<subject> runway is <object> m long ."
+    },
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "runwayLength",
+      "o": "3500.0",
+      "lab": "<subject> runway is <object> m long ."
+    },
+    {
+      "s": "Andrews_County_Airport",
+      "r": "runwayLength",
+      "o": "8.0",
+      "lab": "<subject> runway is <object> m long ."
+    },
+    {
+      "s": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+      "r": "runwayLength",
+      "o": "4349.0",
+      "lab": "<subject> runway is <object> m long ."
+    }
+  ],
+  "runwayName": [
+    {
+      "s": "Angola_International_Airport",
+      "r": "runwayName",
+      "o": "South Runway",
+      "lab": "The name of the runway at <subject> is <object> ."
+    },
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "runwayName",
+      "o": "18C/36C Zwanenburgbaan",
+      "lab": "The name of the runway at <subject> is <object> ."
+    },
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "runwayName",
+      "o": "18L/36R Aalsmeerbaan",
+      "lab": "The name of the runway at <subject> is <object> ."
+    },
+    {
+      "s": "Alderney_Airport",
+      "r": "runwayName",
+      "o": "14/32",
+      "lab": "The name of the runway at <subject> is <object> ."
+    },
+    {
+      "s": "Atlantic_City_International_Airport",
+      "r": "runwayName",
+      "o": "13/31",
+      "lab": "The name of the runway at <subject> is <object> ."
+    }
+  ],
+  "runwaySurfaceType": [
+    {
+      "s": "Atlantic_City_International_Airport",
+      "r": "runwaySurfaceType",
+      "o": "Asphalt/Concrete",
+      "lab": "<subject> runway is made of <object> ."
+    }
+  ],
+  "season": [
+    {
+      "s": "FC_Torpedo_Moscow",
+      "r": "season",
+      "o": "2014\u201315_Russian_Premier_League",
+      "lab": "<subject> played in the <object> season ."
+    },
+    {
+      "s": "AEK_Athens_F.C.",
+      "r": "season",
+      "o": "2014\u201315_Football_League_(Greece)",
+      "lab": "<subject> played in the <object> season ."
+    },
+    {
+      "s": "AZ_Alkmaar",
+      "r": "season",
+      "o": "2014",
+      "lab": "<subject> played in the <object> season ."
+    },
+    {
+      "s": "1._FC_K\u00f6ln",
+      "r": "season",
+      "o": "2014",
+      "lab": "<subject> played in the <object> season ."
+    },
+    {
+      "s": "A.C._Lumezzane",
+      "r": "season",
+      "o": "2014",
+      "lab": "<subject> played in the <object> season ."
+    }
+  ],
+  "senators": [
+    {
+      "s": "California",
+      "r": "senators",
+      "o": "Dianne_Feinstein",
+      "lab": "<object> is a senator in <subject> ."
+    }
+  ],
+  "served as Chief of the Astronaut Office in": [
+    {
+      "s": "William_Anders",
+      "r": "served as Chief of the Astronaut Office in",
+      "o": "1976",
+      "lab": "<subject> served as Chief of the Astronaut Office in <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "served as Chief of the Astronaut Office in",
+      "o": "1963",
+      "lab": "<subject> served as Chief of the Astronaut Office in <object> ."
+    }
+  ],
+  "servingTemperature": [
+    {
+      "s": "Bakewell_pudding",
+      "r": "servingTemperature",
+      "o": "Warm (freshly baked) or cold",
+      "lab": "<subject> should be served <object> ."
+    },
+    {
+      "s": "Batagor",
+      "r": "servingTemperature",
+      "o": "hot",
+      "lab": "<subject> should be served <object> ."
+    },
+    {
+      "s": "Ayam_penyet",
+      "r": "servingTemperature",
+      "o": "Hot",
+      "lab": "<subject> should be served <object> ."
+    }
+  ],
+  "significantBuilding": [
+    {
+      "s": "Julia_Morgan",
+      "r": "significantBuilding",
+      "o": "Chinatown,_San_Francisco",
+      "lab": "<subject> designed <object> ."
+    },
+    {
+      "s": "Julia_Morgan",
+      "r": "significantBuilding",
+      "o": "Los_Angeles_Herald-Examiner",
+      "lab": "<subject> designed <object> ."
+    },
+    {
+      "s": "Julia_Morgan",
+      "r": "significantBuilding",
+      "o": "Asilomar_State_Beach",
+      "lab": "<subject> designed <object> ."
+    },
+    {
+      "s": "Julia_Morgan",
+      "r": "significantBuilding",
+      "o": "Riverside_Art_Museum",
+      "lab": "<subject> designed <object> ."
+    },
+    {
+      "s": "Augustus_Pugin",
+      "r": "significantBuilding",
+      "o": "Palace_of_Westminster",
+      "lab": "<subject> designed <object> ."
+    }
+  ],
+  "significantProject": [
+    {
+      "s": "Julia_Morgan",
+      "r": "significantProject",
+      "o": "Hearst_Castle",
+      "lab": "<subject> projected <object> ."
+    }
+  ],
+  "similarDish": [
+    {
+      "s": "Bhajji",
+      "r": "similarDish",
+      "o": "Pakora and other fritters made from wheat or corn flour",
+      "lab": "<subject> is similar to <object> ."
+    }
+  ],
+  "spokenIn": [
+    {
+      "s": "English_language",
+      "r": "spokenIn",
+      "o": "Great_Britain",
+      "lab": "<subject> is spoken in <object> ."
+    }
+  ],
+  "sportsGoverningBody": [
+    {
+      "s": "Tennis",
+      "r": "sportsGoverningBody",
+      "o": "International_Tennis_Federation",
+      "lab": "<subject> is governed by <object> ."
+    }
+  ],
+  "sportsOffered": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "sportsOffered",
+      "o": "Tennis",
+      "lab": "<subject> offers <object> ."
+    }
+  ],
+  "starring": [
+    {
+      "s": "Big_Hero_6_(film)",
+      "r": "starring",
+      "o": "Ryan_Potter",
+      "lab": "<object> starred in <subject> ."
+    },
+    {
+      "s": "Big_Hero_6_(film)",
+      "r": "starring",
+      "o": "Jamie_Chung",
+      "lab": "<object> starred in <subject> ."
+    },
+    {
+      "s": "Bananaman",
+      "r": "starring",
+      "o": "Jill_Shilling",
+      "lab": "<object> starred in <subject> ."
+    },
+    {
+      "s": "Big_Hero_6_(film)",
+      "r": "starring",
+      "o": "Alan_Tudyk",
+      "lab": "<object> starred in <subject> ."
+    },
+    {
+      "s": "Bananaman",
+      "r": "starring",
+      "o": "Bill_Oddie",
+      "lab": "<object> starred in <subject> ."
+    }
+  ],
+  "state": [
+    {
+      "s": "Alvah_Sabin",
+      "r": "state",
+      "o": "Vermont",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "14th_New_Jersey_Volunteer_Infantry_Monument",
+      "r": "state",
+      "o": "Maryland",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Lee_County,_Alabama",
+      "r": "state",
+      "o": "Alabama",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "1_Decembrie_1918_University",
+      "r": "state",
+      "o": "Alba",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "AWH_Engineering_College",
+      "r": "state",
+      "o": "Kerala",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "status": [
+    {
+      "s": "Aleksey_Chirikov_(icebreaker)",
+      "r": "status",
+      "o": "In service",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "status",
+      "o": "Wrecked",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Elliot_See",
+      "r": "status",
+      "o": "Deceased",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "ARA_Veinticinco_de_Mayo_(V-2)",
+      "r": "status",
+      "o": "Sold to the Netherlands 1 April 1948",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Alan_Bean",
+      "r": "status",
+      "o": "Retired",
+      "lab": "<subject> is <object> ."
+    }
+  ],
+  "tenant": [
+    {
+      "s": "AC_Hotel_Bella_Sky_Copenhagen",
+      "r": "tenant",
+      "o": "Marriott_International",
+      "lab": "<object> is the tenant of <subject> ."
+    },
+    {
+      "s": "Alan_B._Miller_Hall",
+      "r": "tenant",
+      "o": "Mason_School_of_Business",
+      "lab": "<object> is the tenant of <subject> ."
+    },
+    {
+      "s": "Sportpark_De_Toekomst",
+      "r": "tenant",
+      "o": "Jong_Ajax",
+      "lab": "<object> is the tenant of <subject> ."
+    },
+    {
+      "s": "Sportpark_De_Toekomst",
+      "r": "tenant",
+      "o": "Ajax_Youth_Academy",
+      "lab": "<object> is the tenant of <subject> ."
+    }
+  ],
+  "timeInSpace": [
+    {
+      "s": "Alan_Shepard",
+      "r": "timeInSpace",
+      "o": "13017.0\"(minutes)",
+      "lab": "<subject> spend <object> in space ."
+    },
+    {
+      "s": "William_Anders",
+      "r": "timeInSpace",
+      "o": "8820.0\"(minutes)",
+      "lab": "<subject> spend <object> in space ."
+    },
+    {
+      "s": "Alan_Bean",
+      "r": "timeInSpace",
+      "o": "100305.0\"(minutes)",
+      "lab": "<subject> spend <object> in space ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "timeInSpace",
+      "o": "52.0\"(minutes)",
+      "lab": "<subject> spend <object> in space ."
+    }
+  ],
+  "title": [
+    {
+      "s": "Alan_Shepard",
+      "r": "title",
+      "o": "Chief_of_the_Astronaut_Office",
+      "lab": "<object> is <subject> ."
+    },
+    {
+      "s": "William_Anders",
+      "r": "title",
+      "o": "United_States_Ambassador_to_Norway",
+      "lab": "<object> is <subject> ."
+    }
+  ],
+  "transportAircraft": [
+    {
+      "s": "United_States_Air_Force",
+      "r": "transportAircraft",
+      "o": "Boeing_C-17_Globemaster_III",
+      "lab": "<object> is a transport aircraft in <subject> ."
+    },
+    {
+      "s": "Indian_Air_Force",
+      "r": "transportAircraft",
+      "o": "Boeing_C-17_Globemaster_III",
+      "lab": "<object> is a transport aircraft in <subject> ."
+    },
+    {
+      "s": "United_States_Air_Force",
+      "r": "transportAircraft",
+      "o": "Lockheed_C-130_Hercules",
+      "lab": "<object> is a transport aircraft in <subject> ."
+    }
+  ],
+  "voice": [
+    {
+      "s": "Baymax",
+      "r": "voice",
+      "o": "Scott_Adsit",
+      "lab": "<subject> is voiced by <object> ."
+    }
+  ],
+  "was a crew member of": [
+    {
+      "s": "William_Anders",
+      "r": "was a crew member of",
+      "o": "Apollo_8",
+      "lab": "<subject> was a crew member on <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "was a crew member of",
+      "o": "Apollo_14",
+      "lab": "<subject> was a crew member on <object> ."
+    },
+    {
+      "s": "Alan_Bean",
+      "r": "was a crew member of",
+      "o": "Apollo_12",
+      "lab": "<subject> was a crew member on <object> ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "was a crew member of",
+      "o": "Apollo_11",
+      "lab": "<subject> was a crew member on <object> ."
+    }
+  ],
+  "was awarded": [
+    {
+      "s": "Buzz_Aldrin",
+      "r": "was awarded",
+      "o": "Legion of Merit ribbon.svg",
+      "lab": "<subject> won <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "was awarded",
+      "o": "American Defense Service ribbon.svg",
+      "lab": "<subject> won <object> ."
+    }
+  ],
+  "was given the 'Technical Campus' status by": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "was given the 'Technical Campus' status by",
+      "o": "All_India_Council_for_Technical_Education",
+      "lab": "<subject> was given the Technical Campus status by <object> ."
+    }
+  ],
+  "was selected by NASA": [
+    {
+      "s": "Elliot_See",
+      "r": "was selected by NASA",
+      "o": "1962",
+      "lab": "<subject> was selected by NASA in <object> ."
+    },
+    {
+      "s": "Alan_Bean",
+      "r": "was selected by NASA",
+      "o": "1963",
+      "lab": "<subject> was selected by NASA in <object> ."
+    },
+    {
+      "s": "Alan_Shepard",
+      "r": "was selected by NASA",
+      "o": "1959",
+      "lab": "<subject> was selected by NASA in <object> ."
+    },
+    {
+      "s": "William_Anders",
+      "r": "was selected by NASA",
+      "o": "1963",
+      "lab": "<subject> was selected by NASA in <object> ."
+    },
+    {
+      "s": "Buzz_Aldrin",
+      "r": "was selected by NASA",
+      "o": "1963",
+      "lab": "<subject> was selected by NASA in <object> ."
+    }
+  ],
+  "website": [
+    {
+      "s": "Ampara_Hospital",
+      "r": "website",
+      "o": "<http://www.ghampara.gov.lk/>",
+      "lab": "<subject> has <object> ."
+    }
+  ],
+  "year": [
+    {
+      "s": "Barny_Cakes",
+      "r": "year",
+      "o": "1999",
+      "lab": "<subject> were introduced in <object> ."
+    }
+  ],
+  "yearOfConstruction": [
+    {
+      "s": "Asilomar_Conference_Grounds",
+      "r": "yearOfConstruction",
+      "o": "1913",
+      "lab": "<subject> was built in <object> ."
+    },
+    {
+      "s": "Asher_and_Mary_Isabelle_Richardson_House",
+      "r": "yearOfConstruction",
+      "o": "1911",
+      "lab": "<subject> was built in <object> ."
+    },
+    {
+      "s": "Asser_Levy_Public_Baths",
+      "r": "yearOfConstruction",
+      "o": "1904",
+      "lab": "<subject> was built in <object> ."
+    }
+  ],
+  "youthclub": [
+    {
+      "s": "Abel_Hern\u00e1ndez",
+      "r": "youthclub",
+      "o": "Pe\u00f1arol",
+      "lab": "<subject> played youth football for <object> ."
+    },
+    {
+      "s": "Abel_Hern\u00e1ndez",
+      "r": "youthclub",
+      "o": "Central_Espa\u00f1ol",
+      "lab": "<subject> played youth football for <object> ."
+    },
+    {
+      "s": "Michele_Marcolini",
+      "r": "youthclub",
+      "o": "Torino_F.C.",
+      "lab": "<subject> played youth football for <object> ."
+    },
+    {
+      "s": "Aaron_Hunt",
+      "r": "youthclub",
+      "o": "Goslarer_SC_08",
+      "lab": "<subject> played youth football for <object> ."
+    },
+    {
+      "s": "Aleksandr_Prudnikov",
+      "r": "youthclub",
+      "o": "FC_Spartak_Moscow",
+      "lab": "<subject> played youth football for <object> ."
+    }
+  ],
+  "5th_runway_SurfaceType": [
+    {
+      "s": "Amsterdam_Airport_Schiphol",
+      "r": "5th_runway_SurfaceType",
+      "o": "Asphalt",
+      "lab": "The 5th runway at <subject> is made from <object> ."
+    }
+  ],
+  "absoluteMagnitude": [
+    {
+      "s": "103_Hera",
+      "r": "absoluteMagnitude",
+      "o": "7.66",
+      "lab": "<subject> has an absolute magnitude of <object> ."
+    },
+    {
+      "s": "107_Camilla",
+      "r": "absoluteMagnitude",
+      "o": "7.08",
+      "lab": "<subject> has an absolute magnitude of <object> ."
+    },
+    {
+      "s": "(410777)_2009_FD",
+      "r": "absoluteMagnitude",
+      "o": "22.1",
+      "lab": "<subject> has an absolute magnitude of <object> ."
+    }
+  ],
+  "activeYearsEndDate": [
+    {
+      "s": "Airey_Neave",
+      "r": "activeYearsEndDate",
+      "o": "1979-03-30",
+      "lab": "<subject> was active until <object> ."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "activeYearsEndDate",
+      "o": "1905-03-04",
+      "lab": "<subject> was active until <object> ."
+    },
+    {
+      "s": "Abdulsalami_Abubakar",
+      "r": "activeYearsEndDate",
+      "o": "1999-05-29",
+      "lab": "<subject> was active until <object> ."
+    },
+    {
+      "s": "Abner_W._Sibal",
+      "r": "activeYearsEndDate",
+      "o": "1965-01-03",
+      "lab": "<subject> was active until <object> ."
+    },
+    {
+      "s": "Alvah_Sabin",
+      "r": "activeYearsEndDate",
+      "o": "1857-03-03",
+      "lab": "<subject> was active until <object> ."
+    }
+  ],
+  "activeYearsEndYear": [
+    {
+      "s": "Albennie_Jones",
+      "r": "activeYearsEndYear",
+      "o": "1950",
+      "lab": "<subject> was active until <object> ."
+    }
+  ],
+  "activeYearsStartDate": [
+    {
+      "s": "Alfred_Moore_Scales",
+      "r": "activeYearsStartDate",
+      "o": "1875-03-04",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Adam_Holloway",
+      "r": "activeYearsStartDate",
+      "o": "2005-05-05",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Allan_Shivers",
+      "r": "activeYearsStartDate",
+      "o": "1947-01-21",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "activeYearsStartDate",
+      "o": "1901-03-04",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Airey_Neave",
+      "r": "activeYearsStartDate",
+      "o": "1974-03-04",
+      "lab": "<subject> was active since <object> ."
+    }
+  ],
+  "activeYearsStartYear": [
+    {
+      "s": "Alison_ODonnell",
+      "r": "activeYearsStartYear",
+      "o": "1963",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Anders_Osborne",
+      "r": "activeYearsStartYear",
+      "o": "1989",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Andra_(singer)",
+      "r": "activeYearsStartYear",
+      "o": "2000",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Aaron_Bertram",
+      "r": "activeYearsStartYear",
+      "o": "1998",
+      "lab": "<subject> was active since <object> ."
+    },
+    {
+      "s": "Andrew_White_(musician)",
+      "r": "activeYearsStartYear",
+      "o": "2003",
+      "lab": "<subject> was active since <object> ."
+    }
+  ],
+  "affiliations": [
+    {
+      "s": "University_of_Texas_at_Austin",
+      "r": "affiliations",
+      "o": "University_of_Texas_System",
+      "lab": "<subject> is affiliated with <object> ."
+    }
+  ],
+  "apoapsis": [
+    {
+      "s": "1089_Tama",
+      "r": "apoapsis",
+      "o": "373513000.0 (kilometres)",
+      "lab": "<subject> has an apoapsis of <object> ."
+    },
+    {
+      "s": "(66391)_1999_KW4",
+      "r": "apoapsis",
+      "o": "162164091.8388 (kilometres)",
+      "lab": "<subject> has an apoapsis of <object> ."
+    },
+    {
+      "s": "1097_Vicia",
+      "r": "apoapsis",
+      "o": "511592000.0 (kilometres)",
+      "lab": "<subject> has an apoapsis of <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "apoapsis",
+      "o": "437170000.0 (kilometres)",
+      "lab": "<subject> has an apoapsis of <object> ."
+    },
+    {
+      "s": "1036_Ganymed",
+      "r": "apoapsis",
+      "o": "611961000.0 (kilometres)",
+      "lab": "<subject> has an apoapsis of <object> ."
+    }
+  ],
+  "architecture": [
+    {
+      "s": "Asilomar_Conference_Grounds",
+      "r": "architecture",
+      "o": "Arts and Crafts Movement and American craftsman Bungalows",
+      "lab": "<subject> was designed by <object> ."
+    }
+  ],
+  "assembly": [
+    {
+      "s": "Acura_TLX",
+      "r": "assembly",
+      "o": "Marysville,_Ohio",
+      "lab": "<subject> was assembled in <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "assembly",
+      "o": "Marysville_Auto_Plant",
+      "lab": "<subject> was assembled in <object> ."
+    },
+    {
+      "s": "Audi_A1",
+      "r": "assembly",
+      "o": "Brussels, Belgium",
+      "lab": "<subject> was assembled in <object> ."
+    },
+    {
+      "s": "Alfa_Romeo_164",
+      "r": "assembly",
+      "o": "Milan",
+      "lab": "<subject> was assembled in <object> ."
+    },
+    {
+      "s": "Audi_A1",
+      "r": "assembly",
+      "o": "Audi_Brussels",
+      "lab": "<subject> was assembled in <object> ."
+    }
+  ],
+  "associatedBand/associatedMusicalArtist": [
+    {
+      "s": "Aleksandra_Kova\u010d",
+      "r": "associatedBand/associatedMusicalArtist",
+      "o": "Kornelije_Kova\u010d",
+      "lab": "<subject> is associated with <object> ."
+    },
+    {
+      "s": "Anders_Osborne",
+      "r": "associatedBand/associatedMusicalArtist",
+      "o": "Johnny_Sansone",
+      "lab": "<subject> is associated with <object> ."
+    },
+    {
+      "s": "Anders_Osborne",
+      "r": "associatedBand/associatedMusicalArtist",
+      "o": "Galactic",
+      "lab": "<subject> is associated with <object> ."
+    },
+    {
+      "s": "Jwaydan_Moyine",
+      "r": "associatedBand/associatedMusicalArtist",
+      "o": "John_Digweed",
+      "lab": "<subject> is associated with <object> ."
+    },
+    {
+      "s": "Abradab",
+      "r": "associatedBand/associatedMusicalArtist",
+      "o": "Kaliber_44",
+      "lab": "<subject> is associated with <object> ."
+    }
+  ],
+  "associatedRocket": [
+    {
+      "s": "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0",
+      "r": "associatedRocket",
+      "o": "Minotaur_IV",
+      "lab": "<subject> is associated with <object> ."
+    }
+  ],
+  "averageSpeed": [
+    {
+      "s": "1097_Vicia",
+      "r": "averageSpeed",
+      "o": "17.92 (kilometrePerSeconds)",
+      "lab": "<subject> has average speed <object> ."
+    },
+    {
+      "s": "10_Hygiea",
+      "r": "averageSpeed",
+      "o": "16.76 (kilometrePerSeconds)",
+      "lab": "<subject> has average speed <object> ."
+    },
+    {
+      "s": "1036_Ganymed",
+      "r": "averageSpeed",
+      "o": "16.86 (kilometrePerSeconds)",
+      "lab": "<subject> has average speed <object> ."
+    },
+    {
+      "s": "(66391)_1999_KW4",
+      "r": "averageSpeed",
+      "o": "37.16 (kilometrePerSeconds)",
+      "lab": "<subject> has average speed <object> ."
+    }
+  ],
+  "background": [
+    {
+      "s": "Andra_(singer)",
+      "r": "background",
+      "o": "solo_singer",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Alan_Frew",
+      "r": "background",
+      "o": "solo_singer",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Ahmet_Ertegun",
+      "r": "background",
+      "o": "non_performing_personnel",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Alfredo_Zitarrosa",
+      "r": "background",
+      "o": "solo_singer",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Aleksandra_Kova\u010d",
+      "r": "background",
+      "o": "solo_singer",
+      "lab": "<subject> is a <object> ."
+    }
+  ],
+  "bandMember": [
+    {
+      "s": "Suburban_Legends",
+      "r": "bandMember",
+      "o": "Brian_Robertson_(trombonist)",
+      "lab": "<subject> is a member of <object> ."
+    }
+  ],
+  "birthYear": [
+    {
+      "s": "Allen_Forrest",
+      "r": "birthYear",
+      "o": "1981",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Alfred_Garth_Jones",
+      "r": "birthYear",
+      "o": "1872",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Adam_McQuaid",
+      "r": "birthYear",
+      "o": "1986",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Ace_Wilder",
+      "r": "birthYear",
+      "o": "1982",
+      "lab": "<subject> was born in <object> ."
+    },
+    {
+      "s": "Alex_Plante",
+      "r": "birthYear",
+      "o": "1989",
+      "lab": "<subject> was born in <object> ."
+    }
+  ],
+  "bodyStyle": [
+    {
+      "s": "Audi_A1",
+      "r": "bodyStyle",
+      "o": "Hatchback",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "AMC_Matador",
+      "r": "bodyStyle",
+      "o": "Station_wagon",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Aston_Martin_V8",
+      "r": "bodyStyle",
+      "o": "Coup\u00e9",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Abarth_1000_GT_Coup\u00e9",
+      "r": "bodyStyle",
+      "o": "Two door coup\u00e9",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Abarth_1000_GT_Coup\u00e9",
+      "r": "bodyStyle",
+      "o": "Coup\u00e9",
+      "lab": "<subject> is a <object> ."
+    }
+  ],
+  "broadcastedBy": [
+    {
+      "s": "Bananaman",
+      "r": "broadcastedBy",
+      "o": "BBC",
+      "lab": "<subject> is broadcasted by <object> ."
+    },
+    {
+      "s": "Bananaman",
+      "r": "broadcastedBy",
+      "o": "STV",
+      "lab": "<subject> is broadcasted by <object> ."
+    }
+  ],
+  "buildDate": [
+    {
+      "s": "ALCO_RS-3",
+      "r": "buildDate",
+      "o": "May 1950 - August 1956",
+      "lab": "<subject> was built in <object> ."
+    }
+  ],
+  "builder": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "builder",
+      "o": "Neptun_Werft",
+      "lab": "<subject> was built by <object> ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "builder",
+      "o": "Samuda_Brothers",
+      "lab": "<subject> was built by <object> ."
+    },
+    {
+      "s": "Aleksey_Chirikov_(icebreaker)",
+      "r": "builder",
+      "o": "Arctech_Helsinki_Shipyard",
+      "lab": "<subject> was built by <object> ."
+    },
+    {
+      "s": "ALCO_RS-3",
+      "r": "builder",
+      "o": "Montreal_Locomotive_Works",
+      "lab": "<subject> was built by <object> ."
+    },
+    {
+      "s": "ALCO_RS-3",
+      "r": "builder",
+      "o": "American_Locomotive_Company",
+      "lab": "<subject> was built by <object> ."
+    }
+  ],
+  "campus": [
+    {
+      "s": "Acharya_Institute_of_Technology",
+      "r": "campus",
+      "o": "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
+      "lab": "<subject> has a campus in <object> ."
+    }
+  ],
+  "chief": [
+    {
+      "s": "South_Jersey_Transportation_Authority",
+      "r": "chief",
+      "o": "Stephen_Dilts",
+      "lab": "<subject> is a chief of <object> ."
+    }
+  ],
+  "child": [
+    {
+      "s": "Bill_Oddie",
+      "r": "child",
+      "o": "Kate_Hardie",
+      "lab": "<subject> is a child of <object> ."
+    }
+  ],
+  "christeningDate": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "christeningDate",
+      "o": "2005-04-07",
+      "lab": "<subject> was christened on <object> ."
+    },
+    {
+      "s": "AIDAstella",
+      "r": "christeningDate",
+      "o": "2013-03-16",
+      "lab": "<subject> was christened on <object> ."
+    }
+  ],
+  "coach": [
+    {
+      "s": "Maccabi_Ashdod_B.C.",
+      "r": "coach",
+      "o": "Zvi_Sherf",
+      "lab": "<subject> was coached by <object> ."
+    },
+    {
+      "s": "Italy_national_under-16_football_team",
+      "r": "coach",
+      "o": "Daniele_Zoratto",
+      "lab": "<subject> was coached by <object> ."
+    }
+  ],
+  "colour": [
+    {
+      "s": "New_Democracy_(Greece)",
+      "r": "colour",
+      "o": "Blue",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Socialist_Party_(Netherlands)",
+      "r": "colour",
+      "o": "Red",
+      "lab": "<subject> is <object> ."
+    }
+  ],
+  "comparable": [
+    {
+      "s": "Antares_(rocket)",
+      "r": "comparable",
+      "o": "Delta_II",
+      "lab": "<subject> is comparable to <object> ."
+    }
+  ],
+  "countryOrigin": [
+    {
+      "s": "Atlas_II",
+      "r": "countryOrigin",
+      "o": "United_States",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "ALV_X-1",
+      "r": "countryOrigin",
+      "o": "United_States",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Delta_II",
+      "r": "countryOrigin",
+      "o": "United_States",
+      "lab": "<subject> comes from <object> ."
+    }
+  ],
+  "currentclub": [
+    {
+      "s": "Alessio_Romagnoli",
+      "r": "currentclub",
+      "o": "A.C._Milan",
+      "lab": "<subject> plays in <object> ."
+    }
+  ],
+  "cylinderCount": [
+    {
+      "s": "ALCO_RS-3",
+      "r": "cylinderCount",
+      "o": "12",
+      "lab": "<subject> has <object> cylinder s."
+    }
+  ],
+  "dateOfDeath": [
+    {
+      "s": "Albert_B._White",
+      "r": "dateOfDeath",
+      "o": "1941-07-03",
+      "lab": "<subject> died on <object> ."
+    }
+  ],
+  "deathCause": [
+    {
+      "s": "James_Craig_Watson",
+      "r": "deathCause",
+      "o": "Peritonitis",
+      "lab": "<subject> died from <object> ."
+    }
+  ],
+  "deathYear": [
+    {
+      "s": "Albert_B._White",
+      "r": "deathYear",
+      "o": "1941",
+      "lab": "<subject> died in <object> ."
+    }
+  ],
+  "debutTeam": [
+    {
+      "s": "Akeem_Dent",
+      "r": "debutTeam",
+      "o": "Atlanta_Falcons",
+      "lab": "<subject> started his carrier in <object> ."
+    },
+    {
+      "s": "Akeem_Ayers",
+      "r": "debutTeam",
+      "o": "Tennessee_Titans",
+      "lab": "<subject> started his carrier in <object> ."
+    }
+  ],
+  "density": [
+    {
+      "s": "(19255)_1994_VK8",
+      "r": "density",
+      "o": "2.0 (gramPerCubicCentimetres)",
+      "lab": "The density of <subject> is <object> ."
+    },
+    {
+      "s": "(66391)_1999_KW4",
+      "r": "density",
+      "o": "2.0 (gramPerCubicCentimetres)",
+      "lab": "The density of <subject> is <object> ."
+    }
+  ],
+  "derivative": [
+    {
+      "s": "Jazz",
+      "r": "derivative",
+      "o": "Funk",
+      "lab": "<subject> is a derivative of <object> ."
+    },
+    {
+      "s": "Rhythm_and_blues",
+      "r": "derivative",
+      "o": "Disco",
+      "lab": "<subject> is a derivative of <object> ."
+    },
+    {
+      "s": "Rhythm_and_blues",
+      "r": "derivative",
+      "o": "Funk",
+      "lab": "<subject> is a derivative of <object> ."
+    },
+    {
+      "s": "Hip_hop_music",
+      "r": "derivative",
+      "o": "Drum_and_bass",
+      "lab": "<subject> is a derivative of <object> ."
+    }
+  ],
+  "diameter": [
+    {
+      "s": "Ariane_5",
+      "r": "diameter",
+      "o": "5.4 (metres)",
+      "lab": "<subject> has a <object> diameter ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "diameter",
+      "o": "3.9 (metres)",
+      "lab": "<subject> has a <object> diameter ."
+    },
+    {
+      "s": "ALV_X-1",
+      "r": "diameter",
+      "o": "1.524 (metres)",
+      "lab": "<subject> has a <object> diameter ."
+    },
+    {
+      "s": "Atlas_II",
+      "r": "diameter",
+      "o": "3.04 m",
+      "lab": "<subject> has a <object> diameter ."
+    }
+  ],
+  "discovered": [
+    {
+      "s": "103_Hera",
+      "r": "discovered",
+      "o": "1868-09-07",
+      "lab": "<subject> was discovered on <object> ."
+    },
+    {
+      "s": "107_Camilla",
+      "r": "discovered",
+      "o": "2001-03-01",
+      "lab": "<subject> was discovered on <object> ."
+    },
+    {
+      "s": "101_Helena",
+      "r": "discovered",
+      "o": "1868-08-15",
+      "lab": "<subject> was discovered on <object> ."
+    }
+  ],
+  "discoverer": [
+    {
+      "s": "(410777)_2009_FD",
+      "r": "discoverer",
+      "o": "Spacewatch",
+      "lab": "<subject> was discovered by <object> ."
+    },
+    {
+      "s": "107_Camilla",
+      "r": "discoverer",
+      "o": "C._Woods",
+      "lab": "<subject> was discovered by <object> ."
+    },
+    {
+      "s": "(29075)_1950_DA",
+      "r": "discoverer",
+      "o": "Carl_A._Wirtanen",
+      "lab": "<subject> was discovered by <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "discoverer",
+      "o": "James_Craig_Watson",
+      "lab": "<subject> was discovered by <object> ."
+    },
+    {
+      "s": "101_Helena",
+      "r": "discoverer",
+      "o": "James_Craig_Watson",
+      "lab": "<subject> was discovered by <object> ."
+    }
+  ],
+  "distributingCompany": [
+    {
+      "s": "RCA_Records",
+      "r": "distributingCompany",
+      "o": "Sony_Music_Entertainment",
+      "lab": "<subject> is distributed by <object> ."
+    }
+  ],
+  "doctoralStudent": [
+    {
+      "s": "Walter_Baade",
+      "r": "doctoralStudent",
+      "o": "Halton_Arp",
+      "lab": "<object> is a doctoral student of <subject> ."
+    },
+    {
+      "s": "Walter_Baade",
+      "r": "doctoralStudent",
+      "o": "Allan_Sandage",
+      "lab": "<object> is a doctoral student of <subject> ."
+    }
+  ],
+  "draftPick": [
+    {
+      "s": "Akeem_Ayers",
+      "r": "draftPick",
+      "o": "39",
+      "lab": "<subject> was picked in the draft <object> ."
+    }
+  ],
+  "draftRound": [
+    {
+      "s": "Akeem_Ayers",
+      "r": "draftRound",
+      "o": "2",
+      "lab": "<subject> was drafted in round <object> ."
+    }
+  ],
+  "draftTeam": [
+    {
+      "s": "Adam_McQuaid",
+      "r": "draftTeam",
+      "o": "Columbus_Blue_Jackets",
+      "lab": "<subject> was drafted by <object> ."
+    },
+    {
+      "s": "Aleksander_Barkov,_Jr.",
+      "r": "draftTeam",
+      "o": "Florida_Panthers",
+      "lab": "<subject> was drafted by <object> ."
+    }
+  ],
+  "employer": [
+    {
+      "s": "Richard_A._Teague",
+      "r": "employer",
+      "o": "Chrysler",
+      "lab": "<object> is employed by <subject> ."
+    }
+  ],
+  "engine": [
+    {
+      "s": "1955_Dodge",
+      "r": "engine",
+      "o": "230 (cubic inches)",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Alvis_Speed_25",
+      "r": "engine",
+      "o": "Petrol",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "1955_Dodge",
+      "r": "engine",
+      "o": "V8_engine",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "engine",
+      "o": "Honda_K_engine",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Alvis_Speed_25",
+      "r": "engine",
+      "o": "4387.0 (cubicCentimetres)",
+      "lab": "<subject> has <object> ."
+    }
+  ],
+  "epoch": [
+    {
+      "s": "1001_Gaussia",
+      "r": "epoch",
+      "o": "2015-06-27",
+      "lab": "<subject> has an epoch <object> ."
+    },
+    {
+      "s": "110_Lydia",
+      "r": "epoch",
+      "o": "2006-12-31",
+      "lab": "<subject> has an epoch <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "epoch",
+      "o": "2011-08-27",
+      "lab": "<subject> has an epoch <object> ."
+    },
+    {
+      "s": "11264_Claudiomaccone",
+      "r": "epoch",
+      "o": "2005-11-26",
+      "lab": "<subject> has an epoch <object> ."
+    },
+    {
+      "s": "1097_Vicia",
+      "r": "epoch",
+      "o": "2006-12-31",
+      "lab": "<subject> has an epoch <object> ."
+    }
+  ],
+  "escapeVelocity": [
+    {
+      "s": "103_Hera",
+      "r": "escapeVelocity",
+      "o": "0.0482 (kilometrePerSeconds)",
+      "lab": "<subject> has escape velocity <object> ."
+    },
+    {
+      "s": "1000_Piazzia",
+      "r": "escapeVelocity",
+      "o": "0.0252 (kilometrePerSeconds)",
+      "lab": "<subject> has escape velocity <object> ."
+    },
+    {
+      "s": "1101_Clematis",
+      "r": "escapeVelocity",
+      "o": "0.02 (kilometrePerSeconds)",
+      "lab": "<subject> has escape velocity <object> ."
+    },
+    {
+      "s": "(66063)_1998_RO1",
+      "r": "escapeVelocity",
+      "o": "0.0999 (kilometrePerSeconds)",
+      "lab": "<subject> has escape velocity <object> ."
+    },
+    {
+      "s": "(19255)_1994_VK8",
+      "r": "escapeVelocity",
+      "o": "0.0925 (kilometrePerSeconds)",
+      "lab": "<subject> has escape velocity <object> ."
+    }
+  ],
+  "fate": [
+    {
+      "s": "American_Motors",
+      "r": "fate",
+      "o": "Chrysler",
+      "lab": "<subject> spawned <object> ."
+    },
+    {
+      "s": "American_Motors",
+      "r": "fate",
+      "o": "Eagle_(automobile)",
+      "lab": "<subject> spawned <object> ."
+    }
+  ],
+  "finalFlight": [
+    {
+      "s": "Antares_(rocket)",
+      "r": "finalFlight",
+      "o": "2013-09-18",
+      "lab": "<subject> 's last flight was on <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "finalFlight",
+      "o": "2014-07-13",
+      "lab": "<subject> 's last flight was on <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "finalFlight",
+      "o": "2014-10-28",
+      "lab": "<subject> 's last flight was on <object> ."
+    },
+    {
+      "s": "Ariane_5",
+      "r": "finalFlight",
+      "o": "2009-12-18",
+      "lab": "<subject> 's last flight was on <object> ."
+    },
+    {
+      "s": "Atlas_II",
+      "r": "finalFlight",
+      "o": "1998-03-16",
+      "lab": "<subject> 's last flight was on <object> ."
+    }
+  ],
+  "firstAired": [
+    {
+      "s": "Bananaman",
+      "r": "firstAired",
+      "o": "1983-10-03",
+      "lab": "<subject> first aired on <object> ."
+    }
+  ],
+  "formerTeam": [
+    {
+      "s": "Akeem_Ayers",
+      "r": "formerTeam",
+      "o": "St._Louis_Rams",
+      "lab": "<subject> played formely in <object> ."
+    },
+    {
+      "s": "Akeem_Dent",
+      "r": "formerTeam",
+      "o": "Houston_Texans",
+      "lab": "<subject> played formely in <object> ."
+    },
+    {
+      "s": "Akeem_Ayers",
+      "r": "formerTeam",
+      "o": "Tennessee_Titans",
+      "lab": "<subject> played formely in <object> ."
+    },
+    {
+      "s": "Akeem_Ayers",
+      "r": "formerTeam",
+      "o": "Los_Angeles_Rams",
+      "lab": "<subject> played formely in <object> ."
+    },
+    {
+      "s": "Akeem_Ayers",
+      "r": "formerTeam",
+      "o": "New_England_Patriots",
+      "lab": "<subject> played formely in <object> ."
+    }
+  ],
+  "function": [
+    {
+      "s": "Antares_(rocket)",
+      "r": "function",
+      "o": "Medium expendable launch system",
+      "lab": "<subject> has a <object> ."
+    }
+  ],
+  "garrison": [
+    {
+      "s": "Royal_Artillery",
+      "r": "garrison",
+      "o": "Hohne",
+      "lab": "<subject> garrisons <object> ."
+    }
+  ],
+  "gemstone": [
+    {
+      "s": "California",
+      "r": "gemstone",
+      "o": "Benitoite",
+      "lab": "<object> can be found <subject> ."
+    }
+  ],
+  "generalManager": [
+    {
+      "s": "Boston_Bruins",
+      "r": "generalManager",
+      "o": "Don_Sweeney",
+      "lab": "<subject> is a general manager of <object> ."
+    }
+  ],
+  "has to its northwest": [
+    {
+      "s": "Kerala",
+      "r": "has to its northwest",
+      "o": "Mah\u00e9,_India",
+      "lab": "<object> is to the northwest of <subject>."
+    }
+  ],
+  "has to its southeast": [
+    {
+      "s": "Adams_County,_Pennsylvania",
+      "r": "has to its southeast",
+      "o": "Carroll_County,_Maryland",
+      "lab": "<object> is to the southeast of <subject>."
+    }
+  ],
+  "hasDeputy": [
+    {
+      "s": "Abdul_Rahman_Yakub",
+      "r": "hasDeputy",
+      "o": "Stephen_Yong_Kuet_Tze",
+      "lab": "<object> is a deputy of <subject> ."
+    }
+  ],
+  "inOfficeWhileMonarch": [
+    {
+      "s": "Abel_Caballero",
+      "r": "inOfficeWhileMonarch",
+      "o": "Juan_Carlos_I_of_Spain",
+      "lab": "<subject> was in office while <object> reigned ."
+    }
+  ],
+  "inOfficeWhilePresident": [
+    {
+      "s": "Alberto_Teisaire",
+      "r": "inOfficeWhilePresident",
+      "o": "Juan_Per\u00f3n",
+      "lab": "<subject> was in office while <object> was a president."
+    }
+  ],
+  "inOfficeWhilePrimeMinister": [
+    {
+      "s": "Adonis_Georgiadis",
+      "r": "inOfficeWhilePrimeMinister",
+      "o": "Antonis_Samaras",
+      "lab": "<subject> was in office while <object> was a prime minister."
+    },
+    {
+      "s": "Abel_Caballero",
+      "r": "inOfficeWhilePrimeMinister",
+      "o": "Felipe_Gonz\u00e1lez",
+      "lab": "<subject> was in office while <object> was a prime minister."
+    },
+    {
+      "s": "Antonis_Samaras",
+      "r": "inOfficeWhilePrimeMinister",
+      "o": "Konstantinos_Mitsotakis",
+      "lab": "<subject> was in office while <object> was a prime minister."
+    }
+  ],
+  "inOfficeWhileVicePresident": [
+    {
+      "s": "Olusegun_Obasanjo",
+      "r": "inOfficeWhileVicePresident",
+      "o": "Atiku_Abubakar",
+      "lab": "<subject> was in office while <object> was a vice president."
+    },
+    {
+      "s": "Abdul_Rahman_Yakub",
+      "r": "inOfficeWhileVicePresident",
+      "o": "Tuanku_Bujang_Tuanku_Othman",
+      "lab": "<subject> was in office while <object> was a vice president."
+    },
+    {
+      "s": "Abdulsalami_Abubakar",
+      "r": "inOfficeWhileVicePresident",
+      "o": "Mike_Akhigbe",
+      "lab": "<subject> was in office while <object> was a vice president."
+    },
+    {
+      "s": "Albert_Jennings_Fountain",
+      "r": "inOfficeWhileVicePresident",
+      "o": "Edmund_J._Davis",
+      "lab": "<subject> was in office while <object> was a vice president."
+    }
+  ],
+  "instrument": [
+    {
+      "s": "Post-metal",
+      "r": "instrument",
+      "o": "Cello",
+      "lab": "<subject> uses <object> ."
+    },
+    {
+      "s": "Country_music",
+      "r": "instrument",
+      "o": "Banjo",
+      "lab": "<subject> uses <object> ."
+    },
+    {
+      "s": "Christian_Burns",
+      "r": "instrument",
+      "o": "Guitar",
+      "lab": "<subject> uses <object> ."
+    },
+    {
+      "s": "Alison_ODonnell",
+      "r": "instrument",
+      "o": "Autoharp",
+      "lab": "<subject> uses <object> ."
+    },
+    {
+      "s": "Aaron_Deer",
+      "r": "instrument",
+      "o": "Guitar",
+      "lab": "<subject> uses <object> ."
+    }
+  ],
+  "isPartOfMilitaryConflict": [
+    {
+      "s": "Polish\u2013Soviet_War",
+      "r": "isPartOfMilitaryConflict",
+      "o": "Russian_Civil_War",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Battle_of_Gettysburg",
+      "r": "isPartOfMilitaryConflict",
+      "o": "American_Civil_War",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Siege_of_Petersburg",
+      "r": "isPartOfMilitaryConflict",
+      "o": "American_Civil_War",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Battle_of_Cold_Harbor",
+      "r": "isPartOfMilitaryConflict",
+      "o": "American_Civil_War",
+      "lab": "<subject> is a part of <object> ."
+    },
+    {
+      "s": "Battle_of_Fredericksburg",
+      "r": "isPartOfMilitaryConflict",
+      "o": "American_Civil_War",
+      "lab": "<subject> is a part of <object> ."
+    }
+  ],
+  "launchSite": [
+    {
+      "s": "Ariane_5",
+      "r": "launchSite",
+      "o": "ELA-3",
+      "lab": "<subject> was launched from <object> ."
+    },
+    {
+      "s": "Atlas_II",
+      "r": "launchSite",
+      "o": "Spaceport_Florida_Launch_Complex_36",
+      "lab": "<subject> was launched from <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "launchSite",
+      "o": "Mid-Atlantic_Regional_Spaceport",
+      "lab": "<subject> was launched from <object> ."
+    },
+    {
+      "s": "Ariane_5",
+      "r": "launchSite",
+      "o": "Guiana_Space_Centre",
+      "lab": "<subject> was launched from <object> ."
+    },
+    {
+      "s": "Delta_II",
+      "r": "launchSite",
+      "o": "Vandenberg_AFB_Space_Launch_Complex_2",
+      "lab": "<subject> was launched from <object> ."
+    }
+  ],
+  "layout": [
+    {
+      "s": "Acura_TLX",
+      "r": "layout",
+      "o": "Front-engine_design",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "layout",
+      "o": "front-wheel drive / all-wheel drive",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Audi_A1",
+      "r": "layout",
+      "o": "Front-engine,_front-wheel-drive_layout",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "layout",
+      "o": "AWD_(vehicle)",
+      "lab": "<subject> has <object> ."
+    }
+  ],
+  "length": [
+    {
+      "s": "AIDAluna",
+      "r": "length",
+      "o": "252000.0 (millimetres)",
+      "lab": "<subject> is <object> m long ."
+    },
+    {
+      "s": "American_submarine_NR-1",
+      "r": "length",
+      "o": "45000.0 (millimetres)",
+      "lab": "<subject> is <object> m long ."
+    },
+    {
+      "s": "ALCO_RS-3",
+      "r": "length",
+      "o": "17068.8 (millimetres)",
+      "lab": "<subject> is <object> m long ."
+    },
+    {
+      "s": "AIDAstella",
+      "r": "length",
+      "o": "253260.0 (millimetres)",
+      "lab": "<subject> is <object> m long ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "length",
+      "o": "63800.0 (millimetres)",
+      "lab": "<subject> is <object> m long ."
+    }
+  ],
+  "locationCountry": [
+    {
+      "s": "American_Locomotive_Company",
+      "r": "locationCountry",
+      "o": "United_States",
+      "lab": "<subject> is located in <object> ."
+    },
+    {
+      "s": "Neptun_Werft",
+      "r": "locationCountry",
+      "o": "Germany",
+      "lab": "<subject> is located in <object> ."
+    }
+  ],
+  "maidenFlight": [
+    {
+      "s": "Antares_(rocket)",
+      "r": "maidenFlight",
+      "o": "2014-01-09",
+      "lab": "<subject> was launched for the first time on <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "maidenFlight",
+      "o": "2014-10-28",
+      "lab": "<subject> was launched for the first time on <object> ."
+    },
+    {
+      "s": "Ariane_5",
+      "r": "maidenFlight",
+      "o": "2005-08-11",
+      "lab": "<subject> was launched for the first time on <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "maidenFlight",
+      "o": "2013-04-21",
+      "lab": "<subject> was launched for the first time on <object> ."
+    }
+  ],
+  "maidenVoyage": [
+    {
+      "s": "AIDAstella",
+      "r": "maidenVoyage",
+      "o": "2013-03-17",
+      "lab": "<subject> sailed for the first time on <object> ."
+    }
+  ],
+  "manufacturer": [
+    {
+      "s": "1955_Dodge",
+      "r": "manufacturer",
+      "o": "Dodge",
+      "lab": "<subject> is made by <object> ."
+    },
+    {
+      "s": "Antares_(rocket)",
+      "r": "manufacturer",
+      "o": "Yuzhnoye_Design_Office",
+      "lab": "<subject> is made by <object> ."
+    },
+    {
+      "s": "Audi_A1",
+      "r": "manufacturer",
+      "o": "Audi",
+      "lab": "<subject> is made by <object> ."
+    },
+    {
+      "s": "Atlas_II",
+      "r": "manufacturer",
+      "o": "Lockheed_Martin",
+      "lab": "<subject> is made by <object> ."
+    },
+    {
+      "s": "DeSoto_Custom",
+      "r": "manufacturer",
+      "o": "DeSoto_(automobile)",
+      "lab": "<subject> is made by <object> ."
+    }
+  ],
+  "mascot": [
+    {
+      "s": "University_of_Texas_at_Austin",
+      "r": "mascot",
+      "o": "Hook_em_(mascot)",
+      "lab": "<subject> has a mascot <object> ."
+    }
+  ],
+  "mass": [
+    {
+      "s": "(19255)_1994_VK8",
+      "r": "mass",
+      "o": "5.6 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    },
+    {
+      "s": "101_Helena",
+      "r": "mass",
+      "o": "3.0 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    },
+    {
+      "s": "1097_Vicia",
+      "r": "mass",
+      "o": "9.8 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    },
+    {
+      "s": "109_Felicitas",
+      "r": "mass",
+      "o": "7.5 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "mass",
+      "o": "7.9 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    }
+  ],
+  "maximumTemperature": [
+    {
+      "s": "(66063)_1998_RO1",
+      "r": "maximumTemperature",
+      "o": "500.0 (kelvins)",
+      "lab": "<subject> has a maximum temperature of <object> ."
+    },
+    {
+      "s": "1001_Gaussia",
+      "r": "maximumTemperature",
+      "o": "165.0 (kelvins)",
+      "lab": "<subject> has a maximum temperature of <object> ."
+    }
+  ],
+  "meanTemperature": [
+    {
+      "s": "(66063)_1998_RO1",
+      "r": "meanTemperature",
+      "o": "265.0 (kelvins)",
+      "lab": "<subject> has a mean temperature <object> ."
+    }
+  ],
+  "militaryBranch": [
+    {
+      "s": "Abdulsalami_Abubakar",
+      "r": "militaryBranch",
+      "o": "Nigerian_Air_Force",
+      "lab": "<subject> is a member of <object> ."
+    },
+    {
+      "s": "Adam_Holloway",
+      "r": "militaryBranch",
+      "o": "Grenadier_Guards",
+      "lab": "<subject> is a member of <object> ."
+    },
+    {
+      "s": "Abdulsalami_Abubakar",
+      "r": "militaryBranch",
+      "o": "Nigerian_Army",
+      "lab": "<subject> is a member of <object> ."
+    },
+    {
+      "s": "Abner_W._Sibal",
+      "r": "militaryBranch",
+      "o": "United_States_Army",
+      "lab": "<subject> is a member of <object> ."
+    },
+    {
+      "s": "Albert_Jennings_Fountain",
+      "r": "militaryBranch",
+      "o": "Union_Army",
+      "lab": "<subject> is a member of <object> ."
+    }
+  ],
+  "militaryRank": [
+    {
+      "s": "Airey_Neave",
+      "r": "militaryRank",
+      "o": "Lieutenant_colonel",
+      "lab": "<subject> is a <object> ."
+    }
+  ],
+  "minimumTemperature": [
+    {
+      "s": "(410777)_2009_FD",
+      "r": "minimumTemperature",
+      "o": "211.0 (kelvins)",
+      "lab": "<subject> has a minimum temperature of <object> ."
+    },
+    {
+      "s": "(66063)_1998_RO1",
+      "r": "minimumTemperature",
+      "o": "-71.0 (degreeCelsius)",
+      "lab": "<subject> has a minimum temperature of <object> ."
+    }
+  ],
+  "modelStartYear": [
+    {
+      "s": "Alvis_Speed_25",
+      "r": "modelStartYear",
+      "o": "1937",
+      "lab": "<subject> was produced since <object> ."
+    }
+  ],
+  "modelYears": [
+    {
+      "s": "AMC_Matador",
+      "r": "modelYears",
+      "o": "1974",
+      "lab": "<subject> was produced for <object> years."
+    }
+  ],
+  "musicFusionGenre": [
+    {
+      "s": "Pop_music",
+      "r": "musicFusionGenre",
+      "o": "Disco",
+      "lab": "<object> developed from <subject>."
+    },
+    {
+      "s": "Rock_music",
+      "r": "musicFusionGenre",
+      "o": "Bhangra_(music)",
+      "lab": "<object> developed from <subject>."
+    },
+    {
+      "s": "Alternative_rock",
+      "r": "musicFusionGenre",
+      "o": "Nu_metal",
+      "lab": "<object> developed from <subject>."
+    },
+    {
+      "s": "Black_metal",
+      "r": "musicFusionGenre",
+      "o": "Death_metal",
+      "lab": "<object> developed from <subject>."
+    },
+    {
+      "s": "Jazz",
+      "r": "musicFusionGenre",
+      "o": "Afrobeat",
+      "lab": "<object> developed from <subject>."
+    }
+  ],
+  "musicSubgenre": [
+    {
+      "s": "Alternative_rock",
+      "r": "musicSubgenre",
+      "o": "Christian_alternative_rock",
+      "lab": "<object> is a subgenre of <subject> ."
+    },
+    {
+      "s": "Hip_hop_music",
+      "r": "musicSubgenre",
+      "o": "Gangsta_rap",
+      "lab": "<object> is a subgenre of <subject> ."
+    }
+  ],
+  "neighboringMunicipality": [
+    {
+      "s": "Mendrisio",
+      "r": "neighboringMunicipality",
+      "o": "Meride",
+      "lab": "<subject> neighbors <object> ."
+    }
+  ],
+  "numberOfRooms": [
+    {
+      "s": "AC_Hotel_Bella_Sky_Copenhagen",
+      "r": "numberOfRooms",
+      "o": "814",
+      "lab": "<subject> has <object> rooms ."
+    }
+  ],
+  "office (workedAt, workedAs)": [
+    {
+      "s": "Adonis_Georgiadis",
+      "r": "office (workedAt, workedAs)",
+      "o": "Vice-President of New Democracy",
+      "lab": "<subject> worked as <object> ."
+    },
+    {
+      "s": "Abraham_A._Ribicoff",
+      "r": "office (workedAt, workedAs)",
+      "o": "Governor of Connecticut",
+      "lab": "<subject> worked as <object> ."
+    },
+    {
+      "s": "Alberto_Teisaire",
+      "r": "office (workedAt, workedAs)",
+      "o": "Provisional President of the Argentine Senate",
+      "lab": "<subject> worked as <object> ."
+    },
+    {
+      "s": "Abraham_A._Ribicoff",
+      "r": "office (workedAt, workedAs)",
+      "o": "United States Secretary of Health, Education, and Welfare",
+      "lab": "<subject> worked as <object> ."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "office (workedAt, workedAs)",
+      "o": "Governor of West Virginia",
+      "lab": "<subject> worked as <object> ."
+    }
+  ],
+  "orbitalPeriod": [
+    {
+      "s": "10_Hygiea",
+      "r": "orbitalPeriod",
+      "o": "5.57 (days)",
+      "lab": "<subject> has an orbital period of <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "orbitalPeriod",
+      "o": "1622.213 (days)",
+      "lab": "<subject> has an orbital period of <object> ."
+    },
+    {
+      "s": "107_Camilla",
+      "r": "orbitalPeriod",
+      "o": "2368.05 (days)",
+      "lab": "<subject> has an orbital period of <object> ."
+    },
+    {
+      "s": "110_Lydia",
+      "r": "orbitalPeriod",
+      "o": "142603000.0",
+      "lab": "<subject> has an orbital period of <object> ."
+    },
+    {
+      "s": "(410777)_2009_FD",
+      "r": "orbitalPeriod",
+      "o": "39447000.0",
+      "lab": "<subject> has an orbital period of <object> ."
+    }
+  ],
+  "origin": [
+    {
+      "s": "Ahmet_Ertegun",
+      "r": "origin",
+      "o": "Washington,_D.C.",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Alan_Frew",
+      "r": "origin",
+      "o": "Newmarket,_Ontario",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Aaron_Deer",
+      "r": "origin",
+      "o": "Indiana",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Ahmet_Ertegun",
+      "r": "origin",
+      "o": "United_States",
+      "lab": "<subject> comes from <object> ."
+    },
+    {
+      "s": "Aaron_Turner",
+      "r": "origin",
+      "o": "United_States",
+      "lab": "<subject> comes from <object> ."
+    }
+  ],
+  "partsType": [
+    {
+      "s": "Dallas",
+      "r": "partsType",
+      "o": "List_of_counties_in_Texas",
+      "lab": "<subject> has parts of type <object> ."
+    }
+  ],
+  "party": [
+    {
+      "s": "Abraham_A._Ribicoff",
+      "r": "party",
+      "o": "Democratic_Party_(United_States)",
+      "lab": "<subject> belongs to the <object> ."
+    },
+    {
+      "s": "Abner_W._Sibal",
+      "r": "party",
+      "o": "Republican_Party_(United_States)",
+      "lab": "<subject> belongs to the <object> ."
+    },
+    {
+      "s": "Adonis_Georgiadis",
+      "r": "party",
+      "o": "New_Democracy_(Greece)",
+      "lab": "<subject> belongs to the <object> ."
+    },
+    {
+      "s": "Alfred_Moore_Scales",
+      "r": "party",
+      "o": "Democratic_Party_(United_States)",
+      "lab": "<subject> belongs to the <object> ."
+    },
+    {
+      "s": "Abel_Caballero",
+      "r": "party",
+      "o": "Spanish_Socialist_Workers_Party",
+      "lab": "<subject> belongs to the <object> ."
+    }
+  ],
+  "patronSaint": [
+    {
+      "s": "Romania",
+      "r": "patronSaint",
+      "o": "Andrew_the_Apostle",
+      "lab": "St. <object> is a patron of <subject> ."
+    }
+  ],
+  "periapsis": [
+    {
+      "s": "11264_Claudiomaccone",
+      "r": "periapsis",
+      "o": "296521000.0 (kilometres)",
+      "lab": "<subject> has a periapsis of <object> ."
+    },
+    {
+      "s": "(410777)_2009_FD",
+      "r": "periapsis",
+      "o": "88234300000.0",
+      "lab": "<subject> has a periapsis of <object> ."
+    },
+    {
+      "s": "1000_Piazzia",
+      "r": "periapsis",
+      "o": "352497000000.0",
+      "lab": "<subject> has a periapsis of <object> ."
+    },
+    {
+      "s": "10_Hygiea",
+      "r": "periapsis",
+      "o": "416136000000.0",
+      "lab": "<subject> has a periapsis of <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "periapsis",
+      "o": "371240000.0 (kilometres)",
+      "lab": "<subject> has a periapsis of <object> ."
+    }
+  ],
+  "position": [
+    {
+      "s": "Al_Kharaitiyat_SC",
+      "r": "position",
+      "o": "Qatar_Stars_League",
+      "lab": "<subject> is <object> ."
+    },
+    {
+      "s": "Alessio_Romagnoli",
+      "r": "position",
+      "o": "Defender_(football)",
+      "lab": "<subject> is <object> ."
+    }
+  ],
+  "powerType": [
+    {
+      "s": "ALCO_RS-3",
+      "r": "powerType",
+      "o": "Diesel-electric_transmission",
+      "lab": "<subject> is powered by <object> ."
+    },
+    {
+      "s": "A-Rosa_Luna",
+      "r": "powerType",
+      "o": "MTU_Friedrichshafen",
+      "lab": "<subject> is powered by <object> ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "powerType",
+      "o": "Humphrys,_Tennant_and_Dykes",
+      "lab": "<subject> is powered by <object> ."
+    },
+    {
+      "s": "AIDAluna",
+      "r": "powerType",
+      "o": "Caterpillar_Inc.",
+      "lab": "<subject> is powered by <object> ."
+    }
+  ],
+  "predecessor": [
+    {
+      "s": "Mike_Akhigbe",
+      "r": "predecessor",
+      "o": "Oladipo_Diya",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "John_F._Kennedy",
+      "r": "predecessor",
+      "o": "Dwight_D._Eisenhower",
+      "lab": "<subject> was preceded by <object> ."
+    },
+    {
+      "s": "Juan_Carlos_I_of_Spain",
+      "r": "predecessor",
+      "o": "Francisco_Franco",
+      "lab": "<subject> was preceded by <object> ."
+    }
+  ],
+  "productionEndYear": [
+    {
+      "s": "Abarth_1000_GT_Coup\u00e9",
+      "r": "productionEndYear",
+      "o": "1958",
+      "lab": "<subject> was produced until <object> ."
+    }
+  ],
+  "profession": [
+    {
+      "s": "Alberto_Teisaire",
+      "r": "profession",
+      "o": "Rear Admiral in the Argentine Navy",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Alberto_Teisaire",
+      "r": "profession",
+      "o": "Rear_admiral",
+      "lab": "<subject> is a <object> ."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "profession",
+      "o": "Politician",
+      "lab": "<subject> is a <object> ."
+    }
+  ],
+  "protein": [
+    {
+      "s": "Barny_Cakes",
+      "r": "protein",
+      "o": "1.8 g",
+      "lab": "<subject> has a protein <object> ."
+    }
+  ],
+  "recordLabel": [
+    {
+      "s": "Alison_ODonnell",
+      "r": "recordLabel",
+      "o": "Stanyan_Records",
+      "lab": "<subject> records under <object> ."
+    },
+    {
+      "s": "Anders_Osborne",
+      "r": "recordLabel",
+      "o": "Rabadash_Records",
+      "lab": "<subject> records under <object> ."
+    },
+    {
+      "s": "Alison_ODonnell",
+      "r": "recordLabel",
+      "o": "Deram_Records",
+      "lab": "<subject> records under <object> ."
+    },
+    {
+      "s": "Andrew_White_(musician)",
+      "r": "recordLabel",
+      "o": "Universal_Records_(defunct_record_label)",
+      "lab": "<subject> records under <object> ."
+    },
+    {
+      "s": "Andrew_White_(musician)",
+      "r": "recordLabel",
+      "o": "B-Unique_Records",
+      "lab": "<subject> records under <object> ."
+    }
+  ],
+  "relatedMeanOfTransportation": [
+    {
+      "s": "Acura_TLX",
+      "r": "relatedMeanOfTransportation",
+      "o": "Honda_Accord",
+      "lab": "<subject> is related to <object> ."
+    },
+    {
+      "s": "Fiat_Croma",
+      "r": "relatedMeanOfTransportation",
+      "o": "Opel_Vectra",
+      "lab": "<subject> is related to <object> ."
+    },
+    {
+      "s": "Alfa_Romeo_164",
+      "r": "relatedMeanOfTransportation",
+      "o": "Fiat_Croma",
+      "lab": "<subject> is related to <object> ."
+    },
+    {
+      "s": "Alfa_Romeo_164",
+      "r": "relatedMeanOfTransportation",
+      "o": "Lancia_Thema",
+      "lab": "<subject> is related to <object> ."
+    },
+    {
+      "s": "1955_Dodge",
+      "r": "relatedMeanOfTransportation",
+      "o": "DeSoto_Custom",
+      "lab": "<subject> is related to <object> ."
+    }
+  ],
+  "rocketStages": [
+    {
+      "s": "ALV_X-1",
+      "r": "rocketStages",
+      "o": "2",
+      "lab": "<subject> has <object> stages ."
+    }
+  ],
+  "rotationPeriod": [
+    {
+      "s": "1097_Vicia",
+      "r": "rotationPeriod",
+      "o": "95040.0",
+      "lab": "<subject> has a rotation period of <object> ."
+    },
+    {
+      "s": "109_Felicitas",
+      "r": "rotationPeriod",
+      "o": "47487.6",
+      "lab": "<subject> has a rotation period of <object> ."
+    },
+    {
+      "s": "(66391)_1999_KW4",
+      "r": "rotationPeriod",
+      "o": "9953.28",
+      "lab": "<subject> has a rotation period of <object> ."
+    }
+  ],
+  "series": [
+    {
+      "s": "Baymax",
+      "r": "series",
+      "o": "Big_Hero_6_(film)",
+      "lab": "<subject> is a character in <object> ."
+    }
+  ],
+  "served": [
+    {
+      "s": "Bakewell_pudding",
+      "r": "served",
+      "o": "Warm  or cold",
+      "lab": "<subject> can be served <object> ."
+    }
+  ],
+  "serviceStartYear": [
+    {
+      "s": "Airey_Neave",
+      "r": "serviceStartYear",
+      "o": "1935",
+      "lab": "<subject> stared the service in <object> ."
+    }
+  ],
+  "servingSize": [
+    {
+      "s": "Barny_Cakes",
+      "r": "servingSize",
+      "o": "30.0 g",
+      "lab": "A serving size of <subject> is <object> ."
+    }
+  ],
+  "shipBeam": [
+    {
+      "s": "AIDAstella",
+      "r": "shipBeam",
+      "o": "32.2",
+      "lab": "<subject> has a <object> long beam ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "shipBeam",
+      "o": "8.3 m",
+      "lab": "<subject> has a <object> long beam ."
+    },
+    {
+      "s": "Aleksey_Chirikov_(icebreaker)",
+      "r": "shipBeam",
+      "o": "21.2",
+      "lab": "<subject> has a <object> long beam ."
+    },
+    {
+      "s": "American_submarine_NR-1",
+      "r": "shipBeam",
+      "o": "3.8 m",
+      "lab": "<subject> has a <object> long beam ."
+    }
+  ],
+  "shipClass": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "shipClass",
+      "o": "Cruise_ship",
+      "lab": "<subject> is a <object> ."
+    }
+  ],
+  "shipDisplacement": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "shipDisplacement",
+      "o": "1850.0 (tonnes)",
+      "lab": "<subject> has a displacement of <object> ."
+    }
+  ],
+  "shipDraft": [
+    {
+      "s": "American_submarine_NR-1",
+      "r": "shipDraft",
+      "o": "4.6 m",
+      "lab": "<subject> has a draft <object> long ."
+    }
+  ],
+  "shipInService": [
+    {
+      "s": "AIDAstella",
+      "r": "shipInService",
+      "o": "2013-03-17",
+      "lab": "<subject> was in service until <object> ."
+    }
+  ],
+  "shipLaunch": [
+    {
+      "s": "American_submarine_NR-1",
+      "r": "shipLaunch",
+      "o": "1969-01-25",
+      "lab": "<subject> was launched on <object> ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "shipLaunch",
+      "o": "1855-05-31",
+      "lab": "<subject> was launched on <object> ."
+    }
+  ],
+  "shipOrdered": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "shipOrdered",
+      "o": "2004-01-22",
+      "lab": "<subject> was ordered on <object> ."
+    }
+  ],
+  "site": [
+    {
+      "s": "ELA-3",
+      "r": "site",
+      "o": "Guiana_Space_Centre",
+      "lab": "<subject> is in the <object> ."
+    }
+  ],
+  "spouse": [
+    {
+      "s": "Abraham_A._Ribicoff",
+      "r": "spouse",
+      "o": "Casey_Ribicoff",
+      "lab": "<subject> is married to <object> ."
+    },
+    {
+      "s": "Juan_Per\u00f3n",
+      "r": "spouse",
+      "o": "Eva_Per\u00f3n",
+      "lab": "<subject> is married to <object> ."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "spouse",
+      "o": "Agnes_Ward_White",
+      "lab": "<subject> is married to <object> ."
+    }
+  ],
+  "stateOfOrigin": [
+    {
+      "s": "James_Craig_Watson",
+      "r": "stateOfOrigin",
+      "o": "Canada",
+      "lab": "<subject> comes from <object> ."
+    }
+  ],
+  "stylisticOrigin": [
+    {
+      "s": "Trance_music",
+      "r": "stylisticOrigin",
+      "o": "Pop_music",
+      "lab": "<subject> is derived from <object> ."
+    },
+    {
+      "s": "Synthpop",
+      "r": "stylisticOrigin",
+      "o": "Disco",
+      "lab": "<subject> is derived from <object> ."
+    },
+    {
+      "s": "Hip_hop_music",
+      "r": "stylisticOrigin",
+      "o": "Funk",
+      "lab": "<subject> is derived from <object> ."
+    },
+    {
+      "s": "Synthpop",
+      "r": "stylisticOrigin",
+      "o": "Pop_music",
+      "lab": "<subject> is derived from <object> ."
+    },
+    {
+      "s": "Indie_rock",
+      "r": "stylisticOrigin",
+      "o": "New_wave_music",
+      "lab": "<subject> is derived from <object> ."
+    }
+  ],
+  "subsidiary": [
+    {
+      "s": "Audi",
+      "r": "subsidiary",
+      "o": "Lamborghini",
+      "lab": "<object> is a subsidiary of <subject> ."
+    },
+    {
+      "s": "American_Motors",
+      "r": "subsidiary",
+      "o": "Wheel_Horse",
+      "lab": "<object> is a subsidiary of <subject> ."
+    },
+    {
+      "s": "Audi",
+      "r": "subsidiary",
+      "o": "Ducati",
+      "lab": "<object> is a subsidiary of <subject> ."
+    },
+    {
+      "s": "Audi",
+      "r": "subsidiary",
+      "o": "Quattro_GmbH",
+      "lab": "<object> is a subsidiary of <subject> ."
+    }
+  ],
+  "successor": [
+    {
+      "s": "Adonis_Georgiadis",
+      "r": "successor",
+      "o": "Makis_Voridis",
+      "lab": "<object> is a successor of <subject>."
+    },
+    {
+      "s": "Allan_Shivers",
+      "r": "successor",
+      "o": "Price_Daniel",
+      "lab": "<object> is a successor of <subject>."
+    },
+    {
+      "s": "DeSoto_Custom",
+      "r": "successor",
+      "o": "DeSoto_Firedome",
+      "lab": "<object> is a successor of <subject>."
+    },
+    {
+      "s": "Albert_B._White",
+      "r": "successor",
+      "o": "William_M._O._Dawson",
+      "lab": "<object> is a successor of <subject>."
+    },
+    {
+      "s": "American_Motors",
+      "r": "successor",
+      "o": "Eagle_(automobile)",
+      "lab": "<object> is a successor of <subject>."
+    }
+  ],
+  "surfaceArea": [
+    {
+      "s": "10_Hygiea",
+      "r": "surfaceArea",
+      "o": "837080.744 (squareKilometres)",
+      "lab": "<subject> has the area of <object> ."
+    }
+  ],
+  "temperature": [
+    {
+      "s": "1089_Tama",
+      "r": "temperature",
+      "o": "179.0 (kelvins)",
+      "lab": "<subject> has the temperature of <object> ."
+    },
+    {
+      "s": "11264_Claudiomaccone",
+      "r": "temperature",
+      "o": "173.0 (kelvins)",
+      "lab": "<subject> has the temperature of <object> ."
+    },
+    {
+      "s": "10_Hygiea",
+      "r": "temperature",
+      "o": "164.0 (kelvins)",
+      "lab": "<subject> has the temperature of <object> ."
+    },
+    {
+      "s": "109_Felicitas",
+      "r": "temperature",
+      "o": "170.0 (kelvins)",
+      "lab": "<subject> has the temperature of <object> ."
+    },
+    {
+      "s": "103_Hera",
+      "r": "temperature",
+      "o": "170.0 (kelvins)",
+      "lab": "<subject> has the temperature of <object> ."
+    }
+  ],
+  "topSpeed": [
+    {
+      "s": "A-Rosa_Luna",
+      "r": "topSpeed",
+      "o": "24.0",
+      "lab": "<subject> has top speed <object> ."
+    },
+    {
+      "s": "American_submarine_NR-1",
+      "r": "topSpeed",
+      "o": "8.334",
+      "lab": "<subject> has top speed <object> ."
+    },
+    {
+      "s": "AIDAstella",
+      "r": "topSpeed",
+      "o": "38.892",
+      "lab": "<subject> has top speed <object> ."
+    },
+    {
+      "s": "AIDAluna",
+      "r": "topSpeed",
+      "o": "40.744",
+      "lab": "<subject> has top speed <object> ."
+    },
+    {
+      "s": "Alhambra",
+      "r": "topSpeed",
+      "o": "18.52",
+      "lab": "<subject> has top speed <object> ."
+    }
+  ],
+  "totalLaunches": [
+    {
+      "s": "ALV_X-1",
+      "r": "totalLaunches",
+      "o": "1",
+      "lab": "<subject> was launched <object>x ."
+    }
+  ],
+  "transmission": [
+    {
+      "s": "Alvis_Speed_25",
+      "r": "transmission",
+      "o": "single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Acura_TLX",
+      "r": "transmission",
+      "o": "9-speed ZF 9HP automatic (V6)",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "1955_Dodge",
+      "r": "transmission",
+      "o": "3-speed automatic",
+      "lab": "<subject> has <object> ."
+    },
+    {
+      "s": "Alfa_Romeo_164",
+      "r": "transmission",
+      "o": "4-speed automatic (ZF 4HP18QE)",
+      "lab": "<subject> has <object> ."
+    }
+  ],
+  "unit": [
+    {
+      "s": "Airey_Neave",
+      "r": "unit",
+      "o": "Royal_Artillery",
+      "lab": "<subject> served in <object> ."
+    }
+  ],
+  "weight": [
+    {
+      "s": "Adam_McQuaid",
+      "r": "weight",
+      "o": "94.8024 (kilograms)",
+      "lab": "<subject> weights <object> ."
+    }
+  ],
+  "wheelbase": [
+    {
+      "s": "1955_Dodge",
+      "r": "wheelbase",
+      "o": "120.0 (inches)",
+      "lab": "The wheelbase of <subject> is <object> ."
+    },
+    {
+      "s": "Abarth_1000_GT_Coup\u00e9",
+      "r": "wheelbase",
+      "o": "2160.0 (millimetres)",
+      "lab": "The wheelbase of <subject> is <object> ."
+    }
+  ],
+  "width": [
+    {
+      "s": "Abarth_1000_GT_Coup\u00e9",
+      "r": "width",
+      "o": "1.55",
+      "lab": "<subject> is <object> wide."
+    }
+  ]
+}

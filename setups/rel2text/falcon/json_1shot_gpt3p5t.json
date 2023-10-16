@@ -1,24 +1,18 @@
 {
-    "n_runs": 5,
+    "n_runs": 1,
     "dataset_choice": "REL2TEXT",
     "initial_template": "JSON",
-    "llm_stack": ["FALCON_7B", "FALCON_7B"],
-    "load_in_8bit": true,
-    "load_in_4bit": false,
-
+    "llm_stack": ["/media/freya/kubuntu-data/datasets/d2t/csqa-d2t/aspiro_test/rel2text/JSON/a1_FALCON_7B(NONE)(0shot)(NONE)/max_examples2/run00/templates-rel2text_JSON.json", "gpt-3.5-turbo"],
+    "consist_val_model": "NONE",
     "example_format": "JSON",
-    "max_fetched_examples_per_pid": 2,
 
+    "max_fetched_examples_per_pid": 2,
     "error_dump_subfolder": "err",
     "use_backup": false,
 
     "max_tokens_to_generate": 256,
     "temperature": 0.0,
     "stop_sequences": ["}" ],
-
-    "consist_val_model": "FALCON_7B",
-    "cv_load_in_8bit": false,
-    "cv_load_in_4bit": false,
     "cv_threshold": 0.7,
     "cv_template": "V4",
     "cv_keep_better": true

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# setups=("setups/falcon/json_0shot.json" "setups/falcon/json_0shot_cv.json" "setups/falcon/json_1shot.json" "setups/falcon/json_1shot_gpt3p5.json" "setups/falcon/json_5shot.json")
-setups=("setups/falcon/json_0shot_cv.json" "setups/falcon/json_1shot_gpt3p5.json")
+setups=("setups/rel2text/falcon/json_0shot.json" "setups/rel2text/falcon/json_0shot_cv.json" "setups/rel2text/falcon/json_1shot.json" "setups/rel2text/falcon/json_1shot_gpt3p5t.json" "setups/rel2text/falcon/json_5shot.json")
 
 output_dir="/media/freya/kubuntu-data/datasets/d2t/csqa-d2t/aspiro_test/"
 

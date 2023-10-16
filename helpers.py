@@ -132,6 +132,10 @@ def parse_rdf_list_to_examples(rdf_list: list[dict[str: str]], max_examples: int
             s_label = rdf["s"]
             r_label = rdf["r"]
             o_label = rdf["o"]
+        elif dataset_choice in [DatasetChoice.WEBNLG, DatasetChoice.WEBNLG_TEST]:
+            s_label = rdf["s"]
+            r_label = rdf["r"]
+            o_label = rdf["o"]
         elif dataset_choice in [DatasetChoice.WIKIDATA, DatasetChoice.WIKIDATA_TEST]:
             s_label = rdf["s"]
             r_label = rdf["r"]

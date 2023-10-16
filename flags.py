@@ -24,6 +24,8 @@ class DatasetChoice(Enum):
     DART_TEST = DATA_ROOT.joinpath("dart_test")
     REL2TEXT = DATA_ROOT.joinpath("rel2text")
     REL2TEXT_TEST = DATA_ROOT.joinpath("rel2text_test")
+    WEBNLG = DATA_ROOT.joinpath("webnlg")
+    WEBNLG_TEST = DATA_ROOT.joinpath("webnlg_test")
     WIKIDATA = DATA_ROOT.joinpath("wikidata")
     WIKIDATA_TEST = DATA_ROOT.joinpath("wikidata_test")
 

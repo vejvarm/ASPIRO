@@ -2,6 +2,8 @@ import argparse
 import json
 import logging
 import pathlib
+import statistics
+import time
 
 from langchain.schema import OutputParserException
 from tqdm import tqdm
@@ -70,38 +72,6 @@ def main(args):
     prompt, output_parser = prepare_prompt(template_file, example_format)
     # LOGGER.warning(prompt.format(examples="hi\nyou"))
 
-    # INITIALIZE LANGCHAIN with specified `model_choices` and `prompt`
-    llm_builder = LLMBuilder()
-    llm_builder.initialize_chains(model_choices, prompt, template_file,
-                                  max_tokens_to_generate=max_tokens_to_generate,
-                                  temperature=temperature,
-                                  stop_sequences=stop_sequences,
-                                  load_in_8bit=load_in_8bit,
-                                  load_in_4bit=load_in_4bit)
-    llms = llm_builder.llms
-    llm_chains = llm_builder.chains
-    # llms, llm_chains = initialize_chains(model_choices, prompt, max_tokens_to_generate, temperature,
-    #                                        stop_sequences, template_file)
-    retry_parser = MultiRetryParser.from_llms(parser=output_parser, llms=llms)
-
-    # INITIALIZE dehalucination chain class
-    dc_prompt_version = f"_{cv_template.name.lower()}"
-    consistency_validator_log = LOG_ROOT.joinpath(dataset_choice.name).joinpath(template_file.name).joinpath(
-        f"{','.join(m.name for m in model_choices)}({max_retry_shots}shot)({consist_val_model.name}){dc_prompt_version}.jsonl")  # @param
-
-    if consist_val_model.value is not None:
-        consistency_validator_log.parent.mkdir(parents=True, exist_ok=True)
-        prompt_template = cv_template.value.open().read()
-        prompt_metadata = json.load(cv_template.value.with_suffix(".json").open())
-        # TODO make work for versions below v4
-        dc = ConsistencyValidator(cv_metric, cv_threshold, llm_builder, consist_val_model, prompt_template,
-                                  source_data_key=prompt_metadata["source_data_key"],
-                                  first_key=prompt_metadata["first_key"], output_key=prompt_metadata["output_key"],
-                                  stop=prompt_metadata["stop"], path_to_jsonl_results_file=consistency_validator_log,
-                                  load_in_8bit=cv_load_in_8bit, load_in_4bit=cv_load_in_4bit)
-    else:
-        dc = None
-
     # Load pids and rdfs examples from path_to_fetched_example_json
     path_to_fetched_example_json = dataset_folder.joinpath(RDF_EXAMPLE_FILE_NAME)
     pid_examples_dict = load_examples(path_to_fetched_example_json, max_fetched_examples_per_pid, example_format,
@@ -109,20 +79,55 @@ def main(args):
 
     run = 0
     runs_left = n_runs
+    elapsed_time = {}
+    retry_models = ",".join([mch.name for mch in model_choices[1:]]) if (max_retry_shots > 0
+                                                                         and len(model_choices) > 1) else "NONE"
+    path_to_experiment_folder = output_folder.joinpath(f"{template_file.name}").joinpath(
+        f"{model_choices[0].name}({retry_models})({max_retry_shots}shot)({consist_val_model.name or 'NONE'})"
+        ).joinpath(f"max_examples{max_fetched_examples_per_pid}")
+
     while runs_left > 0:
         # Define files for results
-        retry_models = ",".join([mch.name for mch in model_choices[1:]]) if (max_retry_shots > 0
-                                                                             and len(model_choices) > 1) else "NONE"
-        path_to_output_template_json = output_folder.joinpath(
-            f"{template_file.name}").joinpath(
-            f"{model_choices[0].name}({retry_models})({max_retry_shots}shot)({consist_val_model.name or 'NONE'})").joinpath(
-            f"max_examples{max_fetched_examples_per_pid}").joinpath(f"run{run:02d}").joinpath(
+        path_to_output_template_json = path_to_experiment_folder.joinpath(f"run{run:02d}").joinpath(
             f"templates-{dataset_choice.name.lower()}_{template_file.name}.json")
         if path_to_output_template_json.parent.exists():
             print(f"RUN NUMBER: {run} (EXISTS)")
             run += 1
             continue
 
+        # INITIALIZE LANGCHAIN with specified `model_choices` and `prompt`
+        llm_builder = LLMBuilder()
+        llm_builder.initialize_chains(model_choices, prompt, template_file,
+                                      max_tokens_to_generate=max_tokens_to_generate,
+                                      temperature=temperature,
+                                      stop_sequences=stop_sequences,
+                                      load_in_8bit=load_in_8bit,
+                                      load_in_4bit=load_in_4bit)
+        llms = llm_builder.llms
+        llm_chains = llm_builder.chains
+        retry_parser = MultiRetryParser.from_llms(parser=output_parser, llms=llms)
+
+        # INITIALIZE dehalucination chain class
+        dc_prompt_version = f"_{cv_template.name.lower()}"
+        consistency_validator_log = LOG_ROOT.joinpath(dataset_choice.name).joinpath(template_file.name).joinpath(
+            f"{','.join(m.name for m in model_choices)}({max_retry_shots}shot)({consist_val_model.name}){dc_prompt_version}.jsonl")  # @param
+
+        if consist_val_model.value is not None:
+            consistency_validator_log.parent.mkdir(parents=True, exist_ok=True)
+            prompt_template = cv_template.value.open().read()
+            prompt_metadata = json.load(cv_template.value.with_suffix(".json").open())
+            # TODO make work for versions below v4
+            dc = ConsistencyValidator(cv_metric, cv_threshold, llm_builder, consist_val_model, prompt_template,
+                                      source_data_key=prompt_metadata["source_data_key"],
+                                      first_key=prompt_metadata["first_key"], output_key=prompt_metadata["output_key"],
+                                      stop=prompt_metadata["stop"],
+                                      path_to_jsonl_results_file=consistency_validator_log,
+                                      load_in_8bit=cv_load_in_8bit, load_in_4bit=cv_load_in_4bit)
+        else:
+            dc = None
+
+        # run start
+        start_time = time.time()
         runs_left -= 1
         path_to_output_template_json.parent.mkdir(parents=True, exist_ok=True)
         print(f"RUN NUMBER: {run} (left: {runs_left})")
@@ -151,7 +156,6 @@ def main(args):
                 break
 
             if not rdf_example:
-                # TODO: try with generic example
                 err = ERROR_MESSAGES[TemplateErrors.NA]
                 LOGGER.warning(f"({pid}) {TemplateErrors.NA.value}: {err}']")
                 out_dict = {pid: build_output_dict("", [TemplateErrors.NA.value], [err], rdf_example, subj_labs, obj_labs)}
@@ -217,6 +221,18 @@ def main(args):
             err_counts_dict["BACKUPS"] = backup_count
             json.dump(err_counts_dict, err_counts_file.open("w"), indent=2)
             print(f"Error analysis saved into: {_folder_to_dump_error_jsons}")
+
+        elapsed_time[str(run)] = time.time() - start_time
+        print(f"time taken: {elapsed_time[str(run)]:.3f} seconds")
+
+    # save run times to json file
+    path_to_runtime_json = path_to_experiment_folder.joinpath("runtime_seconds.json")
+    if path_to_runtime_json.exists():
+        old_el_time = json.load(path_to_runtime_json.open("r"))
+        old_el_time.update(elapsed_time)
+        elapsed_time = old_el_time
+    elapsed_time["mean"] = statistics.mean(elapsed_time.values())
+    json.dump(elapsed_time, path_to_runtime_json.open("w"), indent=2)
 
 
 if __name__ == "__main__":

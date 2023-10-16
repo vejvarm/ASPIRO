@@ -89,14 +89,44 @@ def contains_illegal_placeholder(string: str) -> bool:
 
 def parse_subj_obj(answer_from_llm: str, s_labels: list[str], o_labels: list[str]) -> str:
     template = copy(answer_from_llm)
+
     for s_label, o_label in zip(s_labels, o_labels):
+
+        # Use regexp for replacement of subject and object
+        # Create both space and underscore versions of each label pattern
+        s_label_space_pattern = re.escape(s_label).replace("_", " ")
+        s_label_underscore_pattern = re.escape(s_label).replace(" ", "_")
+
+        o_label_space_pattern = re.escape(o_label).replace("_", " ")
+        o_label_underscore_pattern = re.escape(o_label).replace(" ", "_")
+
         if SUBJECT not in template:
-            template = re.sub(r'\b'+re.escape(s_label), SUBJECT, template, count=1, flags=re.IGNORECASE)
+            template = re.sub(r'(?:\b|_)' + s_label_space_pattern + r'(?:\b|_)', SUBJECT, template, count=1,
+                              flags=re.IGNORECASE)
+            if SUBJECT not in template:  # If still not replaced
+                template = re.sub(r'(?:\b|_)' + s_label_underscore_pattern + r'(?:\b|_)', SUBJECT, template, count=1,
+                                  flags=re.IGNORECASE)
+
         if OBJECT not in template:
             if o_label == CONSTANT_PLACEHOLDER:
-                template = re.sub(r'\b'+re.escape(o_label), CONSTANT_PLACEHOLDER, template, count=1, flags=re.IGNORECASE)
+                template = re.sub(r'(?:\b|_)' + o_label_space_pattern + r'(?:\b|_)', CONSTANT_PLACEHOLDER, template,
+                                  count=1, flags=re.IGNORECASE)
+                if OBJECT not in template:  # If still not replaced
+                    template = re.sub(r'(?:\b|_)' + o_label_underscore_pattern + r'(?:\b|_)', CONSTANT_PLACEHOLDER,
+                                      template, count=1, flags=re.IGNORECASE)
             else:
-                template = re.sub(r'\b'+re.escape(o_label), OBJECT, template, count=1, flags=re.IGNORECASE)
+                template = re.sub(r'(?:\b|_)' + o_label_space_pattern + r'(?:\b|_)', OBJECT, template, count=1,
+                                  flags=re.IGNORECASE)
+                if OBJECT not in template:  # If still not replaced
+                    template = re.sub(r'(?:\b|_)' + o_label_underscore_pattern + r'(?:\b|_)', OBJECT, template, count=1,
+                                      flags=re.IGNORECASE)
+
+        # if regexp fails, try just simple replacement
+        if SUBJECT not in template:
+            template = template.replace(s_label, SUBJECT, 1)
+
+        if OBJECT not in template:
+            template = template.replace(o_label, OBJECT, 1)
 
     return template
 
@@ -131,6 +161,9 @@ class TextOutputParser(BaseOutputParser):
 
     def _parse_text(self, text: str, metadata: dict = None) -> dict:
         text = text.strip()
+        text_label = "Text: "
+        if text_label in text:
+            text = text[text.rfind(text_label)+len(text_label):]
         if metadata is not None:
             text = parse_subj_obj(text, metadata["subj_labels"], metadata["obj_labels"])
             text = parse_relation(text, metadata["relation_label"])

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-setups=("setups/wikidata/json_gpt3p5_0shot.json" "setups/wikidata/json_gpt3p5_1shot_3p5.json" "setups/wikidata/json_gpt3p5_2shot_3p5-gpt4.json" "setups/wikidata/json_gpt3p5_5shot.json" "setups/wikidata/json_gpt3p5_5shot_cv.json" "setups/wikidata/json_gpt4_0shot.json")
+setups=("setups/wikidata/json/json_gpt3p5_0shot.json" "setups/wikidata/json/json_gpt3p5_1shot_3p5.json" "setups/wikidata/json/json_gpt3p5_2shot_3p5-gpt4.json" "setups/wikidata/json/json_gpt3p5_5shot.json" "setups/wikidata/json/json_gpt3p5_5shot_cv.json" "setups/wikidata/json/json_gpt4_0shot.json")
 
 output_dir="/media/freya/kubuntu-data/datasets/d2t/csqa-d2t/aspiro_test/"
 
