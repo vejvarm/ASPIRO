@@ -4,7 +4,7 @@ ASPIRO: Parse RDF triples to natural language templates
 Robust data-to-text generation from RDF triples using multi-shot reprompting of Large language models.
 
 **Influenced by**: \
-https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main
+https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main \
 https://github.com/szxiangjn/any-shot-data2text
 
 This repository contains code for reproducing the paper results accepted to the _Findings of the ACL: EMNLP2023_.
