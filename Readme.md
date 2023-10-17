@@ -3,6 +3,8 @@ ASPIRO: Parse RDF triples to natural language templates
 
 Robust data-to-text generation from RDF triples using multi-shot reprompting of Large language models.
 
+![Full pipeline for ASPIRO on general data input.](images/ASPIRO.webp?raw=true "ASPIRO pipeline")
+
 **Influenced by**: \
 https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main \
 https://github.com/szxiangjn/any-shot-data2text
@@ -13,19 +15,18 @@ This repository contains code for reproducing the paper results accepted to the 
 
 Link for the paper: (todo)
 
-# Requirements:
-## OpenAI models only:
+# Requirements
+To run ASPIRO with OpenAI models only:
 ``` bash
 pip install -r requirements.txt
 ```
 
-## Local addon:
-If you want to run local models (such as Falcon-llm-7B), run the following as well:
+Run the following as well if you want to run local models (such as Falcon-llm-7B):
 ```bash
 pip install -r requirements-local.txt
 ```
 
-# Execution:
+# Execution
 ## 1) API key
 make sure you have your API key in the system path `OPENAI_API_KEY` variable.
 On Linux, you can run the following from console:
@@ -80,11 +81,11 @@ To use generated data in ASPIRO, rename the generated file in `--output-folder` 
 ```bash
 python scripts/build_DART.py --input-folder sources/dart --output-folder sources/dart/data
 ```
-
-## WebNLG:
-``` bash
-python build_WebNLG.py 
-```
-
+### 2) move generated data
 If you want to use the generated data the pipeline, move [dart2rlabel_map.json](sources%2Fdart%2Fdata%2Fdart2rlabel_map.json), [rdf_examples_for_each_pid.json](sources%2Fdart%2Fdata%2Frdf_examples_for_each_pid.json)
 and [rlabel2dart_map.json](sources%2Fdart%2Fdata%2Frlabel2dart_map.json) to `data/dart` folder.
+## Build WebNLG:
+``` bash
+cd scripts
+python build_WebNLG.py
+```
