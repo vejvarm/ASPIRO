@@ -5,15 +5,15 @@ Robust data-to-text generation from RDF triples using multi-shot reprompting of 
 
 ![Full pipeline for ASPIRO on general data input.](images/ASPIRO.webp?raw=true "ASPIRO pipeline")
 
-**Influenced by**: \
-https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main \
-https://github.com/szxiangjn/any-shot-data2text
-
 This repository contains code for reproducing the paper results accepted to the _Findings of the ACL: EMNLP2023_.
 
     Martin Vejvar & Yasutaka Fujimoto: ASPIRO: Any-shot Structured Parsing-error-Induced ReprOmpting for Consistent Data-to-Text Generation. In: Findings of the Association for Computational Linguistics: EMNLP 2023.
 
-Link for the paper: (todo)
+Link for the paper: https://arxiv.org/abs/2310.17877
+
+**Influenced by**: \
+https://github.com/kasnerz/zeroshot-d2t-pipeline/tree/main \
+https://github.com/szxiangjn/any-shot-data2text
 
 # Requirements
 To run ASPIRO with OpenAI models only:
