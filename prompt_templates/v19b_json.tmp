@@ -1,0 +1,21 @@
+### example:
+``` json
+{{"intput_data": [["World Trade Center", "architect", "Minoru Yamasaki"]]}}
+```
+
+``` json
+{{"subject_entities": ["World Trade Center"],
+"relation": "architect",
+"object_entities": ["Minoru Yamasaki"],
+"agnostic_template": "<object> is the architect of <subject>."
+}}
+```
+###
+
+### your task:
+``` json
+{{"input_data": {example_rdf_list}}}
+```
+
+``` json
+{{

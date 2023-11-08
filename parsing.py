@@ -32,22 +32,34 @@ NAIVE_RETRY_WITH_ERROR_PROMPT = PromptTemplate.from_template(NAIVE_COMPLETION_RE
 T = TypeVar("T")
 
 
-def prepare_prompt(template_file: Templates, example_format: RDFExampleFormat):
+def prepare_prompt_and_parser(template_file: Templates, example_format: RDFExampleFormat):
     prompt_template = template_file.value.open().read()
     prompt_template = prompt_template.replace("<CONSTANT_PLACEHOLDER>", CONSTANT_PLACEHOLDER)
     prompt_template = prompt_template.replace(f"{{{example_format.value}}}", f"{{{RDFExampleFormat.DEFAULT.value}}}")
 
+    # Prepare parser
     if "json" in template_file.value.name:
         metadata = json.load(template_file.value.with_suffix(".json").open())
-        parser = JSONOutputParser.from_metadata(first_key=metadata["first_key"], output_key=metadata["output_key"])
+        parser = JSONOutputParser.from_metadata(first_key=metadata["first_key"], output_key=metadata["output_key"],
+                                                output_type=metadata["output_type"])
     else:
         parser = TextOutputParser()
-    format_instructions = parser.get_format_instructions(template_file)
+
+    # Prepare prompt
+    partial_variables = dict()
     if "{format_instructions}" in prompt_template:
-        partial_variables = {"format_instructions": format_instructions}
-    else:
-        partial_variables = dict()
-    prompt = PromptTemplate(template=prompt_template, input_variables=[RDFExampleFormat.DEFAULT.value],
+        format_instructions = parser.get_format_instructions(template_file)
+        partial_variables["format_instructions"] = format_instructions
+
+    input_variables = [RDFExampleFormat.DEFAULT.value]
+    if "{subjects}" in prompt_template:
+        input_variables.append("subjects")
+    if "{relation}" in prompt_template:
+        input_variables.append("relation")
+    if "{objects}" in prompt_template:
+        input_variables.append("objects")
+
+    prompt = PromptTemplate(template=prompt_template, input_variables=input_variables,
                             partial_variables=partial_variables
                             )
     return prompt, parser
@@ -226,18 +238,34 @@ class TextOutputParser(BaseOutputParser):
 class JSONOutputParser(TextOutputParser):
     first_key: str
     output_key: str
+    output_type: str
 
     @classmethod
-    def from_metadata(cls, first_key: str, output_key: str) -> "JSONOutputParser":
+    def from_metadata(cls, first_key: str, output_key: str, output_type = "json") -> "JSONOutputParser":
+        """
+
+        :param first_key: [str] dict key of the first entry
+        :param output_key: [str] dict key of the output entry
+        :param output_type: (opt) [str] either of `text` for plain text output or `json` for json structure at the output
+        :return: JSONOutputParser
+        """
         cls.first_key = first_key
         cls.output_key = output_key
-        return cls(first_key=first_key, output_key=output_key)
+        cls.output_type = output_type
+        return cls(first_key=first_key, output_key=output_key, output_type=output_type)
 
     def get_metadata(self):
         return {"first_key": self.first_key, "output_key": self.output_key}
 
     def parse(self, json_str: str, metadata: dict = None) -> dict:
-        parsed_dict = self._parse_json(json_str)
+        if self.output_type == "text":
+            try:
+                # first try parsing it as text (relevant for v20_json prompt)
+                return self._parse_text(json_str, metadata)
+            except OutputParserException:
+                parsed_dict = self._parse_json(json_str)
+        else:
+            parsed_dict = self._parse_json(json_str)
         try:
             text = parsed_dict[self.output_key]
         except KeyError as err:

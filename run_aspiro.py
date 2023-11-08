@@ -13,7 +13,7 @@ from flags import (LOG_ROOT, TemplateErrors, ERROR_MESSAGES, ModelChoices,
                    RDF_EXAMPLE_FILE_NAME, BACKUP_TEMPLATE, DATA_ROOT)
 from helpers import setup_logger, load_examples, load_and_validate_config
 from models import NShotGenerator, LLMBuilder
-from parsing import (build_output_dict, prepare_prompt, MultiRetryParser, ConsistencyValidator, TextOutputParser)
+from parsing import (build_output_dict, prepare_prompt_and_parser, MultiRetryParser, ConsistencyValidator, TextOutputParser)
 
 LOGFILE_PATH = LOG_ROOT.joinpath(pathlib.Path(__file__).name.removesuffix(".py")+".log")
 LOGGER = setup_logger(__name__, loglevel=logging.WARNING, output_log_file=LOGFILE_PATH)
@@ -39,7 +39,7 @@ def main(args):
     config = load_and_validate_config(args.config)
     n_runs = config["n_runs"]  # @param
     dataset_choice = config["dataset_choice"]  # @param
-    template_file = config["initial_template"]  # @param (NOTE! two-shot only works with V10 or above)
+    template_file = config["initial_template"]  # @param
     model_choices = config["llm_stack"]  # @param
     load_in_8bit = config["load_in_8bit"] if "load_in_8bit" in config.keys() else False
     load_in_4bit = config["load_in_4bit"] if "load_in_4bit" in config.keys() else False
@@ -51,9 +51,9 @@ def main(args):
     use_backup = config["use_backup"]  # @param (to change backup template, change flags.BACKUP_TEMPLATE)
 
     # GENERAL MODEL HYPERPARAMS
-    max_tokens_to_generate = config["max_tokens_to_generate"]  # @param
-    temperature = config["temperature"]  # @param
-    stop_sequences = config["stop_sequences"]  # @param
+    # max_tokens_to_generate = config["max_tokens_to_generate"]  # @param
+    # temperature = config["temperature"]  # @param
+    # stop_sequences = config["stop_sequences"]  # @param
 
     # Consistency Validation HYPERPARAMS
     cv_metric = ConsistencyValidator.Metrics.PARENT
@@ -65,11 +65,9 @@ def main(args):
 
     dataset_folder = dataset_choice.value
     output_folder = pathlib.Path(args.output).joinpath(dataset_folder.relative_to(DATA_ROOT))
-    assert all(model in ModelChoices for model in model_choices)
-    assert consist_val_model in ModelChoices
 
     # INITIALIZE PROMPT and PARSER
-    prompt, output_parser = prepare_prompt(template_file, example_format)
+    prompt, output_parser = prepare_prompt_and_parser(template_file, example_format)
     # LOGGER.warning(prompt.format(examples="hi\nyou"))
 
     # Load pids and rdfs examples from path_to_fetched_example_json
@@ -98,11 +96,12 @@ def main(args):
         # INITIALIZE LANGCHAIN with specified `model_choices` and `prompt`
         llm_builder = LLMBuilder()
         llm_builder.initialize_chains(model_choices, prompt, template_file,
-                                      max_tokens_to_generate=max_tokens_to_generate,
-                                      temperature=temperature,
-                                      stop_sequences=stop_sequences,
-                                      load_in_8bit=load_in_8bit,
-                                      load_in_4bit=load_in_4bit)
+                                      # max_tokens_to_generate=max_tokens_to_generate,
+                                      # temperature=temperature,
+                                      # stop_sequences=stop_sequences,
+                                      # load_in_8bit=load_in_8bit,
+                                      # load_in_4bit=load_in_4bit,
+                                      **config)
         llms = llm_builder.llms
         llm_chains = llm_builder.chains
         retry_parser = MultiRetryParser.from_llms(parser=output_parser, llms=llms)
@@ -142,13 +141,26 @@ def main(args):
             intermediate_result_file = intermediate_result_file.with_stem(f"{intermediate_result_file.stem}({k})")
         backup_count = 0
         for i, (pid, example) in tqdm(enumerate(pid_examples_dict.items()), total=len(list(pid_examples_dict.keys()))):
+            # prepare input
             rdf_example, subj_labs, rel_labs, obj_labs = example
+            unique_rel_labs = list(set(rel_labs))
+            if len(unique_rel_labs) == 1:
+                rel_lab = unique_rel_labs[0]
+            else:
+                raise NotImplementedError("Example structures must have only 1 unique relation in all their entries")
+            inp = {"examples": rdf_example}
+            if "subjects" in prompt.input_variables:
+                inp["subjects"] = subj_labs
+            if "relation" in prompt.input_variables:
+                inp["relation"] = rel_lab
+            if "objects" in prompt.input_variables:
+                inp["objects"] = obj_labs
 
             # debugging purposes
             if START_FROM is not None and i < START_FROM:
                 for mdl in model_choices:
                     if isinstance(mdl.value, pathlib.Path):
-                        _ = llm_chains[0].run(rdf_example)
+                        _ = llm_chains[0].run(inp)
                 continue
 
             # debugging purposes
@@ -162,18 +174,12 @@ def main(args):
                 _to_results(out_dict, output_pid_template_dict, intermediate_result_file)
                 continue
 
-            unique_rel_labs = list(set(rel_labs))
-            if len(unique_rel_labs) == 1:
-                rel_lab = unique_rel_labs[0]
-            else:
-                raise NotImplementedError("Example structures must have only 1 unique relation in all their entries")
-
             metadata = {"data": rdf_example, "reference": rel_lab, "relation_label": rel_lab,
                         "rdf_example": rdf_example, "subj_labels": subj_labs, "obj_labels": obj_labs}
 
             # Zero-shot
             try:
-                answer = llm_chains[0].run(rdf_example)
+                answer = llm_chains[0].run(inp)
             except Exception as err:
                 LOGGER.warning(f"({pid}) {TemplateErrors.API.value}: {err}.")
                 out_dict = {pid: build_output_dict("", [TemplateErrors.API.value], [repr(err)],
@@ -184,7 +190,8 @@ def main(args):
             # parse the answer
             shot = 0
             try:
-                shot, output_dict = retry_parser.parse_with_prompt(answer, prompt.format_prompt(examples=rdf_example),
+                # TODO: change to Retry prompt STACK (change prompt version with each shot)
+                shot, output_dict = retry_parser.parse_with_prompt(answer, prompt.format_prompt(**inp),
                                                                     shot=shot, max_shots=max_retry_shots, metadata=metadata)
             except OutputParserException as err:
                 LOGGER.info(f'({pid}) {TemplateErrors.PARSING.value}: {err}')

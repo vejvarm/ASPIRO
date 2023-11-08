@@ -1,23 +1,15 @@
 import json
 import pathlib
-from abc import ABC, abstractmethod
 from functools import partial
-from typing import Protocol, Type
-from dataclasses import dataclass
 
 from langchain import PromptTemplate, LLMChain, OpenAI, HuggingFacePipeline
 from langchain.base_language import BaseLanguageModel
 from langchain.chat_models import ChatOpenAI
-from langchain.llms import FakeListLLM
+from langchain.llms import FakeListLLM, HuggingFaceTextGenInference
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
-from flags import ModelChoices, Templates, OPENAI_REQUEST_TIMEOUT
-
-
-MODEL_CATEGORIES = {"OpenAI": [ModelChoices.G3, ModelChoices.G3P5],
-                    "ChatOpenAI": [ModelChoices.G3P5T, ModelChoices.G3P5T_0301, ModelChoices.G3P5T_0613,
-                                   ModelChoices.G4, ModelChoices.G4_0314, ModelChoices.G4_0613],
-                    "HFacePipeline": [ModelChoices.FALCON_7B, ModelChoices.FALCON_40B]}
+from helpers import _validate_url
+from flags import ModelChoices, Templates, OPENAI_REQUEST_TIMEOUT, MODEL_CATEGORIES
 
 
 class NShotGenerator:
@@ -33,10 +25,10 @@ class LLMBuilder:
     MAX_NEW_TOKENS = 128
     STOP_SEQUENCES = ["\n"]
     TOP_K = 10
+    TOP_P = 0.95
+    TYPICAL_P = 0.95
     LOAD_IN_8BIT = False
     LOAD_IN_4BIT = False
-
-
 
     def __init__(self):
         self.chains = []
@@ -55,6 +47,8 @@ class LLMBuilder:
         conf_out["max_tokens"] = _parse_config("max_tokens_to_generate", self.MAX_NEW_TOKENS)
         conf_out["stop_sequences"] = _parse_config("stop_sequences", self.STOP_SEQUENCES)
         conf_out["top_k"] = _parse_config("top_k", self.TOP_K)
+        conf_out["top_p"] = _parse_config("top_p", self.TOP_P)
+        conf_out["typical_p"] = _parse_config("typical_p", self.TYPICAL_P)
         conf_out["load_in_8bit"] = _parse_config("load_in_8bit", self.LOAD_IN_8BIT)
         conf_out["load_in_4bit"] = _parse_config("load_in_4bit", self.LOAD_IN_4BIT)
 
@@ -65,7 +59,6 @@ class LLMBuilder:
 
     def initialize_chains(self, model_choices: list[ModelChoices], prompt: PromptTemplate,
                           template_file: Templates, **config):
-        # config = self._init_config(config)
 
         for model_choice in model_choices:
             if model_choice not in ModelChoices:
@@ -77,16 +70,6 @@ class LLMBuilder:
                 llm = FakeListLLM(responses=self._build_llm_inputs(template_file, model_id))
             else:
                 llm = self.initialize_llm(model_choice, **config)
-            # elif model_choice in MODEL_CATEGORIES["OpenAI"]:
-            #     llm = OpenAI(model_name=model_id, temperature=config["temperature"], max_tokens=config["max_tokens"],
-            #                  stop=config["stop_sequences"], request_timeout=OPENAI_REQUEST_TIMEOUT)
-            # elif model_choice in MODEL_CATEGORIES["ChatOpenAI"]:
-            #     llm = ChatOpenAI(model_name=model_id, temperature=config["temperature"], max_tokens=config["max_tokens"],
-            #                      stop=config["stop_sequences"], request_timeout=OPENAI_REQUEST_TIMEOUT)
-            # elif model_choice in MODEL_CATEGORIES["HFacePipeline"]:
-            #     llm = self._init_hf_llm(model_choice, **config)
-            # else:
-            #     raise NotImplementedError(f"Choose one of {list(ModelChoices)} for model Variant")
 
             self.llms.append(llm)
             self.chains.append(LLMChain(prompt=prompt, llm=llm))
@@ -94,6 +77,10 @@ class LLMBuilder:
     def initialize_llm(self, model_choice: ModelChoices, **config):
         config = self._init_config(config)
 
+        # add choice of HuggingFaceTextGen here:
+        if _validate_url(model_choice.value):
+            url = model_choice.value
+            return self._init_hf_tgi(url, **config)
         if model_choice in MODEL_CATEGORIES["HFacePipeline"]:
             return self._init_hf_llm(model_choice, **config)
 
@@ -132,6 +119,21 @@ class LLMBuilder:
                         stop_sequence=config["stop_sequences"][0])
         llm = HuggingFacePipeline(pipeline=pipe)
 
+        return llm
+
+    @staticmethod
+    def _init_hf_tgi(inference_server_url: str, **config):
+        if not inference_server_url.startswith("http"):
+            inference_server_url = f"http://{inference_server_url}"
+        llm = HuggingFaceTextGenInference(
+            inference_server_url=inference_server_url,
+            max_new_tokens=config["max_tokens"],
+            top_k=config["top_k"],
+            top_p=config["top_p"],
+            typical_p=config["typical_p"],
+            temperature=config["temperature"],
+            stop_sequences=config["stop_sequences"],
+        )
         return llm
 
     @staticmethod

@@ -49,6 +49,8 @@ class Templates(Enum):
     DEFAULT = PROMPT_TEMPLATES_FOLDER.joinpath("default.tmp")
     ASDOT = PROMPT_TEMPLATES_FOLDER.joinpath("v0_ASDOT.tmp")
     JSON = PROMPT_TEMPLATES_FOLDER.joinpath("v19_json.tmp")  # v18 without format_instructions
+    JSONV19B = PROMPT_TEMPLATES_FOLDER.joinpath("v19b_json.tmp")  # v19 with only one example
+    JSONV20 = PROMPT_TEMPLATES_FOLDER.joinpath("v20_json.tmp")  # v19b with pre-filled subject rel object fiels in output
 
     # old versions
     V5 = PROMPT_TEMPLATES_FOLDER.joinpath("old/v5.tmp")
@@ -124,6 +126,12 @@ class ModelChoices(Enum):
     FALCON_7B = "tiiuae/falcon-7b-instruct"  # instruct-falcon-llm from Technology Innovation Institute
     FALCON_40B = "tiiuae/falcon-40b-instruct"  # instruct-falcon-llm from Technology Innovation Institute
     NONE = None  # defined for omitting Consistency Validation step
+
+
+MODEL_CATEGORIES = {"OpenAI": [ModelChoices.G3, ModelChoices.G3P5],
+                    "ChatOpenAI": [ModelChoices.G3P5T, ModelChoices.G3P5T_0301, ModelChoices.G3P5T_0613,
+                                   ModelChoices.G4, ModelChoices.G4_0314, ModelChoices.G4_0613],
+                    "HFacePipeline": [ModelChoices.FALCON_7B, ModelChoices.FALCON_40B]}
 
 sTOTAL_ERRORS = "TOTAL_ERRORS"
 sTOTAL_PIDs_w_ERROR = "TOTAL_PIDs_w_ERROR"

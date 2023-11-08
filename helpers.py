@@ -1,6 +1,7 @@
 import json
 import logging
 import pathlib
+import re
 from typing import Union, Sequence
 
 from ordered_set import OrderedSet
@@ -28,10 +29,32 @@ def load_and_validate_config(config_file):
     return config
 
 
+def _validate_url(input_string):
+    # Remove 'http://' or 'https://' prefix if present
+    input_string = re.sub(r'^(http://|https://)', '', input_string)
+
+    # Regex for a valid IPv4 address and port number
+    ipv4_port_regex = r'^(\d{1,3}\.){3}\d{1,3}:\d{1,5}$'
+    # Regex for 'localhost' and a port number
+    localhost_port_regex = r'^(localhost):\d{1,5}$'
+
+    # Check for 'localhost:port' or 'IPv4:port'
+    if re.match(localhost_port_regex, input_string) or re.match(ipv4_port_regex, input_string):
+        return True
+
+        # If neither, return False
+    return False
+
+
 def _parse_model_choices(model_list: list[str], model_name: str):
     llm_stack = []
     for model in model_list:
-        if pathlib.Path(model).exists():
+        if _validate_url(model):
+            name_upper = model_name.upper()
+            url = model
+            extend_enum(ModelChoices, name_upper, url)
+            llm_stack.append(ModelChoices[name_upper])
+        elif pathlib.Path(model).exists():
             path_to_data = pathlib.Path(model)
             extend_enum(ModelChoices, model_name.upper(), path_to_data)
             llm_stack.append(ModelChoices[model_name.upper()])

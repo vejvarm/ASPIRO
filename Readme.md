@@ -40,6 +40,14 @@ To generate new API key, visit [OpenAI API keys](https://platform.openai.com/acc
 You will need to provide path to config when running ASPIRO. 
 Some default configs are in the `setups` folder
 
+### config["llm_stack"]:
+supported strings in `"llm_stack"` parameter of the setup json file:
+- *`"name"` of any OpenAI or OpenAIChat API model (refer to https://platform.openai.com/docs/models)
+- *`"name"` of HuggingFace models which are supported by [AutoModelForCausalLM](https://huggingface.co/transformers/v3.5.1/model_doc/auto.html#automodelforcausallm)
+- `"IPv4:port"` or `"localhost:port"` that points to a running instance of [text-generation-inference](https://github.com/huggingface/text-generation-inference) server
+
+_*_ update flags.ModelChoices and flags.MODEL_CATEGORIES, if the model you want to use is not present there yet
+
 ## 3) Run ASPIRO
 ### Run from scratch:
 ``` bash

@@ -1,0 +1,19 @@
+{
+    "n_runs": 1,
+    "dataset_choice": "WEBNLG",
+    "initial_template": "JSONV19B",
+    "llm_stack": ["gpt-3.5-turbo"],
+    "consist_val_model": "NONE",
+    "example_format": "JSON",
+
+    "max_fetched_examples_per_pid": 1,
+    "error_dump_subfolder": "err",
+    "use_backup": false,
+
+    "max_tokens_to_generate": 256,
+    "temperature": 0.0,
+    "stop_sequences": ["}" ],
+    "cv_threshold": 0.7,
+    "cv_template": "V4",
+    "cv_keep_better": true
+}
