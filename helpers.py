@@ -52,11 +52,13 @@ def _parse_model_choices(model_list: list[str], model_name: str):
         if _validate_url(model):
             name_upper = model_name.upper()
             url = model
-            extend_enum(ModelChoices, name_upper, url)
+            if not hasattr(ModelChoices, name_upper):
+                extend_enum(ModelChoices, name_upper, url)
             llm_stack.append(ModelChoices[name_upper])
         elif pathlib.Path(model).exists():
             path_to_data = pathlib.Path(model)
-            extend_enum(ModelChoices, model_name.upper(), path_to_data)
+            if not hasattr(ModelChoices, name_upper):
+                extend_enum(ModelChoices, model_name.upper(), path_to_data)
             llm_stack.append(ModelChoices[model_name.upper()])
         elif model.upper() in [m.name for m in ModelChoices]:
             llm_stack.append(ModelChoices[model.upper()])
